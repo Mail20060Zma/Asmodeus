@@ -1,0 +1,1721 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Custis/Modeus//Schedule Calendar App//RU
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:05de8774-d6dd-404b-9186-aa6683a9a2a2
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-42
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Чикова Ольга Анатольевна\, Рыжова Анна Алексеевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2205de8774-d6dd-404b-9186-aa6683a9a2a2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2205de8774-d6dd-404b-9186-aa6683a9a2a2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:0817cfd6-9948-4fd3-b2cb-7aac92e5532a
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T120000
+DTEND;TZID=Asia/Yekaterinburg:20250228T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-55
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%220817cfd6-9948-4fd3-b2cb-7aac92e5532a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%220817cfd6-9948-4fd3-b2cb-7aac92e5532a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:0835e21d-bf45-47ff-99f3-498f56bc65fe
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T160000
+DTEND;TZID=Asia/Yekaterinburg:20250228T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-25
+LOCATION:Мира\, 17 / С416
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%220835e21d-bf45-47ff-99f3-498f56bc65fe%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%220835e21d-bf45-47ff-99f3-498f56bc65fe%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:0aaf416f-2ff1-4b14-bdc9-5f45e6dc1411
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-16
+LOCATION:Мира\, 32 / Р325
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%220aaf416f-2ff1-4b14-bdc9-5f45e6dc1411%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%220aaf416f-2ff1-4b14-bdc9-5f45e6dc1411%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:0b3ead52-ff43-4b5f-a3ed-5e14380d1753
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250225T120000
+DTEND;TZID=Asia/Yekaterinburg:20250225T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-28
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%220b3ead52-ff43-4b5f-a3ed-5e14380d1753%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%220b3ead52-ff43-4b5f-a3ed-5e14380d1753%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:0de6794c-5913-4843-b586-c37bba79d6d2
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-40
+LOCATION:Мира\, 19  / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%220de6794c-5913-4843-b586-c37bba79d6d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%220de6794c-5913-4843-b586-c37bba79d6d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:138ab82e-5648-48c0-afb2-f6ddad952efe
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250225T174000
+DTEND;TZID=Asia/Yekaterinburg:20250225T191000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-08
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22138ab82e-5648-48c0-afb2-f6ddad952efe%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T17:40:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22138ab82e-5648-48c0-afb2-f6ddad952efe%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T17:40:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:16c0d49c-60ed-41a0-be83-0b1574f68944
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-36
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2216c0d49c-60ed-41a0-be83-0b1574f68944%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2216c0d49c-60ed-41a0-be83-0b1574f68944%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:1735b502-186a-440f-85c1-9f54e3ed7387
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-20
+LOCATION:Мира\, 32 / Р325
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221735b502-186a-440f-85c1-9f54e3ed7387%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221735b502-186a-440f-85c1-9f54e3ed7387%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:180b189c-4175-48b0-9cdf-c27b1a5bac24
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T141500
+DTEND;TZID=Asia/Yekaterinburg:20250227T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-30
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22180b189c-4175-48b0-9cdf-c27b1a5bac24%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22180b189c-4175-48b0-9cdf-c27b1a5bac24%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:1c505f7f-0411-47a1-b978-dda00275c37b
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T083000
+DTEND;TZID=Asia/Yekaterinburg:20250227T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-64
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Филанович Антон Николаевич\, Каменецкая Наиля Наилевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221c505f7f-0411-47a1-b978-dda00275c37b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221c505f7f-0411-47a1-b978-dda00275c37b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T08:30:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:237435a1-e3e9-47a8-92e3-a4b6e32df4ea
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-07
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22237435a1-e3e9-47a8-92e3-a4b6e32df4ea%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22237435a1-e3e9-47a8-92e3-a4b6e32df4ea%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:23b7101e-2c4f-4783-84a2-85002a55b50d
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-34
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2223b7101e-2c4f-4783-84a2-85002a55b50d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2223b7101e-2c4f-4783-84a2-85002a55b50d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:24c39f18-bd09-4cc4-bafa-d43aff6f8f39
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T174000
+DTEND;TZID=Asia/Yekaterinburg:20250227T191000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-10
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2224c39f18-bd09-4cc4-bafa-d43aff6f8f39%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T17:40:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2224c39f18-bd09-4cc4-bafa-d43aff6f8f39%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T17:40:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:272b4cc5-48d6-4431-b48c-66ee62b72989
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-27
+LOCATION:Мира\, 19  / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22272b4cc5-48d6-4431-b48c-66ee62b72989%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22272b4cc5-48d6-4431-b48c-66ee62b72989%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:290a361f-2bcd-4a21-8d14-1b51d1b125c7
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T101500
+DTEND;TZID=Asia/Yekaterinburg:20250227T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-04
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22290a361f-2bcd-4a21-8d14-1b51d1b125c7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22290a361f-2bcd-4a21-8d14-1b51d1b125c7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:29fab382-8a3b-4581-8e95-99ab39398168
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T101500
+DTEND;TZID=Asia/Yekaterinburg:20250224T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-48
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Пущина Маргарита Валерьевна\, Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2229fab382-8a3b-4581-8e95-99ab39398168%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2229fab382-8a3b-4581-8e95-99ab39398168%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:2c8365b0-7d4f-480b-b7de-f50cc50e6373
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T160000
+DTEND;TZID=Asia/Yekaterinburg:20250224T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-22
+LOCATION:Мира\, 17 / С416
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222c8365b0-7d4f-480b-b7de-f50cc50e6373%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222c8365b0-7d4f-480b-b7de-f50cc50e6373%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:2d0675b3-c061-4696-a9eb-2eca598e0641
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-23
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222d0675b3-c061-4696-a9eb-2eca598e0641%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222d0675b3-c061-4696-a9eb-2eca598e0641%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:2d6aa765-7b91-4832-9555-b2e6daf4e0fc
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-41
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Чикова Ольга Анатольевна\, Каменецкая Наиля Наилевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222d6aa765-7b91-4832-9555-b2e6daf4e0fc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222d6aa765-7b91-4832-9555-b2e6daf4e0fc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:2e483585-d5a9-4837-8c79-482898a97e55
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T160000
+DTEND;TZID=Asia/Yekaterinburg:20250227T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-09
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222e483585-d5a9-4837-8c79-482898a97e55%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222e483585-d5a9-4837-8c79-482898a97e55%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:302b182d-7c5f-44b1-9f01-55b9ab7b47ac
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-04
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22302b182d-7c5f-44b1-9f01-55b9ab7b47ac%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22302b182d-7c5f-44b1-9f01-55b9ab7b47ac%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:379aa76a-d996-4aac-b401-1134c8d0b225
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-39
+LOCATION:Мира\, 19 / И119
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22379aa76a-d996-4aac-b401-1134c8d0b225%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22379aa76a-d996-4aac-b401-1134c8d0b225%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:406cb514-af6f-4958-a1bf-28a1fd9ac2ed
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-33
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22406cb514-af6f-4958-a1bf-28a1fd9ac2ed%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22406cb514-af6f-4958-a1bf-28a1fd9ac2ed%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:41f539ed-f089-42e3-b50a-f3540be3f741
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T120000
+DTEND;TZID=Asia/Yekaterinburg:20250228T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-35
+LOCATION:Мира\, 19 / И535
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2241f539ed-f089-42e3-b50a-f3540be3f741%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2241f539ed-f089-42e3-b50a-f3540be3f741%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:47aa2553-c8a8-4249-b3e4-8227235a55e2
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-22
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2247aa2553-c8a8-4249-b3e4-8227235a55e2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2247aa2553-c8a8-4249-b3e4-8227235a55e2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:48c05cdc-912b-4a4f-8bcf-9ec0b7241856
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T120000
+DTEND;TZID=Asia/Yekaterinburg:20250227T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-05
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2248c05cdc-912b-4a4f-8bcf-9ec0b7241856%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2248c05cdc-912b-4a4f-8bcf-9ec0b7241856%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:49d44548-20fe-485b-850c-1fd92a34a343
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-25
+LOCATION:Мира\, 19  / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2249d44548-20fe-485b-850c-1fd92a34a343%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2249d44548-20fe-485b-850c-1fd92a34a343%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:4a7cc467-afb3-49e3-8f02-18799a6dee3d
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-02
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%224a7cc467-afb3-49e3-8f02-18799a6dee3d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%224a7cc467-afb3-49e3-8f02-18799a6dee3d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:4abb06ed-8636-418d-851a-8ff4db2861db
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-61
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Филанович Антон Николаевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%224abb06ed-8636-418d-851a-8ff4db2861db%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%224abb06ed-8636-418d-851a-8ff4db2861db%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:4fb4187f-18ca-46fb-9a22-a6fb0fce8192
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-35
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%224fb4187f-18ca-46fb-9a22-a6fb0fce8192%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%224fb4187f-18ca-46fb-9a22-a6fb0fce8192%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:50d812d4-99c4-4dbc-bb55-bd3be9ba4172
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T083000
+DTEND;TZID=Asia/Yekaterinburg:20250228T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-33
+LOCATION:Мира\, 19 / И335
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2250d812d4-99c4-4dbc-bb55-bd3be9ba4172%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2250d812d4-99c4-4dbc-bb55-bd3be9ba4172%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:50f2df80-71a5-4ebf-85fb-4fcbe45e740d
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T120000
+DTEND;TZID=Asia/Yekaterinburg:20250226T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-56
+LOCATION:И535
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2250f2df80-71a5-4ebf-85fb-4fcbe45e740d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2250f2df80-71a5-4ebf-85fb-4fcbe45e740d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:536eafb4-9b7a-4048-8f28-5113ea3b86bc
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250301T101500
+DTEND;TZID=Asia/Yekaterinburg:20250301T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-58
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22536eafb4-9b7a-4048-8f28-5113ea3b86bc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-03-01T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22536eafb4-9b7a-4048-8f28-5113ea3b86bc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-03-01T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:546bdbbb-2b3c-4a13-b627-621c6383e655
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250225T141500
+DTEND;TZID=Asia/Yekaterinburg:20250225T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-29
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22546bdbbb-2b3c-4a13-b627-621c6383e655%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22546bdbbb-2b3c-4a13-b627-621c6383e655%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:553b52d6-36e0-4a88-8643-0c4207ac61a0
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-01
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22553b52d6-36e0-4a88-8643-0c4207ac61a0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22553b52d6-36e0-4a88-8643-0c4207ac61a0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:57643ea0-ddc6-4eac-a8af-5cecc07e14e7
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T101500
+DTEND;TZID=Asia/Yekaterinburg:20250228T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-34
+LOCATION:Мира\, 19 / И535
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2257643ea0-ddc6-4eac-a8af-5cecc07e14e7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2257643ea0-ddc6-4eac-a8af-5cecc07e14e7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:57df0ef6-9558-496d-9325-0816b0881dc6
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-31
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2257df0ef6-9558-496d-9325-0816b0881dc6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2257df0ef6-9558-496d-9325-0816b0881dc6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:5adb2168-640a-42fb-a09b-2dee980cdb29
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T101500
+DTEND;TZID=Asia/Yekaterinburg:20250226T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-16
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225adb2168-640a-42fb-a09b-2dee980cdb29%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225adb2168-640a-42fb-a09b-2dee980cdb29%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:5bc2bcae-6edb-40f0-8233-cf99b01646aa
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-56
+LOCATION:Мира\, 28  /   Х405
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225bc2bcae-6edb-40f0-8233-cf99b01646aa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225bc2bcae-6edb-40f0-8233-cf99b01646aa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:5c7f33fa-7c6b-4f58-8925-cb49d136b09c
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T120000
+DTEND;TZID=Asia/Yekaterinburg:20250226T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-17
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225c7f33fa-7c6b-4f58-8925-cb49d136b09c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225c7f33fa-7c6b-4f58-8925-cb49d136b09c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:5e275bca-b4b5-48ef-8257-550cd98a170b
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-12
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225e275bca-b4b5-48ef-8257-550cd98a170b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225e275bca-b4b5-48ef-8257-550cd98a170b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:5ecd8ee9-c9eb-4aa4-9734-3d2057ea53ed
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T160000
+DTEND;TZID=Asia/Yekaterinburg:20250224T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-26
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225ecd8ee9-c9eb-4aa4-9734-3d2057ea53ed%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225ecd8ee9-c9eb-4aa4-9734-3d2057ea53ed%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:606ba675-c21f-4503-a801-bc3fd2e492e3
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T120000
+DTEND;TZID=Asia/Yekaterinburg:20250226T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-32
+LOCATION:Мира\, 28 / МТ412
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22606ba675-c21f-4503-a801-bc3fd2e492e3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22606ba675-c21f-4503-a801-bc3fd2e492e3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:6289ce15-9cbc-4c5f-954b-9dfb0b7db0e8
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250225T101500
+DTEND;TZID=Asia/Yekaterinburg:20250225T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-38
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226289ce15-9cbc-4c5f-954b-9dfb0b7db0e8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226289ce15-9cbc-4c5f-954b-9dfb0b7db0e8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:657b2bd5-3288-456c-9a6a-1e60ce3bb9e3
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-53
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22657b2bd5-3288-456c-9a6a-1e60ce3bb9e3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22657b2bd5-3288-456c-9a6a-1e60ce3bb9e3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:66bb473c-3497-4a5c-8766-b53015f30a36
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-08
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2266bb473c-3497-4a5c-8766-b53015f30a36%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2266bb473c-3497-4a5c-8766-b53015f30a36%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:6703f873-5bb7-4c0e-8dc3-ce712e52ffb4
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T101500
+DTEND;TZID=Asia/Yekaterinburg:20250226T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-02
+LOCATION:Мира\, 19 / И256
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226703f873-5bb7-4c0e-8dc3-ce712e52ffb4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226703f873-5bb7-4c0e-8dc3-ce712e52ffb4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:6f4b6bb1-1bbe-4763-91fa-87d5246fff91
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-01
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226f4b6bb1-1bbe-4763-91fa-87d5246fff91%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226f4b6bb1-1bbe-4763-91fa-87d5246fff91%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:711f2d73-9440-4d80-bb0d-7b0d27f9b766
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-65
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Филанович Антон Николаевич\, Каменецкая Наиля Наилевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22711f2d73-9440-4d80-bb0d-7b0d27f9b766%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22711f2d73-9440-4d80-bb0d-7b0d27f9b766%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:71acb4e9-3823-4fa8-9a33-45aabf90ee99
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T160000
+DTEND;TZID=Asia/Yekaterinburg:20250228T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-19
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2271acb4e9-3823-4fa8-9a33-45aabf90ee99%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2271acb4e9-3823-4fa8-9a33-45aabf90ee99%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:72d27b2a-fd56-4230-ba00-b2a9113189d1
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-58
+LOCATION:Мира\, 28 / Х405
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2272d27b2a-fd56-4230-ba00-b2a9113189d1%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2272d27b2a-fd56-4230-ba00-b2a9113189d1%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:7a22f642-611c-4f9f-b0fc-58dead8fdb86
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-39
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227a22f642-611c-4f9f-b0fc-58dead8fdb86%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227a22f642-611c-4f9f-b0fc-58dead8fdb86%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:7dbc4aaa-faff-4f59-9f8d-7b51f9fb4b67
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T101500
+DTEND;TZID=Asia/Yekaterinburg:20250226T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-31
+LOCATION:Мира\, 28 / МТ412
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227dbc4aaa-faff-4f59-9f8d-7b51f9fb4b67%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227dbc4aaa-faff-4f59-9f8d-7b51f9fb4b67%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:7e096169-cb31-4d02-b751-b4b0106cea2d
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T101500
+DTEND;TZID=Asia/Yekaterinburg:20250226T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-63
+LOCATION:Мира\, 19 / И119
+DESCRIPTION:Практическое занятие\n\nРоль не определена: Каменецкая Наиля Наилевна\, Филанович Антон Николаевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227e096169-cb31-4d02-b751-b4b0106cea2d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227e096169-cb31-4d02-b751-b4b0106cea2d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:8013d9df-5c60-4021-9ac9-de59a4282673
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-64
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Каменецкая Наиля Наилевна\, Филанович Антон Николаевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228013d9df-5c60-4021-9ac9-de59a4282673%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228013d9df-5c60-4021-9ac9-de59a4282673%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:81b9e7bf-e11e-4e7f-841a-f8794ea8ac95
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T160000
+DTEND;TZID=Asia/Yekaterinburg:20250226T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-57
+LOCATION:Мира\, 28 / МТ412
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2281b9e7bf-e11e-4e7f-841a-f8794ea8ac95%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2281b9e7bf-e11e-4e7f-841a-f8794ea8ac95%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:84b49ff2-f040-4cdb-b963-befd805b5e7d
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-57
+LOCATION:Мира\, 28 / Х405
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2284b49ff2-f040-4cdb-b963-befd805b5e7d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2284b49ff2-f040-4cdb-b963-befd805b5e7d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:85c1f4fe-f03a-4e4c-b387-d095815dfd28
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-60
+LOCATION:Мира\, 28 / Х405
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Чиков Александр Алексеевич\, Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2285c1f4fe-f03a-4e4c-b387-d095815dfd28%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2285c1f4fe-f03a-4e4c-b387-d095815dfd28%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:85d59c9b-1b5b-4c29-84bd-9b2ab21ece4c
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-19
+LOCATION:Мира\, 32 / Р325
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2285d59c9b-1b5b-4c29-84bd-9b2ab21ece4c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2285d59c9b-1b5b-4c29-84bd-9b2ab21ece4c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:86dd739d-7066-44c7-94b7-4fa899df2362
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250301T101500
+DTEND;TZID=Asia/Yekaterinburg:20250301T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-49
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Пущина Маргарита Валерьевна\, Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2286dd739d-7066-44c7-94b7-4fa899df2362%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-03-01T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2286dd739d-7066-44c7-94b7-4fa899df2362%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-03-01T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:8724dd27-4201-4a85-9226-ccdfbebbd781
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-06
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228724dd27-4201-4a85-9226-ccdfbebbd781%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228724dd27-4201-4a85-9226-ccdfbebbd781%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:8c0c2560-1b42-48b8-9db1-451a23f1fdb2
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-45
+LOCATION:Мира\, 19  / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Чикова Ольга Анатольевна\, Рыжова Анна Алексеевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228c0c2560-1b42-48b8-9db1-451a23f1fdb2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228c0c2560-1b42-48b8-9db1-451a23f1fdb2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:8ccfeb0d-1fb0-45b5-ae9a-61ba6ee63d74
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T120000
+DTEND;TZID=Asia/Yekaterinburg:20250224T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-42
+LOCATION:Мира\, 19 / И245
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Рыжова Анна Алексеевна\, Чикова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228ccfeb0d-1fb0-45b5-ae9a-61ba6ee63d74%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228ccfeb0d-1fb0-45b5-ae9a-61ba6ee63d74%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:8e4147e1-13a4-4e5b-83b5-043d7b3af59c
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T083000
+DTEND;TZID=Asia/Yekaterinburg:20250228T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-15
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228e4147e1-13a4-4e5b-83b5-043d7b3af59c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228e4147e1-13a4-4e5b-83b5-043d7b3af59c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:90afed69-dc31-44a0-ad97-1ea79117a59a
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T101500
+DTEND;TZID=Asia/Yekaterinburg:20250227T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-65
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Филанович Антон Николаевич\, Каменецкая Наиля Наилевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2290afed69-dc31-44a0-ad97-1ea79117a59a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2290afed69-dc31-44a0-ad97-1ea79117a59a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9379e625-6edb-46fc-95f5-0d071ba82ee0
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T141500
+DTEND;TZID=Asia/Yekaterinburg:20250228T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-66
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229379e625-6edb-46fc-95f5-0d071ba82ee0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229379e625-6edb-46fc-95f5-0d071ba82ee0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9756ff36-1d69-48cb-aad2-0cd347c82a3e
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T160000
+DTEND;TZID=Asia/Yekaterinburg:20250224T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-61
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Филанович Антон Николаевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229756ff36-1d69-48cb-aad2-0cd347c82a3e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229756ff36-1d69-48cb-aad2-0cd347c82a3e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:99dfbdb0-9632-4168-b3a4-9a0360ce2edd
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-66
+LOCATION:Мира\, 32 / Р325
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2299dfbdb0-9632-4168-b3a4-9a0360ce2edd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2299dfbdb0-9632-4168-b3a4-9a0360ce2edd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9a3f1ab3-1574-472a-bc8a-87464c167ddd
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T083000
+DTEND;TZID=Asia/Yekaterinburg:20250228T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-11
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229a3f1ab3-1574-472a-bc8a-87464c167ddd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229a3f1ab3-1574-472a-bc8a-87464c167ddd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9a432138-8141-4cef-9973-af068ce91f02
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-29
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229a432138-8141-4cef-9973-af068ce91f02%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229a432138-8141-4cef-9973-af068ce91f02%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9ad5e0eb-3f6f-45f0-a245-f198a3a0dfc4
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T160000
+DTEND;TZID=Asia/Yekaterinburg:20250226T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-13
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229ad5e0eb-3f6f-45f0-a245-f198a3a0dfc4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229ad5e0eb-3f6f-45f0-a245-f198a3a0dfc4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9bde0b1a-b8d7-4cc8-a18d-fdecc77f19de
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-43
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Чикова Ольга Анатольевна\, Рыжова Анна Алексеевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229bde0b1a-b8d7-4cc8-a18d-fdecc77f19de%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229bde0b1a-b8d7-4cc8-a18d-fdecc77f19de%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9c915057-63dd-480d-ab98-49c00f51fc04
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T083000
+DTEND;TZID=Asia/Yekaterinburg:20250227T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-03
+LOCATION:Мира\, 19 / И119
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229c915057-63dd-480d-ab98-49c00f51fc04%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229c915057-63dd-480d-ab98-49c00f51fc04%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9d4193f8-baea-49ec-9cb0-db0ee6cf18fa
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-43
+LOCATION:Мира\, 19 / И261
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Рыжова Анна Алексеевна\, Чикова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229d4193f8-baea-49ec-9cb0-db0ee6cf18fa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229d4193f8-baea-49ec-9cb0-db0ee6cf18fa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9ea26733-50ca-4182-a32b-2ac911149138
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T120000
+DTEND;TZID=Asia/Yekaterinburg:20250228T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-18
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229ea26733-50ca-4182-a32b-2ac911149138%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229ea26733-50ca-4182-a32b-2ac911149138%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:9f971b63-ebe4-45fc-91be-9f8a26192f3a
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T141500
+DTEND;TZID=Asia/Yekaterinburg:20250228T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-24
+LOCATION:Мира\, 17 / С416
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229f971b63-ebe4-45fc-91be-9f8a26192f3a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229f971b63-ebe4-45fc-91be-9f8a26192f3a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:a19ed03d-3406-4a34-90f7-de6934c951d2
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-09
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a19ed03d-3406-4a34-90f7-de6934c951d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a19ed03d-3406-4a34-90f7-de6934c951d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:a323265e-3e0a-4d65-83c0-8c2b3149ba22
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T174000
+DTEND;TZID=Asia/Yekaterinburg:20250228T191000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-20
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a323265e-3e0a-4d65-83c0-8c2b3149ba22%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T17:40:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a323265e-3e0a-4d65-83c0-8c2b3149ba22%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T17:40:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:a4a07c81-3687-424b-81cd-b8e1d13e6be0
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-62
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Филанович Антон Николаевич\, Каменецкая Наиля Наилевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a4a07c81-3687-424b-81cd-b8e1d13e6be0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a4a07c81-3687-424b-81cd-b8e1d13e6be0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:a7e2eacd-7565-41b9-9143-a89ee3e5e9ae
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T101500
+DTEND;TZID=Asia/Yekaterinburg:20250227T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-45
+LOCATION:Мира\, 19 / И245
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Рыжова Анна Алексеевна\, Чикова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a7e2eacd-7565-41b9-9143-a89ee3e5e9ae%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a7e2eacd-7565-41b9-9143-a89ee3e5e9ae%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:abaa3a61-1d9c-480a-a457-39cb6784206a
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250225T160000
+DTEND;TZID=Asia/Yekaterinburg:20250225T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-07
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22abaa3a61-1d9c-480a-a457-39cb6784206a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22abaa3a61-1d9c-480a-a457-39cb6784206a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:abc4b748-550e-4d7a-82b4-a1b43508c296
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-10
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22abc4b748-550e-4d7a-82b4-a1b43508c296%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22abc4b748-550e-4d7a-82b4-a1b43508c296%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:adc510e8-9f3a-4863-adc3-d79b0db7a77a
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-52
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22adc510e8-9f3a-4863-adc3-d79b0db7a77a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22adc510e8-9f3a-4863-adc3-d79b0db7a77a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:afd09c8b-c537-4eb4-af82-3cd51a4e85ad
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-30
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22afd09c8b-c537-4eb4-af82-3cd51a4e85ad%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22afd09c8b-c537-4eb4-af82-3cd51a4e85ad%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:b14a9a08-7960-4814-a139-ba16ce5ee8d8
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T083000
+DTEND;TZID=Asia/Yekaterinburg:20250228T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-13
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b14a9a08-7960-4814-a139-ba16ce5ee8d8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b14a9a08-7960-4814-a139-ba16ce5ee8d8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:b3106895-7064-404d-942d-e307875db065
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T083000
+DTEND;TZID=Asia/Yekaterinburg:20250228T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-53
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b3106895-7064-404d-942d-e307875db065%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b3106895-7064-404d-942d-e307875db065%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:b4c71df2-1d9e-4726-896f-f2213b64002c
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250225T141500
+DTEND;TZID=Asia/Yekaterinburg:20250225T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-60
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Чиков Александр Алексеевич\, Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b4c71df2-1d9e-4726-896f-f2213b64002c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b4c71df2-1d9e-4726-896f-f2213b64002c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:b5e99d1b-ccda-47b2-8bf1-f416cf419dfe
+SEQUENCE:13
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-21
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b5e99d1b-ccda-47b2-8bf1-f416cf419dfe%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b5e99d1b-ccda-47b2-8bf1-f416cf419dfe%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:b76401bc-6f79-4b72-8ff3-11ac1e2ae487
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-37
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b76401bc-6f79-4b72-8ff3-11ac1e2ae487%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b76401bc-6f79-4b72-8ff3-11ac1e2ae487%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:b807d1ca-f534-4ff8-aea1-2c8fadc2d524
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-32
+LOCATION:Мира\, 19  / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Ватолина Наталья Дмитриевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b807d1ca-f534-4ff8-aea1-2c8fadc2d524%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b807d1ca-f534-4ff8-aea1-2c8fadc2d524%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:baac3665-9bb5-41d6-b6ef-89eeb87bcfe9
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-03
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22baac3665-9bb5-41d6-b6ef-89eeb87bcfe9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22baac3665-9bb5-41d6-b6ef-89eeb87bcfe9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:baba2bd8-6f6d-4d80-9a1c-7dfa2fc18fa5
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T141500
+DTEND;TZID=Asia/Yekaterinburg:20250228T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-41
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Чикова Ольга Анатольевна\, Каменецкая Наиля Наилевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22baba2bd8-6f6d-4d80-9a1c-7dfa2fc18fa5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22baba2bd8-6f6d-4d80-9a1c-7dfa2fc18fa5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:c274d03e-41c2-432f-afd4-3a3f39a35909
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250301T120000
+DTEND;TZID=Asia/Yekaterinburg:20250301T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-50
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Пушкарева Надежда Борисовна\, Пущина Маргарита Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c274d03e-41c2-432f-afd4-3a3f39a35909%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-03-01T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c274d03e-41c2-432f-afd4-3a3f39a35909%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-03-01T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:c42df0a5-620c-47c5-95b2-f786377fe900
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T160000
+DTEND;TZID=Asia/Yekaterinburg:20250226T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-40
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c42df0a5-620c-47c5-95b2-f786377fe900%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c42df0a5-620c-47c5-95b2-f786377fe900%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:c7e441a3-b735-4845-9d81-f8e5b9a3ba9c
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T101500
+DTEND;TZID=Asia/Yekaterinburg:20250224T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-46
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c7e441a3-b735-4845-9d81-f8e5b9a3ba9c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c7e441a3-b735-4845-9d81-f8e5b9a3ba9c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:c9695fba-1d52-4436-9207-a65a3cc89a08
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-26
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c9695fba-1d52-4436-9207-a65a3cc89a08%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c9695fba-1d52-4436-9207-a65a3cc89a08%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:c9bb9f3e-7d8c-4382-baec-4642e90d352c
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-62
+LOCATION:Мира\, 19  / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Филанович Антон Николаевич\, Каменецкая Наиля Наилевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c9bb9f3e-7d8c-4382-baec-4642e90d352c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c9bb9f3e-7d8c-4382-baec-4642e90d352c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:cb63416a-0c7d-46a3-831c-b8eb7ce42bd7
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-44
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Чикова Ольга Анатольевна\, Рыжова Анна Алексеевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22cb63416a-0c7d-46a3-831c-b8eb7ce42bd7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22cb63416a-0c7d-46a3-831c-b8eb7ce42bd7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:cc4f900f-ddc3-4ba3-a83e-00f82f07fbd3
+SEQUENCE:15
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-21
+LOCATION:Мира\, 17 / С416
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22cc4f900f-ddc3-4ba3-a83e-00f82f07fbd3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22cc4f900f-ddc3-4ba3-a83e-00f82f07fbd3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:d2427164-43c2-447e-a632-66459c1fedc5
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T101500
+DTEND;TZID=Asia/Yekaterinburg:20250227T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-14
+LOCATION:Мира\, 19 / И261
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d2427164-43c2-447e-a632-66459c1fedc5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d2427164-43c2-447e-a632-66459c1fedc5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:d6ec7c65-f344-4db5-8c03-22a376d32347
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T083000
+DTEND;TZID=Asia/Yekaterinburg:20250228T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-47
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d6ec7c65-f344-4db5-8c03-22a376d32347%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d6ec7c65-f344-4db5-8c03-22a376d32347%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:d98b77fd-9725-4b2f-982d-4eda0145785d
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T101500
+DTEND;TZID=Asia/Yekaterinburg:20250224T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-51
+LOCATION:Мира\, 19 / И119
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d98b77fd-9725-4b2f-982d-4eda0145785d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d98b77fd-9725-4b2f-982d-4eda0145785d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:da13ddb9-b532-4370-98bf-809fa0e58e2d
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250301T120000
+DTEND;TZID=Asia/Yekaterinburg:20250301T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-59
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22da13ddb9-b532-4370-98bf-809fa0e58e2d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-03-01T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22da13ddb9-b532-4370-98bf-809fa0e58e2d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-03-01T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:da1acc24-883d-4436-af48-1216ff9183b4
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T120000
+DTEND;TZID=Asia/Yekaterinburg:20250224T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-46
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22da1acc24-883d-4436-af48-1216ff9183b4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22da1acc24-883d-4436-af48-1216ff9183b4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:dada66fc-85ad-4030-957c-4587b07365af
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-05
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22dada66fc-85ad-4030-957c-4587b07365af%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22dada66fc-85ad-4030-957c-4587b07365af%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:db953804-c1aa-4bc6-9cb4-93dc1d757b7d
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250225T101500
+DTEND;TZID=Asia/Yekaterinburg:20250225T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-27
+LOCATION:И258
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22db953804-c1aa-4bc6-9cb4-93dc1d757b7d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22db953804-c1aa-4bc6-9cb4-93dc1d757b7d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:dcdbe567-2a57-4f04-8e5a-09eff3515988
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T120000
+DTEND;TZID=Asia/Yekaterinburg:20250224T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-06
+LOCATION:Мира\, 19 / Э513
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Степаненко Андрей Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22dcdbe567-2a57-4f04-8e5a-09eff3515988%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22dcdbe567-2a57-4f04-8e5a-09eff3515988%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:e33362c8-ffaa-45f6-a4e4-42887f98cd15
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T160000
+DTEND;TZID=Asia/Yekaterinburg:20250228T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-48
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Пушкарева Надежда Борисовна\, Пущина Маргарита Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e33362c8-ffaa-45f6-a4e4-42887f98cd15%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e33362c8-ffaa-45f6-a4e4-42887f98cd15%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:e5405ee1-3011-45fe-8d34-14d28e5be141
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-63
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Филанович Антон Николаевич\, Каменецкая Наиля Наилевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e5405ee1-3011-45fe-8d34-14d28e5be141%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e5405ee1-3011-45fe-8d34-14d28e5be141%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:e55833d5-2b71-4d7a-af35-67f0a518d5f9
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T101500
+DTEND;TZID=Asia/Yekaterinburg:20250224T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-50
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Пушкарева Надежда Борисовна\, Пущина Маргарита Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e55833d5-2b71-4d7a-af35-67f0a518d5f9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e55833d5-2b71-4d7a-af35-67f0a518d5f9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:e616c27f-72af-4895-9e3d-2f2916b0ff1f
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-18
+LOCATION:Мира\, 32 / Р325
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e616c27f-72af-4895-9e3d-2f2916b0ff1f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e616c27f-72af-4895-9e3d-2f2916b0ff1f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:e62783ec-bb0f-4a73-91d4-0f5c3178c471
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T160000
+DTEND;TZID=Asia/Yekaterinburg:20250226T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-23
+LOCATION:Мира\, 17 / С416
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e62783ec-bb0f-4a73-91d4-0f5c3178c471%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e62783ec-bb0f-4a73-91d4-0f5c3178c471%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:e781ddcd-83c8-4e13-a7fc-5478b1493a5d
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T101500
+DTEND;TZID=Asia/Yekaterinburg:20250224T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-47
+LOCATION:Мира\, 19  / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Пушкарева Надежда Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e781ddcd-83c8-4e13-a7fc-5478b1493a5d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e781ddcd-83c8-4e13-a7fc-5478b1493a5d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:e8e8126b-f425-4e76-9870-ca1949034249
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T160000
+DTEND;TZID=Asia/Yekaterinburg:20250224T173000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-11
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e8e8126b-f425-4e76-9870-ca1949034249%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e8e8126b-f425-4e76-9870-ca1949034249%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:e9a59954-dee4-46a0-834b-202c530e33cf
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T141500
+DTEND;TZID=Asia/Yekaterinburg:20250224T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-28
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Плетнева Елена Давидовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e9a59954-dee4-46a0-834b-202c530e33cf%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e9a59954-dee4-46a0-834b-202c530e33cf%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:ebae7c61-235c-42ce-b0ff-abc1aa857b2a
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T101500
+DTEND;TZID=Asia/Yekaterinburg:20250228T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-54
+LOCATION:Мира\, 19 / И248
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ebae7c61-235c-42ce-b0ff-abc1aa857b2a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ebae7c61-235c-42ce-b0ff-abc1aa857b2a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:ec9fef54-e028-4165-89ba-0bd989ceb048
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T101500
+DTEND;TZID=Asia/Yekaterinburg:20250224T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-36
+LOCATION:Мира\, 19 / И535
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ec9fef54-e028-4165-89ba-0bd989ceb048%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ec9fef54-e028-4165-89ba-0bd989ceb048%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:ed39b136-47b8-4527-8f2b-f53173a7b8dc
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T083000
+DTEND;TZID=Asia/Yekaterinburg:20250228T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-14
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ed39b136-47b8-4527-8f2b-f53173a7b8dc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ed39b136-47b8-4527-8f2b-f53173a7b8dc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f183608e-f2a2-4f0a-98f4-76fa8008d665
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-24
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Московских Ольга Петровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f183608e-f2a2-4f0a-98f4-76fa8008d665%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f183608e-f2a2-4f0a-98f4-76fa8008d665%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f1b365b6-a10b-4edf-b632-bf42b94bab84
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T141500
+DTEND;TZID=Asia/Yekaterinburg:20250226T154500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-59
+LOCATION:Мира\, 28 / Х405
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Бабанова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f1b365b6-a10b-4edf-b632-bf42b94bab84%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f1b365b6-a10b-4edf-b632-bf42b94bab84%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f2dc502b-7605-4ed0-8c32-ce88bd2ee2d4
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-51
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f2dc502b-7605-4ed0-8c32-ce88bd2ee2d4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f2dc502b-7605-4ed0-8c32-ce88bd2ee2d4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f400842b-1a78-41f6-a0d0-620c9ff51595
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-55
+LOCATION:Мира\, 19 / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f400842b-1a78-41f6-a0d0-620c9ff51595%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f400842b-1a78-41f6-a0d0-620c9ff51595%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f4280310-6eaf-4df6-951c-447fc8fc6060
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-54
+LOCATION:Мира\, 19  / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f4280310-6eaf-4df6-951c-447fc8fc6060%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f4280310-6eaf-4df6-951c-447fc8fc6060%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f4f4bc91-71cd-4363-be5e-02dc9a4a1ad7
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T120000
+DTEND;TZID=Asia/Yekaterinburg:20250224T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Практическое занятие / Физика АТ-52
+LOCATION:Мира\, 19 / И119
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Гребенкина Ольга Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f4f4bc91-71cd-4363-be5e-02dc9a4a1ad7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f4f4bc91-71cd-4363-be5e-02dc9a4a1ad7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f68cb9d8-26a8-42c0-a54b-b4bd2c993079
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T083000
+DTEND;TZID=Asia/Yekaterinburg:20250227T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-44
+LOCATION:Мира\, 19 / И261
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Рыжова Анна Алексеевна\, Чикова Ольга Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f68cb9d8-26a8-42c0-a54b-b4bd2c993079%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f68cb9d8-26a8-42c0-a54b-b4bd2c993079%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T08:30:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f6a16763-9a51-413b-822f-17aadf571669
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250226T083000
+DTEND;TZID=Asia/Yekaterinburg:20250226T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-17
+LOCATION:Мира\, 32  / Р325
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Гора Екатерина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f6a16763-9a51-413b-822f-17aadf571669%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f6a16763-9a51-413b-822f-17aadf571669%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-26T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f79206cd-044c-49d5-9269-f3a43bbec209
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250228T083000
+DTEND;TZID=Asia/Yekaterinburg:20250228T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-12
+LOCATION:Мира\, 19  / М415(IV)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f79206cd-044c-49d5-9269-f3a43bbec209%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f79206cd-044c-49d5-9269-f3a43bbec209%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-28T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:f9f0eb22-a2ed-4b09-83d3-0426ef4c60ad
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T083000
+DTEND;TZID=Asia/Yekaterinburg:20250224T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-38
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f9f0eb22-a2ed-4b09-83d3-0426ef4c60ad%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f9f0eb22-a2ed-4b09-83d3-0426ef4c60ad%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:fac7336f-91ee-4348-9397-5f2960e87406
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250224T101500
+DTEND;TZID=Asia/Yekaterinburg:20250224T114500
+SUMMARY:Физика. Часть 2. Основной уровень / Лекционное занятие / Физика АТ-49
+LOCATION:Мира\, 19 / ГУК401(III)
+DESCRIPTION:Лекционное занятие\n\nРоль не определена: Пушкарева Надежда Борисовна\, Пущина Маргарита Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22fac7336f-91ee-4348-9397-5f2960e87406%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22fac7336f-91ee-4348-9397-5f2960e87406%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-24T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:fc32bc1f-ce13-4113-9131-af49b73b00d2
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250225T083000
+DTEND;TZID=Asia/Yekaterinburg:20250225T100000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-37
+LOCATION:Мира\, 19 / И252
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Чиков Александр Алексеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22fc32bc1f-ce13-4113-9131-af49b73b00d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22fc32bc1f-ce13-4113-9131-af49b73b00d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-25T08:30:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+BEGIN:VEVENT
+UID:fc49ae24-8464-431d-b045-80926af57fca
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074753
+DTSTART;TZID=Asia/Yekaterinburg:20250227T120000
+DTEND;TZID=Asia/Yekaterinburg:20250227T133000
+SUMMARY:Физика. Часть 2. Основной уровень / Лабораторное занятие / Физика АТ-15
+LOCATION:Мира\, 19 / И261
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Синицин Николай Иванович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22fc49ae24-8464-431d-b045-80926af57fca%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22fc49ae24-8464-431d-b045-80926af57fca%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-02-27T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Физика
+END:VEVENT
+END:VCALENDAR

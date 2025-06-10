@@ -1,0 +1,1487 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Custis/Modeus//Schedule Calendar App//RU
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0255a5e0-38a7-4345-861e-09579e5ae894
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T101500
+DTEND;TZID=Asia/Yekaterinburg:20250516T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-13
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%220255a5e0-38a7-4345-861e-09579e5ae894%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%220255a5e0-38a7-4345-861e-09579e5ae894%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:02e1e07f-250f-4f69-98dc-b73bc69aa60a
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T083000
+DTEND;TZID=Asia/Yekaterinburg:20250514T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-54
+LOCATION:Мира\, 21 / Ф403
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Коняева Елена Вячеславовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2202e1e07f-250f-4f69-98dc-b73bc69aa60a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2202e1e07f-250f-4f69-98dc-b73bc69aa60a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:03c2f31a-a498-4390-b091-cc7796bfc14a
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T101500
+DTEND;TZID=Asia/Yekaterinburg:20250512T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-17
+LOCATION:Мира\, 32 / Р238
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2203c2f31a-a498-4390-b091-cc7796bfc14a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2203c2f31a-a498-4390-b091-cc7796bfc14a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:056dc333-9347-4eea-8b3c-3e488f71b5ce
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-44
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Мартынова Татьяна Владимировна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22056dc333-9347-4eea-8b3c-3e488f71b5ce%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22056dc333-9347-4eea-8b3c-3e488f71b5ce%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:079376e9-1a81-46d0-b499-0f4823c4a558
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-40
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Истомина Наталья Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22079376e9-1a81-46d0-b499-0f4823c4a558%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22079376e9-1a81-46d0-b499-0f4823c4a558%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:07f940af-30ef-4312-8815-ea34c43b605b
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-08
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2207f940af-30ef-4312-8815-ea34c43b605b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2207f940af-30ef-4312-8815-ea34c43b605b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:085027ee-8383-432b-b63b-b9510b14ee22
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-30
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22085027ee-8383-432b-b63b-b9510b14ee22%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22085027ee-8383-432b-b63b-b9510b14ee22%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:0d7e153b-0ead-4b7e-a467-6af8efaa2dfc
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-35
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Невраева Наталия Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%220d7e153b-0ead-4b7e-a467-6af8efaa2dfc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%220d7e153b-0ead-4b7e-a467-6af8efaa2dfc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:10a2df50-efef-4276-b653-06c7b0319f3a
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T141500
+DTEND;TZID=Asia/Yekaterinburg:20250514T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-51
+LOCATION:Мира\, 28 / МТ325
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Юдина Наталья Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2210a2df50-efef-4276-b653-06c7b0319f3a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2210a2df50-efef-4276-b653-06c7b0319f3a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:10cda2ce-03c1-4075-bbeb-bb9ed3bbcd87
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-16
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2210cda2ce-03c1-4075-bbeb-bb9ed3bbcd87%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2210cda2ce-03c1-4075-bbeb-bb9ed3bbcd87%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:13104d0b-a612-4781-a6f8-0fc0b6f25f6e
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-36
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Бабкина Мария Игоревна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2213104d0b-a612-4781-a6f8-0fc0b6f25f6e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2213104d0b-a612-4781-a6f8-0fc0b6f25f6e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:15088cf9-6aba-4406-a772-a2c1719a4443
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-48
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Юдина Наталья Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2215088cf9-6aba-4406-a772-a2c1719a4443%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2215088cf9-6aba-4406-a772-a2c1719a4443%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:16915b03-640c-43ff-a5b1-a23e1fb6cb84
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T083000
+DTEND;TZID=Asia/Yekaterinburg:20250516T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-23
+LOCATION:Мира\, 32 / Р404
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2216915b03-640c-43ff-a5b1-a23e1fb6cb84%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2216915b03-640c-43ff-a5b1-a23e1fb6cb84%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:19c074d0-6401-4719-bddc-ab086983ca09
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T141500
+DTEND;TZID=Asia/Yekaterinburg:20250514T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-39
+LOCATION:Софьи Ковалевской\, 5 / Т901
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Бабкина Мария Игоревна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2219c074d0-6401-4719-bddc-ab086983ca09%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2219c074d0-6401-4719-bddc-ab086983ca09%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:1a570c7e-d973-4cdc-8349-801ab89fe4cc
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-14
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221a570c7e-d973-4cdc-8349-801ab89fe4cc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221a570c7e-d973-4cdc-8349-801ab89fe4cc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:1c95faaf-61ba-4c6f-a785-a672f78d190a
+SEQUENCE:0
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-02
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Трофимова Наталья Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221c95faaf-61ba-4c6f-a785-a672f78d190a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221c95faaf-61ba-4c6f-a785-a672f78d190a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:1e1ab030-396d-4f04-bb78-b9b48c8f1740
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-19
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221e1ab030-396d-4f04-bb78-b9b48c8f1740%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221e1ab030-396d-4f04-bb78-b9b48c8f1740%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:1f3f6ced-01a2-403b-ba78-3c49fbc437b4
+SEQUENCE:1
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T141500
+DTEND;TZID=Asia/Yekaterinburg:20250516T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-04
+LOCATION:Мира\, 32 / Р141
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Трофимова Наталья Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221f3f6ced-01a2-403b-ba78-3c49fbc437b4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221f3f6ced-01a2-403b-ba78-3c49fbc437b4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:1f57bba5-2e63-4b6d-9539-b082becce4fb
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-41
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Истомина Наталья Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221f57bba5-2e63-4b6d-9539-b082becce4fb%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221f57bba5-2e63-4b6d-9539-b082becce4fb%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:21dcee05-f46d-4058-aae5-40557f9c69e3
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-56
+LOCATION:Мира\, 19 / Э519
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Коробов Иван Сергеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2221dcee05-f46d-4058-aae5-40557f9c69e3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2221dcee05-f46d-4058-aae5-40557f9c69e3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:22928492-c184-4d39-adac-96117a82a68c
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T083000
+DTEND;TZID=Asia/Yekaterinburg:20250514T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-32
+LOCATION:Софьи Ковалевской\, 5 / Т514
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Невраева Наталия Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2222928492-c184-4d39-adac-96117a82a68c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2222928492-c184-4d39-adac-96117a82a68c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:22cca296-ebe0-4dc3-846b-2c4ca2b5e48c
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-41
+LOCATION:Мира\, 19 / Э509
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Истомина Наталья Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2222cca296-ebe0-4dc3-846b-2c4ca2b5e48c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2222cca296-ebe0-4dc3-846b-2c4ca2b5e48c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:25d60b16-24e6-4c25-9dce-2e6d8a7dcca7
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-42
+LOCATION:Мира\, 19 / Э509
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Истомина Наталья Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2225d60b16-24e6-4c25-9dce-2e6d8a7dcca7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2225d60b16-24e6-4c25-9dce-2e6d8a7dcca7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:2bb9a1ad-3369-4070-8259-75fac799363e
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-51
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Юдина Наталья Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222bb9a1ad-3369-4070-8259-75fac799363e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222bb9a1ad-3369-4070-8259-75fac799363e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:2bf04dc8-7707-4608-a12f-97bdeb2267af
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T141500
+DTEND;TZID=Asia/Yekaterinburg:20250512T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-08
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222bf04dc8-7707-4608-a12f-97bdeb2267af%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222bf04dc8-7707-4608-a12f-97bdeb2267af%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:2d2ce35e-9863-431c-8993-06541c7937d3
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-33
+LOCATION:Софьи Ковалевской\, 5 / Т514
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Невраева Наталия Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222d2ce35e-9863-431c-8993-06541c7937d3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222d2ce35e-9863-431c-8993-06541c7937d3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:33035e41-fd53-4260-963f-28a4c7c32273
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-45
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Мартынова Татьяна Владимировна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2233035e41-fd53-4260-963f-28a4c7c32273%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2233035e41-fd53-4260-963f-28a4c7c32273%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:336fc5c7-4710-4f95-a829-dea16dbff34e
+SEQUENCE:1
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-04
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Трофимова Наталья Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22336fc5c7-4710-4f95-a829-dea16dbff34e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22336fc5c7-4710-4f95-a829-dea16dbff34e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:341b4b5e-ba01-4183-8652-d713e71f04d4
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-55
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Коняева Елена Вячеславовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22341b4b5e-ba01-4183-8652-d713e71f04d4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22341b4b5e-ba01-4183-8652-d713e71f04d4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:384a9e46-b5ee-49f6-bdeb-2320835479a7
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-31
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22384a9e46-b5ee-49f6-bdeb-2320835479a7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22384a9e46-b5ee-49f6-bdeb-2320835479a7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:38d37b37-3492-4b0c-bab7-3a92343fdb35
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-54
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Коняева Елена Вячеславовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2238d37b37-3492-4b0c-bab7-3a92343fdb35%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2238d37b37-3492-4b0c-bab7-3a92343fdb35%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:398af391-afa0-45d3-ad15-0c3b3d46f8ec
+SEQUENCE:0
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T160000
+DTEND;TZID=Asia/Yekaterinburg:20250516T173000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-02
+LOCATION:Мира\, 32 / Р141
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Трофимова Наталья Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22398af391-afa0-45d3-ad15-0c3b3d46f8ec%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22398af391-afa0-45d3-ad15-0c3b3d46f8ec%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:4152def5-3a7c-41b2-9444-2e2dcd3dd87b
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-13
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%224152def5-3a7c-41b2-9444-2e2dcd3dd87b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%224152def5-3a7c-41b2-9444-2e2dcd3dd87b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:418441ce-8ef0-48f9-a994-59034e7bf5bc
+SEQUENCE:1
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250515T083000
+DTEND;TZID=Asia/Yekaterinburg:20250515T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-01
+LOCATION:Мира\, 28 / МТ403
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Пронина Ксения Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22418441ce-8ef0-48f9-a994-59034e7bf5bc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22418441ce-8ef0-48f9-a994-59034e7bf5bc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:453b1ff5-7f9f-41e2-bd3d-79a64d33fde8
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-09
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22453b1ff5-7f9f-41e2-bd3d-79a64d33fde8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22453b1ff5-7f9f-41e2-bd3d-79a64d33fde8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:493f2dcc-6ead-4db4-b1ad-ba3a07c70c65
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T141500
+DTEND;TZID=Asia/Yekaterinburg:20250514T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-55
+LOCATION:Мира\, 21 / Ф403
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Коняева Елена Вячеславовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22493f2dcc-6ead-4db4-b1ad-ba3a07c70c65%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22493f2dcc-6ead-4db4-b1ad-ba3a07c70c65%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:56b7ed88-72b9-4db4-8bc1-cc81a5f6a86b
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T141500
+DTEND;TZID=Asia/Yekaterinburg:20250516T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-53
+LOCATION:Мира\, 28 / МТ403
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ковязина Инна Сергеевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2256b7ed88-72b9-4db4-8bc1-cc81a5f6a86b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2256b7ed88-72b9-4db4-8bc1-cc81a5f6a86b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:586be21f-af6f-4453-902a-2a8619fb2521
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-17
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22586be21f-af6f-4453-902a-2a8619fb2521%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22586be21f-af6f-4453-902a-2a8619fb2521%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:5b98d20e-bc6b-4bb9-b981-ab6b3ea4ab23
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-32
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Невраева Наталия Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225b98d20e-bc6b-4bb9-b981-ab6b3ea4ab23%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225b98d20e-bc6b-4bb9-b981-ab6b3ea4ab23%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:5cf8d43a-342e-46bf-ad32-993da9b68c7f
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-05
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225cf8d43a-342e-46bf-ad32-993da9b68c7f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225cf8d43a-342e-46bf-ad32-993da9b68c7f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:61085444-0556-400a-8ec3-11f4d4a5f3c8
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T141500
+DTEND;TZID=Asia/Yekaterinburg:20250514T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-35
+LOCATION:Софьи Ковалевской\, 5 / Т514
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Невраева Наталия Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2261085444-0556-400a-8ec3-11f4d4a5f3c8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2261085444-0556-400a-8ec3-11f4d4a5f3c8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:64f2d9e5-3e19-461a-bfaa-35540cf19841
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-43
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Бакина Евгения Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2264f2d9e5-3e19-461a-bfaa-35540cf19841%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2264f2d9e5-3e19-461a-bfaa-35540cf19841%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:664fe1b8-b054-4223-8d1e-94aef381d2aa
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-50
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Юдина Наталья Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22664fe1b8-b054-4223-8d1e-94aef381d2aa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22664fe1b8-b054-4223-8d1e-94aef381d2aa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:666f4cff-9082-4dd9-8e4f-6a2aa39d7d91
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-49
+LOCATION:Мира\, 28 / МТ325
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Юдина Наталья Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22666f4cff-9082-4dd9-8e4f-6a2aa39d7d91%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22666f4cff-9082-4dd9-8e4f-6a2aa39d7d91%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:670bce2a-654c-4b41-a001-0f384c2f7f52
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T120000
+DTEND;TZID=Asia/Yekaterinburg:20250512T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-18
+LOCATION:Мира\, 32 / Р238
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22670bce2a-654c-4b41-a001-0f384c2f7f52%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22670bce2a-654c-4b41-a001-0f384c2f7f52%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:6b2b7e69-0e94-4bc9-937a-37fb48e3c99e
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-14
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226b2b7e69-0e94-4bc9-937a-37fb48e3c99e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226b2b7e69-0e94-4bc9-937a-37fb48e3c99e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:6e65fa8a-534b-4eb1-880c-875da1af736a
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-22
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226e65fa8a-534b-4eb1-880c-875da1af736a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226e65fa8a-534b-4eb1-880c-875da1af736a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:6efbdc74-90c0-4436-a09c-45e163a86523
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-06
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226efbdc74-90c0-4436-a09c-45e163a86523%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226efbdc74-90c0-4436-a09c-45e163a86523%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:6f1148b0-4436-420a-9480-09d80397b306
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-25
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226f1148b0-4436-420a-9480-09d80397b306%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226f1148b0-4436-420a-9480-09d80397b306%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:6f428ae5-7808-4ffd-b02e-7ddbe26bcd36
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-53
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ковязина Инна Сергеевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226f428ae5-7808-4ffd-b02e-7ddbe26bcd36%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226f428ae5-7808-4ffd-b02e-7ddbe26bcd36%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:70d08315-f24a-4cd1-9aa4-51c35a494b79
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-21
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2270d08315-f24a-4cd1-9aa4-51c35a494b79%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2270d08315-f24a-4cd1-9aa4-51c35a494b79%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:76b1941b-815f-4e8b-9e0f-cb8c45df9ee2
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T083000
+DTEND;TZID=Asia/Yekaterinburg:20250514T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-20
+LOCATION:Мира\, 32 / Р238
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2276b1941b-815f-4e8b-9e0f-cb8c45df9ee2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2276b1941b-815f-4e8b-9e0f-cb8c45df9ee2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:77c3e55b-654e-4825-9366-df731a8b1b0e
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-56
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Коробов Иван Сергеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2277c3e55b-654e-4825-9366-df731a8b1b0e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2277c3e55b-654e-4825-9366-df731a8b1b0e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:783209c0-49fa-47ea-8ec0-798328af5223
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-11
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22783209c0-49fa-47ea-8ec0-798328af5223%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22783209c0-49fa-47ea-8ec0-798328af5223%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:7bbb1731-831e-4154-9866-a90a1f0de3ee
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-10
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227bbb1731-831e-4154-9866-a90a1f0de3ee%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227bbb1731-831e-4154-9866-a90a1f0de3ee%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:7cda1779-714f-4d71-92f7-733365534115
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T083000
+DTEND;TZID=Asia/Yekaterinburg:20250514T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-36
+LOCATION:Софьи Ковалевской\, 5 / Т901
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Бабкина Мария Игоревна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227cda1779-714f-4d71-92f7-733365534115%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227cda1779-714f-4d71-92f7-733365534115%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:7d0b7a76-c0d3-4948-8400-7826e26fc010
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-22
+LOCATION:Мира\, 32 / Р238
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227d0b7a76-c0d3-4948-8400-7826e26fc010%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227d0b7a76-c0d3-4948-8400-7826e26fc010%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:7d74c17f-79e8-45a6-a99b-8134021a0da5
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T083000
+DTEND;TZID=Asia/Yekaterinburg:20250516T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-12
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227d74c17f-79e8-45a6-a99b-8134021a0da5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227d74c17f-79e8-45a6-a99b-8134021a0da5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:7ed0aa51-12ee-4c0c-b73d-c63e9005b096
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-34
+LOCATION:Софьи Ковалевской\, 5 / Т514
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Невраева Наталия Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227ed0aa51-12ee-4c0c-b73d-c63e9005b096%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227ed0aa51-12ee-4c0c-b73d-c63e9005b096%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:807635ef-8592-45b8-99dd-d521aae57b90
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T083000
+DTEND;TZID=Asia/Yekaterinburg:20250514T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-40
+LOCATION:Мира\, 19 / Э509
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Истомина Наталья Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22807635ef-8592-45b8-99dd-d521aae57b90%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22807635ef-8592-45b8-99dd-d521aae57b90%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:8601f5b9-a633-4b8b-bb3f-463b01bfd899
+SEQUENCE:1
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-15
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228601f5b9-a633-4b8b-bb3f-463b01bfd899%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228601f5b9-a633-4b8b-bb3f-463b01bfd899%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:8b3ef094-ed5a-4f6b-9472-dd3947b5652a
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T083000
+DTEND;TZID=Asia/Yekaterinburg:20250512T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-44
+LOCATION:Мира\, 32 / Р144
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Мартынова Татьяна Владимировна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228b3ef094-ed5a-4f6b-9472-dd3947b5652a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228b3ef094-ed5a-4f6b-9472-dd3947b5652a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:8da19e26-d95d-49fe-be76-2e287dc26b8a
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T083000
+DTEND;TZID=Asia/Yekaterinburg:20250512T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-16
+LOCATION:Мира\, 32 / Р238
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228da19e26-d95d-49fe-be76-2e287dc26b8a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228da19e26-d95d-49fe-be76-2e287dc26b8a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:8ddc99a0-7def-4f86-a4c0-83e86ef6f844
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-57
+LOCATION:Мира\, 19 / Э519
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Коробов Иван Сергеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228ddc99a0-7def-4f86-a4c0-83e86ef6f844%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228ddc99a0-7def-4f86-a4c0-83e86ef6f844%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:96f3e92c-dd88-43d0-a608-33392e5ea4b8
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-43
+LOCATION:Мира\, 32 / Р410
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Бакина Евгения Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2296f3e92c-dd88-43d0-a608-33392e5ea4b8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2296f3e92c-dd88-43d0-a608-33392e5ea4b8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:9baf88dd-8523-4628-9e0b-0f374a28e5dd
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-10
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229baf88dd-8523-4628-9e0b-0f374a28e5dd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229baf88dd-8523-4628-9e0b-0f374a28e5dd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:9deea49b-f5bd-4778-a391-2343b88c783a
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T120000
+DTEND;TZID=Asia/Yekaterinburg:20250512T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-46
+LOCATION:Мира\, 32 / Р144
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Мартынова Татьяна Владимировна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229deea49b-f5bd-4778-a391-2343b88c783a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229deea49b-f5bd-4778-a391-2343b88c783a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:a0712989-0bc2-4103-b75e-4faa09326fd3
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-38
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Бабкина Мария Игоревна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a0712989-0bc2-4103-b75e-4faa09326fd3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a0712989-0bc2-4103-b75e-4faa09326fd3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:a54bc057-1b10-4b57-b1c8-276f5b9b2015
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T101500
+DTEND;TZID=Asia/Yekaterinburg:20250512T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-06
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a54bc057-1b10-4b57-b1c8-276f5b9b2015%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a54bc057-1b10-4b57-b1c8-276f5b9b2015%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:a60dcc54-e542-4610-97c4-4675c1e42bae
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T083000
+DTEND;TZID=Asia/Yekaterinburg:20250512T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-25
+LOCATION:Мира\, 32 / Р104
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a60dcc54-e542-4610-97c4-4675c1e42bae%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a60dcc54-e542-4610-97c4-4675c1e42bae%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:a83d6dec-c8d7-4414-95e1-915597848128
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-52
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ковязина Инна Сергеевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a83d6dec-c8d7-4414-95e1-915597848128%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a83d6dec-c8d7-4414-95e1-915597848128%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:a9be032a-d3e1-41c7-912c-4f1b3b16ae83
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T101500
+DTEND;TZID=Asia/Yekaterinburg:20250512T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-26
+LOCATION:Мира\, 32 / Р104
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a9be032a-d3e1-41c7-912c-4f1b3b16ae83%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a9be032a-d3e1-41c7-912c-4f1b3b16ae83%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:a9fb12ae-1cf9-4106-a96c-e6c3b4a212f8
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-57
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Коробов Иван Сергеевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a9fb12ae-1cf9-4106-a96c-e6c3b4a212f8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a9fb12ae-1cf9-4106-a96c-e6c3b4a212f8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:aa828719-1d3d-47cd-8fc4-aa354b80a79c
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-50
+LOCATION:Мира\, 28 / МТ325
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Юдина Наталья Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22aa828719-1d3d-47cd-8fc4-aa354b80a79c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22aa828719-1d3d-47cd-8fc4-aa354b80a79c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:adc4757e-6cb9-4e0d-8349-f1f47cdab727
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T141500
+DTEND;TZID=Asia/Yekaterinburg:20250512T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-19
+LOCATION:Мира\, 32 / Р238
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22adc4757e-6cb9-4e0d-8349-f1f47cdab727%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22adc4757e-6cb9-4e0d-8349-f1f47cdab727%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:ae434785-6b2b-4f17-b7bb-73a368360c71
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-21
+LOCATION:Мира\, 32 / Р238
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ae434785-6b2b-4f17-b7bb-73a368360c71%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ae434785-6b2b-4f17-b7bb-73a368360c71%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:aef9cbf5-21cf-4097-b66b-92f18ee6b0ae
+SEQUENCE:0
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-01
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Пронина Ксения Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22aef9cbf5-21cf-4097-b66b-92f18ee6b0ae%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22aef9cbf5-21cf-4097-b66b-92f18ee6b0ae%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:b1118a57-7e39-4baf-b907-d889fb72fe90
+SEQUENCE:1
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T141500
+DTEND;TZID=Asia/Yekaterinburg:20250516T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-15
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b1118a57-7e39-4baf-b907-d889fb72fe90%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b1118a57-7e39-4baf-b907-d889fb72fe90%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:b50d09aa-f25b-4ae7-af39-fbd503d1d308
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T101500
+DTEND;TZID=Asia/Yekaterinburg:20250512T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-45
+LOCATION:Мира\, 32 / Р144
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Мартынова Татьяна Владимировна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b50d09aa-f25b-4ae7-af39-fbd503d1d308%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b50d09aa-f25b-4ae7-af39-fbd503d1d308%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:b867dc10-6b6e-48ed-854a-f3eb3b6f591f
+SEQUENCE:1
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-03
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Трофимова Наталья Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b867dc10-6b6e-48ed-854a-f3eb3b6f591f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b867dc10-6b6e-48ed-854a-f3eb3b6f591f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:bc0b440c-adaa-4a54-bdcc-9bdee1b103b0
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T083000
+DTEND;TZID=Asia/Yekaterinburg:20250514T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-48
+LOCATION:Мира\, 28 / МТ325
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Юдина Наталья Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22bc0b440c-adaa-4a54-bdcc-9bdee1b103b0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22bc0b440c-adaa-4a54-bdcc-9bdee1b103b0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:bd8499fd-9605-436e-addc-a99dfaa8802a
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-18
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22bd8499fd-9605-436e-addc-a99dfaa8802a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22bd8499fd-9605-436e-addc-a99dfaa8802a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:bf7c1e5a-2940-4ed1-9792-d2aa35617899
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-34
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Невраева Наталия Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22bf7c1e5a-2940-4ed1-9792-d2aa35617899%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22bf7c1e5a-2940-4ed1-9792-d2aa35617899%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:c12856c2-a258-49de-88be-04effc88d6b5
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-26
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c12856c2-a258-49de-88be-04effc88d6b5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c12856c2-a258-49de-88be-04effc88d6b5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e2d583-d7e6-4def-80ca-caabc46e2068
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T120000
+DTEND;TZID=Asia/Yekaterinburg:20250512T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-07
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c1e2d583-d7e6-4def-80ca-caabc46e2068%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c1e2d583-d7e6-4def-80ca-caabc46e2068%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:c2672cd6-9bbd-4dac-b372-089c8b745554
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-46
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Мартынова Татьяна Владимировна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c2672cd6-9bbd-4dac-b372-089c8b745554%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c2672cd6-9bbd-4dac-b372-089c8b745554%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:c3ab35ac-bd58-46fc-9bf1-1fe98dc67ae3
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-07
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c3ab35ac-bd58-46fc-9bf1-1fe98dc67ae3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c3ab35ac-bd58-46fc-9bf1-1fe98dc67ae3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:c6115c3c-092e-47bb-90db-1fa2b674bfb8
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-42
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Истомина Наталья Борисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c6115c3c-092e-47bb-90db-1fa2b674bfb8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c6115c3c-092e-47bb-90db-1fa2b674bfb8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:cad4d82d-01fb-4589-a4ed-c7ffb805d227
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-20
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22cad4d82d-01fb-4589-a4ed-c7ffb805d227%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22cad4d82d-01fb-4589-a4ed-c7ffb805d227%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:ce45bf5b-d790-4938-aeae-cf1ac188d444
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-39
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Бабкина Мария Игоревна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ce45bf5b-d790-4938-aeae-cf1ac188d444%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ce45bf5b-d790-4938-aeae-cf1ac188d444%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:ced4e88a-72a3-446b-92c0-95f9cafba7dd
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-37
+LOCATION:Софьи Ковалевской\, 5 / Т901
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Бабкина Мария Игоревна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ced4e88a-72a3-446b-92c0-95f9cafba7dd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ced4e88a-72a3-446b-92c0-95f9cafba7dd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:d5537b90-6c44-4422-ac6f-3e82f26cee15
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-47
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Мартынова Татьяна Владимировна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d5537b90-6c44-4422-ac6f-3e82f26cee15%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d5537b90-6c44-4422-ac6f-3e82f26cee15%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:d63868fa-1793-4f8f-9a44-ff7c1980c916
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T083000
+DTEND;TZID=Asia/Yekaterinburg:20250514T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-28
+LOCATION:Мира\, 32 / Р104
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d63868fa-1793-4f8f-9a44-ff7c1980c916%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d63868fa-1793-4f8f-9a44-ff7c1980c916%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:d6d0d17b-0e29-4b8f-9cf4-91de37bcef3d
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-23
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d6d0d17b-0e29-4b8f-9cf4-91de37bcef3d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d6d0d17b-0e29-4b8f-9cf4-91de37bcef3d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:d9ad5fc9-0d11-4a09-a8e2-ceaa1768f4a8
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-29
+LOCATION:Мира\, 32 / Р104
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d9ad5fc9-0d11-4a09-a8e2-ceaa1768f4a8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d9ad5fc9-0d11-4a09-a8e2-ceaa1768f4a8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:daac20d0-e4ec-464b-9ddd-d2bf7fb51593
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T083000
+DTEND;TZID=Asia/Yekaterinburg:20250516T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-52
+LOCATION:Мира\, 28 / МТ403
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ковязина Инна Сергеевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22daac20d0-e4ec-464b-9ddd-d2bf7fb51593%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22daac20d0-e4ec-464b-9ddd-d2bf7fb51593%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:db292c16-f624-4d15-a20d-9d64244ce4af
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-12
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22db292c16-f624-4d15-a20d-9d64244ce4af%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22db292c16-f624-4d15-a20d-9d64244ce4af%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:db74ce0f-9c44-4d63-aa3d-c7af92da6c0b
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T205000
+DTEND;TZID=Asia/Yekaterinburg:20250512T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-27
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22db74ce0f-9c44-4d63-aa3d-c7af92da6c0b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22db74ce0f-9c44-4d63-aa3d-c7af92da6c0b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:de40b1d2-3072-4d20-8ad6-73036cd359d2
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T120000
+DTEND;TZID=Asia/Yekaterinburg:20250512T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-27
+LOCATION:Мира\, 32 / Р104
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22de40b1d2-3072-4d20-8ad6-73036cd359d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22de40b1d2-3072-4d20-8ad6-73036cd359d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:e1515101-7690-40cb-a55c-462e6b2f6f2f
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T205000
+DTEND;TZID=Asia/Yekaterinburg:20250516T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-24
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e1515101-7690-40cb-a55c-462e6b2f6f2f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e1515101-7690-40cb-a55c-462e6b2f6f2f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:e2cee6d9-8372-4aa8-9fe9-0919f1c2db56
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-30
+LOCATION:Мира\, 32 / Р104
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e2cee6d9-8372-4aa8-9fe9-0919f1c2db56%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e2cee6d9-8372-4aa8-9fe9-0919f1c2db56%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:e46ceb9b-3489-43b8-838d-904c7262256e
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-28
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e46ceb9b-3489-43b8-838d-904c7262256e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e46ceb9b-3489-43b8-838d-904c7262256e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:e625ddbe-4950-4038-b910-f1204831d5a6
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-49
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Юдина Наталья Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e625ddbe-4950-4038-b910-f1204831d5a6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e625ddbe-4950-4038-b910-f1204831d5a6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:e8b0688e-1a8a-4609-aa84-b2a2670d4279
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-29
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Власова Наталья Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e8b0688e-1a8a-4609-aa84-b2a2670d4279%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e8b0688e-1a8a-4609-aa84-b2a2670d4279%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:eb2b8e3e-7ca0-477d-a731-6801f32e63f6
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-37
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Бабкина Мария Игоревна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22eb2b8e3e-7ca0-477d-a731-6801f32e63f6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22eb2b8e3e-7ca0-477d-a731-6801f32e63f6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:eb524db5-2997-474b-bd03-d49c8193c2ff
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T141500
+DTEND;TZID=Asia/Yekaterinburg:20250514T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-31
+LOCATION:Мира\, 32 / Р238
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22eb524db5-2997-474b-bd03-d49c8193c2ff%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22eb524db5-2997-474b-bd03-d49c8193c2ff%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:eb7eb437-b041-420a-908c-2c793ffd81b8
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-38
+LOCATION:Софьи Ковалевской\, 5 / Т901
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Бабкина Мария Игоревна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22eb7eb437-b041-420a-908c-2c793ffd81b8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22eb7eb437-b041-420a-908c-2c793ffd81b8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:ebcfa8f3-eaa3-4596-b6c3-235fc4422b1e
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T141500
+DTEND;TZID=Asia/Yekaterinburg:20250514T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-11
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ebcfa8f3-eaa3-4596-b6c3-235fc4422b1e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ebcfa8f3-eaa3-4596-b6c3-235fc4422b1e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:edccee58-5fb9-49bd-992d-d8d5a2bb6cfa
+SEQUENCE:1
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-03
+LOCATION:Мира\, 32 / Р141
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Трофимова Наталья Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22edccee58-5fb9-49bd-992d-d8d5a2bb6cfa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22edccee58-5fb9-49bd-992d-d8d5a2bb6cfa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:f02187a0-a0f1-4318-b709-b4a46afe62fa
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T205000
+DTEND;TZID=Asia/Yekaterinburg:20250514T222000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Самостоятельная работа на онлайн-платформе / Иностранный язык (английский) П\, К\, АТ\, СР-33
+LOCATION:https://exam1.urfu.ru/enrol/index.php?id=854
+DESCRIPTION:Самостоятельная работа\n\nПреподаватель: Невраева Наталия Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f02187a0-a0f1-4318-b709-b4a46afe62fa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f02187a0-a0f1-4318-b709-b4a46afe62fa%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T20:50:00.000Z%22%7D\n
+CATEGORIES:Самостоятельная работа
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:f02ffcaa-0576-4f64-97d7-05cb791f70c9
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T083000
+DTEND;TZID=Asia/Yekaterinburg:20250512T100000
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-05
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f02ffcaa-0576-4f64-97d7-05cb791f70c9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f02ffcaa-0576-4f64-97d7-05cb791f70c9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:f21949a2-0205-4d45-940d-facabfacab22
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250512T141500
+DTEND;TZID=Asia/Yekaterinburg:20250512T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-47
+LOCATION:Мира\, 32 / Р144
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Мартынова Татьяна Владимировна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f21949a2-0205-4d45-940d-facabfacab22%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f21949a2-0205-4d45-940d-facabfacab22%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:f45fccd4-012e-4b96-98f1-accf8f266f95
+SEQUENCE:2
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250516T141500
+DTEND;TZID=Asia/Yekaterinburg:20250516T154500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-24
+LOCATION:Мира\, 32 / Р404
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Ушакова Анастасия Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f45fccd4-012e-4b96-98f1-accf8f266f95%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f45fccd4-012e-4b96-98f1-accf8f266f95%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+BEGIN:VEVENT
+UID:fe9d2849-d06f-4959-a729-e6906fa0ff2b
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074808
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Иностранный язык (Смешанное\, УрФУ\, СМУДС) Часть 2.A0-A1 / Практическое занятие / Иностранный язык (английский) П\, К\, АТ\, СР-09
+LOCATION:Софьи Ковалевской\, 5 / Т812
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Чистякова Мария Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22fe9d2849-d06f-4959-a729-e6906fa0ff2b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22fe9d2849-d06f-4959-a729-e6906fa0ff2b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Иностранный язык (английский)
+END:VEVENT
+END:VCALENDAR

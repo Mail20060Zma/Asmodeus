@@ -1,0 +1,1136 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Custis/Modeus//Schedule Calendar App//RU
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:009b1957-ca8e-4c9f-bb3b-d73f26ac1ec2
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T120000
+DTEND;TZID=Asia/Yekaterinburg:20250418T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-06
+LOCATION:Мира\, 32 / Р143
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Рыбалко Александр Федорович\, Герасимов Максим\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22009b1957-ca8e-4c9f-bb3b-d73f26ac1ec2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22009b1957-ca8e-4c9f-bb3b-d73f26ac1ec2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:017e3ec9-8c78-401b-9a1f-5c9f662593d5
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T141500
+DTEND;TZID=Asia/Yekaterinburg:20250416T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-20
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Рыбалко Александр Федорович\, Чернышов Лев Максимович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22017e3ec9-8c78-401b-9a1f-5c9f662593d5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22017e3ec9-8c78-401b-9a1f-5c9f662593d5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:04d3612b-86f6-4442-a22f-b641187284bb
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T141500
+DTEND;TZID=Asia/Yekaterinburg:20250417T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-26
+LOCATION:Мира\, 32 / Р203
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кныш Алла Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2204d3612b-86f6-4442-a22f-b641187284bb%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2204d3612b-86f6-4442-a22f-b641187284bb%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:06055d36-069f-4644-ad74-85a900344c62
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T101500
+DTEND;TZID=Asia/Yekaterinburg:20250417T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-02
+LOCATION:Мира\, 32 / Р102
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Лавров Руслан Викторович\, Борич Михаил Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2206055d36-069f-4644-ad74-85a900344c62%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2206055d36-069f-4644-ad74-85a900344c62%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:11a78539-30a6-45f2-b3fd-69f3f80a9a05
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T120000
+DTEND;TZID=Asia/Yekaterinburg:20250416T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-21
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Рыбалко Александр Федорович\, Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2211a78539-30a6-45f2-b3fd-69f3f80a9a05%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2211a78539-30a6-45f2-b3fd-69f3f80a9a05%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:12d8962d-f971-41fa-9ab0-a2c37bbcc215
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T101500
+DTEND;TZID=Asia/Yekaterinburg:20250417T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-17
+LOCATION:Мира\, 32 / Р050
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2212d8962d-f971-41fa-9ab0-a2c37bbcc215%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2212d8962d-f971-41fa-9ab0-a2c37bbcc215%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:1710717e-e9f5-4ed6-afef-1bb2b2dff6c3
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T141500
+DTEND;TZID=Asia/Yekaterinburg:20250416T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие  21 / Векторный анализ Л\, П\, К\, АТ-08
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Лавров Руслан Викторович\, Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221710717e-e9f5-4ed6-afef-1bb2b2dff6c3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221710717e-e9f5-4ed6-afef-1bb2b2dff6c3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:19595d1e-488c-46ec-8fd6-ac2abf07d64f
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T141500
+DTEND;TZID=Asia/Yekaterinburg:20250414T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-15
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Кудряшова Ольга Валерьевна\, Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2219595d1e-488c-46ec-8fd6-ac2abf07d64f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2219595d1e-488c-46ec-8fd6-ac2abf07d64f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:19d6b7d3-9bb3-45f7-b995-8eb61892b90f
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T160000
+DTEND;TZID=Asia/Yekaterinburg:20250417T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-24
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Белоусова Марина Михайловна\, Малыгина Кристина Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2219d6b7d3-9bb3-45f7-b995-8eb61892b90f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2219d6b7d3-9bb3-45f7-b995-8eb61892b90f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:1a27597f-dc9f-42c7-babd-b54997ac873b
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T101500
+DTEND;TZID=Asia/Yekaterinburg:20250414T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-02
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Лавров Руслан Викторович\, Борич Михаил Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221a27597f-dc9f-42c7-babd-b54997ac873b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221a27597f-dc9f-42c7-babd-b54997ac873b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:1af2a6a5-b58f-4d2e-837c-e48cefb100da
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T101500
+DTEND;TZID=Asia/Yekaterinburg:20250417T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-21
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Кизилова Елена Вадимовна\, Рыбалко Александр Федорович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221af2a6a5-b58f-4d2e-837c-e48cefb100da%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221af2a6a5-b58f-4d2e-837c-e48cefb100da%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:1d78787a-6baf-4b43-a849-d9180bb412a3
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T120000
+DTEND;TZID=Asia/Yekaterinburg:20250418T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие  21 / Векторный анализ Л\, П\, К\, АТ-13
+LOCATION:Мира\, 28 / МТ320
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221d78787a-6baf-4b43-a849-d9180bb412a3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221d78787a-6baf-4b43-a849-d9180bb412a3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:1e750d29-c807-4283-8c0a-2457135b5ad6
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T174000
+DTEND;TZID=Asia/Yekaterinburg:20250415T191000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-27
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Янковская Анастасия Викторовна\, Кныш Алла Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221e750d29-c807-4283-8c0a-2457135b5ad6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T17:40:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221e750d29-c807-4283-8c0a-2457135b5ad6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T17:40:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:202643e1-246c-487b-bffd-d07b6cedb4a5
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T101500
+DTEND;TZID=Asia/Yekaterinburg:20250418T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-13
+LOCATION:Софьи Ковалевской\, 5 / Т216
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22202643e1-246c-487b-bffd-d07b6cedb4a5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22202643e1-246c-487b-bffd-d07b6cedb4a5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:20f9815e-1795-454c-b202-5fb82fead7f9
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T160000
+DTEND;TZID=Asia/Yekaterinburg:20250414T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-15
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Кудряшова Ольга Валерьевна\, Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2220f9815e-1795-454c-b202-5fb82fead7f9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2220f9815e-1795-454c-b202-5fb82fead7f9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:240a3aa2-858d-4970-a162-358946dad58f
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T101500
+DTEND;TZID=Asia/Yekaterinburg:20250418T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие  21 / Векторный анализ Л\, П\, К\, АТ-10
+LOCATION:Мира\, 21 / Ф406
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Рыжкова Наталия Геннадьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22240a3aa2-858d-4970-a162-358946dad58f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22240a3aa2-858d-4970-a162-358946dad58f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:26ac6f55-7ee6-46c1-a95d-be62937a3585
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T160000
+DTEND;TZID=Asia/Yekaterinburg:20250414T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-08
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Лавров Руслан Викторович\, Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2226ac6f55-7ee6-46c1-a95d-be62937a3585%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2226ac6f55-7ee6-46c1-a95d-be62937a3585%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:2bf7b1dc-baf3-4aa2-95f5-302261569228
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T083000
+DTEND;TZID=Asia/Yekaterinburg:20250415T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-07
+LOCATION:Мира\, 32 / Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Лавров Руслан Викторович\, Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222bf7b1dc-baf3-4aa2-95f5-302261569228%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222bf7b1dc-baf3-4aa2-95f5-302261569228%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:3590cf31-2d51-4900-abb4-22994d534848
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T083000
+DTEND;TZID=Asia/Yekaterinburg:20250417T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-21
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Кизилова Елена Вадимовна\, Рыбалко Александр Федорович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%223590cf31-2d51-4900-abb4-22994d534848%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%223590cf31-2d51-4900-abb4-22994d534848%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:36f20980-fb5e-40e1-9386-7c0bcc37b065
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T141500
+DTEND;TZID=Asia/Yekaterinburg:20250418T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие  21 / Векторный анализ Л\, П\, К\, АТ-17
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2236f20980-fb5e-40e1-9386-7c0bcc37b065%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2236f20980-fb5e-40e1-9386-7c0bcc37b065%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:3776c45e-6925-45e8-a509-9992b689df47
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T083000
+DTEND;TZID=Asia/Yekaterinburg:20250415T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-12
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Чернышов Лев Максимович\, Рыжкова Наталия Геннадьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%223776c45e-6925-45e8-a509-9992b689df47%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%223776c45e-6925-45e8-a509-9992b689df47%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:380bd329-e365-402e-9ea3-4c7eb9082c58
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T120000
+DTEND;TZID=Asia/Yekaterinburg:20250418T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие  21 / Векторный анализ Л\, П\, К\, АТ-16
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22380bd329-e365-402e-9ea3-4c7eb9082c58%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22380bd329-e365-402e-9ea3-4c7eb9082c58%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:3a4daed6-9517-4e7d-81cc-1a0c5603eb1c
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T083000
+DTEND;TZID=Asia/Yekaterinburg:20250415T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-13
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%223a4daed6-9517-4e7d-81cc-1a0c5603eb1c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%223a4daed6-9517-4e7d-81cc-1a0c5603eb1c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:406ddb06-6f46-4d92-b9f4-50ea45d99d0d
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T141500
+DTEND;TZID=Asia/Yekaterinburg:20250417T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-25
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Малыгина Кристина Денисовна\, Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22406ddb06-6f46-4d92-b9f4-50ea45d99d0d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22406ddb06-6f46-4d92-b9f4-50ea45d99d0d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:4a403067-fa2a-489e-80c3-48df1f461850
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T141500
+DTEND;TZID=Asia/Yekaterinburg:20250418T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие  21 / Векторный анализ Л\, П\, К\, АТ-14
+LOCATION:Мира\, 28 / МТ320
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%224a403067-fa2a-489e-80c3-48df1f461850%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%224a403067-fa2a-489e-80c3-48df1f461850%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:514812a7-12ef-4148-87c9-7a44ecdf4b1e
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T141500
+DTEND;TZID=Asia/Yekaterinburg:20250415T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-29
+LOCATION:Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Кныш Алла Александровна\, Янковская Анастасия Викторовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22514812a7-12ef-4148-87c9-7a44ecdf4b1e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22514812a7-12ef-4148-87c9-7a44ecdf4b1e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:52f5d618-dab2-472c-941f-770a9d0a0228
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T141500
+DTEND;TZID=Asia/Yekaterinburg:20250415T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-26
+LOCATION:Мира\, 32 / Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Кныш Алла Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2252f5d618-dab2-472c-941f-770a9d0a0228%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2252f5d618-dab2-472c-941f-770a9d0a0228%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:56878272-1dce-406d-a6c9-c3da465f92d7
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T101500
+DTEND;TZID=Asia/Yekaterinburg:20250416T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-24
+LOCATION:Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Малыгина Кристина Денисовна\, Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2256878272-1dce-406d-a6c9-c3da465f92d7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2256878272-1dce-406d-a6c9-c3da465f92d7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:5c5bf7dc-e61d-4cc9-8038-5518bbc263f3
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T160000
+DTEND;TZID=Asia/Yekaterinburg:20250415T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-27
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Янковская Анастасия Викторовна\, Кныш Алла Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225c5bf7dc-e61d-4cc9-8038-5518bbc263f3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225c5bf7dc-e61d-4cc9-8038-5518bbc263f3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:5d178698-78d0-427d-8364-0e784925cf64
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T141500
+DTEND;TZID=Asia/Yekaterinburg:20250416T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-23
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225d178698-78d0-427d-8364-0e784925cf64%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225d178698-78d0-427d-8364-0e784925cf64%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:5e916008-a5fd-477a-aa9e-e792f2700343
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T083000
+DTEND;TZID=Asia/Yekaterinburg:20250417T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-06
+LOCATION:Мира\, 32 / Р239
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Герасимов Максим\, Рыбалко Александр Федорович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225e916008-a5fd-477a-aa9e-e792f2700343%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225e916008-a5fd-477a-aa9e-e792f2700343%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:5ec7eb56-c17b-4ed2-ad01-212bb3d0c61b
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T101500
+DTEND;TZID=Asia/Yekaterinburg:20250414T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-03
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Лавров Руслан Викторович\, Борич Михаил Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225ec7eb56-c17b-4ed2-ad01-212bb3d0c61b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225ec7eb56-c17b-4ed2-ad01-212bb3d0c61b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:646c7cf3-fac1-45c4-b2c6-3677348b16da
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T141500
+DTEND;TZID=Asia/Yekaterinburg:20250418T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-19
+LOCATION:Мира\, 32 / Р143
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Рыбалко Александр Федорович\, Герасимов Максим\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22646c7cf3-fac1-45c4-b2c6-3677348b16da%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22646c7cf3-fac1-45c4-b2c6-3677348b16da%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:660d7ef0-28d7-4a2b-b14d-2ae7df12287b
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T101500
+DTEND;TZID=Asia/Yekaterinburg:20250416T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-09
+LOCATION:Мира\, 32 / Р215
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Чернышов Лев Максимович\, Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22660d7ef0-28d7-4a2b-b14d-2ae7df12287b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22660d7ef0-28d7-4a2b-b14d-2ae7df12287b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:667f8db7-b085-42a4-bcc2-3e82a5091a7d
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T160000
+DTEND;TZID=Asia/Yekaterinburg:20250415T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-26
+LOCATION:Мира\, 32 / Р143
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кныш Алла Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22667f8db7-b085-42a4-bcc2-3e82a5091a7d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22667f8db7-b085-42a4-bcc2-3e82a5091a7d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:6a7729da-f6ce-471e-bac8-99a85c9ee65f
+SEQUENCE:13
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T101500
+DTEND;TZID=Asia/Yekaterinburg:20250414T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-01
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Борич Михаил Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226a7729da-f6ce-471e-bac8-99a85c9ee65f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226a7729da-f6ce-471e-bac8-99a85c9ee65f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:6f34c2ad-9e28-49e7-87ab-3cd5e53f3b50
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T120000
+DTEND;TZID=Asia/Yekaterinburg:20250416T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-19
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Рыбалко Александр Федорович\, Герасимов Максим\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226f34c2ad-9e28-49e7-87ab-3cd5e53f3b50%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226f34c2ad-9e28-49e7-87ab-3cd5e53f3b50%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:6f4d4994-c1cb-469c-a9ec-024293a8ee8c
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T120000
+DTEND;TZID=Asia/Yekaterinburg:20250416T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-22
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226f4d4994-c1cb-469c-a9ec-024293a8ee8c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226f4d4994-c1cb-469c-a9ec-024293a8ee8c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:6feff68c-9f8d-405e-b1ea-96a13133559b
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T101500
+DTEND;TZID=Asia/Yekaterinburg:20250416T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-25
+LOCATION:Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Малыгина Кристина Денисовна\, Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%226feff68c-9f8d-405e-b1ea-96a13133559b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%226feff68c-9f8d-405e-b1ea-96a13133559b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:7079982c-e75d-40a7-848e-71b4f894462b
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T101500
+DTEND;TZID=Asia/Yekaterinburg:20250418T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-14
+LOCATION:Т216
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227079982c-e75d-40a7-848e-71b4f894462b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227079982c-e75d-40a7-848e-71b4f894462b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:81c8be1a-8f0c-42d4-ae91-b50b12115120
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T083000
+DTEND;TZID=Asia/Yekaterinburg:20250414T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-10
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Рыжкова Наталия Геннадьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2281c8be1a-8f0c-42d4-ae91-b50b12115120%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2281c8be1a-8f0c-42d4-ae91-b50b12115120%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:82c93e9c-9200-41b7-8d1b-5a7549c0d596
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T101500
+DTEND;TZID=Asia/Yekaterinburg:20250416T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-22
+LOCATION:Мира\, 32 / Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2282c93e9c-9200-41b7-8d1b-5a7549c0d596%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2282c93e9c-9200-41b7-8d1b-5a7549c0d596%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:8393e922-4140-4fd4-aa99-3e46c5bcd088
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T120000
+DTEND;TZID=Asia/Yekaterinburg:20250416T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-20
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Рыбалко Александр Федорович\, Чернышов Лев Максимович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228393e922-4140-4fd4-aa99-3e46c5bcd088%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228393e922-4140-4fd4-aa99-3e46c5bcd088%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:843cdbd2-18c6-4e9d-96f8-3937e20395d5
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T101500
+DTEND;TZID=Asia/Yekaterinburg:20250416T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-04
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Рыбалко Александр Федорович\, Герасимов Максим\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22843cdbd2-18c6-4e9d-96f8-3937e20395d5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22843cdbd2-18c6-4e9d-96f8-3937e20395d5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:92e04708-6041-4607-a652-fc6cec1f4a8b
+SEQUENCE:12
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T101500
+DTEND;TZID=Asia/Yekaterinburg:20250418T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-18
+LOCATION:Т106
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Чернышов Лев Максимович\, Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2292e04708-6041-4607-a652-fc6cec1f4a8b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2292e04708-6041-4607-a652-fc6cec1f4a8b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:93ff102c-29bc-42d8-b5ef-0b4d92d43cf8
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T141500
+DTEND;TZID=Asia/Yekaterinburg:20250415T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-28
+LOCATION:Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Янковская Анастасия Викторовна\, Кныш Алла Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2293ff102c-29bc-42d8-b5ef-0b4d92d43cf8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2293ff102c-29bc-42d8-b5ef-0b4d92d43cf8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:95045437-6f42-4dff-ab27-1b59a5727cfd
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T101500
+DTEND;TZID=Asia/Yekaterinburg:20250415T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-09
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Чернышов Лев Максимович\, Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2295045437-6f42-4dff-ab27-1b59a5727cfd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2295045437-6f42-4dff-ab27-1b59a5727cfd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:953719e3-4efc-4670-9150-be01a79e93b4
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T083000
+DTEND;TZID=Asia/Yekaterinburg:20250415T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-08
+LOCATION:Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Кудряшова Ольга Валерьевна\, Лавров Руслан Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22953719e3-4efc-4670-9150-be01a79e93b4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22953719e3-4efc-4670-9150-be01a79e93b4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:97312643-38e8-4f5e-a5af-bba3e61d13ef
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T101500
+DTEND;TZID=Asia/Yekaterinburg:20250415T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-03
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Борич Михаил Александрович\, Лавров Руслан Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2297312643-38e8-4f5e-a5af-bba3e61d13ef%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2297312643-38e8-4f5e-a5af-bba3e61d13ef%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:9767787d-4d5e-404e-850d-ab90a1d7ad06
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T141500
+DTEND;TZID=Asia/Yekaterinburg:20250416T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-05
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Рыбалко Александр Федорович\, Герасимов Максим\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229767787d-4d5e-404e-850d-ab90a1d7ad06%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229767787d-4d5e-404e-850d-ab90a1d7ad06%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:981dc52c-e8e4-41cd-ad92-130842a52244
+SEQUENCE:13
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T120000
+DTEND;TZID=Asia/Yekaterinburg:20250414T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-01
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Борич Михаил Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22981dc52c-e8e4-41cd-ad92-130842a52244%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22981dc52c-e8e4-41cd-ad92-130842a52244%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:98b309ab-308c-4575-82db-ca916761694d
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T101500
+DTEND;TZID=Asia/Yekaterinburg:20250417T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-22
+LOCATION:Мира\, 32 / Р237
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2298b309ab-308c-4575-82db-ca916761694d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2298b309ab-308c-4575-82db-ca916761694d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:99345107-35d5-4877-9fc9-ce7de79a96b4
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T120000
+DTEND;TZID=Asia/Yekaterinburg:20250416T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-04
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Рыбалко Александр Федорович\, Герасимов Максим\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2299345107-35d5-4877-9fc9-ce7de79a96b4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2299345107-35d5-4877-9fc9-ce7de79a96b4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:99e50a46-a963-4637-90c7-c501b75d1d84
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T120000
+DTEND;TZID=Asia/Yekaterinburg:20250418T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие  21 / Векторный анализ Л\, П\, К\, АТ-11
+LOCATION:Мира\, 21 / Ф406
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Рыжкова Наталия Геннадьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2299e50a46-a963-4637-90c7-c501b75d1d84%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2299e50a46-a963-4637-90c7-c501b75d1d84%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:9b1e01fe-0424-41c1-bc79-150d6c126566
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T141500
+DTEND;TZID=Asia/Yekaterinburg:20250418T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-24
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Белоусова Марина Михайловна\, Малыгина Кристина Денисовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229b1e01fe-0424-41c1-bc79-150d6c126566%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229b1e01fe-0424-41c1-bc79-150d6c126566%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:a1792228-2901-4c74-877c-16adb72d8403
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T141500
+DTEND;TZID=Asia/Yekaterinburg:20250417T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-18
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Чернышов Лев Максимович\, Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a1792228-2901-4c74-877c-16adb72d8403%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a1792228-2901-4c74-877c-16adb72d8403%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:a4ffd4b4-9310-4e1a-8f9d-f965462525b7
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T101500
+DTEND;TZID=Asia/Yekaterinburg:20250414T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-11
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Рыжкова Наталия Геннадьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a4ffd4b4-9310-4e1a-8f9d-f965462525b7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a4ffd4b4-9310-4e1a-8f9d-f965462525b7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:a9004905-fca6-46ae-8018-e04f01787ce4
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T141500
+DTEND;TZID=Asia/Yekaterinburg:20250415T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-27
+LOCATION:Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Кныш Алла Александровна\, Янковская Анастасия Викторовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a9004905-fca6-46ae-8018-e04f01787ce4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a9004905-fca6-46ae-8018-e04f01787ce4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:ad4a23b6-6544-40da-9c53-62941d5b88d7
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T160000
+DTEND;TZID=Asia/Yekaterinburg:20250416T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие  21 / Векторный анализ Л\, П\, К\, АТ-07
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Кудряшова Ольга Валерьевна\, Лавров Руслан Викторович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ad4a23b6-6544-40da-9c53-62941d5b88d7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ad4a23b6-6544-40da-9c53-62941d5b88d7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:ad8f9b9d-0e8b-43a1-8efd-f78144f62b87
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T101500
+DTEND;TZID=Asia/Yekaterinburg:20250416T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-05
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Рыбалко Александр Федорович\, Герасимов Максим\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ad8f9b9d-0e8b-43a1-8efd-f78144f62b87%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ad8f9b9d-0e8b-43a1-8efd-f78144f62b87%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:b13db46f-c247-4002-8088-7f5d68b27ab6
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T101500
+DTEND;TZID=Asia/Yekaterinburg:20250415T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-16
+LOCATION:Мира\, 32 / Р239
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b13db46f-c247-4002-8088-7f5d68b27ab6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b13db46f-c247-4002-8088-7f5d68b27ab6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:b223f9ef-df1d-499e-832f-b9fa3c2204e0
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T101500
+DTEND;TZID=Asia/Yekaterinburg:20250417T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-19
+LOCATION:Мира\, 32 / Р239
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Герасимов Максим\, Рыбалко Александр Федорович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b223f9ef-df1d-499e-832f-b9fa3c2204e0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b223f9ef-df1d-499e-832f-b9fa3c2204e0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:b8311f62-3eec-4049-acb9-af623174abdd
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T083000
+DTEND;TZID=Asia/Yekaterinburg:20250417T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-03
+LOCATION:Мира\, 32 / Р102
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Лавров Руслан Викторович\, Борич Михаил Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b8311f62-3eec-4049-acb9-af623174abdd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b8311f62-3eec-4049-acb9-af623174abdd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:b91021b7-fbc7-446e-b1b5-e3db8d0b676c
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T101500
+DTEND;TZID=Asia/Yekaterinburg:20250418T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-16
+LOCATION:Софьи Ковалевской\, 5 / Т106
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b91021b7-fbc7-446e-b1b5-e3db8d0b676c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b91021b7-fbc7-446e-b1b5-e3db8d0b676c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:c90c4bbb-2c5b-427f-ae7f-f7320aa8a8e8
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T083000
+DTEND;TZID=Asia/Yekaterinburg:20250418T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-12
+LOCATION:Т216
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Чернышов Лев Максимович\, Рыжкова Наталия Геннадьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c90c4bbb-2c5b-427f-ae7f-f7320aa8a8e8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c90c4bbb-2c5b-427f-ae7f-f7320aa8a8e8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:c989399a-ae18-4e5f-9c11-2527d0358919
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T083000
+DTEND;TZID=Asia/Yekaterinburg:20250418T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-04
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Рыбалко Александр Федорович\, Герасимов Максим\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c989399a-ae18-4e5f-9c11-2527d0358919%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c989399a-ae18-4e5f-9c11-2527d0358919%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:ca9995f0-76eb-4513-9125-4e9f419681cd
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T160000
+DTEND;TZID=Asia/Yekaterinburg:20250417T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-29
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Янковская Анастасия Викторовна\, Кныш Алла Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22ca9995f0-76eb-4513-9125-4e9f419681cd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22ca9995f0-76eb-4513-9125-4e9f419681cd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:cb2067cc-c8a1-4a37-8bca-9b989454ee26
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T083000
+DTEND;TZID=Asia/Yekaterinburg:20250418T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-10
+LOCATION:Софьи Ковалевской\, 5 / Т216
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Рыжкова Наталия Геннадьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22cb2067cc-c8a1-4a37-8bca-9b989454ee26%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22cb2067cc-c8a1-4a37-8bca-9b989454ee26%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:cc57d45c-fcec-48c9-84d6-988e5d8898ef
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T160000
+DTEND;TZID=Asia/Yekaterinburg:20250417T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-20
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Рыбалко Александр Федорович\, Чернышов Лев Максимович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22cc57d45c-fcec-48c9-84d6-988e5d8898ef%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22cc57d45c-fcec-48c9-84d6-988e5d8898ef%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:cd9a8f6f-52c0-408a-89fa-2847461cf03a
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T101500
+DTEND;TZID=Asia/Yekaterinburg:20250418T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-17
+LOCATION:Т106
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22cd9a8f6f-52c0-408a-89fa-2847461cf03a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22cd9a8f6f-52c0-408a-89fa-2847461cf03a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:cf1dcaca-0546-4c4f-af92-5eb493a9962d
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T141500
+DTEND;TZID=Asia/Yekaterinburg:20250416T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-28
+LOCATION:Мира\, 28 / МТ409
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Кныш Алла Александровна\, Янковская Анастасия Викторовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22cf1dcaca-0546-4c4f-af92-5eb493a9962d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22cf1dcaca-0546-4c4f-af92-5eb493a9962d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:d1ef467c-3f8e-43b2-a28a-e6dd5585575d
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T101500
+DTEND;TZID=Asia/Yekaterinburg:20250415T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-14
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d1ef467c-3f8e-43b2-a28a-e6dd5585575d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d1ef467c-3f8e-43b2-a28a-e6dd5585575d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:d33cf8e1-5e67-4cbf-940a-e3ae56e8a2ef
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T101500
+DTEND;TZID=Asia/Yekaterinburg:20250416T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-23
+LOCATION:Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d33cf8e1-5e67-4cbf-940a-e3ae56e8a2ef%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d33cf8e1-5e67-4cbf-940a-e3ae56e8a2ef%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:d3891e6a-304a-4220-a359-ceaf63847dbc
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T160000
+DTEND;TZID=Asia/Yekaterinburg:20250416T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-28
+LOCATION:Мира\, 28 / МТ409
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Янковская Анастасия Викторовна\, Кныш Алла Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d3891e6a-304a-4220-a359-ceaf63847dbc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d3891e6a-304a-4220-a359-ceaf63847dbc%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:d6840917-db44-4863-aadd-8e2ebfebd8cb
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T101500
+DTEND;TZID=Asia/Yekaterinburg:20250418T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-05
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Рыбалко Александр Федорович\, Герасимов Максим\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d6840917-db44-4863-aadd-8e2ebfebd8cb%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d6840917-db44-4863-aadd-8e2ebfebd8cb%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:d7d6fd28-8aa9-4aaa-96d6-993a8d3e0b92
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T120000
+DTEND;TZID=Asia/Yekaterinburg:20250416T133000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-12
+LOCATION:Мира\, 32 / Р143
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Рыжкова Наталия Геннадьевна\, Чернышов Лев Максимович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d7d6fd28-8aa9-4aaa-96d6-993a8d3e0b92%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d7d6fd28-8aa9-4aaa-96d6-993a8d3e0b92%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:dc2c3644-6c95-43b8-a775-16cc2c3bc6d6
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T083000
+DTEND;TZID=Asia/Yekaterinburg:20250417T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-23
+LOCATION:Мира\, 32 / Р237
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22dc2c3644-6c95-43b8-a775-16cc2c3bc6d6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22dc2c3644-6c95-43b8-a775-16cc2c3bc6d6%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:dd09bf09-1f1b-4be4-b273-af4fd58eec54
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T160000
+DTEND;TZID=Asia/Yekaterinburg:20250418T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-25
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Малыгина Кристина Денисовна\, Белоусова Марина Михайловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22dd09bf09-1f1b-4be4-b273-af4fd58eec54%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22dd09bf09-1f1b-4be4-b273-af4fd58eec54%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:df2e56da-c654-48db-bbfa-163b193c711a
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T083000
+DTEND;TZID=Asia/Yekaterinburg:20250415T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-09
+LOCATION:Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Чернышов Лев Максимович\, Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22df2e56da-c654-48db-bbfa-163b193c711a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22df2e56da-c654-48db-bbfa-163b193c711a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:e4525400-dbb6-47bb-852c-31d9e3ccedd9
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T101500
+DTEND;TZID=Asia/Yekaterinburg:20250418T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-15
+LOCATION:Т216
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Кудряшова Ольга Валерьевна\, Кизилова Елена Вадимовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e4525400-dbb6-47bb-852c-31d9e3ccedd9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e4525400-dbb6-47bb-852c-31d9e3ccedd9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:e6ef532c-400f-445c-b419-be0d1f96502e
+SEQUENCE:13
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T141500
+DTEND;TZID=Asia/Yekaterinburg:20250414T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-01
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Борич Михаил Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e6ef532c-400f-445c-b419-be0d1f96502e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e6ef532c-400f-445c-b419-be0d1f96502e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:e937825b-d368-4947-b5bf-c65531be4014
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250418T083000
+DTEND;TZID=Asia/Yekaterinburg:20250418T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 11 / Векторный анализ Л\, П\, К\, АТ-11
+LOCATION:Т216
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Рыжкова Наталия Геннадьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e937825b-d368-4947-b5bf-c65531be4014%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e937825b-d368-4947-b5bf-c65531be4014%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-18T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:f4d7af92-c9b0-49f6-89d9-c28508cd73d2
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T160000
+DTEND;TZID=Asia/Yekaterinburg:20250416T173000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-18
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Кудряшова Ольга Валерьевна\, Чернышов Лев Максимович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f4d7af92-c9b0-49f6-89d9-c28508cd73d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f4d7af92-c9b0-49f6-89d9-c28508cd73d2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:f5e2e1bb-eff6-412b-9614-29c7a9e53ad7
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250417T141500
+DTEND;TZID=Asia/Yekaterinburg:20250417T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-29
+LOCATION:Мира\, 32 / Р243
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Кныш Алла Александровна\, Янковская Анастасия Викторовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f5e2e1bb-eff6-412b-9614-29c7a9e53ad7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f5e2e1bb-eff6-412b-9614-29c7a9e53ad7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-17T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:f9c1e6d7-9234-4325-9b60-3d0ba12d9f05
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250416T101500
+DTEND;TZID=Asia/Yekaterinburg:20250416T114500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Лекционное занятие 10 / Векторный анализ Л\, П\, К\, АТ-06
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Герасимов Максим\, Рыбалко Александр Федорович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f9c1e6d7-9234-4325-9b60-3d0ba12d9f05%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f9c1e6d7-9234-4325-9b60-3d0ba12d9f05%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:f9d8e3b9-415f-4c8d-b3f4-76193c203d71
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250415T083000
+DTEND;TZID=Asia/Yekaterinburg:20250415T100000
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 19 / Векторный анализ Л\, П\, К\, АТ-02
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Лавров Руслан Викторович\, Борич Михаил Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f9d8e3b9-415f-4c8d-b3f4-76193c203d71%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f9d8e3b9-415f-4c8d-b3f4-76193c203d71%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-15T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+BEGIN:VEVENT
+UID:fb076281-c6c9-40bd-973c-12969cfe9c8b
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T075258
+DTSTART;TZID=Asia/Yekaterinburg:20250414T141500
+DTEND;TZID=Asia/Yekaterinburg:20250414T154500
+SUMMARY:Векторный анализ. ИРИТ-РТФ (09 УГН) / Практическое занятие 20 / Векторный анализ Л\, П\, К\, АТ-07
+LOCATION:Софьи Ковалевской\, 5 / Т808
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Лавров Руслан Викторович\, Кудряшова Ольга Валерьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22fb076281-c6c9-40bd-973c-12969cfe9c8b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22fb076281-c6c9-40bd-973c-12969cfe9c8b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-04-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Векторный анализ
+END:VEVENT
+END:VCALENDAR

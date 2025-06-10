@@ -1,0 +1,902 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Custis/Modeus//Schedule Calendar App//RU
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:01f01761-d082-4794-91ac-3c9e64f12e0e
+SEQUENCE:9
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T141500
+DTEND;TZID=Asia/Yekaterinburg:20250517T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 13 / Дополнительные главы математики Л\, П\, АТ-10
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2201f01761-d082-4794-91ac-3c9e64f12e0e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2201f01761-d082-4794-91ac-3c9e64f12e0e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:0f058bb7-d89a-4601-9c4e-148b913247e1
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-05
+LOCATION:Мира\, 32 / Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%220f058bb7-d89a-4601-9c4e-148b913247e1%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%220f058bb7-d89a-4601-9c4e-148b913247e1%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:100c2ef5-b052-4644-b99d-503099dd3c6d
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T141500
+DTEND;TZID=Asia/Yekaterinburg:20250517T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 13 / Дополнительные главы математики Л\, П\, АТ-09
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Хребтова Оксана Константиновна\, Галина Екатерина Маратовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22100c2ef5-b052-4644-b99d-503099dd3c6d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22100c2ef5-b052-4644-b99d-503099dd3c6d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:19aaa28e-dedb-47ac-bcb2-97ba6eca4a05
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T083000
+DTEND;TZID=Asia/Yekaterinburg:20250517T100000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-23
+LOCATION:Мира\, 32 / Р143
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Шапарь Юлия Викторовна\, Криковцева Татьяна Георгиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2219aaa28e-dedb-47ac-bcb2-97ba6eca4a05%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2219aaa28e-dedb-47ac-bcb2-97ba6eca4a05%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:1c16dce7-0d30-40a8-afa3-d4870c8d675d
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T120000
+DTEND;TZID=Asia/Yekaterinburg:20250512T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-28
+LOCATION:Мира\, 32 / Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Шестакова Ирина Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%221c16dce7-0d30-40a8-afa3-d4870c8d675d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%221c16dce7-0d30-40a8-afa3-d4870c8d675d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:2339008c-8494-47e9-be1f-0809f882c5eb
+SEQUENCE:13
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T174000
+DTEND;TZID=Asia/Yekaterinburg:20250517T191000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-21
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Лобашева Нина Анатольевна\, Агафонов Александр Петрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222339008c-8494-47e9-be1f-0809f882c5eb%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T17:40:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222339008c-8494-47e9-be1f-0809f882c5eb%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T17:40:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:2aef42d9-1a08-43d9-88d6-5c03ebbd38f4
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-15
+LOCATION:Мира\, 32 / Р239
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Заикина Александра Юрьевна\, Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222aef42d9-1a08-43d9-88d6-5c03ebbd38f4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222aef42d9-1a08-43d9-88d6-5c03ebbd38f4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:2cee0b2c-1cb9-480d-8351-9523f78fbcc1
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250514T141500
+DTEND;TZID=Asia/Yekaterinburg:20250514T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-06
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222cee0b2c-1cb9-480d-8351-9523f78fbcc1%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222cee0b2c-1cb9-480d-8351-9523f78fbcc1%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:2d7966da-15fc-48cc-a303-450d73aaea32
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T160000
+DTEND;TZID=Asia/Yekaterinburg:20250513T173000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-16
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Агафонов Александр Петрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222d7966da-15fc-48cc-a303-450d73aaea32%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222d7966da-15fc-48cc-a303-450d73aaea32%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:2e8260a1-2519-4c51-898d-f75a8882ecf4
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T160000
+DTEND;TZID=Asia/Yekaterinburg:20250513T173000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-28
+LOCATION:Мира\, 32 / Р050
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Шестакова Ирина Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%222e8260a1-2519-4c51-898d-f75a8882ecf4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%222e8260a1-2519-4c51-898d-f75a8882ecf4%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:32694f2c-783c-436a-b936-7f76ab4862a8
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T141500
+DTEND;TZID=Asia/Yekaterinburg:20250515T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-09
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Галина Екатерина Маратовна\, Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2232694f2c-783c-436a-b936-7f76ab4862a8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2232694f2c-783c-436a-b936-7f76ab4862a8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:33f45082-8052-4207-a5ab-f461f1149b14
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T141500
+DTEND;TZID=Asia/Yekaterinburg:20250516T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-01
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2233f45082-8052-4207-a5ab-f461f1149b14%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2233f45082-8052-4207-a5ab-f461f1149b14%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:34daa766-46f2-4a65-8e75-08726974dfc3
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T083000
+DTEND;TZID=Asia/Yekaterinburg:20250516T100000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-18
+LOCATION:Софьи Ковалевской\, 5 / Т106
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2234daa766-46f2-4a65-8e75-08726974dfc3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2234daa766-46f2-4a65-8e75-08726974dfc3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:37c953e2-e46b-460d-8eab-a13af2bc3ec9
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-25
+LOCATION:Мира\, 32 / Р211
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Шапарь Юлия Викторовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2237c953e2-e46b-460d-8eab-a13af2bc3ec9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2237c953e2-e46b-460d-8eab-a13af2bc3ec9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:3c796979-3cb4-459b-b608-d100ed17208a
+SEQUENCE:12
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T101500
+DTEND;TZID=Asia/Yekaterinburg:20250515T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-24
+LOCATION:Мира\, 32 / Р143
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Шапарь Юлия Викторовна\, Криковцева Татьяна Георгиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%223c796979-3cb4-459b-b608-d100ed17208a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%223c796979-3cb4-459b-b608-d100ed17208a%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:3d7d89a8-f9e2-458e-ab1b-0b3b90f2240c
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-01
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%223d7d89a8-f9e2-458e-ab1b-0b3b90f2240c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%223d7d89a8-f9e2-458e-ab1b-0b3b90f2240c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:3e08a309-83b8-4445-8713-15c4bdf405ec
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-02
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%223e08a309-83b8-4445-8713-15c4bdf405ec%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%223e08a309-83b8-4445-8713-15c4bdf405ec%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:3f182b1f-396d-4dca-aff9-bf551962c8e7
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250514T120000
+DTEND;TZID=Asia/Yekaterinburg:20250514T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-05
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%223f182b1f-396d-4dca-aff9-bf551962c8e7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%223f182b1f-396d-4dca-aff9-bf551962c8e7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:43894c12-33e2-4403-8b28-b48b98a65b55
+SEQUENCE:12
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T141500
+DTEND;TZID=Asia/Yekaterinburg:20250513T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-27
+LOCATION:Мира\, 32 / Р050
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Шестакова Ирина Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2243894c12-33e2-4403-8b28-b48b98a65b55%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2243894c12-33e2-4403-8b28-b48b98a65b55%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:49208ebf-5749-46a5-8e64-bb4b5d675a99
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T160000
+DTEND;TZID=Asia/Yekaterinburg:20250513T173000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-12
+LOCATION:Мира\, 32 / Р325
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2249208ebf-5749-46a5-8e64-bb4b5d675a99%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2249208ebf-5749-46a5-8e64-bb4b5d675a99%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:49383d71-9a23-4a58-aad6-8de7da6e7341
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T083000
+DTEND;TZID=Asia/Yekaterinburg:20250516T100000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-19
+LOCATION:Т106
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2249383d71-9a23-4a58-aad6-8de7da6e7341%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2249383d71-9a23-4a58-aad6-8de7da6e7341%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:548886ae-8b4e-4798-b363-d6eb69b32dca
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T120000
+DTEND;TZID=Asia/Yekaterinburg:20250512T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-27
+LOCATION:Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Шестакова Ирина Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22548886ae-8b4e-4798-b363-d6eb69b32dca%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22548886ae-8b4e-4798-b363-d6eb69b32dca%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:577d8b66-fb9f-414a-a0bf-6c8a3a8bd6a5
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T141500
+DTEND;TZID=Asia/Yekaterinburg:20250516T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-09
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Галина Екатерина Маратовна\, Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22577d8b66-fb9f-414a-a0bf-6c8a3a8bd6a5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22577d8b66-fb9f-414a-a0bf-6c8a3a8bd6a5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:5ed28b18-061d-473a-9221-0a97dea1b0cf
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T101500
+DTEND;TZID=Asia/Yekaterinburg:20250516T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-18
+LOCATION:Мира\, 28 / МТ204
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%225ed28b18-061d-473a-9221-0a97dea1b0cf%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%225ed28b18-061d-473a-9221-0a97dea1b0cf%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:737b7367-650c-42d1-a28d-76b45823e4c2
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T141500
+DTEND;TZID=Asia/Yekaterinburg:20250515T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-17
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Агафонов Александр Петрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22737b7367-650c-42d1-a28d-76b45823e4c2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22737b7367-650c-42d1-a28d-76b45823e4c2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:74399616-c8cc-4bc8-b2a9-b401367023e5
+SEQUENCE:14
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T101500
+DTEND;TZID=Asia/Yekaterinburg:20250512T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-22
+LOCATION:Мира\, 32 / Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Шапарь Юлия Викторовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2274399616-c8cc-4bc8-b2a9-b401367023e5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2274399616-c8cc-4bc8-b2a9-b401367023e5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:74a5dbe4-1c42-4ba9-b074-4cd2a7f3678f
+SEQUENCE:12
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T083000
+DTEND;TZID=Asia/Yekaterinburg:20250516T100000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 15 / Дополнительные главы математики Л\, П\, АТ-21
+LOCATION:Т106
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Лобашева Нина Анатольевна\, Агафонов Александр Петрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2274a5dbe4-1c42-4ba9-b074-4cd2a7f3678f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2274a5dbe4-1c42-4ba9-b074-4cd2a7f3678f%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:76658b4c-2e26-44b5-80cd-764eab39e87d
+SEQUENCE:12
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T174000
+DTEND;TZID=Asia/Yekaterinburg:20250515T191000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-21
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Агафонов Александр Петрович\, Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2276658b4c-2e26-44b5-80cd-764eab39e87d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T17:40:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2276658b4c-2e26-44b5-80cd-764eab39e87d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T17:40:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:7810295e-808b-4952-ae62-f0884f68751b
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 15 / Дополнительные главы математики Л\, П\, АТ-03
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227810295e-808b-4952-ae62-f0884f68751b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227810295e-808b-4952-ae62-f0884f68751b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:7a00fd91-af7b-43e0-976c-0600f97d5745
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T083000
+DTEND;TZID=Asia/Yekaterinburg:20250516T100000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-07
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Заикина Александра Юрьевна\, Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227a00fd91-af7b-43e0-976c-0600f97d5745%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227a00fd91-af7b-43e0-976c-0600f97d5745%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:7c87f583-ed1f-4a81-bd08-305dff248494
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-19
+LOCATION:Мира\, 28 / МТ204
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227c87f583-ed1f-4a81-bd08-305dff248494%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227c87f583-ed1f-4a81-bd08-305dff248494%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:7e8216d7-1130-428a-a3a4-6a64354a34ac
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T101500
+DTEND;TZID=Asia/Yekaterinburg:20250516T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-08
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Хребтова Оксана Константиновна\, Заикина Александра Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%227e8216d7-1130-428a-a3a4-6a64354a34ac%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%227e8216d7-1130-428a-a3a4-6a64354a34ac%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:8116ada3-eb2d-411a-9973-f42628c06941
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T141500
+DTEND;TZID=Asia/Yekaterinburg:20250513T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-17
+LOCATION:СП501
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Агафонов Александр Петрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228116ada3-eb2d-411a-9973-f42628c06941%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228116ada3-eb2d-411a-9973-f42628c06941%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:82fbd730-2a94-494b-b518-ba825b7485ec
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-08
+LOCATION:Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Хребтова Оксана Константиновна\, Заикина Александра Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2282fbd730-2a94-494b-b518-ba825b7485ec%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2282fbd730-2a94-494b-b518-ba825b7485ec%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:8353191e-f60c-485a-8722-f03ccc294d83
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T141500
+DTEND;TZID=Asia/Yekaterinburg:20250513T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-16
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Агафонов Александр Петрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228353191e-f60c-485a-8722-f03ccc294d83%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228353191e-f60c-485a-8722-f03ccc294d83%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:87051074-1335-49b1-b7be-7c02c29d02dd
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T083000
+DTEND;TZID=Asia/Yekaterinburg:20250517T100000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-03
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2287051074-1335-49b1-b7be-7c02c29d02dd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2287051074-1335-49b1-b7be-7c02c29d02dd%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:8883c587-09e1-404e-b925-d2342f365b73
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T141500
+DTEND;TZID=Asia/Yekaterinburg:20250513T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-12
+LOCATION:Мира\, 19 / ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228883c587-09e1-404e-b925-d2342f365b73%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228883c587-09e1-404e-b925-d2342f365b73%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:8c05fb51-ebb3-475e-81aa-ef06fed5ea13
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T083000
+DTEND;TZID=Asia/Yekaterinburg:20250515T100000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-23
+LOCATION:Мира\, 32 / Р143
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Шапарь Юлия Викторовна\, Криковцева Татьяна Георгиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228c05fb51-ebb3-475e-81aa-ef06fed5ea13%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228c05fb51-ebb3-475e-81aa-ef06fed5ea13%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:8cd7bf03-0050-491f-8d27-307962ada75d
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T101500
+DTEND;TZID=Asia/Yekaterinburg:20250512T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-25
+LOCATION:Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Шапарь Юлия Викторовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228cd7bf03-0050-491f-8d27-307962ada75d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228cd7bf03-0050-491f-8d27-307962ada75d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:8d7a29ef-1bbc-48d7-8e6c-4782f5f238a9
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T120000
+DTEND;TZID=Asia/Yekaterinburg:20250512T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-26
+LOCATION:Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Шестакова Ирина Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228d7a29ef-1bbc-48d7-8e6c-4782f5f238a9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228d7a29ef-1bbc-48d7-8e6c-4782f5f238a9%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:8ff9d444-b4bb-4e38-a196-114bbefaa40d
+SEQUENCE:17
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T141500
+DTEND;TZID=Asia/Yekaterinburg:20250513T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-14
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Заикина Александра Юрьевна\, Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228ff9d444-b4bb-4e38-a196-114bbefaa40d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228ff9d444-b4bb-4e38-a196-114bbefaa40d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:9409f604-ee75-47e5-a715-5f784838be46
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T101500
+DTEND;TZID=Asia/Yekaterinburg:20250517T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-04
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229409f604-ee75-47e5-a715-5f784838be46%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229409f604-ee75-47e5-a715-5f784838be46%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:9737fda9-669d-45ad-9099-de773cb08fa3
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T141500
+DTEND;TZID=Asia/Yekaterinburg:20250515T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-11
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229737fda9-669d-45ad-9099-de773cb08fa3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229737fda9-669d-45ad-9099-de773cb08fa3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:9ca2fa90-b79a-42a4-b0e7-a7cbc9d674a0
+SEQUENCE:14
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T120000
+DTEND;TZID=Asia/Yekaterinburg:20250512T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-22
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Шапарь Юлия Викторовна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229ca2fa90-b79a-42a4-b0e7-a7cbc9d674a0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229ca2fa90-b79a-42a4-b0e7-a7cbc9d674a0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:a289571c-ae5e-4165-a819-d8498e80cc70
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T141500
+DTEND;TZID=Asia/Yekaterinburg:20250515T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-10
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a289571c-ae5e-4165-a819-d8498e80cc70%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a289571c-ae5e-4165-a819-d8498e80cc70%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:a3634294-dbc9-47ad-a19a-480e8466a4f5
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T141500
+DTEND;TZID=Asia/Yekaterinburg:20250513T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-13
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Галина Екатерина Маратовна\, Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22a3634294-dbc9-47ad-a19a-480e8466a4f5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22a3634294-dbc9-47ad-a19a-480e8466a4f5%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:aba1b3a2-9cda-4bfc-8c3f-6206e7aa909e
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T101500
+DTEND;TZID=Asia/Yekaterinburg:20250515T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-04
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22aba1b3a2-9cda-4bfc-8c3f-6206e7aa909e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22aba1b3a2-9cda-4bfc-8c3f-6206e7aa909e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:b1ccf9d3-8638-4745-bffd-2208eb8ad6b3
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T083000
+DTEND;TZID=Asia/Yekaterinburg:20250516T100000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 15 / Дополнительные главы математики Л\, П\, АТ-20
+LOCATION:Т106
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Лобашева Нина Анатольевна\, Агафонов Александр Петрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b1ccf9d3-8638-4745-bffd-2208eb8ad6b3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b1ccf9d3-8638-4745-bffd-2208eb8ad6b3%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T08:30:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:b4c8c5ca-31e5-4dc4-8934-46b0b933b70b
+SEQUENCE:11
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T101500
+DTEND;TZID=Asia/Yekaterinburg:20250512T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-23
+LOCATION:Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Шапарь Юлия Викторовна\, Криковцева Татьяна Георгиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b4c8c5ca-31e5-4dc4-8934-46b0b933b70b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b4c8c5ca-31e5-4dc4-8934-46b0b933b70b%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:b5128b5d-aa7e-4b58-bc4f-cfdc50b386df
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 15 / Дополнительные главы математики Л\, П\, АТ-04
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22b5128b5d-aa7e-4b58-bc4f-cfdc50b386df%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22b5128b5d-aa7e-4b58-bc4f-cfdc50b386df%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:be304b48-5f73-4007-a4fb-6941dc96db30
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T160000
+DTEND;TZID=Asia/Yekaterinburg:20250515T173000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-29
+LOCATION:Мира\, 32 / Р215
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Шестакова Ирина Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22be304b48-5f73-4007-a4fb-6941dc96db30%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22be304b48-5f73-4007-a4fb-6941dc96db30%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:c2aa5b6e-57a0-4658-92ce-ae6f312191ba
+SEQUENCE:12
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T101500
+DTEND;TZID=Asia/Yekaterinburg:20250517T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-24
+LOCATION:Мира\, 32 / Р143
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Шапарь Юлия Викторовна\, Криковцева Татьяна Георгиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c2aa5b6e-57a0-4658-92ce-ae6f312191ba%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c2aa5b6e-57a0-4658-92ce-ae6f312191ba%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:c2b0b7b1-7cf8-4599-a43f-0be445fd0316
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T141500
+DTEND;TZID=Asia/Yekaterinburg:20250517T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 13 / Дополнительные главы математики Л\, П\, АТ-11
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c2b0b7b1-7cf8-4599-a43f-0be445fd0316%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c2b0b7b1-7cf8-4599-a43f-0be445fd0316%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:c51693c7-ccd5-407f-b6c0-55bdd77abee2
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-07
+LOCATION:Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Хребтова Оксана Константиновна\, Заикина Александра Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c51693c7-ccd5-407f-b6c0-55bdd77abee2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c51693c7-ccd5-407f-b6c0-55bdd77abee2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:c5618eda-bd6d-4ab5-ba67-cabd7ae200c0
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T160000
+DTEND;TZID=Asia/Yekaterinburg:20250515T173000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-20
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Лобашева Нина Анатольевна\, Агафонов Александр Петрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22c5618eda-bd6d-4ab5-ba67-cabd7ae200c0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22c5618eda-bd6d-4ab5-ba67-cabd7ae200c0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:d010dcc8-2fbc-4606-8a26-3af0538156ed
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T120000
+DTEND;TZID=Asia/Yekaterinburg:20250516T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-11
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d010dcc8-2fbc-4606-8a26-3af0538156ed%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d010dcc8-2fbc-4606-8a26-3af0538156ed%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:d2eb8b9a-6231-47e7-9ad7-05b7287f8fc8
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-13
+LOCATION:Мира\, 32 / Р102
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Галина Екатерина Маратовна\, Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22d2eb8b9a-6231-47e7-9ad7-05b7287f8fc8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22d2eb8b9a-6231-47e7-9ad7-05b7287f8fc8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:dadc5f69-da12-4a53-9bc3-05bc6ccbd0f7
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T101500
+DTEND;TZID=Asia/Yekaterinburg:20250516T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-10
+LOCATION:Мира\, 17а / СП502
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22dadc5f69-da12-4a53-9bc3-05bc6ccbd0f7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22dadc5f69-da12-4a53-9bc3-05bc6ccbd0f7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:dc3b261a-0d31-4636-897d-38769aa7cd8e
+SEQUENCE:17
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-14
+LOCATION:Мира\, 32 / Р239
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Лобашева Нина Анатольевна\, Заикина Александра Юрьевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22dc3b261a-0d31-4636-897d-38769aa7cd8e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22dc3b261a-0d31-4636-897d-38769aa7cd8e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:e463c422-d680-434a-bb37-094baaa3a084
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T141500
+DTEND;TZID=Asia/Yekaterinburg:20250517T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-17
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Агафонов Александр Петрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e463c422-d680-434a-bb37-094baaa3a084%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e463c422-d680-434a-bb37-094baaa3a084%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:e56eae81-3632-4d99-8366-7b2c9d090e71
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250515T083000
+DTEND;TZID=Asia/Yekaterinburg:20250515T100000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-03
+LOCATION:Мира\, 32 / Р146
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e56eae81-3632-4d99-8366-7b2c9d090e71%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e56eae81-3632-4d99-8366-7b2c9d090e71%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-15T08:30:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:e835c58e-4e36-49b4-95cb-81e788e140c0
+SEQUENCE:12
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T101500
+DTEND;TZID=Asia/Yekaterinburg:20250512T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-24
+LOCATION:Р325
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Шапарь Юлия Викторовна\, Криковцева Татьяна Георгиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e835c58e-4e36-49b4-95cb-81e788e140c0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e835c58e-4e36-49b4-95cb-81e788e140c0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:f142a3a7-610f-47e2-aad3-d5a9aae2d7e7
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T160000
+DTEND;TZID=Asia/Yekaterinburg:20250517T173000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-20
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nРоль не определена: Агафонов Александр Петрович\, Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f142a3a7-610f-47e2-aad3-d5a9aae2d7e7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f142a3a7-610f-47e2-aad3-d5a9aae2d7e7%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:f2150880-826f-4dc4-9dfa-05ad597c1d17
+SEQUENCE:6
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T141500
+DTEND;TZID=Asia/Yekaterinburg:20250512T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-26
+LOCATION:Мира\, 32 / Р143
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Шестакова Ирина Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f2150880-826f-4dc4-9dfa-05ad597c1d17%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f2150880-826f-4dc4-9dfa-05ad597c1d17%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T14:15:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:f3c5dbbe-5cef-4dac-9c3d-1e69d31ff52e
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250516T160000
+DTEND;TZID=Asia/Yekaterinburg:20250516T173000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 14 / Дополнительные главы математики Л\, П\, АТ-02
+LOCATION:Мира\, 17а / СП501
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Чащина Вера Геннадиевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f3c5dbbe-5cef-4dac-9c3d-1e69d31ff52e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f3c5dbbe-5cef-4dac-9c3d-1e69d31ff52e%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-16T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:f54b2ca9-0b40-4235-bf50-eadc59d1ec19
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250513T141500
+DTEND;TZID=Asia/Yekaterinburg:20250513T154500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-15
+LOCATION:ГУК404(II)
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nРоль не определена: Заикина Александра Юрьевна\, Лобашева Нина Анатольевна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f54b2ca9-0b40-4235-bf50-eadc59d1ec19%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f54b2ca9-0b40-4235-bf50-eadc59d1ec19%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-13T14:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:f7b15480-3f4d-48c9-ad84-e1aab667d581
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250517T160000
+DTEND;TZID=Asia/Yekaterinburg:20250517T173000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Практическое занятие 13 / Дополнительные главы математики Л\, П\, АТ-29
+LOCATION:Мира\, 32 / Р215
+DESCRIPTION:Практическое занятие / Семинар\n\nПреподаватель: Шестакова Ирина Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f7b15480-3f4d-48c9-ad84-e1aab667d581%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f7b15480-3f4d-48c9-ad84-e1aab667d581%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-17T16:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:f92c209b-8b9d-4ff0-9551-2948e12ab8b8
+SEQUENCE:7
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250512T120000
+DTEND;TZID=Asia/Yekaterinburg:20250512T133000
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-29
+LOCATION:Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Шестакова Ирина Александровна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22f92c209b-8b9d-4ff0-9551-2948e12ab8b8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22f92c209b-8b9d-4ff0-9551-2948e12ab8b8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-12T12:00:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+BEGIN:VEVENT
+UID:fc938d6d-7d3a-484c-9e29-3334a71652e2
+SEQUENCE:10
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250515T074714
+DTSTART;TZID=Asia/Yekaterinburg:20250514T101500
+DTEND;TZID=Asia/Yekaterinburg:20250514T114500
+SUMMARY:Дополнительные главы математики. ИРИТ-РТФ (09 УГН)  / Лекционное занятие 14 / Дополнительные главы математики Л\, П\, АТ-06
+LOCATION:Р339
+DESCRIPTION:Лекционное занятие / Информационная лекция\n\nПреподаватель: Хребтова Оксана Константиновна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22fc938d6d-7d3a-484c-9e29-3334a71652e2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22fc938d6d-7d3a-484c-9e29-3334a71652e2%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-14T10:15:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Дополнительные главы математики
+END:VEVENT
+END:VCALENDAR

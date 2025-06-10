@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Custis/Modeus//Schedule Calendar App//RU
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:09269035-6340-471a-a944-a66bc2d3a578
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250606T090314
+DTSTART;TZID=Asia/Yekaterinburg:20250527T101500
+DTEND;TZID=Asia/Yekaterinburg:20250527T114500
+SUMMARY:Программирование 2. Комфорт (Python) АИИ и ПИИ  / Лабораторное занятие 32 / Программирование ЛБ\, К\, АТ-05
+LOCATION:Мира\, 32 / Р247
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Царегородцев Георгий Павлович\, Новиков Максим Юрьевич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2209269035-6340-471a-a944-a66bc2d3a578%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-27T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2209269035-6340-471a-a944-a66bc2d3a578%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-27T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Программирование
+END:VEVENT
+BEGIN:VEVENT
+UID:11d0123d-9e80-46f6-9a3f-866cbd201730
+SEQUENCE:48
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250606T090314
+DTSTART;TZID=Asia/Yekaterinburg:20250529T120000
+DTEND;TZID=Asia/Yekaterinburg:20250529T133000
+SUMMARY:Прикладная физическая культура Часть 2 (ИРИТ\, ИНМТ\, ИНФО) / Практическое занятие / Прикладная физическая культура П\, АТ-02
+LOCATION:Не определено
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Морозова Людмила Гарфулловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2211d0123d-9e80-46f6-9a3f-866cbd201730%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-29T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2211d0123d-9e80-46f6-9a3f-866cbd201730%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-29T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Прикладная физическая культура
+END:VEVENT
+BEGIN:VEVENT
+UID:34ee5a4b-c97d-41b4-a071-b311676a245c
+SEQUENCE:22
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250606T090314
+DTSTART;TZID=Asia/Yekaterinburg:20250528T065000
+DTEND;TZID=Asia/Yekaterinburg:20250528T073500
+SUMMARY:Философия (онлайн\, УрФУ\, ОК) / Тема онлайн-курса / Философия Л\, АТ-01
+LOCATION:https://inf-online.urfu.ru/
+DESCRIPTION:Лекционное занятие\n\nПреподаватель: Замощанский Иван Игоревич\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2234ee5a4b-c97d-41b4-a071-b311676a245c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-28T06:50:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2234ee5a4b-c97d-41b4-a071-b311676a245c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-28T06:50:00.000Z%22%7D\n
+CATEGORIES:Лекционное занятие
+CATEGORIES:Философия
+END:VEVENT
+BEGIN:VEVENT
+UID:9b2db7d3-1ab6-4a8a-8d2c-07afcfa5d99c
+SEQUENCE:48
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250606T090314
+DTSTART;TZID=Asia/Yekaterinburg:20250527T120000
+DTEND;TZID=Asia/Yekaterinburg:20250527T133000
+SUMMARY:Прикладная физическая культура Часть 2 (ИРИТ\, ИНМТ\, ИНФО) / Практическое занятие / Прикладная физическая культура П\, АТ-02
+LOCATION:Не определено
+DESCRIPTION:Практическое занятие\n\nПреподаватель: Морозова Людмила Гарфулловна\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%229b2db7d3-1ab6-4a8a-8d2c-07afcfa5d99c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-27T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%229b2db7d3-1ab6-4a8a-8d2c-07afcfa5d99c%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-27T12:00:00.000Z%22%7D\n
+CATEGORIES:Практическое занятие
+CATEGORIES:Прикладная физическая культура
+END:VEVENT
+BEGIN:VEVENT
+UID:e8e65b24-c1f6-4d8a-9dab-b8edb03f0d18
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250606T090314
+DTSTART;TZID=Asia/Yekaterinburg:20250527T083000
+DTEND;TZID=Asia/Yekaterinburg:20250527T100000
+SUMMARY:Программирование 2. Комфорт (Python) АИИ и ПИИ  / Лабораторное занятие 31 / Программирование ЛБ\, К\, АТ-05
+LOCATION:Мира\, 32 / Р247
+DESCRIPTION:Лабораторное занятие\n\nРоль не определена: Новиков Максим Юрьевич\, Царегородцев Георгий Павлович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22e8e65b24-c1f6-4d8a-9dab-b8edb03f0d18%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-27T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22e8e65b24-c1f6-4d8a-9dab-b8edb03f0d18%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-27T08:30:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Программирование
+END:VEVENT
+END:VCALENDAR
