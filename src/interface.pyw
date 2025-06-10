@@ -9,12 +9,13 @@ FPS = 60
 
 pygame.init()
 
+root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SIZE = [1350, 800]
 screen = pygame.display.set_mode(SIZE)
 pygame.display.set_caption('Asmodeus build 10.06.25')
 clock = pygame.time.Clock()
-programIcon = pygame.image.load(r'assets\icon2.png')
+programIcon = pygame.image.load(os.path.join(root_path, 'assets', 'icon2.png'))
 pygame.display.set_icon(programIcon)
 
 def play_sound(file_path):
@@ -31,7 +32,7 @@ debug_subject_pull = [Drop_menu_subject('Физика и/основы механ
                     Drop_menu_subject('Программирование/(прод. уровень)', 'Прога (прод)', 'Р-145', 'progA', 20),
                     Drop_menu_subject('Векторный/анализ','Вект.ан.','Р-205','VecAlg',20)]
 
-MAIN_SUBJECT_PULL = csv_to_schedule_dict('schedule.csv')
+MAIN_SUBJECT_PULL = csv_to_schedule_dict(os.path.join(root_path, 'data', 'schedules', 'database', 'schedule.csv'))
 
 ai_pull = [Drop_menu_subject('DeepSeek R1', 'Deepseek', '', gap_size=20),
            Drop_menu_subject('AsmoAI(no text)', 'AsmoAI', '', gap_size=20),

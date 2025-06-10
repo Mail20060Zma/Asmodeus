@@ -2,24 +2,25 @@ import pygame
 import sys
 import asmo_UI
 import os
-sys.path.append('d_mine')
 import data_mine_final
 
 pygame.init()
+
+root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 WIDTH, HEIGHT = 1280, 720  # 720p разрешение (1280x720)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("AsmoMiner v0.8.0")
 BACKGROUND = (0, 0, 0)
 
-programIcon = pygame.image.load(r'assets\icon1.png')
+programIcon = pygame.image.load(os.path.join(root_path, 'assets', 'icon1.png'))
 pygame.display.set_icon(programIcon)
 
 current_slide = 0
 slides = []
 for i in range(1, 12):
     try:
-        slide = pygame.image.load(rf"assets\download_agent\slide{i}.png")
+        slide = pygame.image.load(os.path.join(root_path, 'assets', 'download_agent', f'slide{i}.png'))
         slide = pygame.transform.scale(slide, (WIDTH, HEIGHT))
         slides.append(slide)
     except:
@@ -93,16 +94,14 @@ while running:
         change_slide(1)
     
     if folder_button.command():
-        os.startfile(r'd_mine\us')
+        os.startfile(os.path.join(root_path, 'data', 'schedules', 'isc'))
 
-    if start_button.command() and program_ended == False:
-        data_mine_final.process_schedule_files(r'd_mine\us')
-        answer = data_mine_final.export_to_csv()
-        program_ended = True
-        '''if answer == True:
+    if start_button.command():
+        answer = data_mine_final.main_data_mine_final()
+        if answer == True:
             current_slide = 9
         else:
-            current_slide = 10'''
+            current_slide = 10
         current_slide = 9
     
     screen.fill(BACKGROUND)

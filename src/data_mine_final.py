@@ -214,7 +214,7 @@ def convert_csv_to_json(csv_file, json_file):
         print(f"Ошибка при конвертации: {e}")
         return False
 
-def main():
+def main_data_mine_final():
     # Получаем путь к корневой директории проекта
     root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
@@ -232,8 +232,9 @@ def main():
 
     # Преобразуем расписание в JSON
     json_file = os.path.join(output_path, 'schedule.json')
-    convert_csv_to_json(csv_file, json_file)
+    answer = convert_csv_to_json(csv_file, json_file)
     print(f"Расписание также преобразовано в JSON (schedule.json)")
+    return answer
 
 if __name__ == "__main__":
-    main()
+    main_data_mine_final()

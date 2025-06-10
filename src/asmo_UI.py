@@ -1,5 +1,8 @@
 import pygame
 import math
+import os
+
+root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 #DARK THEME
 HIGHLIGHT_COLOR = (200, 0, 40)
@@ -77,10 +80,10 @@ def change_theme():
 pygame.init()
 
 
-MAIN_FONT = pygame.font.Font('CodenameCoderFree4F-Bold.ttf', 44)
-BIG_FONT = pygame.font.Font('CodenameCoderFree4F-Bold.ttf', 100)
-SMALL_FONT = pygame.font.Font('CodenameCoderFree4F-Bold.ttf', 24)
-EVEN_SMALLER_FONT = pygame.font.Font('CodenameCoderFree4F-Bold.ttf', 18)
+MAIN_FONT = pygame.font.Font(os.path.join(root_path, 'assets', 'CodenameCoderFree4F-Bold.ttf'), 44)
+BIG_FONT = pygame.font.Font(os.path.join(root_path, 'assets', 'CodenameCoderFree4F-Bold.ttf'), 100)
+SMALL_FONT = pygame.font.Font(os.path.join(root_path, 'assets', 'CodenameCoderFree4F-Bold.ttf'), 24)
+EVEN_SMALLER_FONT = pygame.font.Font(os.path.join(root_path, 'assets', 'CodenameCoderFree4F-Bold.ttf'), 18)
 
 
 

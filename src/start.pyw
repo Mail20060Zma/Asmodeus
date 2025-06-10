@@ -4,11 +4,13 @@ from asmo_UI import *
 
 START_MOVIE = True
 
+root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 pygame.init()
 size = [1280, 720]
 screen = pygame.display.set_mode(size, pygame.NOFRAME)
 clock = pygame.time.Clock()
-MAIN_FONT = pygame.font.Font('CodenameCoderFree4F-Bold.ttf', 44)
+MAIN_FONT = pygame.font.Font(os.path.join(root_path, 'assets', 'CodenameCoderFree4F-Bold.ttf'), 44)
 
 running = True
 LAST_FRAME = 121
@@ -19,7 +21,7 @@ else: cur_frame = LAST_FRAME
 is_mouse_clicked = False
 is_long_click = False
 
-pygame.mixer.music.load(r'assets\startup\start_sound.mp3')
+pygame.mixer.music.load(os.path.join(root_path, 'assets', 'startup', 'start_sound.mp3'))
 pygame.mixer.music.play()
 
 interface_button = Button(screen, [800,550], [400,100], text='Обработка данных')
@@ -44,7 +46,7 @@ while running:
 
     mouse_pos = pygame.mouse.get_pos()
 
-    video_surf = pygame.image.load(rf'assets\startup\0001.png{'0'*(4-len(str(cur_frame)))}{cur_frame}.png')
+    video_surf = pygame.image.load(os.path.join(root_path, 'assets', 'startup', f'0001.png{'0'*(4-len(str(cur_frame)))}{cur_frame}.png'))
     video_rect = video_surf.get_rect(bottomright=size)
     screen.blit(video_surf, video_rect)
 
