@@ -12,7 +12,7 @@ pygame.init()
 
 SIZE = [1350, 800]
 screen = pygame.display.set_mode(SIZE)
-pygame.display.set_caption('Asmodeus build 30.05.25')
+pygame.display.set_caption('Asmodeus build 10.06.25')
 clock = pygame.time.Clock()
 programIcon = pygame.image.load(r'assets\icon2.png')
 pygame.display.set_icon(programIcon)
@@ -39,6 +39,13 @@ ai_pull = [Drop_menu_subject('DeepSeek R1', 'Deepseek', '', gap_size=20),
            Drop_menu_subject('Qwen3-235B-A22B', 'Qwen3', '', gap_size=20),
            Drop_menu_subject('Qwen2.5-72B', 'Qwen2.5', '', gap_size=20)]
 
+teacher_group_new_desires = []
+
+def teacher_group_add_new_desire():
+    global teacher_group_new_desires
+    new_desire = [ai_full_subject.return_main_name_selected(), ai_full_teacher_group_subject.return_main_name_selected()]
+    if new_desire not in teacher_group_new_desires and None not in new_desire:
+        teacher_group_new_desires.append(new_desire)
 
 table_top_text = Text(screen, SMALL_FONT, [50,10], '   Понедельник           Вторник             Среда             Четверг            Пятница            Суббота')
 
@@ -111,39 +118,216 @@ ai_message = Message_window(screen, [410, 270], [ai_message_text_model,
                                                  ai_message_prompt_more_button,
                                                  ai_message_choice_model])
 
-ai_more_message_day_text = Text(screen, SMALL_FONT, [10,5], 'Дни учёбы:')
-ai_more_message_day_text1 = Text(screen, SMALL_FONT, [10,40], 'Понедельник          Четверг')
-ai_more_message_day_text2 = Text(screen, SMALL_FONT, [10,80], 'Вторник              Пятница')
-ai_more_message_day_text3 = Text(screen, SMALL_FONT, [10,120], 'Среда                Суббота')
-ai_more_message_day_switch_mond = Switch(screen, [150, 40], True)
-ai_more_message_day_switch_thu = Switch(screen, [330, 40], True)
-ai_more_message_day_switch_tue = Switch(screen, [150, 80], True)
-ai_more_message_day_switch_fri = Switch(screen, [330, 80], True)
-ai_more_message_day_switch_wed = Switch(screen, [150, 120], True)
-ai_more_message_day_switch_sat = Switch(screen, [330, 120], True)
-ai_more_message_back_button = Button(screen, [280, 160], [100,30], SMALL_FONT, 'Назад')
-ai_message_fucking_more_button = Button(screen, [10, 160], [260, 30], SMALL_FONT, 'МНЕ НУЖНО БОЛЬШЕ ОПЦИЙ')
-ai_more_message = Message_window(screen, [395,205], [ai_more_message_day_text,
-                                                     ai_more_message_day_text1,
-                                                     ai_more_message_day_text2,
-                                                     ai_more_message_day_text3,
-                                                     ai_more_message_day_switch_sat,
-                                                     ai_more_message_day_switch_fri,
-                                                     ai_more_message_day_switch_thu,
-                                                     ai_more_message_day_switch_wed,
-                                                     ai_more_message_day_switch_tue,
-                                                     ai_more_message_day_switch_mond,
-                                                     ai_more_message_back_button,
-                                                     ai_message_fucking_more_button])
+mond_ai_more_message_title = Text(screen, SMALL_FONT, [10, 5], 'Выбор дней и пар:')
+mond_ai_more_message_prev_day_button = Button(screen, [290, 5], [30, 30], SMALL_FONT, '<')
+mond_ai_more_message_next_day_button = Button(screen, [460, 5], [30, 30], SMALL_FONT, '>')
+mond_ai_more_message_mond_text = Text(screen, SMALL_FONT, [333, 5], 'Понедельник')
+mond_ai_more_message_time_text1 = Text(screen, SMALL_FONT, [10, 70], '8:30-10:00               14:15-15:45')
+mond_ai_more_message_time_text2 = Text(screen, SMALL_FONT, [10, 110], '10:15-11:45              16:00-17:30')
+mond_ai_more_message_time_text3 = Text(screen, SMALL_FONT, [10, 150], '12:00-13:30              17:40-19:10')
+mond_ai_more_message_time_switch_8_30 = Switch(screen, [150, 70], already_on=True)
+mond_ai_more_message_time_switch_10_15 = Switch(screen, [150, 110], already_on=True)
+mond_ai_more_message_time_switch_12_00 = Switch(screen, [150, 150], already_on=True)
+mond_ai_more_message_time_switch_14_15 = Switch(screen, [430, 70], already_on=True)
+mond_ai_more_message_time_switch_16_00 = Switch(screen, [430, 110], already_on=True)
+mond_ai_more_message_time_switch_17_40 = Switch(screen, [430, 150], already_on=True)
+mond_ai_more_message_back_button = Button(screen, [370, 260], [120,30], SMALL_FONT, 'Сохранить')
+mond_ai_more_message_drop_button = Button(screen, [240, 260], [120,30], SMALL_FONT, 'Сбросить')
+mond_ai_more_message_prev_button = Button(screen, [10, 260], [30, 30], SMALL_FONT, '<')
+mond_ai_more_message_next_button = Button(screen, [50, 260], [30, 30], SMALL_FONT, '>')
+mond_ai_more_message = Message_window(screen, [500,300], [mond_ai_more_message_title,
+                                                     mond_ai_more_message_mond_text,
+                                                     mond_ai_more_message_prev_day_button,
+                                                     mond_ai_more_message_next_day_button,
+                                                     mond_ai_more_message_time_text1,
+                                                     mond_ai_more_message_time_text2,
+                                                     mond_ai_more_message_time_text3,
+                                                     mond_ai_more_message_time_switch_8_30, mond_ai_more_message_time_switch_14_15,
+                                                     mond_ai_more_message_time_switch_10_15, mond_ai_more_message_time_switch_16_00,
+                                                     mond_ai_more_message_time_switch_12_00, mond_ai_more_message_time_switch_17_40,
+                                                     mond_ai_more_message_back_button,
+                                                     mond_ai_more_message_drop_button,
+                                                     mond_ai_more_message_prev_button,
+                                                     mond_ai_more_message_next_button])
 
-ai_more_more_message_title = Text(screen, SMALL_FONT, [10, 5], 'Выбор предметов, групп и преподавателей:')
-ai_full_subject = Drop_menu(screen, 'ai_all_subject', [30,40], [200,100], MAIN_SUBJECT_PULL['All_subject'])
-ai_full_teacher_groupe_subject = Drop_menu(screen, 'ai_all_info_subject', [270,40], [200,100], MAIN_SUBJECT_PULL['Дополнительные главы математики. ИРИТ-РТФ (09 УГН)'])
-ai_more_more_message_back_button = Button(screen, [385, 160], [100,30], SMALL_FONT, 'Назад')
-ai_more_more_message = Message_window(screen, [500,205], [ai_more_more_message_title,
-                                                          ai_more_more_message_back_button,
-                                                          ai_full_subject,
-                                                          ai_full_teacher_groupe_subject])
+tues_ai_more_message_title = Text(screen, SMALL_FONT, [10, 5], 'Выбор дней и пар:')
+tues_ai_more_message_prev_day_button = Button(screen, [290, 5], [30, 30], SMALL_FONT, '<')
+tues_ai_more_message_next_day_button = Button(screen, [460, 5], [30, 30], SMALL_FONT, '>')
+tues_ai_more_message_tues_text = Text(screen, SMALL_FONT, [333, 5], '  Вторник')
+tues_ai_more_message_time_text1 = Text(screen, SMALL_FONT, [10, 70], '8:30-10:00               14:15-15:45')
+tues_ai_more_message_time_text2 = Text(screen, SMALL_FONT, [10, 110], '10:15-11:45              16:00-17:30')
+tues_ai_more_message_time_text3 = Text(screen, SMALL_FONT, [10, 150], '12:00-13:30              17:40-19:10')
+tues_ai_more_message_time_switch_8_30 = Switch(screen, [150, 70], already_on=True)
+tues_ai_more_message_time_switch_10_15 = Switch(screen, [150, 110], already_on=True)
+tues_ai_more_message_time_switch_12_00 = Switch(screen, [150, 150], already_on=True)
+tues_ai_more_message_time_switch_14_15 = Switch(screen, [430, 70], already_on=True)
+tues_ai_more_message_time_switch_16_00 = Switch(screen, [430, 110], already_on=True)
+tues_ai_more_message_time_switch_17_40 = Switch(screen, [430, 150], already_on=True)
+tues_ai_more_message_back_button = Button(screen, [370, 260], [120,30], SMALL_FONT, 'Сохранить')
+tues_ai_more_message_drop_button = Button(screen, [240, 260], [120,30], SMALL_FONT, 'Сбросить')
+tues_ai_more_message_prev_button = Button(screen, [10, 260], [30, 30], SMALL_FONT, '<')
+tues_ai_more_message_next_button = Button(screen, [50, 260], [30, 30], SMALL_FONT, '>')
+tues_ai_more_message = Message_window(screen, [500,300], [tues_ai_more_message_title,
+                                                     tues_ai_more_message_tues_text,
+                                                     tues_ai_more_message_prev_day_button,
+                                                     tues_ai_more_message_next_day_button,
+                                                     tues_ai_more_message_time_text1,
+                                                     tues_ai_more_message_time_text2,
+                                                     tues_ai_more_message_time_text3,
+                                                     tues_ai_more_message_time_switch_8_30, tues_ai_more_message_time_switch_14_15,
+                                                     tues_ai_more_message_time_switch_10_15, tues_ai_more_message_time_switch_16_00,
+                                                     tues_ai_more_message_time_switch_12_00, tues_ai_more_message_time_switch_17_40,
+                                                     tues_ai_more_message_back_button,
+                                                     tues_ai_more_message_drop_button,
+                                                     tues_ai_more_message_prev_button,
+                                                     tues_ai_more_message_next_button])
+
+wedn_ai_more_message_title = Text(screen, SMALL_FONT, [10, 5], 'Выбор дней и пар:')
+wedn_ai_more_message_prev_day_button = Button(screen, [290, 5], [30, 30], SMALL_FONT, '<')
+wedn_ai_more_message_next_day_button = Button(screen, [460, 5], [30, 30], SMALL_FONT, '>')
+wedn_ai_more_message_wedn_text = Text(screen, SMALL_FONT, [333, 5], '   Среда')
+wedn_ai_more_message_time_text1 = Text(screen, SMALL_FONT, [10, 70], '8:30-10:00               14:15-15:45')
+wedn_ai_more_message_time_text2 = Text(screen, SMALL_FONT, [10, 110], '10:15-11:45              16:00-17:30')
+wedn_ai_more_message_time_text3 = Text(screen, SMALL_FONT, [10, 150], '12:00-13:30              17:40-19:10')
+wedn_ai_more_message_time_switch_8_30 = Switch(screen, [150, 70], already_on=True)
+wedn_ai_more_message_time_switch_10_15 = Switch(screen, [150, 110], already_on=True)
+wedn_ai_more_message_time_switch_12_00 = Switch(screen, [150, 150], already_on=True)
+wedn_ai_more_message_time_switch_14_15 = Switch(screen, [430, 70], already_on=True)
+wedn_ai_more_message_time_switch_16_00 = Switch(screen, [430, 110], already_on=True)
+wedn_ai_more_message_time_switch_17_40 = Switch(screen, [430, 150], already_on=True)
+wedn_ai_more_message_back_button = Button(screen, [370, 260], [120,30], SMALL_FONT, 'Сохранить')
+wedn_ai_more_message_drop_button = Button(screen, [240, 260], [120,30], SMALL_FONT, 'Сбросить')
+wedn_ai_more_message_prev_button = Button(screen, [10, 260], [30, 30], SMALL_FONT, '<')
+wedn_ai_more_message_next_button = Button(screen, [50, 260], [30, 30], SMALL_FONT, '>')
+wedn_ai_more_message = Message_window(screen, [500,300], [wedn_ai_more_message_title,
+                                                     wedn_ai_more_message_wedn_text,
+                                                     wedn_ai_more_message_prev_day_button,
+                                                     wedn_ai_more_message_next_day_button,
+                                                     wedn_ai_more_message_time_text1,
+                                                     wedn_ai_more_message_time_text2,
+                                                     wedn_ai_more_message_time_text3,
+                                                     wedn_ai_more_message_time_switch_8_30, wedn_ai_more_message_time_switch_14_15,
+                                                     wedn_ai_more_message_time_switch_10_15, wedn_ai_more_message_time_switch_16_00,
+                                                     wedn_ai_more_message_time_switch_12_00, wedn_ai_more_message_time_switch_17_40,
+                                                     wedn_ai_more_message_back_button,
+                                                     wedn_ai_more_message_drop_button,
+                                                     wedn_ai_more_message_prev_button,
+                                                     wedn_ai_more_message_next_button])
+
+thur_ai_more_message_title = Text(screen, SMALL_FONT, [10, 5], 'Выбор дней и пар:')
+thur_ai_more_message_prev_day_button = Button(screen, [290, 5], [30, 30], SMALL_FONT, '<')
+thur_ai_more_message_next_day_button = Button(screen, [460, 5], [30, 30], SMALL_FONT, '>')
+thur_ai_more_message_thur_text = Text(screen, SMALL_FONT, [333, 5], '  Четверг')
+thur_ai_more_message_time_text1 = Text(screen, SMALL_FONT, [10, 70], '8:30-10:00               14:15-15:45')
+thur_ai_more_message_time_text2 = Text(screen, SMALL_FONT, [10, 110], '10:15-11:45              16:00-17:30')
+thur_ai_more_message_time_text3 = Text(screen, SMALL_FONT, [10, 150], '12:00-13:30              17:40-19:10')
+thur_ai_more_message_time_switch_8_30 = Switch(screen, [150, 70], already_on=True)
+thur_ai_more_message_time_switch_10_15 = Switch(screen, [150, 110], already_on=True)
+thur_ai_more_message_time_switch_12_00 = Switch(screen, [150, 150], already_on=True)
+thur_ai_more_message_time_switch_14_15 = Switch(screen, [430, 70], already_on=True)
+thur_ai_more_message_time_switch_16_00 = Switch(screen, [430, 110], already_on=True)
+thur_ai_more_message_time_switch_17_40 = Switch(screen, [430, 150], already_on=True)
+thur_ai_more_message_back_button = Button(screen, [370, 260], [120,30], SMALL_FONT, 'Сохранить')
+thur_ai_more_message_drop_button = Button(screen, [240, 260], [120,30], SMALL_FONT, 'Сбросить')
+thur_ai_more_message_prev_button = Button(screen, [10, 260], [30, 30], SMALL_FONT, '<')
+thur_ai_more_message_next_button = Button(screen, [50, 260], [30, 30], SMALL_FONT, '>')
+thur_ai_more_message = Message_window(screen, [500,300], [thur_ai_more_message_title,
+                                                     thur_ai_more_message_thur_text,
+                                                     thur_ai_more_message_prev_day_button,
+                                                     thur_ai_more_message_next_day_button,
+                                                     thur_ai_more_message_time_text1,
+                                                     thur_ai_more_message_time_text2,
+                                                     thur_ai_more_message_time_text3,
+                                                     thur_ai_more_message_time_switch_8_30, thur_ai_more_message_time_switch_14_15,
+                                                     thur_ai_more_message_time_switch_10_15, thur_ai_more_message_time_switch_16_00,
+                                                     thur_ai_more_message_time_switch_12_00, thur_ai_more_message_time_switch_17_40,
+                                                     thur_ai_more_message_back_button,
+                                                     thur_ai_more_message_drop_button,
+                                                     thur_ai_more_message_prev_button,
+                                                     thur_ai_more_message_next_button])
+
+frid_ai_more_message_title = Text(screen, SMALL_FONT, [10, 5], 'Выбор дней и пар:')
+frid_ai_more_message_prev_day_button = Button(screen, [290, 5], [30, 30], SMALL_FONT, '<')
+frid_ai_more_message_next_day_button = Button(screen, [460, 5], [30, 30], SMALL_FONT, '>')
+frid_ai_more_message_frid_text = Text(screen, SMALL_FONT, [333, 5], '  Пятница')
+frid_ai_more_message_time_text1 = Text(screen, SMALL_FONT, [10, 70], '8:30-10:00               14:15-15:45')
+frid_ai_more_message_time_text2 = Text(screen, SMALL_FONT, [10, 110], '10:15-11:45              16:00-17:30')
+frid_ai_more_message_time_text3 = Text(screen, SMALL_FONT, [10, 150], '12:00-13:30              17:40-19:10')
+frid_ai_more_message_time_switch_8_30 = Switch(screen, [150, 70], already_on=True)
+frid_ai_more_message_time_switch_10_15 = Switch(screen, [150, 110], already_on=True)
+frid_ai_more_message_time_switch_12_00 = Switch(screen, [150, 150], already_on=True)
+frid_ai_more_message_time_switch_14_15 = Switch(screen, [430, 70], already_on=True)
+frid_ai_more_message_time_switch_16_00 = Switch(screen, [430, 110], already_on=True)
+frid_ai_more_message_time_switch_17_40 = Switch(screen, [430, 150], already_on=True)
+frid_ai_more_message_back_button = Button(screen, [370, 260], [120,30], SMALL_FONT, 'Сохранить')
+frid_ai_more_message_drop_button = Button(screen, [240, 260], [120,30], SMALL_FONT, 'Сбросить')
+frid_ai_more_message_prev_button = Button(screen, [10, 260], [30, 30], SMALL_FONT, '<')
+frid_ai_more_message_next_button = Button(screen, [50, 260], [30, 30], SMALL_FONT, '>')
+frid_ai_more_message = Message_window(screen, [500,300], [frid_ai_more_message_title,
+                                                     frid_ai_more_message_frid_text,
+                                                     frid_ai_more_message_prev_day_button,
+                                                     frid_ai_more_message_next_day_button,
+                                                     frid_ai_more_message_time_text1,
+                                                     frid_ai_more_message_time_text2,
+                                                     frid_ai_more_message_time_text3,
+                                                     frid_ai_more_message_time_switch_8_30, frid_ai_more_message_time_switch_14_15,
+                                                     frid_ai_more_message_time_switch_10_15, frid_ai_more_message_time_switch_16_00,
+                                                     frid_ai_more_message_time_switch_12_00, frid_ai_more_message_time_switch_17_40,
+                                                     frid_ai_more_message_back_button,
+                                                     frid_ai_more_message_drop_button,
+                                                     frid_ai_more_message_prev_button,
+                                                     frid_ai_more_message_next_button])
+
+satu_ai_more_message_title = Text(screen, SMALL_FONT, [10, 5], 'Выбор дней и пар:')
+satu_ai_more_message_prev_day_button = Button(screen, [290, 5], [30, 30], SMALL_FONT, '<')
+satu_ai_more_message_next_day_button = Button(screen, [460, 5], [30, 30], SMALL_FONT, '>')
+satu_ai_more_message_satu_text = Text(screen, SMALL_FONT, [333, 5], '  Суббота')
+satu_ai_more_message_time_text1 = Text(screen, SMALL_FONT, [10, 70], '8:30-10:00               14:15-15:45')
+satu_ai_more_message_time_text2 = Text(screen, SMALL_FONT, [10, 110], '10:15-11:45              16:00-17:30')
+satu_ai_more_message_time_text3 = Text(screen, SMALL_FONT, [10, 150], '12:00-13:30              17:40-19:10')
+satu_ai_more_message_time_switch_8_30 = Switch(screen, [150, 70], already_on=True)
+satu_ai_more_message_time_switch_10_15 = Switch(screen, [150, 110], already_on=True)
+satu_ai_more_message_time_switch_12_00 = Switch(screen, [150, 150], already_on=True)
+satu_ai_more_message_time_switch_14_15 = Switch(screen, [430, 70], already_on=True)
+satu_ai_more_message_time_switch_16_00 = Switch(screen, [430, 110], already_on=True)
+satu_ai_more_message_time_switch_17_40 = Switch(screen, [430, 150], already_on=True)
+satu_ai_more_message_back_button = Button(screen, [370, 260], [120,30], SMALL_FONT, 'Сохранить')
+satu_ai_more_message_drop_button = Button(screen, [240, 260], [120,30], SMALL_FONT, 'Сбросить')
+satu_ai_more_message_prev_button = Button(screen, [10, 260], [30, 30], SMALL_FONT, '<')
+satu_ai_more_message_next_button = Button(screen, [50, 260], [30, 30], SMALL_FONT, '>')
+satu_ai_more_message = Message_window(screen, [500,300], [satu_ai_more_message_title,
+                                                     satu_ai_more_message_satu_text,
+                                                     satu_ai_more_message_prev_day_button,
+                                                     satu_ai_more_message_next_day_button,
+                                                     satu_ai_more_message_time_text1,
+                                                     satu_ai_more_message_time_text2,
+                                                     satu_ai_more_message_time_text3,
+                                                     satu_ai_more_message_time_switch_8_30, satu_ai_more_message_time_switch_14_15,
+                                                     satu_ai_more_message_time_switch_10_15, satu_ai_more_message_time_switch_16_00,
+                                                     satu_ai_more_message_time_switch_12_00, satu_ai_more_message_time_switch_17_40,
+                                                     satu_ai_more_message_back_button,
+                                                     satu_ai_more_message_drop_button,
+                                                     satu_ai_more_message_prev_button,
+                                                     satu_ai_more_message_next_button])
+
+ai_more_message_title1 = Text(screen, SMALL_FONT, [10, 5], 'Выбор предметов, групп и преподавателей:')
+ai_full_subject = Drop_menu(screen, 'ai_all_subject', [30,40], [200,100], MAIN_SUBJECT_PULL['All_subject'], selected_index=3)
+ai_full_teacher_group_subject = Drop_menu(screen, 'ai_all_info_subject', [270,40], [200,100], MAIN_SUBJECT_PULL['Дополнительные главы математики. ИРИТ-РТФ (09 УГН)'])
+ai_full_teacher_group_add_button = Button(screen, [190, 150], [120, 30], SMALL_FONT, 'Добавить')
+ai_full_teacher_group_add_text = Text(screen, SMALL_FONT, [125, 190], f'Параметров добавлено: {len(teacher_group_new_desires)}')
+ai_more_message_back_button1 = Button(screen, [370, 260], [120,30], SMALL_FONT, 'Сохранить')
+ai_more_message_drop_button1 = Button(screen, [240, 260], [120,30], SMALL_FONT, 'Сбросить')
+ai_more_message_prev_button1 = Button(screen, [10, 260], [30, 30], SMALL_FONT, '<')
+ai_more_message_next_button1 = Button(screen, [50, 260], [30, 30], SMALL_FONT, '>')
+ai_more_message1 = Message_window(screen, [500,300], [ai_more_message_title1,
+                                                        ai_full_teacher_group_add_button,
+                                                        ai_full_teacher_group_add_text,
+                                                        ai_more_message_back_button1,
+                                                        ai_more_message_drop_button1,
+                                                        ai_more_message_prev_button1,
+                                                        ai_more_message_next_button1,
+                                                        ai_full_subject,
+                                                        ai_full_teacher_group_subject])
 
 generator_error_message_text1 = Text(screen, SMALL_FONT, [10, 10], 'ОШИБКА:')
 generator_error_message_text2 = Text(screen, SMALL_FONT, [10, 50], '')
@@ -183,6 +367,36 @@ settings_window = Over_Window(screen, SIZE, (500,500), [settings_title_text,
                                                 clear_button,
                                                 other_text])
 
+AI_MORE_MESSAGE_LAST_STATE = 1
+ai_more_message_state = 0
+def change_ai_more_message_order(direction):
+    global ai_more_message_state
+    if direction == 'prev':
+        if ai_more_message_state == 0:
+            ai_more_message_state = AI_MORE_MESSAGE_LAST_STATE
+        else:
+            ai_more_message_state -= 1
+    elif direction == 'next':
+        if ai_more_message_state == AI_MORE_MESSAGE_LAST_STATE:
+            ai_more_message_state = 0
+        else:
+            ai_more_message_state += 1
+
+
+    if ai_more_message_state == 0:
+        ai_more_message1.state_closed()
+        mond_ai_more_message.state_opened()
+
+    elif ai_more_message_state == 1:
+        mond_ai_more_message.state_closed()
+        tues_ai_more_message.state_closed()
+        wedn_ai_more_message.state_closed()
+        thur_ai_more_message.state_closed()
+        frid_ai_more_message.state_closed()
+        satu_ai_more_message.state_closed()
+        ai_more_message1.state_opened()
+
+prev_group_teacher_index = ai_full_subject.selected_index
 
 running = True
 while running:
@@ -245,7 +459,7 @@ while running:
 
                 ai_message_choice_model.scroll_down()
                 ai_full_subject.scroll_down()
-                ai_full_teacher_groupe_subject.scroll_down()
+                ai_full_teacher_group_subject.scroll_down()
                 
             elif event.y == -1:
                 mond1.scroll_up()
@@ -292,7 +506,7 @@ while running:
 
                 ai_message_choice_model.scroll_up()
                 ai_full_subject.scroll_up()
-                ai_full_teacher_groupe_subject.scroll_up()
+                ai_full_teacher_group_subject.scroll_up()
                 
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
@@ -356,8 +570,14 @@ while running:
     satu2.process(mouse_pos, is_mouse_clicked, is_long_click)
     satu1.process(mouse_pos, is_mouse_clicked, is_long_click)
 
-    if  Drop_menu.return_main_name_selected(ai_full_subject):
-        ai_full_teacher_groupe_subject = Drop_menu(screen, 'satu61', [270,40], [200,100], MAIN_SUBJECT_PULL[Drop_menu.return_selected(ai_full_subject)])
+
+    ai_full_teacher_group_add_text.text = f'Параметров добавлено: {len(teacher_group_new_desires)}'
+
+    if prev_group_teacher_index != ai_full_subject.selected_index:
+        ai_full_teacher_group_subject.options = MAIN_SUBJECT_PULL[ai_full_subject.return_selected()]
+        ai_full_teacher_group_subject.selected_index = None
+
+    prev_group_teacher_index = ai_full_subject.selected_index
 
 
     if ai_message_prompt_switch.state == 0:
@@ -367,9 +587,15 @@ while running:
 
     clear_message.process(mouse_pos, is_mouse_clicked, is_long_click)
     ai_message.process(mouse_pos, is_mouse_clicked, is_long_click)
-    ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
     generator_error_message.process(mouse_pos, is_mouse_clicked, is_long_click)
-    ai_more_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
+    ai_more_message1.process(mouse_pos, is_mouse_clicked, is_long_click)
+
+    mond_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
+    tues_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
+    wedn_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
+    thur_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
+    frid_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
+    satu_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
     
 
     if clear_login_button.command():
@@ -394,17 +620,97 @@ while running:
             generator_error_message.change_state()
     if ai_message_prompt_more_button.command() and ai_message_prompt_switch.state:
         ai_message.change_state()
-        ai_more_message.change_state()
-    if ai_more_message_back_button.command():
-        ai_more_message.change_state()
+        mond_ai_more_message.change_state()
+    if mond_ai_more_message_back_button.command():
+        mond_ai_more_message.change_state()
         ai_message.change_state()
-    if ai_more_more_message_back_button.command():
-        ai_more_more_message.change_state()
-        ai_more_message.change_state()
-    if ai_message_fucking_more_button.command():
-        #play_sound('assets/aaaaa_sound.mp3')
-        ai_more_message.change_state()
-        ai_more_more_message.change_state()
+    if tues_ai_more_message_back_button.command():
+        tues_ai_more_message.change_state()
+        ai_message.change_state()
+    if wedn_ai_more_message_back_button.command():
+        wedn_ai_more_message.change_state()
+        ai_message.change_state()
+    if thur_ai_more_message_back_button.command():
+        thur_ai_more_message.change_state()
+        ai_message.change_state()
+    if frid_ai_more_message_back_button.command():
+        frid_ai_more_message.change_state()
+        ai_message.change_state()
+    if satu_ai_more_message_back_button.command():
+        satu_ai_more_message.change_state()
+        ai_message.change_state()
+    if ai_more_message_back_button1.command():
+        ai_more_message1.state_closed()
+        ai_message.change_state()
+    if ai_more_message_prev_button1.command():
+        change_ai_more_message_order('prev')
+    if mond_ai_more_message_next_button.command():
+        change_ai_more_message_order('next')
+    if ai_more_message_next_button1.command():
+        change_ai_more_message_order('next')
+    if mond_ai_more_message_prev_button.command():
+        change_ai_more_message_order('prev')
+    if tues_ai_more_message_next_button.command():
+        change_ai_more_message_order('next')
+    if wedn_ai_more_message_next_button.command():
+        change_ai_more_message_order('next')
+    if thur_ai_more_message_next_button.command():
+        change_ai_more_message_order('next')
+    if frid_ai_more_message_next_button.command():
+        change_ai_more_message_order('next')
+    if satu_ai_more_message_next_button.command():
+        change_ai_more_message_order('next')
+    if tues_ai_more_message_prev_button.command():
+        change_ai_more_message_order('prev')
+    if wedn_ai_more_message_prev_button.command():
+        change_ai_more_message_order('prev')
+    if thur_ai_more_message_prev_button.command():
+        change_ai_more_message_order('prev')
+    if frid_ai_more_message_prev_button.command():
+        change_ai_more_message_order('prev')
+    if satu_ai_more_message_prev_button.command():
+        change_ai_more_message_order('prev')
+    if ai_full_teacher_group_add_button.command():
+        teacher_group_add_new_desire()
+
+    if mond_ai_more_message_next_day_button.command():
+        mond_ai_more_message.change_state()
+        tues_ai_more_message.change_state()
+    if tues_ai_more_message_next_day_button.command():
+        tues_ai_more_message.change_state()
+        wedn_ai_more_message.change_state()
+    if wedn_ai_more_message_next_day_button.command():
+        wedn_ai_more_message.change_state()
+        thur_ai_more_message.change_state()
+    if thur_ai_more_message_next_day_button.command():
+        thur_ai_more_message.change_state()
+        frid_ai_more_message.change_state()
+    if frid_ai_more_message_next_day_button.command():
+        frid_ai_more_message.change_state()
+        satu_ai_more_message.change_state()
+    if satu_ai_more_message_next_day_button.command():
+        satu_ai_more_message.change_state()
+        mond_ai_more_message.change_state()
+
+    if mond_ai_more_message_prev_day_button.command():
+        mond_ai_more_message.change_state()
+        satu_ai_more_message.change_state()
+    if tues_ai_more_message_prev_day_button.command():
+        tues_ai_more_message.change_state()
+        mond_ai_more_message.change_state()
+    if wedn_ai_more_message_prev_day_button.command():
+        wedn_ai_more_message.change_state()
+        tues_ai_more_message.change_state()
+    if thur_ai_more_message_prev_day_button.command():
+        thur_ai_more_message.change_state()
+        wedn_ai_more_message.change_state()
+    if frid_ai_more_message_prev_day_button.command():
+        frid_ai_more_message.change_state()
+        thur_ai_more_message.change_state()
+    if satu_ai_more_message_prev_day_button.command():
+        satu_ai_more_message.change_state()
+        frid_ai_more_message.change_state()
+
 
     pygame.display.flip()
     clock.tick(FPS)

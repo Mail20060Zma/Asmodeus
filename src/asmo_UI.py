@@ -216,7 +216,7 @@ class Button:
         self.screen.blit(button_text, (self.pos[0] + self.font_pos[0] + self.click_state, self.pos[1] + self.font_pos[1] + self.click_state))
 
     def command(self):
-        if self.click_state == 3 and not self.already_pressed:
+        if self.click_state == 2 and not self.already_pressed:
             self.already_pressed = True
             return True
         return False
@@ -859,4 +859,15 @@ class Message_window:
             self.state = 1
             over_window_block = self.id
 
-    
+    def state_closed(self):
+        global over_window_block
+        if self.state:
+            self.state = 0
+            over_window_block = self.prev_id
+
+    def state_opened(self):
+        global over_window_block
+        if not self.state:
+            self.prev_id = over_window_block
+            self.state = 1
+            over_window_block = self.id
