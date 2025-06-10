@@ -209,10 +209,8 @@ def convert_csv_to_json(csv_file, json_file):
                     data[subject][group].append([day, time, auditory, teacher, institute])
         with open(json_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
-        return True
     except Exception as e:
         print(f"Ошибка при конвертации: {e}")
-        return False
 
 def main_data_mine_final():
     # Получаем путь к корневой директории проекта
@@ -221,7 +219,15 @@ def main_data_mine_final():
     # Пути к директориям
     data_path = os.path.join(root_path, 'data', 'schedules', 'isc')
     output_path = os.path.join(root_path, 'data', 'schedules', 'database')
-    
+
+    for filename in os.listdir(data_path):
+        if filename.endswith(".ics"):
+            answer = True
+            break
+    else: 
+        answer = False 
+        return answer
+
     # Обрабатываем .ics файлы
     process_schedule_files(data_path)
     
@@ -232,7 +238,7 @@ def main_data_mine_final():
 
     # Преобразуем расписание в JSON
     json_file = os.path.join(output_path, 'schedule.json')
-    answer = convert_csv_to_json(csv_file, json_file)
+    convert_csv_to_json(csv_file, json_file)
     print(f"Расписание также преобразовано в JSON (schedule.json)")
     return answer
 

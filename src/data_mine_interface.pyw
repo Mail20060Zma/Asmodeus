@@ -98,11 +98,11 @@ while running:
 
     if start_button.command():
         answer = data_mine_final.main_data_mine_final()
+        print(answer)
         if answer == True:
             current_slide = 9
         else:
             current_slide = 10
-        current_slide = 9
     
     screen.fill(BACKGROUND)
     screen.blit(slides[current_slide], (0, 0))
