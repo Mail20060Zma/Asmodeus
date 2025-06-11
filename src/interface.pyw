@@ -4,6 +4,7 @@ from collections import defaultdict
 from asmo_UI import *
 from ai_generate_validator import *
 from schedule_converter_interface import *
+import json
 
 FPS = 60
 
@@ -44,7 +45,7 @@ teacher_group_new_desires = []
 
 def teacher_group_add_new_desire():
     global teacher_group_new_desires
-    new_desire = [ai_full_subject.return_main_name_selected(), ai_full_teacher_group_subject.return_main_name_selected()]
+    new_desire = [ai_full_subject.return_system_name_selected(), ai_full_teacher_group_subject.return_main_name_selected()]
     if new_desire not in teacher_group_new_desires and None not in new_desire:
         teacher_group_new_desires.append(new_desire)
 
@@ -399,6 +400,124 @@ def change_ai_more_message_order(direction):
 
 prev_group_teacher_index = ai_full_subject.selected_index
 
+
+def convert_options_to_json():
+    desired_groups_dict = {}
+    for dict_maker in teacher_group_new_desires:
+        if "".join(dict_maker[0]) in desired_groups_dict:
+            desired_groups_dict["".join(dict_maker[0])].append(" ".join(dict_maker[1]))
+        else:
+            desired_groups_dict["".join(dict_maker[0])] = [" ".join(dict_maker[1])]
+
+    undesired_time_dict = dict()
+    def add_new_value(key, value):
+        if key in undesired_time_dict:
+            undesired_time_dict[key].append(value)
+        else:
+            undesired_time_dict[key] = [value]
+
+    def update_json_file(file_path, new_undesired_days, new_desired_groups):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+
+            data['undesired_time'] = new_undesired_days
+            data['desired_groups'] = new_desired_groups
+            
+            with open(file_path, 'w', encoding='utf-8') as file:
+                json.dump(data, file, ensure_ascii=False, indent=4)
+                
+            return True
+        except Exception as e:
+            print(e)
+            return False
+
+    if mond_ai_more_message_time_switch_8_30.state == False:
+        add_new_value('Monday', '8_30')
+    if mond_ai_more_message_time_switch_10_15.state == False:
+        add_new_value('Monday', '10_15')
+    if mond_ai_more_message_time_switch_12_00.state == False:
+        add_new_value('Monday', '12_00')
+    if mond_ai_more_message_time_switch_14_15.state == False:
+        add_new_value('Monday', '14_15')
+    if mond_ai_more_message_time_switch_16_00.state == False:
+        add_new_value('Monday', '16_00')
+    if mond_ai_more_message_time_switch_17_40.state == False:
+        add_new_value('Monday', '17_40')
+    
+    if tues_ai_more_message_time_switch_8_30.state == False:
+        add_new_value('Tuesday', '8_30')
+    if tues_ai_more_message_time_switch_10_15.state == False:
+        add_new_value('Tuesday', '10_15')
+    if tues_ai_more_message_time_switch_12_00.state == False:
+        add_new_value('Tuesday', '12_00')
+    if tues_ai_more_message_time_switch_14_15.state == False:
+        add_new_value('Tuesday', '14_15')
+    if tues_ai_more_message_time_switch_16_00.state == False:
+        add_new_value('Tuesday', '16_00')
+    if tues_ai_more_message_time_switch_17_40.state == False:
+        add_new_value('Tuesday', '17_40')
+
+    if wedn_ai_more_message_time_switch_8_30.state == False:
+        add_new_value('Wednesday', '8_30')
+    if wedn_ai_more_message_time_switch_10_15.state == False:
+        add_new_value('Wednesday', '10_15')
+    if wedn_ai_more_message_time_switch_12_00.state == False:
+        add_new_value('Wednesday', '12_00')
+    if wedn_ai_more_message_time_switch_14_15.state == False:
+        add_new_value('Wednesday', '14_15')
+    if wedn_ai_more_message_time_switch_16_00.state == False:
+        add_new_value('Wednesday', '16_00')
+    if wedn_ai_more_message_time_switch_17_40.state == False:
+        add_new_value('Wednesday', '17_40')
+
+    if thur_ai_more_message_time_switch_8_30.state == False:
+        add_new_value('Thursday', '8_30')
+    if thur_ai_more_message_time_switch_10_15.state == False:
+        add_new_value('Thursday', '10_15')
+    if thur_ai_more_message_time_switch_12_00.state == False:
+        add_new_value('Thursday', '12_00')
+    if thur_ai_more_message_time_switch_14_15.state == False:
+        add_new_value('Thursday', '14_15')
+    if thur_ai_more_message_time_switch_16_00.state == False:
+        add_new_value('Thursday', '16_00')
+    if thur_ai_more_message_time_switch_17_40.state == False:
+        add_new_value('Thursday', '17_40')
+
+    if frid_ai_more_message_time_switch_8_30.state == False:
+        add_new_value('Friday', '8_30')
+    if frid_ai_more_message_time_switch_10_15.state == False:
+        add_new_value('Friday', '10_15')
+    if frid_ai_more_message_time_switch_12_00.state == False:
+        add_new_value('Friday', '12_00')
+    if frid_ai_more_message_time_switch_14_15.state == False:
+        add_new_value('Friday', '14_15')
+    if frid_ai_more_message_time_switch_16_00.state == False:
+        add_new_value('Friday', '16_00')
+    if frid_ai_more_message_time_switch_17_40.state == False:
+        add_new_value('Friday', '17_40')
+
+    if satu_ai_more_message_time_switch_8_30.state == False:
+        add_new_value('Saturday', '8_30')
+    if satu_ai_more_message_time_switch_10_15.state == False:
+        add_new_value('Saturday', '10_15')
+    if satu_ai_more_message_time_switch_12_00.state == False:
+        add_new_value('Saturday', '12_00')
+    if satu_ai_more_message_time_switch_14_15.state == False:
+        add_new_value('Saturday', '14_15')
+    if satu_ai_more_message_time_switch_16_00.state == False:
+        add_new_value('Saturday', '16_00')
+    if satu_ai_more_message_time_switch_17_40.state == False:
+        add_new_value('Saturday', '17_40')
+
+    update_answer = update_json_file(os.path.join(root_path, 'data', 'schedules', 'database', 'Preferences.json'), undesired_time_dict, desired_groups_dict)
+
+    return update_answer
+
+    
+
+
+
 running = True
 while running:
     if is_mouse_clicked:
@@ -622,27 +741,7 @@ while running:
     if ai_message_prompt_more_button.command() and ai_message_prompt_switch.state:
         ai_message.change_state()
         mond_ai_more_message.change_state()
-    if mond_ai_more_message_back_button.command():
-        mond_ai_more_message.change_state()
-        ai_message.change_state()
-    if tues_ai_more_message_back_button.command():
-        tues_ai_more_message.change_state()
-        ai_message.change_state()
-    if wedn_ai_more_message_back_button.command():
-        wedn_ai_more_message.change_state()
-        ai_message.change_state()
-    if thur_ai_more_message_back_button.command():
-        thur_ai_more_message.change_state()
-        ai_message.change_state()
-    if frid_ai_more_message_back_button.command():
-        frid_ai_more_message.change_state()
-        ai_message.change_state()
-    if satu_ai_more_message_back_button.command():
-        satu_ai_more_message.change_state()
-        ai_message.change_state()
-    if ai_more_message_back_button1.command():
-        ai_more_message1.state_closed()
-        ai_message.change_state()
+    
     if ai_more_message_prev_button1.command():
         change_ai_more_message_order('prev')
     if mond_ai_more_message_next_button.command():
@@ -711,6 +810,45 @@ while running:
     if satu_ai_more_message_prev_day_button.command():
         satu_ai_more_message.change_state()
         frid_ai_more_message.change_state()
+
+    if mond_ai_more_message_back_button.command() or\
+            tues_ai_more_message_back_button.command() or \
+            wedn_ai_more_message_back_button.command() or \
+            thur_ai_more_message_back_button.command() or \
+            frid_ai_more_message_back_button.command() or \
+            satu_ai_more_message_back_button.command() or \
+            ai_more_message_back_button1.command():
+        mond_ai_more_message_back_button.already_pressed = False
+        tues_ai_more_message_back_button.already_pressed = False
+        wedn_ai_more_message_back_button.already_pressed = False
+        thur_ai_more_message_back_button.already_pressed = False
+        frid_ai_more_message_back_button.already_pressed = False
+        satu_ai_more_message_back_button.already_pressed = False
+        ai_more_message_back_button1.already_pressed = False
+        answer = convert_options_to_json()
+        print(answer)
+
+    if mond_ai_more_message_back_button.command():
+        mond_ai_more_message.change_state()
+        ai_message.change_state()
+    if tues_ai_more_message_back_button.command():
+        tues_ai_more_message.change_state()
+        ai_message.change_state()
+    if wedn_ai_more_message_back_button.command():
+        wedn_ai_more_message.change_state()
+        ai_message.change_state()
+    if thur_ai_more_message_back_button.command():
+        thur_ai_more_message.change_state()
+        ai_message.change_state()
+    if frid_ai_more_message_back_button.command():
+        frid_ai_more_message.change_state()
+        ai_message.change_state()
+    if satu_ai_more_message_back_button.command():
+        satu_ai_more_message.change_state()
+        ai_message.change_state()
+    if ai_more_message_back_button1.command():
+        ai_more_message1.state_closed()
+        ai_message.change_state()
 
 
     pygame.display.flip()
