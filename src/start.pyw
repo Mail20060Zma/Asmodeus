@@ -43,6 +43,10 @@ while running:
             if event.button == 1:
                 is_mouse_clicked = False
                 is_long_click = False
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE or event.key == pygame.K_RETURN or event.key == pygame.K_SPACE:
+                cur_frame = LAST_FRAME
+                pygame.mixer.music.stop()
 
     mouse_pos = pygame.mouse.get_pos()
 

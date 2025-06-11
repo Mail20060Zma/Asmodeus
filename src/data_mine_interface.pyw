@@ -40,6 +40,8 @@ button_forward = asmo_UI.Button(screen, [205, 650], [50, 50], text='>')
 start_button = asmo_UI.Button(screen, [800, 600], [460, 100], text='Начать обработку')
 folder_button = asmo_UI.Button(screen, [800, 600], [460, 100], text='Открыть папку')
 
+back_to_menu_button = asmo_UI.Button(screen, [20, 600], [460, 100], text='В главное меню')
+
 if not slides:
     print("Не найдено ни одного слайда!")
     pygame.quit()
@@ -92,6 +94,9 @@ while running:
         change_slide(-1)
     elif button_forward.command():
         change_slide(1)
+    elif back_to_menu_button.command():
+        running = False
+        os.startfile('start.pyw')
     
     if folder_button.command():
         os.startfile(os.path.join(root_path, 'data', 'schedules', 'isc'))
@@ -116,6 +121,8 @@ while running:
             start_button.process(mouse_pos, is_mouse_clicked, is_long_click)
         if current_slide == 7:
             folder_button.process(mouse_pos, is_mouse_clicked, is_long_click)
+    if current_slide == 9 or current_slide == 10:
+        back_to_menu_button.process(mouse_pos, is_mouse_clicked, is_long_click)
     
     pygame.display.flip()
     clock.tick(60)
