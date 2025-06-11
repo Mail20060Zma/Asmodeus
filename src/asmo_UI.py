@@ -615,7 +615,7 @@ class Input_field:
 
 class Drop_menu_subject:
     def __init__(self, main_name:str, list_name:str, place:str, system_name:str=None, gap_size:int = None,
-                 building:str = None, tutor:str = None, group:str = None, lesson_type:str = None):
+                 building:str = None, tutor:str = None, group:str = None, lesson_type:str = None, full_name = None):
         self.main_name = main_name
         self.list_name = list_name
         self.place = place
@@ -630,6 +630,10 @@ class Drop_menu_subject:
         self.tutor = tutor
         self.group = group
         self.lesson_type = lesson_type
+        if full_name == None:
+            self.full_name = self.main_name
+        else: 
+            self.full_name = full_name
     def give_subject_name(self):
         return self.list_name 
     def give_groupe_name(self):
@@ -812,6 +816,11 @@ class Drop_menu:
     def return_main_name_selected(self):
         if self.selected_index != None:
             return self.options[self.selected_index].main_name
+        return None
+    
+    def return_system_name_selected(self):
+        if self.selected_index != None:
+            return self.options[self.selected_index].system_name
         return None
 
 
