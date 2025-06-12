@@ -27,7 +27,7 @@ class ScheduleValidator:
             data = {}
             for row in reader:
                 row_dict = dict(zip(headers, row))
-                subject = row_dict.get('Subject', '')
+                subject = row_dict.get('Subject', '').replace('\\','')
                 group = row_dict.get('Group', '')
                 if subject and group:
                     if subject not in data:
@@ -41,6 +41,7 @@ class ScheduleValidator:
                     teacher = row_dict.get('Teacher', '')
                     institute = row_dict.get('Institute', '')
                     data[subject][group].append([day, time, auditory, teacher, institute])
+            print(data)
             return data
         except Exception as e:
             print(f"Ошибка при конвертации: {e}")
@@ -55,6 +56,7 @@ class ScheduleValidator:
             # Загружаем исходное расписание
             with open(self.original_schedule_file, 'r', encoding='utf-8') as f:
                 original_schedule = json.load(f)
+                original_schedule = {subject.replace('\\',''): groups for subject, groups in original_schedule.items()}
             
             # Определяем, является ли вход строкой или путем к файлу
             if isinstance(schedule_input, str):

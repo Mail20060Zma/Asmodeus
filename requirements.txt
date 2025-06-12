@@ -1,2 +1,2 @@
-pycryptodome==3.19.0
-together==0.2.9 
+requests==2.31.0
+pygame==2.5.2
