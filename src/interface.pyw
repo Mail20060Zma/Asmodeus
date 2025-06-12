@@ -510,7 +510,7 @@ def convert_options_to_json():
     if satu_ai_more_message_time_switch_17_40.state == False:
         add_new_value('Saturday', '17_40')
 
-    update_answer = update_json_file(r'.\data\schedules\database\Preferences.json', undesired_time_dict, desired_groups_dict)
+    update_answer = update_json_file(os.path.join(root_path, 'data', 'schedules', 'database', 'Preferences.json'), undesired_time_dict, desired_groups_dict)
 
     return update_answer
 

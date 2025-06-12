@@ -41,7 +41,6 @@ class ScheduleValidator:
                     teacher = row_dict.get('Teacher', '')
                     institute = row_dict.get('Institute', '')
                     data[subject][group].append([day, time, auditory, teacher, institute])
-            print(data)
             return data
         except Exception as e:
             print(f"Ошибка при конвертации: {e}")
