@@ -515,6 +515,13 @@ def csv_to_schedule_dict(csv_file_path):
                 schedule[full_subject].append(subject_groupe_obj)
             
             schedule[day][time].append(subject_obj)
+    for subject_temp in temp_list_subject:
+        schedule[subject_temp] = sorted(
+            schedule[subject_temp],
+            key=lambda x: (0 if not (len(x.list_name) > 2 and x.list_name[2] == '-') else 1,
+                           x.list_name if not (len(x.list_name) > 2 and x.list_name[2] == '-') 
+                           else int(x.list_name.split('-')[1])))
+
 
     return dict(schedule)
 
