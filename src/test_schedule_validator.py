@@ -4,7 +4,6 @@ from schedule_validator import ScheduleValidator
 def main():
     validator = ScheduleValidator()
     
-    # Тест 1: Валидация из файла
     print("\nТест 1: Валидация из файла")
     current_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(current_dir)
@@ -16,7 +15,6 @@ def main():
     is_valid = validator.validate_schedule(schedule_file)
     print(f"Расписание {'валидно' if is_valid else 'невалидно'}")
     
-    # Тест 2: Валидация из строки CSV
     print("\nТест 2: Валидация из строки CSV")
     csv_string = '''"Day","Time","Auditory","Subject","Group","Teacher","Institute"
 "Wednesday","14:15","И252","Физика. Часть 2. Основной уровень","АТ-12","Синицин Николай Иванович","ГУК"

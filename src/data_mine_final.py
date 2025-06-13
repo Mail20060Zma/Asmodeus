@@ -133,7 +133,6 @@ def convert_subject_shedule(file_path: str) -> None:
                         string = string.split("/")[1]
                     except:
                         string = string.split("/")[0]
-                    # Исправление: если аудитория не определена, подставляем ""
                     if string.lower() in ["неопределено", "не определено", "не определена", "неопределена"]:
                         string = ""
                 if "DESCRIPTION" in string:
@@ -157,13 +156,10 @@ def export_to_csv(filename="schedule.csv"):
     with open(filename, "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
 
-        # Записываем заголовки
         writer.writerow(["Day", "Time", "Auditory", "Subject", "Group", "Teacher", "Institute"])
 
-        # Проходим по всем дням и времени
         for day, times in dataset.items():
             for time, lessons in times.items():
-                # Проходим по всем занятиям в это время
                 for lesson in lessons:
                     writer.writerow([
                         day,
@@ -199,7 +195,6 @@ def convert_csv_to_json(csv_file, json_file):
                         data[subject] = {}
                     if group not in data[subject]:
                         data[subject][group] = []
-                    # Извлекаем дополнительные параметры
                     day = row_dict.get("Day", "")
                     time = row_dict.get("Time", "")
                     auditory = row_dict.get("Auditory", "")
@@ -212,10 +207,8 @@ def convert_csv_to_json(csv_file, json_file):
         print(f"Ошибка при конвертации: {e}")
 
 def main_data_mine_final():
-    # Получаем путь к корневой директории проекта
     root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
-    # Пути к директориям
     data_path = os.path.join(root_path, "data", "schedules", "isc")
     output_path = os.path.join(root_path, "data", "schedules", "database")
 
@@ -227,15 +220,12 @@ def main_data_mine_final():
         answer = False 
         return answer
 
-    # Обрабатываем .ics файлы
     process_schedule_files(data_path)
     
-    # Экспортируем в CSV
     csv_file = os.path.join(output_path, "schedule.csv")
     export_to_csv(csv_file)
     print(f"Расписание экспортировано в {csv_file}")
 
-    # Преобразуем расписание в JSON
     json_file = os.path.join(output_path, "schedule.json")
     convert_csv_to_json(csv_file, json_file)
     print(f"Расписание также преобразовано в JSON (schedule.json)")

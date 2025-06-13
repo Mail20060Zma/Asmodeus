@@ -63,13 +63,10 @@ class APISender:
         desired_parts = desired_teacher.split()
         for teacher in teacher_parts:
             teacher_words = teacher.split()
-            # Проверяем полное совпадение
             if desired_teacher in teacher:
                 return True
-            # Проверяем совпадение фамилии
             if desired_parts[0] == teacher_words[0]:
                 return True
-            # Проверяем совпадение инициалов только если количество слов совпадает
             if len(teacher_words) == len(desired_parts):
                 if all(part[0] == desired_parts[i][0] for i, part in enumerate(teacher_words)):
                     return True
@@ -118,13 +115,10 @@ class APISender:
         
         for teacher in teacher_parts:
             teacher_words = teacher.split()
-            # Проверяем полное совпадение
             if desired_teacher in teacher:
                 return True
-            # Проверяем совпадение фамилии
             if desired_parts[0] == teacher_words[0]:
                 return True
-            # Проверяем совпадение инициалов
             if len(teacher_words) == len(desired_parts):
                 if all(part[0] == desired_parts[i][0] for i, part in enumerate(teacher_words)):
                     return True
@@ -141,12 +135,10 @@ class APISender:
                 filtered_groups = {}
                 
                 for group, lessons in self.filtered_schedule[subject].items():
-                    # Проверяем, является ли группа одной из желаемых
                     if group in desired_list:
                         filtered_groups[group] = lessons
                         continue
                     
-                    # Проверяем, есть ли желаемый преподаватель в занятиях группы
                     for lesson in lessons:
                         for desired in desired_list:
                             if self._is_teacher_match(lesson[3], desired):
@@ -182,25 +174,14 @@ class APISender:
         return all(len(groups) > 0 for groups in self.filtered_schedule.values())
 
     def save_validated_schedule(self, schedule_data: str, output_file: str) -> bool:
-        """
-        Сохраняет расписание только если оно прошло валидацию
-        
-        Args:
-            schedule_data (str): Расписание в формате CSV
-            output_file (str): Путь к файлу для сохранения
-            
-        Returns:
-            bool: True если расписание сохранено, False если не прошло валидацию
-        """
+        """Сохраняет расписание только если оно прошло валидацию"""
         try:
-            # Проверяем валидность расписания
             is_valid = self.validator.validate_schedule(schedule_data)
             
             if not is_valid:
                 print("Расписание не прошло валидацию")
                 return False
                 
-            # Если расписание валидно, сохраняем его
             with open(output_file, 'w', encoding='utf-8', newline='') as f:
                 f.write(schedule_data)
             print(f"Расписание успешно сохранено в {output_file}")
@@ -213,7 +194,7 @@ class APISender:
     def send_message(self, model_name = "Llama"):
         self.load_data()
         self.filtered_schedule = self.original_schedule.copy()
-        # Применяем фильтры
+
         self.filter_by_undesired_time()
         self.filter_by_desired_groups()
         self.filter_by_undesired_institutes()
@@ -237,37 +218,36 @@ class APISender:
                 {
                     "role": "system",
                     "content": """
-▌ Система генерации учебных расписаний Asmodeus
-▌ Версия: 2.1 | Формат: Strict-CSV
+Ты — алгоритм генерации учебных расписаний. Обрабатываешь CSV-данные и возвращаешь только CSV-результаты без текстовых комментариев.
 
-▼ Цель системы:
+Цель системы:
 Автоматически генерировать оптимальные расписания без временных конфликтов, учитывая:
 1. Выбор ровно ОДНОЙ группы для каждого предмета
 2. Для каждой группы выберать все пары 
 3. Убедиться что нету времных пересечений в один день 
 
-▼ Входные данные (JSON):
+Входные данные (JSON):
 {\n  "Предмет": {\n    "Группа": [\n      [Day,Time,Auditory,Teacher,Institute]\n    ]\n  }\n}\n
-▼ Требования к обработке:
+Требования к обработке:
 1. Выбор ровно ОДНОЙ группы для каждого предмета
 2. Для каждой группы выберать все пары 
 3. Запрет временных пересечений (день+время)
 
 
-▼ Примеры НЕВЕРНЫХ записей:
+Примеры НЕВЕРНЫХ записей:
 ["Monday", "10:15", "А-101", "", "Институт 1"]  ← Отсутствует преподаватель
 
-▼ Формат вывода (CSV):
+Формат вывода (CSV):
 "Day","Time","Auditory","Subject","Group","Teacher","Institute"
 ""Monday","08:30","А-101","Математика","Группа 1","Иванов А.А.","Институт 1"
 
-▼ Валидация:
+Валидация:
 Автоматическая проверка:
-✓ Наличие всех обязательных полей
-✓ Корректность форматов времени
-✓ Отсутствие конфликтов временных пересечений (день+время)
+1. Наличие всех обязательных полей
+2. Корректность форматов времени
+3. Отсутствие конфликтов временных пересечений (день+время)
 
-▌! ВСЕ значения в кавычках, кодировка UTF-8
+ВСЕ значения в кавычках, кодировка UTF-8
 """
                 },
                 {
@@ -312,10 +292,8 @@ class APISender:
         if not schedule:
             return False, "Расписание пустое"
 
-        # Конвертируем расписание в CSV формат
         csv_data = "Day,Time,Auditory,Subject,Group,Teacher,Institute\n"
         for lesson in schedule:
-            # Обрабатываем каждый параметр, заключая его в кавычки
             day = f'"{lesson[0]}"'
             time = f'"{lesson[1]}"'
             auditory = f'"{lesson[2]}"'
@@ -324,10 +302,8 @@ class APISender:
             teacher = f'"{lesson[5]}"'
             institute = f'"{lesson[6]}"'
             
-            # Формируем строку CSV с кавычками
             csv_data += f"'{day}','{time}','{auditory}','{subject}','{group}','{teacher}','{institute}'\n"
 
-        # Валидируем расписание
         is_valid = self.validator.validate_schedule(csv_data)
         return is_valid, "Расписание валидно" if is_valid else "Расписание невалидно"
 

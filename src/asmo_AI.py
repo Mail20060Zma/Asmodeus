@@ -64,12 +64,10 @@ class AsmodeusAI:
                 filtered_groups = {}
                 
                 for group, lessons in self.filtered_schedule[subject].items():
-                    # Проверяем, является ли группа одной из желаемых
                     if group in desired_list:
                         filtered_groups[group] = lessons
                         continue
                     
-                    # Проверяем, есть ли желаемый преподаватель в занятиях группы
                     for lesson in lessons:
                         for desired in desired_list:
                             if self._is_teacher_match(lesson[3], desired):
@@ -103,13 +101,10 @@ class AsmodeusAI:
         
         for teacher in teacher_parts:
             teacher_words = teacher.split()
-            # Проверяем полное совпадение
             if desired_teacher in teacher:
                 return True
-            # Проверяем совпадение фамилии
             if desired_parts[0] == teacher_words[0]:
                 return True
-            # Проверяем совпадение инициалов
             if len(teacher_words) == len(desired_parts):
                 if all(part[0] == desired_parts[i][0] for i, part in enumerate(teacher_words)):
                     return True
@@ -139,7 +134,6 @@ class AsmodeusAI:
                 lessons = groups[group]
                 has_conflict = False
                 
-                # Проверяем конфликты по времени
                 for lesson in lessons:
                     time_slot = (lesson[0], lesson[1])
                     if time_slot in used_time_slots:
@@ -147,14 +141,11 @@ class AsmodeusAI:
                         break
                 
                 if not has_conflict:
-                    # Добавляем группу в расписание
                     schedule[subject] = {group: lessons}
-                    # Отмечаем использованные временные слоты
                     for lesson in lessons:
                         used_time_slots.add((lesson[0], lesson[1]))
                     break
             
-            # Если не удалось добавить ни одну группу для предмета
             if subject not in schedule:
                 return None
 
@@ -184,30 +175,24 @@ class AsmodeusAI:
         if not self.load_data():
             return False
 
-        # Копируем исходное расписание
         self.filtered_schedule = self.original_schedule.copy()
 
-        # Применяем фильтры
         self.filter_by_undesired_time()
         self.filter_by_desired_groups()
         self.filter_by_undesired_institutes()
 
-        # Проверяем наличие групп для всех предметов
         if not self.check_subjects_have_groups():
             print("Ошибка: не все предметы имеют доступные группы после фильтрации")
             return False
 
-        # Сортируем предметы по количеству групп
         self.sort_subjects_by_groups_count()
 
-        # Генерируем варианты расписания
         generated_variants = 0
         attempts = 0
 
         while generated_variants < num_variants and attempts < max_attempts:
             schedule = self.generate_schedule_variant()
             if schedule:
-                # Проверяем валидность расписания
                 csv_data = self._schedule_to_csv(schedule)
                 if self.validator.validate_schedule(csv_data):
                     if self.save_schedule_variant(schedule, generated_variants + 1):
