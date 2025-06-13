@@ -2,12 +2,11 @@ from api_sender import APISender
 
 def main():
     sender = APISender()
-    model_name = "DeepSeek R1" 
-    try:
-        response = sender.send_message(model_name = model_name)
-        print("Ответ:\n", response)
-    except Exception as e:
-        print(f"Произошла ошибка: {str(e)}")
+    model_name="Llama 4 Scout"
+    success_count = sender.generate_schedule(model_name)
+    
+    print(f"Успешно сгенерировано расписаний: {success_count}")
+    return success_count > 0 
 
 if __name__ == "__main__":
     main()

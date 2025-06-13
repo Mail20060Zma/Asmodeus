@@ -59,7 +59,7 @@ class ScheduleValidator:
                     with open(schedule_input, 'r', encoding='utf-8') as f:
                         schedule = self.convert_csv_to_json(f)
                 else:
-                    schedule = self.convert_csv_to_json(schedule_input)
+                    schedule = self.convert_csv_to_json(schedule_input.strip())
             else:
                 schedule = self.convert_csv_to_json(schedule_input)
             

@@ -2,11 +2,9 @@ import json
 import random
 import os
 from typing import Dict, Any, Optional
-import requests
 from pathlib import Path
 import aiohttp
 import asyncio
-from datetime import datetime
 from schedule_validator import ScheduleValidator
 
 class APISender:
@@ -21,6 +19,7 @@ class APISender:
         self.original_schedule: Dict = {}
         self.preferences: Dict = {}
         self.validator = ScheduleValidator()
+        self.semaphore = asyncio.Semaphore(10)
         
     def _load_json(self, filename: str) -> Dict[str, Any]:
         """Загрузка JSON файла из конфигурационной директории"""
@@ -176,14 +175,16 @@ class APISender:
     def save_validated_schedule(self, schedule_data: str, output_file: str) -> bool:
         """Сохраняет расписание только если оно прошло валидацию"""
         try:
-            is_valid = self.validator.validate_schedule(schedule_data)
-            
+            is_valid = self.validator.validate_schedule(schedule_data)        
             if not is_valid:
-                print("Расписание не прошло валидацию")
                 return False
-                
-            with open(output_file, 'w', encoding='utf-8', newline='') as f:
-                f.write(schedule_data)
+            for i in range(100):
+                output_file_temp = output_file + f'{i}.csv'
+                if not os.path.exists(output_file_temp):
+                    output_file = output_file_temp
+                    with open(output_file, 'w', encoding='utf-8', newline='') as f:
+                        f.write(schedule_data.strip())
+                    break
             print(f"Расписание успешно сохранено в {output_file}")
             return True
             
@@ -191,119 +192,164 @@ class APISender:
             print(f"Ошибка при сохранении расписания: {e}")
             return False
 
-    def send_message(self, model_name = "Llama"):
-        self.load_data()
-        self.filtered_schedule = self.original_schedule.copy()
+    async def send_single_request(self, session: aiohttp.ClientSession, model_name: str, attempt ):
+        """Асинхронная отправка одного запроса к API"""
+        async with self.semaphore:  # Ограничиваем количество одновременных запросов
+            api_key = self._get_random_api_key()
+            model_id = self._get_model_id(model_name)
+            url = "https://openrouter.ai/api/v1/chat/completions"
+            headers = {
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            }
+            
+            data = {
+                "model": model_id,
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": """Ты - алгоритм генерации учебных расписаний. Твоя задача - создать оптимальное расписание без временных конфликтов, следуя строгим правилам.
 
-        self.filter_by_undesired_time()
-        self.filter_by_desired_groups()
-        self.filter_by_undesired_institutes()
+**Алгоритм работы:**
+1. Анализ входных данных:
+   - Рассортируй предметы по приоритету: сначала предметы с наименьшим количеством групп
+   - Для предметов с 1 или 2 группами - высокий приоретет 
+   - Для предметов с 5+ группами и одной парой на группу - низкий приоритет
+   - Для предметов с 5+ группами и одна пара очно и одна пара онлайн  - низкий приоритет
+   - Для предметов с 5+ группами и двумя или более парами на группу - средний приоритет
 
-        if not self.check_subjects_have_groups():
-            print("Ошибка: не все предметы имеют доступные группы после фильтрации")
-            return False
-        
-        api_key = self._get_random_api_key()
-        model_id = self._get_model_id(model_name)
-        url = "https://openrouter.ai/api/v1/chat/completions"
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/yourusername/your-repo",
-            "X-Title": "Asmodeus Project"
-        }
-        data = {
-            "model": model_id,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": """
-Ты — алгоритм генерации учебных расписаний. Обрабатываешь CSV-данные и возвращаешь только CSV-результаты без текстовых комментариев.
+2. Процесс составления расписания:
+   a. Инициализируй пустое расписание и множество занятых временных слотов
+   b. Для каждого предмета в порядке приоритета:
+      1. Проанализируй все доступные группы предмета
+      2. Выбери рандомную группу, все пары которой:
+          - Не пересекаются с занятыми слотами
+          - Максимально заполняют свободные временные промежутки
+      3. Добавь все выбранные пары в расписание из группы  
+      4. Зафиксируй занятые временные слоты 
+      5. Вывети все занятые временные слоты 
+   с. Валидация расписания:
+      1. Убедись, что для каждого предмета выбрана ровно одна 
+      2. Проверь отсутствие временных конфликтов (день+время)
+      3. Подтверди, что все пары выбранных групп включены
+      4. Проверить, что все параметры(день, время, преподователь, аудитория, институт) у каждой пары верные  
+   b. При обнаружении проблемы:
+      1. Отменить последнее добавление
+      2. Попробовать следующую подходящую группу
+      3. Если варианты исчерпаны — вернуться на шаг назад
 
-Цель системы:
-Автоматически генерировать оптимальные расписания без временных конфликтов, учитывая:
-1. Выбор ровно ОДНОЙ группы для каждого предмета
-2. Для каждой группы выберать все пары 
-3. Убедиться что нету времных пересечений в один день 
+ 
+3. Валидация расписания:
+   a Проверь, что все исходные предметы присутствуют
+   b Убедись, что для каждого предмета выбрана ровно одна группа
+   c Проверь отсутствие временных конфликтов (день+время)
+   d Подтверди, что все пары выбранных групп включены
 
-Входные данные (JSON):
-{\n  "Предмет": {\n    "Группа": [\n      [Day,Time,Auditory,Teacher,Institute]\n    ]\n  }\n}\n
-Требования к обработке:
-1. Выбор ровно ОДНОЙ группы для каждого предмета
-2. Для каждой группы выберать все пары 
-3. Запрет временных пересечений (день+время)
+4. Обработка ошибок:
+   При обнаружении проблемы:
+     1. Отменить последнее добавление
+     2. Попробовать следующую подходящую группу
+     3. Если варианты исчерпаны — вернуться на шаг назад
 
 
-Примеры НЕВЕРНЫХ записей:
-["Monday", "10:15", "А-101", "", "Институт 1"]  ← Отсутствует преподаватель
+**Формат входных данных (JSON):**
+{
+  "Предмет": {
+    "Группа": [
+      ["День", "Время", "Аудитория", "Преподаватель", "Институт"],
+      ...
+    ],
+    ...
+  },
+  ...
+}
 
-Формат вывода (CSV):
+**Требования к обработке:**
+1. Для каждого предмета — ровно одна выбранная группа
+2. Все пары выбранной группы должны быть включены
+3. Строгий запрет временных пересечений (одинаковые день+время)
+4. Приоритет групп, которые максимизируют заполнение расписания
+5. Проверка после каждого добавленного предмета
+6. Онлайн пары тоже добавлять в расписание 
+
+**Формат вывода (CSV):**
 "Day","Time","Auditory","Subject","Group","Teacher","Institute"
-""Monday","08:30","А-101","Математика","Группа 1","Иванов А.А.","Институт 1"
+"Monday","08:30","А-101","Математика","Группа 1","Иванов А.А.","Институт 1"
 
-Валидация:
-Автоматическая проверка:
-1. Наличие всех обязательных полей
-2. Корректность форматов времени
-3. Отсутствие конфликтов временных пересечений (день+время)
+**Правила валидации:**
+1. Все поля должны быть в кавычках
+2. UTF-8 кодировка
+3. Обязательные поля: Day, Time, Auditory, Subject, Group, Teacher, Institute
 
-ВСЕ значения в кавычках, кодировка UTF-8
+**Выводи все размышления, но после вывода CSV никаких дополнительных сообщений быть не должно. И Выводить только один вариант расписание.**
 """
-                },
-                {
-                    "role": "user",
-                    "content": json.dumps(self.filtered_schedule, ensure_ascii=False, indent=2)
-                }
-            ],
-            "temperature": 0.1,
-            "max_tokens": 3000
-        }
-        print("Отправляем запрос к API...")
+                    },
+                    {
+                        "role": "user",
+                        "content": json.dumps(self.filtered_schedule, ensure_ascii=False, indent=2)
+                    }
+                ],
+                "temperature": 0.2,
+            }
 
-        try:
-            response = requests.post(url, headers=headers, json=data)
-            response.raise_for_status()
-            
-            if response.status_code == 200:
-                result = response.json()
-                if 'choices' in result and len(result['choices']) > 0:
-                    schedule_data = result['choices'][0]['message']['content']
+            try:
+                print(f"Отправляем запрос к API с моделью {attempt}...")
+                async with session.post(url, headers=headers, json=data) as response:
+                    response.raise_for_status()
+                    result = await response.json()
                     
-                    output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-                                             'data', 'schedules', 'ready', 'schedule_variant_1.csv')
-                    
-                    if self.save_validated_schedule(schedule_data, output_file):
-                        print("Расписание успешно сгенерировано и сохранено")
+                    if 'choices' in result and len(result['choices']) > 0:
+                        schedule_data = result['choices'][0]['message']['content']
+                        print(f"Получен ответ для модели {attempt}")
+                        schedule_data = schedule_data[schedule_data.find('"Day')-1:]
+                        
+                        output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                                 'data', 'schedules', 'ready', 'schedule_variant_')
+                        
+                        if self.save_validated_schedule(schedule_data, output_file):
+                            print(f"Расписание успешно сгенерировано и сохранено для модели {attempt}")
+                            return True
+                        else:
+                            print(f"Расписание не прошло валидацию для модели {attempt}")
+                            return False
                     else:
-                        print("Расписание не прошло валидацию и не было сохранено")
+                        print(f"Неверный формат ответа от API для модели {attempt}")
+                        return False
+            except Exception as e:
+                print(f"Ошибка при отправке сообщения для модели {attempt}: {str(e)}")
+                return False
+
+    def generate_schedule(self, model_name: str = "DeepSeek R1T") -> int:
+        """
+        Синхронный метод для генерации расписания.
+        Возвращает количество успешно сгенерированных и сохраненных расписаний.
+
+        """
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        
+        try:
+            self.load_data()
+            self.filtered_schedule = self.original_schedule.copy()
+            self.filter_by_undesired_time()
+            self.filter_by_desired_groups()
+            self.filter_by_undesired_institutes()
+
+            if not self.check_subjects_have_groups():
+                print("Ошибка: не все предметы имеют доступные группы после фильтрации")
+                return 0
+
+            async def run_requests():
+                async with aiohttp.ClientSession() as session:
+                    tasks = [self.send_single_request(session, model_name, i) for i in range(10)]
+                    results = await asyncio.gather(*tasks, return_exceptions=False)
                     
-                    return schedule_data
-                else:
-                    raise Exception("Неверный формат ответа от API")
-            else:
-                error_text = response.text
-                raise Exception(f"Ошибка при отправке сообщения: {error_text}")
-        except Exception as e:
-            print(f"Ошибка: {str(e)}")
-            return None
+                    success_count = 0
+                    for result in results:
+                        if result:
+                            success_count += 1
+                    return success_count
 
-    def validate_schedule(self, schedule):
-        """Проверяет валидность расписания используя ScheduleValidator"""
-        if not schedule:
-            return False, "Расписание пустое"
-
-        csv_data = "Day,Time,Auditory,Subject,Group,Teacher,Institute\n"
-        for lesson in schedule:
-            day = f'"{lesson[0]}"'
-            time = f'"{lesson[1]}"'
-            auditory = f'"{lesson[2]}"'
-            subject = f'"{lesson[3]}"'
-            group = f'"{lesson[4]}"'
-            teacher = f'"{lesson[5]}"'
-            institute = f'"{lesson[6]}"'
-            
-            csv_data += f"'{day}','{time}','{auditory}','{subject}','{group}','{teacher}','{institute}'\n"
-
-        is_valid = self.validator.validate_schedule(csv_data)
-        return is_valid, "Расписание валидно" if is_valid else "Расписание невалидно"
-
+            return loop.run_until_complete(run_requests())
+        finally:
+            loop.close()

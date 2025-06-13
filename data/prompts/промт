@@ -1,66 +1,355 @@
+import json
+import random
+import os
+from typing import Dict, Any, Optional
+import requests
+from pathlib import Path
+import aiohttp
+import asyncio
+from datetime import datetime
+from schedule_validator import ScheduleValidator
+
+class APISender:
+    def __init__(self):
+        self.config_dir = Path(__file__).parent / 'config'
+        self.models_config = self._load_json('api_model.json')
+        self.api_keys = self._load_json('api_keys.json')
+        self.schedule_data = self._load_schedule_data()
+        self.schedule_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'schedule.json')
+        self.preferences_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'preferences.json')
+        self.validator = ScheduleValidator()
+        self.original_schedule: Dict = {}
+        self.preferences: Dict = {}
+        self.validator = ScheduleValidator()
+        
+    def _load_json(self, filename: str) -> Dict[str, Any]:
+        """Загрузка JSON файла из конфигурационной директории"""
+        file_path = self.config_dir / filename
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            raise FileNotFoundError(f"Файл конфигурации {filename} не найден в {self.config_dir}")
+        except json.JSONDecodeError:
+            raise ValueError(f"Ошибка в формате JSON файла {filename}")
+
+    def _get_random_api_key(self) -> str:
+        """Получение случайного API ключа из списка"""
+        if not self.api_keys:
+            raise ValueError("Список API ключей пуст")
+        return random.choice(self.api_keys)
+
+    def _get_model_id(self, model_name: Optional[str] = None) -> str:
+        """Получение ID модели"""
+        if model_name is None:
+            model_name = self.models_config.get('default_model')
+        
+        model_id = self.models_config['models'].get(model_name)
+        if not model_id:
+            raise ValueError(f"Модель {model_name} не найдена в конфигурации")
+        
+        return model_id
+
+    def _load_schedule_data(self):
+        schedule_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'schedule.json')
+        with open(schedule_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    def is_teacher_match(self, teacher_str, desired_teacher):
+        """Проверяет совпадение преподавателя (полное ФИО, фамилия с инициалами или только фамилия)"""
+        if not teacher_str or not desired_teacher:
+            return False
+        teacher_parts = [t.strip() for t in teacher_str.split(",")]
+        desired_parts = desired_teacher.split()
+        for teacher in teacher_parts:
+            teacher_words = teacher.split()
+            if desired_teacher in teacher:
+                return True
+            if desired_parts[0] == teacher_words[0]:
+                return True
+            if len(teacher_words) == len(desired_parts):
+                if all(part[0] == desired_parts[i][0] for i, part in enumerate(teacher_words)):
+                    return True
+        return False
+
+    def load_data(self) -> tuple:
+        """Загрузка исходных данных из файлов"""
+        try:
+            with open(self.schedule_file, 'r', encoding='utf-8') as f:
+                self.original_schedule = json.load(f)
+            
+            with open(self.preferences_file, 'r', encoding='utf-8') as f:
+                self.preferences = json.load(f)
+            
+        except Exception as e:
+            print(f"Ошибка при загрузке данных: {e}")
+            return (None, None)
+
+    def filter_by_undesired_time(self) -> None:
+        """Фильтрация по нежелательному времени"""
+        if not self.preferences.get("undesired_time"):
+            return
+
+        for subject in list(self.filtered_schedule.keys()):
+            for group in list(self.filtered_schedule[subject].keys()):
+                lessons = self.filtered_schedule[subject][group]
+                has_unwanted_time = False
+                for lesson in lessons:
+                    day = lesson[0]
+                    time = lesson[1].lstrip("0").replace(":", "_")
+                    if day in self.preferences["undesired_time"]:
+                        if time in self.preferences["undesired_time"][day]:
+                            has_unwanted_time = True
+                            break
+                
+                if has_unwanted_time:
+                    del self.filtered_schedule[subject][group]
+
+    def _is_teacher_match(self, teacher_str: str, desired_teacher: str) -> bool:
+        """Проверка совпадения преподавателя"""
+        if not teacher_str or not desired_teacher:
+            return False
+            
+        teacher_parts = [t.strip() for t in teacher_str.split(",")]
+        desired_parts = desired_teacher.split()
+        
+        for teacher in teacher_parts:
+            teacher_words = teacher.split()
+            if desired_teacher in teacher:
+                return True
+            if desired_parts[0] == teacher_words[0]:
+                return True
+            if len(teacher_words) == len(desired_parts):
+                if all(part[0] == desired_parts[i][0] for i, part in enumerate(teacher_words)):
+                    return True
+        return False
+
+    def filter_by_desired_groups(self) -> None:
+        """Фильтрация по желаемым группам и преподавателям"""
+        if not self.preferences.get("desired_groups"):
+            return
+
+        for subject in list(self.filtered_schedule.keys()):
+            if subject in self.preferences["desired_groups"]:
+                desired_list = self.preferences["desired_groups"][subject]
+                filtered_groups = {}
+                
+                for group, lessons in self.filtered_schedule[subject].items():
+                    if group in desired_list:
+                        filtered_groups[group] = lessons
+                        continue
+                    
+                    for lesson in lessons:
+                        for desired in desired_list:
+                            if self._is_teacher_match(lesson[3], desired):
+                                filtered_groups[group] = lessons
+                                break
+                
+                self.filtered_schedule[subject] = filtered_groups
+
+    def filter_by_undesired_institutes(self) -> None:
+        """Фильтрация по нежелательным институтам"""
+        if not self.preferences.get("undesired_institutes"):
+            return
+
+        for subject in list(self.filtered_schedule.keys()):
+            for group in list(self.filtered_schedule[subject].keys()):
+                lessons = self.filtered_schedule[subject][group]
+                has_unwanted_institute = any(
+                    lesson[4] in self.preferences["undesired_institutes"]
+                    for lesson in lessons
+                )
+                if has_unwanted_institute:
+                    del self.filtered_schedule[subject][group]
+
+    def sort_subjects_by_groups_count(self) -> None:
+        """Сортировка предметов по количеству групп"""
+        self.filtered_schedule = dict(sorted(
+            self.filtered_schedule.items(),
+            key=lambda x: len(x[1])
+        ))
+
+    def check_subjects_have_groups(self) -> bool:
+        """Проверка наличия хотя бы одной группы для каждого предмета"""
+        return all(len(groups) > 0 for groups in self.filtered_schedule.values())
+
+    def save_validated_schedule(self, schedule_data: str, output_file: str) -> bool:
+        """Сохраняет расписание только если оно прошло валидацию"""
+        try:
+            is_valid = self.validator.validate_schedule(schedule_data)
+            print(is_valid,123123)         
+            if not is_valid:
+                print(1)
+                return False
+            for i in range(100):
+                output_file_temp = output_file + f'{i}.csv'
+                if not os.path.exists(output_file_temp):
+                    output_file = output_file_temp
+                    with open(output_file, 'w', encoding='utf-8', newline='') as f:
+                        f.write(schedule_data)
+                    break
+            print(f"Расписание успешно сохранено в {output_file}")
+            return True
+            
+        except Exception as e:
+            print(f"Ошибка при сохранении расписания: {e}")
+            return False
+
+    def send_message(self, model_name = "Llama"):
+        self.load_data()
+        self.filtered_schedule = self.original_schedule.copy()
+
+        self.filter_by_undesired_time()
+        self.filter_by_desired_groups()
+        self.filter_by_undesired_institutes()
+
+        if not self.check_subjects_have_groups():
+            print("Ошибка: не все предметы имеют доступные группы после фильтрации")
+            return False
+        api_key = self._get_random_api_key()
+        model_id = self._get_model_id(model_name)
+        url = "https://openrouter.ai/api/v1/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+
+        }
+        data = {
+            "model": model_id,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": """Ты - алгоритм генерации учебных расписаний. Твоя задача - создать оптимальное расписание без временных конфликтов, следуя строгим правилам.
+
+**Алгоритм работы:**
+1. Анализ входных данных:
+   - Рассортируй предметы по приоритету: сначала предметы с наименьшим количеством групп
+   - Для предметов с 1 или 2 группами - высокий приоретет 
+   - Для предметов с 5+ группами и одной парой на группу - низкий приоритет
+   - Для предметов с 5+ группами и одна пара очно и одна пара онлайн  - низкий приоритет
+   - Для предметов с 5+ группами и двумя или более парами на группу - средний приоритет
+
+2. Процесс составления расписания:
+   a. Инициализируй пустое расписание и множество занятых временных слотов
+   b. Для каждого предмета в порядке приоритета:
+      I. Проанализируй все доступные группы предмета
+      2. Выбери рандомную группу, все пары которой:
+          - Не пересекаются с занятыми слотами
+          - Максимально заполняют свободные временные промежутки
+      3. Добавь все выбранные пары в расписание из группы  
+      4. Зафиксируй занятые временные слоты 
+      5. Вывети все занятые временные слоты 
+   с. Валидация расписания:
+      1. Убедись, что для каждого предмета выбрана ровно одна 
+      2. Проверь отсутствие временных конфликтов (день+время)
+      3. Подтверди, что все пары выбранных групп включены
+      4. Проверить, что все параметры(день, время, преподователь, аудитория, институт) у каждой пары верные  
+   b. При обнаружении проблемы:
+      1. Отменить последнее добавление
+      2. Попробовать следующую подходящую группу
+      3. Если варианты исчерпаны — вернуться на шаг назад
+
+ 
+3. Валидация расписания:
+   a Проверь, что все исходные предметы присутствуют
+   b Убедись, что для каждого предмета выбрана ровно одна группа
+   c Проверь отсутствие временных конфликтов (день+время)
+   d Подтверди, что все пары выбранных групп включены
+
+4. Обработка ошибок:
+   При обнаружении проблемы:
+     1. Отменить последнее добавление
+     2. Попробовать следующую подходящую группу
+     3. Если варианты исчерпаны — вернуться на шаг назад
+
+
+**Формат входных данных (JSON):**
 {
-  "task": "generate_schedule",
-  "input_format": "nested_subjects_json",
-  "output_format": "CSV",
-  "constraints": {
-    "one_group_per_subject": true,
-    "include_all_selected_pairs": true,
-    "no_time_conflicts": true,
-    "online_classes_always_include_at": ["06:30", "20:50"],
-    "teachers_separator": ", "
+  "Предмет": {
+    "Группа": [
+      ["День", "Время", "Аудитория", "Преподаватель", "Институт"],
+      ...
+    ],
+    ...
   },
-  "preferences": {
-    "desired_days": [],
-    "undesired_days": ["Monday"],
-    "desired_groups": {
-      "Дополнительные главы математики. ИРИТ-РТФ (09 УГН)": ["АТ-16"]
-    },
-    "undesired_groups": {
-    },
-    "desired_teachers": [],
-    "undesired_teachers": [],
-    "time_priority": "",
-    "min_start_time": "08:30",
-    "min_end_time": "18:00"
-  },
-  "selection_priority_order": [
-    "online_time_override",
-    "desired_teachers",
-    "undesired_teachers",
-    "desired_groups",
-    "undesired_groups",
-    "desired_days",
-    "undesired_days",
-    "time_priority",
-    "min_start_time",
-    "min_end_time"
-  ],
-  "output_csv_format": {
-    "encoding": "UTF-8",
-    "delimiter": ",",
-    "quote_all_fields": true,
-    "columns": [
-        "Day",
-        "Time",
-        "Auditory",
-        "Subject",
-        "Group",
-        "Teacher"
-    ]
-  },
-  "error_handling": {
-    "if_no_schedule": "Расписание не найдено: конфликты предпочтений"
-  },
-  "examples": {
-    "subjects": {
-      "Физика": {
-        "АТ-40": [["Пн", "08:30", "И101", "Иванов"]],
-        "АТ-36": [["Чт", "12:00", "И201", "Сидоров"]]
-      },
-      "Математика": {
-        "АТ-41": [["Ср", "10:15", "А201", "Петров"]],
-        "АТ-42": [["Ср", "12:00", "А202", "Иванов"]]
-      }
-    }
-  }
+  ...
 }
+
+**Требования к обработке:**
+1. Для каждого предмета — ровно одна выбранная группа
+2. Все пары выбранной группы должны быть включены
+3. Строгий запрет временных пересечений (одинаковые день+время)
+4. Приоритет групп, которые максимизируют заполнение расписания
+5. Проверка после каждого добавленного предмета
+6. Онлайн пары тоже добавлять в расписание 
+
+**Формат вывода (CSV):**
+"Day","Time","Auditory","Subject","Group","Teacher","Institute"
+"Monday","08:30","А-101","Математика","Группа 1","Иванов А.А.","Институт 1"
+
+**Правила валидации:**
+1. Все поля должны быть в кавычках
+2. UTF-8 кодировка
+3. Обязательные поля: Day, Time, Auditory, Subject, Group, Teacher, Institute
+
+**Выводи все размышления, но после вывода CSV никаких дополнительных сообщений быть не должно. И Выводить только один вариант расписание.**
+"""
+                },
+                {
+                    "role": "user",
+                    "content": json.dumps(self.filtered_schedule, ensure_ascii=False, indent=2)
+                }
+            ],
+            "temperature": 0.3,
+        }
+        print("Отправляем запрос к API...")
+
+        try:
+            response = requests.post(url, headers=headers, json=data)
+            response.raise_for_status()
+            
+            if response.status_code == 200:
+                result = response.json()
+                if 'choices' in result and len(result['choices']) > 0:
+                    schedule_data = result['choices'][0]['message']['content']
+                    print(schedule_data)
+                    schedule_data = schedule_data[schedule_data.find('"Day')-1:]
+                    
+                    output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                             'data', 'schedules', 'ready', 'schedule_variant_')
+                    
+                    if self.save_validated_schedule(schedule_data, output_file):
+                        print("Расписание успешно сгенерировано и сохранено")
+                    else:
+                        print("Расписание не прошло валидацию и не было сохранено")
+                    
+                    return schedule_data
+                else:
+                    raise Exception("Неверный формат ответа от API")
+            else:
+                error_text = response.text
+                raise Exception(f"Ошибка при отправке сообщения: {error_text}")
+        except Exception as e:
+            print(f"Ошибка: {str(e)}")
+            return None
+
+    def validate_schedule(self, schedule):
+        """Проверяет валидность расписания используя ScheduleValidator"""
+        if not schedule:
+            return False, "Расписание пустое"
+
+        csv_data = "Day,Time,Auditory,Subject,Group,Teacher,Institute\n"
+        for lesson in schedule:
+            day = f'"{lesson[0]}"'
+            time = f'"{lesson[1]}"'
+            auditory = f'"{lesson[2]}"'
+            subject = f'"{lesson[3]}"'
+            group = f'"{lesson[4]}"'
+            teacher = f'"{lesson[5]}"'
+            institute = f'"{lesson[6]}"'
+            
+            csv_data += f"'{day}','{time}','{auditory}','{subject}','{group}','{teacher}','{institute}'\n"
+
+        is_valid = self.validator.validate_schedule(csv_data)
+        return is_valid, "Расписание валидно" if is_valid else "Расписание невалидно"
+

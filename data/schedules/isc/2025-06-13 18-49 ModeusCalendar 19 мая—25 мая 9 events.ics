@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Custis/Modeus//Schedule Calendar App//RU
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:125bcd85-b037-44ec-91dd-aa3c35f7336d
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250613T134929
+DTSTART;TZID=Asia/Yekaterinburg:20250521T160000
+DTEND;TZID=Asia/Yekaterinburg:20250521T173000
+SUMMARY:Сбор и верификация данных / Лабораторное занятие 15 / Сбор и верификация данных ЛБ\, АТ-05
+LOCATION:Мира\, 32 / Р135
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Мартынов Дмитрий Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22125bcd85-b037-44ec-91dd-aa3c35f7336d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-21T16:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22125bcd85-b037-44ec-91dd-aa3c35f7336d%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-21T16:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Сбор и верификация данных
+END:VEVENT
+BEGIN:VEVENT
+UID:17ea6088-e4f7-4dca-aaf0-47e895fb3821
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250613T134929
+DTSTART;TZID=Asia/Yekaterinburg:20250522T101500
+DTEND;TZID=Asia/Yekaterinburg:20250522T114500
+SUMMARY:Сбор и верификация данных / Лабораторное занятие 15 / Сбор и верификация данных ЛБ\, АТ-07
+LOCATION:Мира\, 32 / Р137
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Мартынов Дмитрий Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2217ea6088-e4f7-4dca-aaf0-47e895fb3821%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-22T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2217ea6088-e4f7-4dca-aaf0-47e895fb3821%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-22T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Сбор и верификация данных
+END:VEVENT
+BEGIN:VEVENT
+UID:205efc49-22d0-45d4-a763-613723c08463
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250613T134929
+DTSTART;TZID=Asia/Yekaterinburg:20250520T141500
+DTEND;TZID=Asia/Yekaterinburg:20250520T154500
+SUMMARY:Сбор и верификация данных / Лабораторное занятие 15 / Сбор и верификация данных ЛБ\, АТ-04
+LOCATION:Мира\, 32 / Р135
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Мартынов Дмитрий Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22205efc49-22d0-45d4-a763-613723c08463%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-20T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22205efc49-22d0-45d4-a763-613723c08463%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-20T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Сбор и верификация данных
+END:VEVENT
+BEGIN:VEVENT
+UID:43d7f6a5-b39a-493b-8205-d231032722c8
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250613T134929
+DTSTART;TZID=Asia/Yekaterinburg:20250522T083000
+DTEND;TZID=Asia/Yekaterinburg:20250522T100000
+SUMMARY:Сбор и верификация данных / Лабораторное занятие 15 / Сбор и верификация данных ЛБ\, АТ-06
+LOCATION:Мира\, 32 / Р137
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Мартынов Дмитрий Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2243d7f6a5-b39a-493b-8205-d231032722c8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-22T08:30:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2243d7f6a5-b39a-493b-8205-d231032722c8%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-22T08:30:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Сбор и верификация данных
+END:VEVENT
+BEGIN:VEVENT
+UID:62046c3b-a876-499c-8e7c-22bfcf2d6412
+SEQUENCE:3
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250613T134929
+DTSTART;TZID=Asia/Yekaterinburg:20250522T141500
+DTEND;TZID=Asia/Yekaterinburg:20250522T154500
+SUMMARY:Сбор и верификация данных / Лабораторное занятие 15 / Сбор и верификация данных ЛБ\, АТ-08
+LOCATION:Мира\, 32 / Р135
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Мартынов Дмитрий Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2262046c3b-a876-499c-8e7c-22bfcf2d6412%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-22T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2262046c3b-a876-499c-8e7c-22bfcf2d6412%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-22T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Сбор и верификация данных
+END:VEVENT
+BEGIN:VEVENT
+UID:8296e494-5806-4285-926f-61f693ce3566
+SEQUENCE:5
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250613T134929
+DTSTART;TZID=Asia/Yekaterinburg:20250520T101500
+DTEND;TZID=Asia/Yekaterinburg:20250520T114500
+SUMMARY:Сбор и верификация данных / Лабораторное занятие 15 / Сбор и верификация данных ЛБ\, АТ-03
+LOCATION:Мира\, 32 / Р137
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Мартынов Дмитрий Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%228296e494-5806-4285-926f-61f693ce3566%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-20T10:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%228296e494-5806-4285-926f-61f693ce3566%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-20T10:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Сбор и верификация данных
+END:VEVENT
+BEGIN:VEVENT
+UID:82fe0cab-275a-4268-beff-4bf5715f48c0
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250613T134929
+DTSTART;TZID=Asia/Yekaterinburg:20250523T141500
+DTEND;TZID=Asia/Yekaterinburg:20250523T154500
+SUMMARY:Сбор и верификация данных / Лабораторное занятие 15 / Сбор и верификация данных ЛБ\, АТ-09
+LOCATION:Мира\, 32 / Р137
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Мартынов Дмитрий Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%2282fe0cab-275a-4268-beff-4bf5715f48c0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-23T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%2282fe0cab-275a-4268-beff-4bf5715f48c0%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-23T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Сбор и верификация данных
+END:VEVENT
+BEGIN:VEVENT
+UID:955c064a-0241-4603-9068-6494eb7c0496
+SEQUENCE:8
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250613T134929
+DTSTART;TZID=Asia/Yekaterinburg:20250519T141500
+DTEND;TZID=Asia/Yekaterinburg:20250519T154500
+SUMMARY:Сбор и верификация данных / Лабораторное занятие 15 / Сбор и верификация данных ЛБ\, АТ-02
+LOCATION:Мира\, 32 / Р135
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Мартынов Дмитрий Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22955c064a-0241-4603-9068-6494eb7c0496%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-19T14:15:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22955c064a-0241-4603-9068-6494eb7c0496%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-19T14:15:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Сбор и верификация данных
+END:VEVENT
+BEGIN:VEVENT
+UID:acf58223-0a01-4590-a76e-d91e69a4e410
+SEQUENCE:4
+ORGANIZER;CN=Modeus:MAILTO:noreply@modeus.org
+DTSTAMP;TZID=Asia/Yekaterinburg:20250613T134929
+DTSTART;TZID=Asia/Yekaterinburg:20250519T120000
+DTEND;TZID=Asia/Yekaterinburg:20250519T133000
+SUMMARY:Сбор и верификация данных / Лабораторное занятие 15 / Сбор и верификация данных ЛБ\, АТ-01
+LOCATION:Мира\, 32 / Р135
+DESCRIPTION:Лабораторное занятие\n\nПреподаватель: Мартынов Дмитрий Александрович\n\nПосмотреть в Моем расписании: https://urfu.modeus.org/schedule-calendar/my?selectedEvent=%7B%22eventId%22:%22acf58223-0a01-4590-a76e-d91e69a4e410%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-19T12:00:00.000Z%22%7D\nПосмотреть в мобильной версии: https://urfu.modeus.org/schedule-calendar/mobile?selectedEvent=%7B%22eventId%22:%22acf58223-0a01-4590-a76e-d91e69a4e410%22%7D&calendar=%7B%22view%22:%22agendaWeek%22\,%22date%22:%222025-05-19T12:00:00.000Z%22%7D\n
+CATEGORIES:Лабораторное занятие
+CATEGORIES:Сбор и верификация данных
+END:VEVENT
+END:VCALENDAR
