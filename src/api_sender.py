@@ -19,11 +19,12 @@ class APISender:
         self.original_schedule: Dict = {}
         self.preferences: Dict = {}
         self.validator = ScheduleValidator()
-        self.semaphore = asyncio.Semaphore(10)
+        self.semaphore = asyncio.Semaphore(1000)
         
     def _load_json(self, filename: str) -> Dict[str, Any]:
         """Загрузка JSON файла из конфигурационной директории"""
-        file_path = self.config_dir / filename
+        file_path = self.config_dir / filename 
+        
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
@@ -53,23 +54,6 @@ class APISender:
         schedule_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'schedule.json')
         with open(schedule_file, 'r', encoding='utf-8') as f:
             return json.load(f)
-
-    def is_teacher_match(self, teacher_str, desired_teacher):
-        """Проверяет совпадение преподавателя (полное ФИО, фамилия с инициалами или только фамилия)"""
-        if not teacher_str or not desired_teacher:
-            return False
-        teacher_parts = [t.strip() for t in teacher_str.split(",")]
-        desired_parts = desired_teacher.split()
-        for teacher in teacher_parts:
-            teacher_words = teacher.split()
-            if desired_teacher in teacher:
-                return True
-            if desired_parts[0] == teacher_words[0]:
-                return True
-            if len(teacher_words) == len(desired_parts):
-                if all(part[0] == desired_parts[i][0] for i, part in enumerate(teacher_words)):
-                    return True
-        return False
 
     def load_data(self) -> tuple:
         """Загрузка исходных данных из файлов"""
@@ -178,7 +162,7 @@ class APISender:
             is_valid = self.validator.validate_schedule(schedule_data)        
             if not is_valid:
                 return False
-            for i in range(100):
+            for i in range(10000):
                 output_file_temp = output_file + f'{i}.csv'
                 if not os.path.exists(output_file_temp):
                     output_file = output_file_temp
@@ -194,7 +178,7 @@ class APISender:
 
     async def send_single_request(self, session: aiohttp.ClientSession, model_name: str, attempt ):
         """Асинхронная отправка одного запроса к API"""
-        async with self.semaphore:  # Ограничиваем количество одновременных запросов
+        async with self.semaphore: 
             api_key = self._get_random_api_key()
             model_id = self._get_model_id(model_name)
             url = "https://openrouter.ai/api/v1/chat/completions"
@@ -208,7 +192,7 @@ class APISender:
                 "messages": [
                     {
                         "role": "system",
-                        "content": """Ты - алгоритм генерации учебных расписаний. Твоя задача - создать оптимальное расписание без временных конфликтов, следуя строгим правилам.
+                        "content": """Ты - алгоритм генерации учебных расписаний. Твоя задача - создать одно оптимальное расписание без временных конфликтов, следуя строгим правилам.
 
 **Алгоритм работы:**
 1. Анализ входных данных:
@@ -222,34 +206,34 @@ class APISender:
    a. Инициализируй пустое расписание и множество занятых временных слотов
    b. Для каждого предмета в порядке приоритета:
       1. Проанализируй все доступные группы предмета
-      2. Выбери рандомную группу, все пары которой:
-          - Не пересекаются с занятыми слотами
+      2. Выбери СЛУЧАЙНУЮ группу и проверь, что все пары которой:
+          - Не пересекаются с занятыми временными слотами
           - Максимально заполняют свободные временные промежутки
-      3. Добавь все выбранные пары в расписание из группы  
-      4. Зафиксируй занятые временные слоты 
-      5. Вывети все занятые временные слоты 
+      3. Добавь ВСЕ выбранные пары в расписание из группы  
+      4. ЗАФИКСИРУЙ занятые временные слоты 
+      5. ВЫВЕСТИ ВСЁ ЗАНЯТОЕ ВРЕМЯ
    с. Валидация расписания:
-      1. Убедись, что для каждого предмета выбрана ровно одна 
-      2. Проверь отсутствие временных конфликтов (день+время)
+      1. Убедись, что для каждого предмета выбрана ровно одна группа
+      2. ПРОВЕРЬ отсутствие временных конфликтов (день+время)
       3. Подтверди, что все пары выбранных групп включены
-      4. Проверить, что все параметры(день, время, преподователь, аудитория, институт) у каждой пары верные  
+      4. ПОДТВЕРДИ, что ВСЕ параметры (день, время, преподаватель, аудитория, институт) у каждой пары верные  
    b. При обнаружении проблемы:
       1. Отменить последнее добавление
       2. Попробовать следующую подходящую группу
-      3. Если варианты исчерпаны — вернуться на шаг назад
+      3. Если варианты исчерпаны - вернуться еще на шаг назад
 
  
 3. Валидация расписания:
-   a Проверь, что все исходные предметы присутствуют
-   b Убедись, что для каждого предмета выбрана ровно одна группа
-   c Проверь отсутствие временных конфликтов (день+время)
-   d Подтверди, что все пары выбранных групп включены
+   a. Проверь, что все исходные предметы присутствуют
+   b. Убедись, что для каждого предмета выбрана ровно одна группа
+   c. Проверь отсутствие временных конфликтов (день+время)
+   d. Подтверди, что все пары выбранных групп включены
 
 4. Обработка ошибок:
    При обнаружении проблемы:
      1. Отменить последнее добавление
      2. Попробовать следующую подходящую группу
-     3. Если варианты исчерпаны — вернуться на шаг назад
+     3. Если варианты исчерпаны - вернуться на шаг назад
 
 
 **Формат входных данных (JSON):**
@@ -265,16 +249,16 @@ class APISender:
 }
 
 **Требования к обработке:**
-1. Для каждого предмета — ровно одна выбранная группа
+1. Для каждого предмета - ровно одна выбранная группа
 2. Все пары выбранной группы должны быть включены
 3. Строгий запрет временных пересечений (одинаковые день+время)
-4. Приоритет групп, которые максимизируют заполнение расписания
-5. Проверка после каждого добавленного предмета
-6. Онлайн пары тоже добавлять в расписание 
+4. Проверка после каждого добавленного предмета
+5. Онлайн пары тоже добавлять в расписание 
+6. Создать ровано одно расписание 
 
 **Формат вывода (CSV):**
 "Day","Time","Auditory","Subject","Group","Teacher","Institute"
-"Monday","08:30","А-101","Математика","Группа 1","Иванов А.А.","Институт 1"
+"Monday","08:30","Р101","Математика","АТ-07","Иванов Иван Иванович","Институт 1"
 
 **Правила валидации:**
 1. Все поля должны быть в кавычках
@@ -301,10 +285,11 @@ class APISender:
                     if 'choices' in result and len(result['choices']) > 0:
                         schedule_data = result['choices'][0]['message']['content']
                         print(f"Получен ответ для модели {attempt}")
-                        schedule_data = schedule_data[schedule_data.find('"Day')-1:]
+                        schedule_data = schedule_data[schedule_data.find('"Day'):]
+                        print(schedule_data)
                         
                         output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-                                                 'data', 'schedules', 'ready', 'schedule_variant_')
+                                                 'data', 'schedules', 'temp', 'schedule_variant_')
                         
                         if self.save_validated_schedule(schedule_data, output_file):
                             print(f"Расписание успешно сгенерировано и сохранено для модели {attempt}")
@@ -323,7 +308,6 @@ class APISender:
         """
         Синхронный метод для генерации расписания.
         Возвращает количество успешно сгенерированных и сохраненных расписаний.
-
         """
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
@@ -341,13 +325,16 @@ class APISender:
 
             async def run_requests():
                 async with aiohttp.ClientSession() as session:
-                    tasks = [self.send_single_request(session, model_name, i) for i in range(10)]
+                    tasks = [self.send_single_request(session, model_name, i) for i in range(1)]
                     results = await asyncio.gather(*tasks, return_exceptions=False)
                     
                     success_count = 0
                     for result in results:
                         if result:
                             success_count += 1
+                    print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', f'Сгенерировано расписаний:{success_count}.txt'))
+                    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', f'Сгенерировано расписаний {success_count}.txt'), 'w', encoding='utf-8') as f:
+                        f.write(f'Макс гондон!!!!!!!!!!!!!!\nСгенерировано {success_count} расписаний!')
                     return success_count
 
             return loop.run_until_complete(run_requests())
