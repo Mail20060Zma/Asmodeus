@@ -883,3 +883,58 @@ class Message_window:
             self.prev_id = over_window_block
             self.state = 1
             over_window_block = self.id
+
+
+class Gif_image:
+    def __init__(self, screen: pygame.display, folder_path: str, pos: list, frame_delay: int = 30):
+        self.screen = screen
+        self.folder_path = folder_path
+        self.pos = pos
+        self.frame_delay = frame_delay
+        self.images = []
+        self.current_frame = 0
+        self.last_update = 0
+        self.animation_active = True
+        
+        self._load_images()
+    
+    def _load_images(self):
+        try:
+            files = sorted(os.listdir(self.folder_path))
+            for file in files:
+                if file.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):
+                    image_path = os.path.join(self.folder_path, file)
+                    image = pygame.image.load(image_path).convert_alpha()
+                    self.images.append(image)
+        except Exception as e:
+            print(f"Error loading images from {self.folder_path}: {e}")
+    
+    def process(self):
+        if not self.animation_active or len(self.images) == 0:
+            return
+            
+        current_time = pygame.time.get_ticks()
+        if current_time - self.last_update > self.frame_delay:
+            self.current_frame = (self.current_frame + 1) % len(self.images)
+            self.last_update = current_time
+        
+        self.screen.blit(self.images[self.current_frame], self.pos)
+    
+    def stop_animation(self):
+        self.animation_active = False
+    
+    def start_animation(self):
+        self.animation_active = True
+        self.last_update = pygame.time.get_ticks()
+    
+    def set_frame_delay(self, delay: int):
+        self.frame_delay = delay
+    
+    def get_current_frame(self) -> int:
+        return self.current_frame
+    
+    def get_frame_count(self) -> int:
+        return len(self.images)
+    
+    def return_essentials(self):
+        return []

@@ -5,6 +5,7 @@ from asmo_UI import *
 from ai_generate_validator import *
 from schedule_converter_interface import *
 import json
+import time
 
 FPS = 60
 
@@ -369,6 +370,19 @@ settings_window = Over_Window(screen, SIZE, (500,500), [settings_title_text,
                                                 clear_button,
                                                 other_text])
 
+
+ai_generation_text = Text(screen, MAIN_FONT, [20,10], 'Генерируем...')
+ai_generation_model_text = Text(screen, SMALL_FONT, [20, 310], 'Модель: ')
+ai_generation_time_text = Text(screen, SMALL_FONT, [20, 70], 'Прошло: ')
+ai_generation_answers_text = Text(screen, SMALL_FONT, [20, 100], 'Расписаний получено: 0')
+ai_generation_gif = Gif_image(screen, r'assets\loading', [180, -20])
+ai_generation_message = Message_window(screen, [500, 350], [ai_generation_gif,
+                                                            ai_generation_text,
+                                                            ai_generation_time_text,
+                                                            ai_generation_answers_text,
+                                                            ai_generation_model_text])
+
+
 AI_MORE_MESSAGE_LAST_STATE = 1
 ai_more_message_state = 0
 def change_ai_more_message_order(direction):
@@ -514,8 +528,38 @@ def convert_options_to_json():
 
     return update_answer
 
-    
 
+
+
+
+class AI_generation:
+    def __init__(self, model_name):
+        self.model_name = model_name
+        self.waiting_counter = 0
+        self.check_delay = 0
+        self.check_freq = 120
+        self.state = False
+
+    def start_generation(self):
+        ###МЕСТО ДЛЯ ЗАПУСКА ФАЙЛА МИШИ###
+        global ai_generation_message, ai_generation_model_text, ai_generation_text, ai_message
+        ai_generation_model_text.text = f'Модель генерации: {self.model_name}'
+        ai_message.change_state()
+        ai_generation_message.change_state()
+        self.start_time = time.time()
+        self.state = True
+
+    def generation_process(self, mouse_pos, mouse_click, mouse_long_click):
+        if self.state:
+            global ai_generation_message, ai_generation_text, ai_generation_time_text, ai_generation_answers_text
+            self.check_delay += 1
+            if self.check_delay == self.check_freq:
+                pass ###ПРОВЕРКА НАЛИЧИЯ ОТВЕТА ОТ НЕЙРОНКИ
+            self.cur_time = round(time.time() - self.start_time, 1)
+            ai_generation_time_text.text = f'Прошло {self.cur_time} сек.'
+            ai_generation_message.process(mouse_pos, mouse_click, mouse_long_click)
+
+ai_generation = AI_generation(None)
 
 
 running = True
@@ -716,6 +760,8 @@ while running:
     thur_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
     frid_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
     satu_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
+
+    ai_generation.generation_process(mouse_pos, is_mouse_clicked, is_long_click)
     
 
     if clear_login_button.command():
@@ -731,13 +777,17 @@ while running:
     if generator_error_message_ok_button.command():
         generator_error_message.change_state()
     if ai_message_start_button.command():
-        answer = validate_user_input(ai_message_choice_model.return_selected(),
+        answer = validate_user_input(ai_message_choice_model.return_system_name_selected(),
                                      ai_message_prompt_switch.state,
                                      ai_message_prompt.text)
         if answer[0] == 'error':
             generator_error_message_text2.text = answer[1]
             ai_message.change_state()
             generator_error_message.change_state()
+        elif answer[0] == 'pass':
+            ai_generation.model_name = ai_message_choice_model.return_system_name_selected()
+            ai_generation.start_generation()
+
     if ai_message_prompt_more_button.command() and ai_message_prompt_switch.state:
         ai_message.change_state()
         mond_ai_more_message.change_state()
