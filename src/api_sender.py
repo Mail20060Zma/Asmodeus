@@ -2,14 +2,13 @@ import json
 import random
 import os
 from typing import Dict, Any, Optional
-from pathlib import Path
 import aiohttp
 import asyncio
 from schedule_validator import ScheduleValidator
 
 class APISender:
     def __init__(self):
-        self.config_dir = Path(__file__).parent / 'config'
+        self.config_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)),  'config')
         self.models_config = self._load_json('api_model.json')
         self.api_keys = self._load_json('api_keys.json')
         self.schedule_data = self._load_schedule_data()
@@ -325,7 +324,7 @@ class APISender:
 
             async def run_requests():
                 async with aiohttp.ClientSession() as session:
-                    tasks = [self.send_single_request(session, model_name, i) for i in range(1)]
+                    tasks = [self.send_single_request(session, model_name, i) for i in range(10)]
                     results = await asyncio.gather(*tasks, return_exceptions=False)
                     
                     success_count = 0

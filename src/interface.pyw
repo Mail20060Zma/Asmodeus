@@ -375,7 +375,7 @@ ai_generation_text = Text(screen, MAIN_FONT, [20,10], 'Генерируем...')
 ai_generation_model_text = Text(screen, SMALL_FONT, [20, 310], 'Модель: ')
 ai_generation_time_text = Text(screen, SMALL_FONT, [20, 70], 'Прошло: ')
 ai_generation_answers_text = Text(screen, SMALL_FONT, [20, 100], 'Расписаний получено: 0')
-ai_generation_gif = Gif_image(screen, r'assets\loading', [180, -20])
+ai_generation_gif = Gif_image(screen, os.path.join(root_path, 'assets', 'loading'), [180, -20])
 ai_generation_message = Message_window(screen, [500, 350], [ai_generation_gif,
                                                             ai_generation_text,
                                                             ai_generation_time_text,
