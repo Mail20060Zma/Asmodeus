@@ -6,7 +6,7 @@
         "DeepSeek V3": "deepseek/deepseek-chat-v3-0324:free",
         "DeepSeek R1": "deepseek/deepseek-r1-0528:free",
         "DeepSeek R1T": "tngtech/deepseek-r1t-chimera:free",
-        "Gemini 2.5 Pro": "google/gemini-2.5-pro-exp-03-25",
+        "Gemini 2 Pro": "google/gemini-2.0-flash-exp:free",
         "Llama 4 Scout": "meta-llama/llama-4-scout:free",
         "MAI DS R1": "microsoft/mai-ds-r1:free",
         "NVIDIA: Llama 3.3": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
