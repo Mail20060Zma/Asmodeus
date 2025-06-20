@@ -4,6 +4,7 @@ import os
 from typing import Dict, Any, Optional
 import aiohttp
 import asyncio
+import requests
 from schedule_validator import ScheduleValidator
 
 class APISender:
@@ -36,7 +37,13 @@ class APISender:
         """Получение случайного API ключа из списка"""
         if not self.api_keys:
             raise ValueError("Список API ключей пуст")
-        return random.choice(self.api_keys)
+        api_keys = random.choice(self.api_keys)
+        response = requests.post("https://openrouter.ai/api/v1/keys",
+                                json = {"name": "name"},
+                                headers= {"Authorization": f"Bearer {api_keys}",
+                                         "Content-Type": "application/json"})
+        print(api_keys,response.json()["key"])
+        return response.json()['key']
 
     def _get_model_id(self, model_name: Optional[str] = None) -> str:
         """Получение ID модели"""
@@ -285,9 +292,9 @@ class APISender:
                     if 'choices' in result and len(result['choices']) > 0:
                         schedule_data = result['choices'][0]['message']['content']
                         print(f"Получен ответ для модели {attempt}")
-                        print(schedule_data)
-                        schedule_data = schedule_data[schedule_data.find('"Day'):]
                         
+                        schedule_data = schedule_data[schedule_data.find('"Day'):]
+                        print(schedule_data)
                         output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
                                                  'data', 'schedules', 'temp', 'schedule_variant_')
                         
