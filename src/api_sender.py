@@ -1,10 +1,11 @@
 import json
 import random
 import os
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 import aiohttp
 import asyncio
 import requests
+from time import sleep
 from schedule_validator import ScheduleValidator
 
 class APISender:
@@ -20,6 +21,7 @@ class APISender:
         self.preferences: Dict = {}
         self.validator = ScheduleValidator()
         self.semaphore = asyncio.Semaphore(1000)
+        self.api_keys_used = list[str]
         
     def _load_json(self, filename: str) -> Dict[str, Any]:
         """Загрузка JSON файла из конфигурационной директории"""
@@ -33,17 +35,30 @@ class APISender:
         except json.JSONDecodeError:
             raise ValueError(f"Ошибка в формате JSON файла {filename}")
 
-    def _get_random_api_key(self) -> str:
-        """Получение случайного API ключа из списка"""
-        if not self.api_keys:
-            raise ValueError("Список API ключей пуст")
-        api_keys = random.choice(self.api_keys)
-        response = requests.post("https://openrouter.ai/api/v1/keys",
-                                json = {"name": "name"},
-                                headers= {"Authorization": f"Bearer {api_keys}",
-                                         "Content-Type": "application/json"})
-        print(api_keys,response.json()["key"])
-        return response.json()['key']
+    async def fetch_api_keys(self, n: int) -> list[str]:
+        """Асинхронно получает N валидных API-ключей
+        Возвращает список только валидных ключей"""
+        async def _get_single_key(session: aiohttp.ClientSession, api_key: str) -> str | None:
+            """Вложенная функция для получения одного ключа"""
+            url = "https://openrouter.ai/api/v1/keys"
+            headers = {
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json"
+            }
+            try:
+                async with session.post(url, headers=headers, json={"name": "name"}) as response:
+                    response.raise_for_status()
+                    data = await response.json()
+                    return data['key']
+            except Exception as e:
+                print(f"Ошибка при получении ключа {api_key}...: {str(e)}")
+                return None
+
+        async with aiohttp.ClientSession() as session:
+            tasks = [_get_single_key(session, random.choice(self.api_keys)) for _ in range(min(n, len(self.api_keys) * 2))]
+            results = await asyncio.gather(*tasks)
+            valid_keys = list({key for key in results if key is not None})
+            return valid_keys[:n]
 
     def _get_model_id(self, model_name: Optional[str] = None) -> str:
         """Получение ID модели"""
@@ -157,6 +172,39 @@ class APISender:
             self.filtered_schedule.items(),
             key=lambda x: len(x[1])
         ))
+    
+    def filter_by_single_group_conflicts(self) -> None:
+        """Фильтрация групп других предметов, которые конфликтуют по времени с предметами,
+        у которых осталась только одна группа после всех предыдущих фильтраций."""
+        single_group_subjects = {
+            subject: groups 
+            for subject, groups in self.filtered_schedule.items() 
+            if len(groups) == 1
+        }
+
+        if not single_group_subjects:
+            return
+
+        mandatory_slots = set()
+        for subject, groups in single_group_subjects.items():
+            group_name = next(iter(groups))
+            for lesson in groups[group_name]:
+                day = lesson[0]
+                time = lesson[1]
+                mandatory_slots.add((day, time))
+
+        for subject in list(self.filtered_schedule.keys()):
+            if subject in single_group_subjects:
+                continue
+
+            for group in list(self.filtered_schedule[subject].keys()):
+                lessons = self.filtered_schedule[subject][group]
+                for lesson in lessons:
+                    day = lesson[0]
+                    time = lesson[1]
+                    if (day, time) in mandatory_slots:
+                        del self.filtered_schedule[subject][group]
+                        break
 
     def check_subjects_have_groups(self) -> bool:
         """Проверка наличия хотя бы одной группы для каждого предмета"""
@@ -185,7 +233,7 @@ class APISender:
     async def send_single_request(self, session: aiohttp.ClientSession, model_name: str, attempt ):
         """Асинхронная отправка одного запроса к API"""
         async with self.semaphore: 
-            api_key = self._get_random_api_key()
+            api_key = self.api_keys_used[attempt]
             model_id = self._get_model_id(model_name)
             url = "https://openrouter.ai/api/v1/chat/completions"
             headers = {
@@ -311,7 +359,7 @@ class APISender:
                 print(f"Ошибка при отправке сообщения для модели {attempt}: {str(e)}")
                 return False
 
-    def generate_schedule(self, model_name: str = "DeepSeek R1T") -> int:
+    def generate_schedule(self, model_name: str = "DeepSeek R1T", attempt: int = 10) -> int:
         """
         Синхронный метод для генерации расписания.
         Возвращает количество успешно сгенерированных и сохраненных расписаний.
@@ -320,11 +368,16 @@ class APISender:
         asyncio.set_event_loop(loop)
         
         try:
+            self.api_keys_used = loop.run_until_complete(self.fetch_api_keys(attempt))
+            sleep(15)
+
             self.load_data()
             self.filtered_schedule = self.original_schedule.copy()
             self.filter_by_undesired_time()
             self.filter_by_desired_groups()
             self.filter_by_undesired_institutes()
+            self.filter_by_single_group_conflicts()
+            self.sort_subjects_by_groups_count()
 
             if not self.check_subjects_have_groups():
                 print("Ошибка: не все предметы имеют доступные группы после фильтрации")
@@ -332,7 +385,7 @@ class APISender:
 
             async def run_requests():
                 async with aiohttp.ClientSession() as session:
-                    tasks = [self.send_single_request(session, model_name, i) for i in range(10)]
+                    tasks = [self.send_single_request(session, model_name, i) for i in range(attempt)]
                     results = await asyncio.gather(*tasks, return_exceptions=False)
                     
                     success_count = 0
