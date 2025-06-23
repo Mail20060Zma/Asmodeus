@@ -20,7 +20,7 @@ class APISender:
         self.original_schedule: Dict = {}
         self.preferences: Dict = {}
         self.semaphore = asyncio.Semaphore(1000)
-        self.api_keys_used = list[str]
+        self.api_keys_used = list
         
     def _load_json(self, filename: str) -> Dict[str, Any]:
         """Загрузка JSON файла из конфигурационной директории"""
@@ -319,7 +319,7 @@ class APISender:
 2. UTF-8 кодировка
 3. Обязательные поля: Day, Time, Auditory, Subject, Group, Teacher, Institute
 
-**Выводи все размышления, но после вывода CSV никаких дополнительных сообщений быть не должно. И Выводить только один вариант расписание.**
+**Выводи все размышления, но после вывода CSV никаких дополнительных сообщений быть не должно.И Выводить только один вариант расписание.**
 """
                     },
                     {
@@ -327,7 +327,7 @@ class APISender:
                         "content": "\n" + json.dumps(self.filtered_schedule, ensure_ascii=False, indent=2)
                     }
                 ],
-                "temperature": 0.25,
+                "temperature": 0.22,
             }
             
             try:
@@ -340,12 +340,12 @@ class APISender:
                         schedule_data = result['choices'][0]['message']['content']
                         print(f"Получен ответ для модели {attempt}")
                         
-                        schedule_data = schedule_data[schedule_data.find('"Day'):]
+                        schedule_data = schedule_data[schedule_data.find('"Day'):schedule_data.rfind("```") if schedule_data.rfind("```") else None]
                         print(schedule_data)
                         output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
                                                  'data', 'schedules', 'temp', 'schedule_variant_')
-                        
-                        if self.save_validated_schedule(schedule_data, output_file):
+                        is_valid = self.save_validated_schedule(schedule_data, output_file)
+                        if is_valid:
                             print(f"Расписание успешно сгенерировано и сохранено для модели {attempt}")
                             return True
                         else:
@@ -355,12 +355,15 @@ class APISender:
                         print(f"Неверный формат ответа от API для модели {attempt}")
                         return False
             except Exception as e:
+                is_valid = False
                 print(f"Ошибка при отправке сообщения для модели {attempt}: {str(e)}")
                 return False
             finally:
                 response_del = requests.delete("https://openrouter.ai/api/v1/keys/" + self.api_keys_used[attempt]['data']['hash'],
                                                 headers = {"Authorization": f"Bearer {self.api_keys_used[attempt]["p_api"]}"}) # type: ignore 
                 print(response_del.json())
+                with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready', f'{attempt}.txt'), 'w', encoding='utf-8') as f:
+                    f.write(f"{is_valid}")
 
     def generate_schedule(self, model_name: str = "DeepSeek R1T", attempt: int = 10) -> int:
         """
@@ -396,8 +399,8 @@ class APISender:
                     for result in results:
                         if result:
                             success_count += 1
-                    print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', f'Сгенерировано расписаний:{success_count}.txt'))
-                    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', f'Сгенерировано расписаний {success_count}.txt'), 'w', encoding='utf-8') as f:
+                    print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready', f'Сгенерировано расписаний:{success_count}.txt'))
+                    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready', f'Сгенерировано расписаний {success_count}.txt'), 'w', encoding='utf-8') as f:
                         f.write(f'Сгенерировано {success_count} расписаний!')
                     return success_count
 

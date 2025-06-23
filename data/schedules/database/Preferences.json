@@ -1,9 +1,10 @@
 {
-    "undesired_time": {},
-    "desired_groups": {
-        "Дополнительные главы математики. ИРИТ-РТФ (09 УГН)": [
-            "Агафонов Александр Петрович"
-        ]
+    "undesired_time": {
+
     },
-    "undesired_institutes": []
+    "desired_groups": {
+    },
+    "undesired_institutes": [
+        
+    ]
 }
