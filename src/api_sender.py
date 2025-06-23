@@ -19,7 +19,6 @@ class APISender:
         self.validator = ScheduleValidator()
         self.original_schedule: Dict = {}
         self.preferences: Dict = {}
-        self.validator = ScheduleValidator()
         self.semaphore = asyncio.Semaphore(1000)
         self.api_keys_used = list[str]
         
@@ -49,16 +48,16 @@ class APISender:
                 async with session.post(url, headers=headers, json={"name": "name"}) as response:
                     response.raise_for_status()
                     data = await response.json()
-                    return data['key']
+                    data["p_api"] = api_key
+                    return data
             except Exception as e:
-                print(f"Ошибка при получении ключа {api_key}...: {str(e)}")
+                print(f"Ошибка при получении ключа {api_key}: {str(e)}")
                 return None
 
         async with aiohttp.ClientSession() as session:
-            tasks = [_get_single_key(session, random.choice(self.api_keys)) for _ in range(min(n, len(self.api_keys) * 2))]
+            tasks = [_get_single_key(session, random.choice(self.api_keys)) for _ in range(n)]
             results = await asyncio.gather(*tasks)
-            valid_keys = list({key for key in results if key is not None})
-            return valid_keys[:n]
+            return results
 
     def _get_model_id(self, model_name: Optional[str] = None) -> str:
         """Получение ID модели"""
@@ -233,7 +232,7 @@ class APISender:
     async def send_single_request(self, session: aiohttp.ClientSession, model_name: str, attempt ):
         """Асинхронная отправка одного запроса к API"""
         async with self.semaphore: 
-            api_key = self.api_keys_used[attempt]
+            api_key = self.api_keys_used[attempt]["key"] # type: ignore
             model_id = self._get_model_id(model_name)
             url = "https://openrouter.ai/api/v1/chat/completions"
             headers = {
@@ -330,13 +329,13 @@ class APISender:
                 ],
                 "temperature": 0.25,
             }
-
+            
             try:
                 print(f"Отправляем запрос к API с моделью {attempt}...")
                 async with session.post(url, headers=headers, json=data) as response:
                     response.raise_for_status()
                     result = await response.json()
-                    
+
                     if 'choices' in result and len(result['choices']) > 0:
                         schedule_data = result['choices'][0]['message']['content']
                         print(f"Получен ответ для модели {attempt}")
@@ -358,6 +357,10 @@ class APISender:
             except Exception as e:
                 print(f"Ошибка при отправке сообщения для модели {attempt}: {str(e)}")
                 return False
+            finally:
+                response_del = requests.delete("https://openrouter.ai/api/v1/keys/" + self.api_keys_used[attempt]['data']['hash'],
+                                                headers = {"Authorization": f"Bearer {self.api_keys_used[attempt]["p_api"]}"}) # type: ignore 
+                print(response_del.json())
 
     def generate_schedule(self, model_name: str = "DeepSeek R1T", attempt: int = 10) -> int:
         """
@@ -369,7 +372,8 @@ class APISender:
         
         try:
             self.api_keys_used = loop.run_until_complete(self.fetch_api_keys(attempt))
-            sleep(15)
+            print(f"Сгенерировано {len(self.api_keys_used)} ключей!\nЖдем 10 секунд!")
+            sleep(10)
 
             self.load_data()
             self.filtered_schedule = self.original_schedule.copy()
@@ -394,7 +398,7 @@ class APISender:
                             success_count += 1
                     print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', f'Сгенерировано расписаний:{success_count}.txt'))
                     with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', f'Сгенерировано расписаний {success_count}.txt'), 'w', encoding='utf-8') as f:
-                        f.write(f'Макс гондон!!!!!!!!!!!!!!\nСгенерировано {success_count} расписаний!')
+                        f.write(f'Сгенерировано {success_count} расписаний!')
                     return success_count
 
             return loop.run_until_complete(run_requests())
