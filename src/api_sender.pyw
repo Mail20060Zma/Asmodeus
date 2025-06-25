@@ -405,7 +405,7 @@ def main():
         model_name_file = os.listdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config',))
         for file in model_name_file:
             if "model_name" in file:
-                model_name = file[file.find(" ")+1:file.find(".")]
+                model_name = file[file.find(" ")+1:file.rfind(".")]
                 print(model_name)
                 print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
