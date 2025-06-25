@@ -151,20 +151,25 @@ class AsmodeusAI:
 
         return schedule
 
-    def save_schedule_variant(self, schedule: Dict, variant_number: int) -> bool:
+    def save_schedule_variant(self, schedule: Dict) -> bool:
         """Сохранение варианта расписания в CSV формате"""
         try:
-            output_file = os.path.join(self.output_path, f'schedule_variant_{variant_number}.csv')
-            
-            with open(output_file, 'w', encoding='utf-8', newline='') as f:
-                f.write('Day,Time,Auditory,Subject,Group,Teacher,Institute\n')
+            variant_number = os.path.join(self.output_path, "schedule_variant_")
+            for i in range(100):
+                output_file_temp = variant_number + f'{i}.csv'
+                if not os.path.exists(output_file_temp):
+                    variant_number = output_file_temp
+                    output_file = os.path.join(f'{variant_number}')
+                    with open(output_file, 'w', encoding='utf-8', newline='') as f:
+                        f.write('Day,Time,Auditory,Subject,Group,Teacher,Institute\n')
+                        
+                        for subject, groups in schedule.items():
+                            for group, lessons in groups.items():
+                                for lesson in lessons:
+                                    day, time, auditory, teacher, institute = lesson
+                                    f.write(f'"{day}","{time}","{auditory}","{subject}","{group}","{teacher}","{institute}"\n')
+                    break
                 
-                for subject, groups in schedule.items():
-                    for group, lessons in groups.items():
-                        for lesson in lessons:
-                            day, time, auditory, teacher, institute = lesson
-                            f.write(f'"{day}","{time}","{auditory}","{subject}","{group}","{teacher}","{institute}"\n')
-            
             return True
         except Exception as e:
             print(f"Ошибка при сохранении расписания: {e}")
@@ -195,7 +200,7 @@ class AsmodeusAI:
             if schedule:
                 csv_data = self._schedule_to_csv(schedule)
                 if self.validator.validate_schedule(csv_data):
-                    if self.save_schedule_variant(schedule, generated_variants + 1):
+                    if self.save_schedule_variant(schedule):
                         generated_variants += 1
             attempts += 1
 

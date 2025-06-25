@@ -36,19 +36,13 @@ debug_subject_pull = [Drop_menu_subject('Физика и/основы механ
 
 MAIN_SUBJECT_PULL = csv_to_schedule_dict(os.path.join(root_path, 'data', 'schedules', 'database', 'schedule.csv'))
 
-ai_pull = [Drop_menu_subject('DeepSeek R1', 'Deepseek', '', gap_size=20),
-           Drop_menu_subject('AsmoAI(no text)', 'AsmoAI', '', gap_size=20),
-           Drop_menu_subject('Llama', 'Llama', '', gap_size=20),
-           Drop_menu_subject('Qwen3-235B-A22B', 'Qwen3', '', gap_size=20),
-           Drop_menu_subject('Qwen2.5-72B', 'Qwen2.5', '', gap_size=20)]
-
 ai_pull = []
 ai_models_dict = json.load(open(os.path.join(root_path, "src", "config", "api_model.json"))).items()
 for ai_model_list, ai_model_full in ai_models_dict:
     ai_model_full = ai_model_full[:ai_model_full.find(":")]
     ai_model_full = ai_model_full.replace("/", "-")
     if len(ai_model_full)>15:
-        ai_model_full = ai_model_full[:15] + "/" + ai_model_full[15:]
+        ai_model_full = ai_model_full[:15] + "/" + ai_model_full[15:30]
     ai_pull.append(Drop_menu_subject(ai_model_full, ai_model_list, '', gap_size=20))
 ai_pull.insert(0, Drop_menu_subject('AsmoAI(no text)', 'AsmoAI', '', gap_size=20))
 
@@ -109,7 +103,12 @@ clear_message_yes = Button(screen, [10, 90], [70, 50], SMALL_FONT, 'ДА')
 clear_message_no = Button(screen, [160, 90], [70, 50], SMALL_FONT, 'Нет')
 clear_message = Message_window(screen, [240, 150], [clear_message_text, clear_message_no, clear_message_yes])
 
+offset = 270
 ai_generate_button = Button(screen, [50, 720], [400, 60], text = 'Сгенерировать с ИИ')
+scedule_number_text = Text(screen, MAIN_FONT, [500 + offset, 720], 'Номер расписания:')
+scedule_actual_number_text = Text(screen, MAIN_FONT, [919 + offset, 720], '01')
+scedule_back_button = Button(screen, [840 + offset, 720], [60, 60], text='<')
+scedule_next_button = Button(screen, [970 + offset, 720], [60, 60], text='>')
 
 ai_message_text_model = Text(screen, SMALL_FONT, [10,20], 'Агент генерации: ')
 ai_message_choice_model = Drop_menu(screen, 'ai_choice', [210, 10], [190, 50], ai_pull)
@@ -381,16 +380,32 @@ settings_window = Over_Window(screen, SIZE, (500,500), [settings_title_text,
                                                 other_text])
 
 
+offset = 40
 ai_generation_text = Text(screen, MAIN_FONT, [20,10], 'Генерируем...')
 ai_generation_model_text = Text(screen, SMALL_FONT, [20, 310], 'Модель: ')
 ai_generation_time_text = Text(screen, SMALL_FONT, [20, 70], 'Прошло: ')
-ai_generation_answers_text = Text(screen, SMALL_FONT, [20, 100], 'Расписаний получено: 0')
+ai_generation_answers_text = Text(screen, SMALL_FONT, [20, 100], 'Расписаний пока нет.')
+ai_generation_tea_text1 = Text(screen, EVEN_SMALLER_FONT, [20, 170 + offset], 'Пока сходите за чайком,')
+ai_generation_tea_text2 = Text(screen, EVEN_SMALLER_FONT, [20, 190 + offset], 'генерация занимает до 5 минут.')
+ai_generation_answers_real_text = Text(screen, SMALL_FONT, [20, 130], '')
 ai_generation_gif = Gif_image(screen, os.path.join(root_path, 'assets', 'loading'), [180, -20])
 ai_generation_message = Message_window(screen, [500, 350], [ai_generation_gif,
                                                             ai_generation_text,
                                                             ai_generation_time_text,
                                                             ai_generation_answers_text,
+                                                            ai_generation_answers_real_text,
+                                                            ai_generation_tea_text1,
+                                                            ai_generation_tea_text2,
                                                             ai_generation_model_text])
+
+ai_generation_ended_text = Text(screen, MAIN_FONT, [20,10], 'Догенерировал.')
+ai_generation_ended_time_text = Text(screen, SMALL_FONT, [20, 70], 'Времени ушло: ')
+ai_generation_ended_counter_text = Text(screen, SMALL_FONT, [20, 100], 'Расписаний получилось: ')
+ai_generation_ended_back_button = Button(screen, [330, 130], [150, 50], text='Назад')
+ai_generation_ended_message = Message_window(screen, [500, 200], [ai_generation_ended_text,
+                                                                  ai_generation_ended_time_text,
+                                                                  ai_generation_ended_counter_text,
+                                                                  ai_generation_ended_back_button])
 
 
 AI_MORE_MESSAGE_LAST_STATE = 1
@@ -425,6 +440,22 @@ def change_ai_more_message_order(direction):
 prev_group_teacher_index = ai_full_subject.selected_index
 
 
+def update_json_file(file_path, new_undesired_days, new_desired_groups):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        data['undesired_time'] = new_undesired_days
+        data['desired_groups'] = new_desired_groups
+        
+        with open(file_path, 'w', encoding='utf-8') as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)
+            
+        return True
+    except Exception as e:
+        print(e)
+        return False
+
 def convert_options_to_json():
     desired_groups_dict = {}
     for dict_maker in teacher_group_new_desires:
@@ -440,21 +471,6 @@ def convert_options_to_json():
         else:
             undesired_time_dict[key] = [value]
 
-    def update_json_file(file_path, new_undesired_days, new_desired_groups):
-        try:
-            with open(file_path, 'r', encoding='utf-8') as file:
-                data = json.load(file)
-
-            data['undesired_time'] = new_undesired_days
-            data['desired_groups'] = new_desired_groups
-            
-            with open(file_path, 'w', encoding='utf-8') as file:
-                json.dump(data, file, ensure_ascii=False, indent=4)
-                
-            return True
-        except Exception as e:
-            print(e)
-            return False
 
     if mond_ai_more_message_time_switch_8_30.state == False:
         add_new_value('Monday', '8_30')
@@ -549,6 +565,7 @@ class AI_generation:
         self.check_delay = 0
         self.check_freq = 120
         self.state = False
+        self.files_dir_schedules_ready = os.listdir(os.path.join(root_path, 'src', 'config', 'schedules_ready'))
 
     def start_generation(self):
         ###МЕСТО ДЛЯ ЗАПУСКА ФАЙЛА МИШИ###
@@ -558,6 +575,11 @@ class AI_generation:
         ai_generation_message.change_state()
         self.start_time = time.time()
         self.state = True
+        for i in self.files_dir_schedules_ready:
+            os.remove(os.path.join(root_path, 'src', 'config', 'schedules_ready', i))
+        self.files_dir_schedules_ready = os.listdir(os.path.join(root_path, 'src', 'config', 'schedules_ready'))
+        self.ready_count_files = len(self.files_dir_schedules_ready)
+        self.success_count_files = sum("True" in f for f in self.files_dir_schedules_ready)
         print(self.model_name)
         if self.model_name == "AsmoAI":
             os.startfile("asmo_AI.pyw")
@@ -575,21 +597,78 @@ class AI_generation:
             global ai_generation_message, ai_generation_text, ai_generation_time_text, ai_generation_answers_text
             self.check_delay += 1
             if self.check_delay == self.check_freq:
+                self.files_dir_schedules_ready = os.listdir(os.path.join(root_path, 'src', 'config', 'schedules_ready'))
+                self.ready_count_files = len(self.files_dir_schedules_ready)
+                self.success_count_files = sum("True" in f for f in self.files_dir_schedules_ready)
                 self.check_delay = 0
-                files_dir_schedules_ready = os.listdir(os.path.join(root_path, 'src', 'config', 'schedules_ready'))
-                success_count_files = sum("True" in f for f in files_dir_schedules_ready)
-                ready_count_files = len(files_dir_schedules_ready)
-                print(success_count_files, '/',ready_count_files)
-                if "error.txt" in files_dir_schedules_ready:
-                    print("ошибка блять в предпочтениях") # тут тоже норм сделать 
-                if ready_count_files == 10:
-                    pass # конец и сделай чтобы все файлики удолялиьс ОК угу
+                print(self.success_count_files, '/',self.ready_count_files)
+                if "error.txt" in self.files_dir_schedules_ready:
+                    generator_error_message_text2.text = 'Ваши предпочтения некорректны'
+                    ai_generation_message.change_state()
+                    generator_error_message.change_state()
+                    self.state = False
+                if self.ready_count_files == 10:
+                    for i in self.files_dir_schedules_ready:
+                        os.remove(os.path.join(root_path, 'src', 'config', 'schedules_ready', i))
+                    ai_generation_ended_time_text.text = f'Времени ушло: {self.cur_time}'
+                    ai_generation_ended_counter_text.text = f'Расписаний получилось: {self.success_count_files}'
+                    ai_generation_message.change_state()
+                    ai_generation_ended_message.change_state()
             self.cur_time = round(time.time() - self.start_time, 1)
             ai_generation_time_text.text = f'Прошло {self.cur_time} сек.'
+            ai_generation_answers_text.text = f'Получено расписаний: {self.ready_count_files}'
+            ai_generation_answers_real_text.text = f'Из них рабочих: {self.success_count_files}'
             ai_generation_message.process(mouse_pos, mouse_click, mouse_long_click)
+            ai_generation_ended_message.process(mouse_pos, mouse_click, mouse_long_click)
 
 ai_generation = AI_generation(None)
 
+def reset_all_drop_menus_schedules():
+    days = ['mond', 'tues', 'wedn', 'thur', 'frid', 'satu', 'sund']
+    times = range(1, 8)  # предполагая, что максимум 7 временных слотов в день
+    
+    for day in days:
+        for time in times:
+            var_name = f"{day}{time}"
+            if var_name in globals():
+                globals()[var_name].selected_index = None
+
+def update_schedule_from_csv(csv_file_path):
+    day_prefixes = {
+        'Monday': 'mond',
+        'Tuesday': 'tues',
+        'Wednesday': 'wedn',
+        'Thursday': 'thur',
+        'Friday': 'frid',
+        'Saturday': 'satu',
+        'Sunday': 'sund'
+    }
+    
+    time_suffixes = {
+        '08:30': '1',
+        '10:15': '2',
+        '12:00': '3',
+        '14:15': '4',
+        '16:00': '5',
+        '17:40': '6',
+    }
+    
+    with open(csv_file_path, 'r', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            day = row['Day'].strip('"')
+            time = row['Time'].strip('"')
+            subject = row['Subject'].strip('"').replace('\\', '')
+            group = row['Group'].strip('"')
+            if time not in ['06:50', '20:50']:
+                var_name = f"{day_prefixes[day]}{time_suffixes[time]}"
+                globals()[var_name].select_by_main_name_and_group(subject, group)
+
+#SCHEDULE--------------------------------------
+list_ready_variant = os.listdir(os.path.join(root_path, "data", "schedules", "ready"))
+list_ready_variant = [os.path.join(root_path, "data", "schedules", "ready", variant) for variant in list_ready_variant]
+#----------------------------------------------
+cur_scedule_index = 0
 
 running = True
 while running:
@@ -703,7 +782,7 @@ while running:
                 
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
-                settings_window.change_state()
+                pass
             else:
                 login_input.new_input(event)
                 ai_message_prompt.new_input(event)
@@ -720,6 +799,8 @@ while running:
 
     table_top_text.process()
     ai_generate_button.process(mouse_pos, is_mouse_clicked, is_long_click)
+    scedule_actual_number_text.text = str(cur_scedule_index).zfill(2)
+    scedule_actual_number_text.process()
 
     mond6.process(mouse_pos, is_mouse_clicked, is_long_click)
     mond5.process(mouse_pos, is_mouse_clicked, is_long_click)
@@ -763,6 +844,10 @@ while running:
     satu2.process(mouse_pos, is_mouse_clicked, is_long_click)
     satu1.process(mouse_pos, is_mouse_clicked, is_long_click)
 
+    scedule_number_text.process()
+    scedule_actual_number_text.process()
+    scedule_back_button.process(mouse_pos, is_mouse_clicked, is_long_click)
+    scedule_next_button.process(mouse_pos, is_mouse_clicked, is_long_click)
 
     ai_full_teacher_group_add_text.text = f'Параметров добавлено: {len(teacher_group_new_desires)}'
 
@@ -928,6 +1013,31 @@ while running:
     if ai_more_message_back_button1.command():
         ai_more_message1.state_closed()
         ai_message.change_state()
+
+    if ai_generation_ended_back_button.command():
+        ai_generation.state = False
+        ai_generation_ended_message.change_state()
+
+    if scedule_back_button.command():
+        cur_scedule_index -= 1
+        if cur_scedule_index == -1:
+            cur_scedule_index = len(list_ready_variant) - 1
+        reset_all_drop_menus_schedules()
+        update_schedule_from_csv(list_ready_variant[cur_scedule_index])
+    if scedule_next_button.command():
+        cur_scedule_index += 1
+        if cur_scedule_index == len(list_ready_variant):
+            cur_scedule_index = 0
+        reset_all_drop_menus_schedules()
+        update_schedule_from_csv(list_ready_variant[cur_scedule_index])
+
+    if mond_ai_more_message_drop_button.command() or\
+        tues_ai_more_message_drop_button.command() or\
+        wedn_ai_more_message_drop_button.command() or\
+        thur_ai_more_message_drop_button.command() or\
+        frid_ai_more_message_drop_button.command() or\
+        satu_ai_more_message_drop_button.command():
+        update_json_file(os.path.join(root_path, 'data', 'schedules', 'database', 'Preferences.json'), {}, {})
 
 
     pygame.display.flip()

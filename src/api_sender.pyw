@@ -5,7 +5,7 @@ from typing import Dict, Any, Optional, List
 import aiohttp
 import asyncio
 import requests
-from time import sleep
+import time
 from schedule_validator import ScheduleValidator
 
 class APISender:
@@ -201,8 +201,35 @@ class APISender:
                         break
 
     def check_subjects_have_groups(self) -> bool:
-        """Проверка наличия хотя бы одной группы для каждого предмета"""
-        return all(len(groups) > 0 for groups in self.filtered_schedule.values())
+        """Проверка наличия хотя бы одной группы для каждого предмета 
+        и базовой возможности составления расписания без явных конфликтов"""
+        
+        if not all(len(groups) > 0 for groups in self.filtered_schedule.values()):
+            print("Ошибка: не все предметы имеют доступные группы после фильтрации")
+            return False
+        
+        all_time_slots = []
+        for subject, groups in self.filtered_schedule.items():
+            subject_slots = set()
+            for group_info in groups.values():
+                for lesson in group_info:
+                    day = lesson[0]
+                    time = lesson[1]
+                    subject_slots.add((day, time))
+            all_time_slots.append(subject_slots)
+        
+        for i, slots in enumerate(all_time_slots):
+            other_slots = set()
+            for j, other in enumerate(all_time_slots):
+                if i != j:
+                    other_slots.update(other)
+            
+            if slots and all(slot in other_slots for slot in slots):
+                print(f"Предупреждение: все временные слоты для предмета {list(self.filtered_schedule.keys())[i]} "
+                    f"пересекаются с другими предметами")
+                return False
+        
+        return True
 
     def save_validated_schedule(self, schedule_data: str, output_file: str) -> bool:
         """Сохраняет расписание только если оно прошло валидацию"""
@@ -210,7 +237,7 @@ class APISender:
             is_valid = self.validator.validate_schedule(schedule_data)        
             if not is_valid:
                 return False
-            for i in range(10000):
+            for i in range(100):
                 output_file_temp = output_file + f'{i}.csv'
                 if not os.path.exists(output_file_temp):
                     output_file = output_file_temp
@@ -224,7 +251,7 @@ class APISender:
             print(f"Ошибка при сохранении расписания: {e}")
             return False
 
-    async def send_single_request(self, session: aiohttp.ClientSession, model_name: str, attempt ):
+    async def send_single_request(self, session: aiohttp.ClientSession, model_name: str, attempt, promt_users: str):
         """Асинхронная отправка одного запроса к API"""
         async with self.semaphore: 
             api_key = self.api_keys_used[attempt]["key"] # type: ignore
@@ -319,7 +346,7 @@ class APISender:
                     },
                     {
                         "role": "user",
-                        "content": "\n" + json.dumps(self.filtered_schedule, ensure_ascii=False, indent=2)
+                        "content": f"{promt_users}\n" + json.dumps(self.filtered_schedule, ensure_ascii=False, indent=2)
                     }
                 ],
                 "temperature": 0.22,
@@ -327,28 +354,32 @@ class APISender:
             
             try:
                 print(f"Отправляем запрос к API с моделью {attempt}...")
-                async with session.post(url, headers=headers, json=data) as response:
-                    response.raise_for_status()
-                    result = await response.json()
-
-                    if 'choices' in result and len(result['choices']) > 0:
-                        schedule_data = result['choices'][0]['message']['content']
-                        print(f"Получен ответ для модели {attempt}")
-                        
-                        schedule_data = schedule_data[schedule_data.find('"Day'):schedule_data.rfind("```") if schedule_data.rfind("```") else None]
-                        print(schedule_data)
-                        output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-                                                 'data', 'schedules', 'temp', 'schedule_variant_')
-                        is_valid = self.save_validated_schedule(schedule_data, output_file)
-                        if is_valid:
-                            print(f"Расписание успешно сгенерировано и сохранено для модели {attempt}")
-                            return True
+                async with asyncio.timeout(300):
+                    async with session.post(url, headers=headers, json=data) as response:
+                        response.raise_for_status()
+                        result = await response.json()
+                        if 'choices' in result and len(result['choices']) > 0:
+                            schedule_data = result['choices'][0]['message']['content']
+                            print(f"Получен ответ для модели {attempt}")
+                            
+                            schedule_data = schedule_data[schedule_data.find('"Day'):schedule_data.rfind("```") if schedule_data.rfind("```") else None]
+                            print(schedule_data)
+                            output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                                    'data', 'schedules', 'ready', 'schedule_variant_')
+                            is_valid = self.save_validated_schedule(schedule_data, output_file)
+                            if is_valid:
+                                print(f"Расписание успешно сгенерировано и сохранено для модели {attempt}")
+                                return True
+                            else:
+                                print(f"Расписание не прошло валидацию для модели {attempt}")
+                                return False
                         else:
-                            print(f"Расписание не прошло валидацию для модели {attempt}")
+                            print(f"Неверный формат ответа от API для модели {attempt}")
                             return False
-                    else:
-                        print(f"Неверный формат ответа от API для модели {attempt}")
-                        return False
+            except asyncio.TimeoutError:
+                is_valid = False
+                print(f"Превышено время ожидания (300 сек) для модели {attempt}")
+                return False
             except Exception as e:
                 is_valid = False
                 print(f"Ошибка при отправке сообщения для модели {attempt}: {str(e)}")
@@ -360,7 +391,7 @@ class APISender:
                 with open(os.path.join(self.config_dir, 'schedules_ready', f'{is_valid} {attempt}.txt'), 'w', encoding='utf-8') as f:
                     f.write(f"{is_valid}")
 
-    def generate_schedule(self, model_name: str = "DeepSeek R1T", attempt: int = 10) -> int:
+    def generate_schedule(self, model_name: str = "DeepSeek R1T", promt_users:str = '', attempt: int = 10, ) -> int:
         """
         Синхронный метод для генерации расписания.
         Возвращает количество успешно сгенерированных и сохраненных расписаний.
@@ -377,18 +408,17 @@ class APISender:
             self.sort_subjects_by_groups_count()
 
             if not self.check_subjects_have_groups():
-                print("Ошибка: не все предметы имеют доступные группы после фильтрации")
                 with open(os.path.join(self.config_dir, 'schedules_ready', f'error.txt'), 'w', encoding='utf-8') as f:
                     f.write(f'error')
                 return 0
             
             self.api_keys_used = loop.run_until_complete(self.fetch_api_keys(attempt))
             print(f"Сгенерировано {len(self.api_keys_used)} ключей!\nЖдем 10 секунд!")
-            sleep(10)
+            time.sleep(10)
 
             async def run_requests():
                 async with aiohttp.ClientSession() as session:
-                    tasks = [self.send_single_request(session, model_name, i) for i in range(attempt)]
+                    tasks = [self.send_single_request(session, model_name, i, promt_users) for i in range(attempt)]
                     results = await asyncio.gather(*tasks, return_exceptions=False)
                     return
             return loop.run_until_complete(run_requests())
@@ -400,7 +430,8 @@ class APISender:
 def main():
     sender = APISender()
         #                0              1               2              3              4               5              6                  7               8               9                       10   
-    #model_name = ["Kimi Dev", "Qwen3-235B-A22B", "Qwen2.5-72B", "DeepSeek V3", "DeepSeek R1", "DeepSeek R1T", "Gemini 2", "Llama 4 Scout",  "MAI DS R1", "NVIDIA: Llama 3.3", "Deepseek R1 Qwen3 8B"][6]
+    model_name = ["Kimi Dev", "Qwen3-235B-A22B", "Qwen2.5-72B", "DeepSeek V3", "DeepSeek R1", "DeepSeek R1T", "Gemini 2", "Llama 4 Scout",  "MAI DS R1", "NVIDIA: Llama 3.3", "Deepseek R1 Qwen3 8B"][5]
+    promt_users = ""
     try:
         model_name_file = os.listdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config',))
         for file in model_name_file:
@@ -409,10 +440,16 @@ def main():
                 print(model_name)
                 print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
+
+            if "promt_users" in file:
+                promt_users = file[file.find(" ")+1:file.rfind(".")]
+                print(promt_users)
+                print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
+                os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
     finally:
-        sender.generate_schedule(model_name)
+        sender.generate_schedule(model_name, promt_users)
         return 
 
 if __name__ == "__main__":
-    sleep(5)
+    time.sleep(5)
     main()

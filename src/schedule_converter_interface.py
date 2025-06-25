@@ -471,7 +471,8 @@ def csv_to_schedule_dict(csv_file_path):
                 20,
                 institute,
                 teacher,
-                group
+                group,
+                full_name = full_subject
             )
 
             if full_subject not in temp_list_subject:
@@ -515,6 +516,15 @@ def csv_to_schedule_dict(csv_file_path):
                 schedule[full_subject].append(subject_groupe_obj)
             
             schedule[day][time].append(subject_obj)
+    for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']:
+        for time in schedule[day].keys():
+            schedule[day][time].insert(0, Drop_menu_subject(
+                '',
+                '-УДАЛИТЬ-',
+                '',
+                '',
+                20
+            ))
     for subject_temp in temp_list_subject:
         schedule[subject_temp] = sorted(
             schedule[subject_temp],

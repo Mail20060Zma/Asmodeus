@@ -320,11 +320,12 @@ class Switch:
         self.pos = pos
         self.lenght = 50
         self.width = 30
-        if already_on:
-            self.state = True
-        else: self.state = False
         self.hover_state = 1 #0-5
         self.click_state = 0 #0-20
+        if already_on:
+            self.state = True
+            self.click_state = 20
+        else: self.state = False
 
         self.color_state = [[0,0,0] for _ in range(21)]
         if MAIN_COLOR2[0] > HIGHLIGHT_COLOR[0]:
@@ -631,7 +632,7 @@ class Drop_menu_subject:
         self.group = group
         self.lesson_type = lesson_type
         if full_name == None:
-            self.full_name = self.main_name
+            self.full_name = main_name
         else: 
             self.full_name = full_name
     def give_subject_name(self):
@@ -822,6 +823,14 @@ class Drop_menu:
         if self.selected_index != None:
             return self.options[self.selected_index].list_name
         return None
+    
+    def select_by_main_name_and_group(self, name, group):
+        flag = False
+        for i in range(len(self.options)):
+            if self.options[i].full_name.replace('\\', '') == name:
+                self.selected_index = i
+                flag = True
+        if not flag: print(f'tried to select {name} with group {group}')
 
 
 class Message_window:
