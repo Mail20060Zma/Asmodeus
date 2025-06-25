@@ -10,6 +10,7 @@ def load_json_keys():
         return json.load(f)
 
 p_keys = load_json_keys()
+all_keys_del = 0
 for key in p_keys:
     p_url = "https://openrouter.ai/api/v1/keys"
     headers = {"Authorization": f"Bearer {key}"}
@@ -18,8 +19,10 @@ for key in p_keys:
     print(len(response_list_keys["data"]))
 
     for del_key in response_list_keys["data"]:
+        all_keys_del +=1
         del_url = f"https://openrouter.ai/api/v1/keys/{del_key["hash"]}"
         headers = {"Authorization": f"Bearer {key}"}
 
         response = requests.delete(del_url, headers=headers)
         print(response.json())
+print(all_keys_del)

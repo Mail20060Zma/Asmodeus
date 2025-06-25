@@ -42,6 +42,16 @@ ai_pull = [Drop_menu_subject('DeepSeek R1', 'Deepseek', '', gap_size=20),
            Drop_menu_subject('Qwen3-235B-A22B', 'Qwen3', '', gap_size=20),
            Drop_menu_subject('Qwen2.5-72B', 'Qwen2.5', '', gap_size=20)]
 
+ai_pull = []
+ai_models_dict = json.load(open(os.path.join(root_path, "src", "config", "api_model.json"))).items()
+for ai_model_list, ai_model_full in ai_models_dict:
+    ai_model_full = ai_model_full[:ai_model_full.find(":")]
+    ai_model_full = ai_model_full.replace("/", "-")
+    if len(ai_model_full)>15:
+        ai_model_full = ai_model_full[:15] + "/" + ai_model_full[15:]
+    ai_pull.append(Drop_menu_subject(ai_model_full, ai_model_list, '', gap_size=20))
+ai_pull.insert(0, Drop_menu_subject('AsmoAI(no text)', 'AsmoAI', '', gap_size=20))
+
 teacher_group_new_desires = []
 
 def teacher_group_add_new_desire():
@@ -548,13 +558,32 @@ class AI_generation:
         ai_generation_message.change_state()
         self.start_time = time.time()
         self.state = True
+        print(self.model_name)
+        if self.model_name == "AsmoAI":
+            os.startfile("asmo_AI.pyw")
+            # МАКС ОН МОМЕНТАЛЬНО ВСЕ ДЕЛАЕТ У ТЕБЯ ПРОГРАММУ НЕ УСПЕВАЕТ ВСЕ ЗАПУСТИТЬ СДЕЛАЙ НОРМ ОКНОЧАНИЕ
+        else:
+            # я не могу напремую запускать файл так как нужно передовать ему выбор модели или же делать это через стороний опять файлик  
+            # короче я это сделала ухуу
+            with open(os.path.join(root_path, "src", "config", f'model_name {self.model_name}.txt'), 'w', encoding='utf-8') as f:
+                f.write(f"{self.model_name}")
+            os.startfile("api_sender.pyw") 
+            # sender_model.generate_schedule(self.model_name)
 
     def generation_process(self, mouse_pos, mouse_click, mouse_long_click):
         if self.state:
             global ai_generation_message, ai_generation_text, ai_generation_time_text, ai_generation_answers_text
             self.check_delay += 1
             if self.check_delay == self.check_freq:
-                pass ###ПРОВЕРКА НАЛИЧИЯ ОТВЕТА ОТ НЕЙРОНКИ
+                self.check_delay = 0
+                files_dir_schedules_ready = os.listdir(os.path.join(root_path, 'src', 'config', 'schedules_ready'))
+                success_count_files = sum("True" in f for f in files_dir_schedules_ready)
+                ready_count_files = len(files_dir_schedules_ready)
+                print(success_count_files, '/',ready_count_files)
+                if "error.txt" in files_dir_schedules_ready:
+                    print("ошибка блять в предпочтениях") # тут тоже норм сделать 
+                if ready_count_files == 10:
+                    pass # конец и сделай чтобы все файлики удолялиьс ОК угу
             self.cur_time = round(time.time() - self.start_time, 1)
             ai_generation_time_text.text = f'Прошло {self.cur_time} сек.'
             ai_generation_message.process(mouse_pos, mouse_click, mouse_long_click)
@@ -738,7 +767,7 @@ while running:
     ai_full_teacher_group_add_text.text = f'Параметров добавлено: {len(teacher_group_new_desires)}'
 
     if prev_group_teacher_index != ai_full_subject.selected_index:
-        ai_full_teacher_group_subject.options = MAIN_SUBJECT_PULL[ai_full_subject.return_selected()]
+        ai_full_teacher_group_subject.options = MAIN_SUBJECT_PULL[ai_full_subject.return_system_name_selected()]
         ai_full_teacher_group_subject.selected_index = None
 
     prev_group_teacher_index = ai_full_subject.selected_index
@@ -785,7 +814,7 @@ while running:
             ai_message.change_state()
             generator_error_message.change_state()
         elif answer[0] == 'pass':
-            ai_generation.model_name = ai_message_choice_model.return_system_name_selected()
+            ai_generation.model_name = ai_message_choice_model.return_list_name_selected()
             ai_generation.start_generation()
 
     if ai_message_prompt_more_button.command() and ai_message_prompt_switch.state:

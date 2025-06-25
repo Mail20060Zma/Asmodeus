@@ -1,15 +1,13 @@
 {
-    "models": {
-        "Kimi Dev": "moonshotai/kimi-dev-72b:free",
-        "Qwen3-235B-A22B": "qwen/qwen3-235b-a22b:free",
-        "Qwen2.5-72B": "qwen/qwen-2.5-72b-instruct:free",
-        "DeepSeek V3": "deepseek/deepseek-chat-v3-0324:free",
-        "DeepSeek R1": "deepseek/deepseek-r1-0528:free",
-        "DeepSeek R1T": "tngtech/deepseek-r1t-chimera:free",
-        "Gemini 2": "google/gemini-2.0-flash-exp:free",
-        "Llama 4 Scout": "meta-llama/llama-4-scout:free",
-        "MAI DS R1": "microsoft/mai-ds-r1:free",
-        "NVIDIA: Llama 3.3": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
-        "Deepseek R1 Qwen3 8B": "deepseek/deepseek-r1-0528-qwen3-8b:free"
-    }
+    "Kimi Dev": "moonshotai/kimi-dev-72b:free",
+    "Qwen3-235B-A22B": "qwen/qwen3-235b-a22b:free",
+    "Qwen2.5-72B": "qwen/qwen-2.5-72b-instruct:free",
+    "DeepSeek V3": "deepseek/deepseek-chat-v3-0324:free",
+    "DeepSeek R1": "deepseek/deepseek-r1-0528:free",
+    "DeepSeek R1T": "tngtech/deepseek-r1t-chimera:free",
+    "Gemini 2": "google/gemini-2.0-flash-exp:free",
+    "Llama 4 Scout": "meta-llama/llama-4-scout:free",
+    "MAI DS R1": "microsoft/mai-ds-r1:free",
+    "NVIDIA: Llama 3.3": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+    "Deepseek R1 Qwen3 8B": "deepseek/deepseek-r1-0528-qwen3-8b:free"
 }

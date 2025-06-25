@@ -45,10 +45,8 @@ class ScheduleValidator:
             return {}
 
     def validate_schedule(self, schedule_input):
-        """
-        Проверяет расписание на соответствие требованиям.
-        schedule_input может быть путем к файлу или строкой CSV.
-        """
+        """Проверяет расписание на соответствие требованиям.
+        schedule_input может быть путем к файлу или строкой CSV."""
         try:
             with open(self.original_schedule_file, 'r', encoding='utf-8') as f:
                 original_schedule = json.load(f)
@@ -145,6 +143,7 @@ is_valid = validator.validate_schedule(schedule_file)
 
 
 validator = ScheduleValidator()
+
 csv_string = '''Day,Time,Auditory,Subject,Group,Teacher,Institute
 Tuesday,14:15,СП501,Дополнительные главы математики. ИРИТ-РТФ (09 УГН),АТ-16,Агафонов Александр Петрович,ИСА'''
 is_valid = validator.validate_schedule(csv_string)

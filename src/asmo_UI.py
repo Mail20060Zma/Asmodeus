@@ -808,11 +808,6 @@ class Drop_menu:
     def return_essentials(self):
         return ['mouse']
     
-    def return_selected(self):
-        if self.selected_index != None:
-            return self.options[self.selected_index].system_name
-        return None
-    
     def return_main_name_selected(self):
         if self.selected_index != None:
             return self.options[self.selected_index].main_name
@@ -821,6 +816,11 @@ class Drop_menu:
     def return_system_name_selected(self):
         if self.selected_index != None:
             return self.options[self.selected_index].system_name
+        return None
+    
+    def return_list_name_selected(self):
+        if self.selected_index != None:
+            return self.options[self.selected_index].list_name
         return None
 
 

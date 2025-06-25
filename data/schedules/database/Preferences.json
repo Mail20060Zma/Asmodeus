@@ -1,10 +1,5 @@
 {
-    "undesired_time": {
-
-    },
-    "desired_groups": {
-    },
-    "undesired_institutes": [
-        
-    ]
+    "undesired_time": {},
+    "desired_groups": {},
+    "undesired_institutes": []
 }

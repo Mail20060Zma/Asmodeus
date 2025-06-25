@@ -13,7 +13,6 @@ class APISender:
         self.config_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config')
         self.models_config = self._load_json('api_model.json')
         self.api_keys = self._load_json('api_keys.json')
-        self.schedule_data = self._load_schedule_data()
         self.schedule_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'schedule.json')
         self.preferences_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'preferences.json')
         self.validator = ScheduleValidator()
@@ -64,16 +63,12 @@ class APISender:
         if model_name is None:
             model_name = self.models_config.get('default_model')
         
-        model_id = self.models_config['models'].get(model_name)
+        model_id = self.models_config[model_name]
         if not model_id:
             raise ValueError(f"Модель {model_name} не найдена в конфигурации")
         
         return model_id
 
-    def _load_schedule_data(self):
-        schedule_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'schedule.json')
-        with open(schedule_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
 
     def load_data(self) -> tuple:
         """Загрузка исходных данных из файлов"""
@@ -362,7 +357,7 @@ class APISender:
                 response_del = requests.delete("https://openrouter.ai/api/v1/keys/" + self.api_keys_used[attempt]['data']['hash'],
                                                 headers = {"Authorization": f"Bearer {self.api_keys_used[attempt]["p_api"]}"}) # type: ignore 
                 print(response_del.json())
-                with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready', f'{attempt}.txt'), 'w', encoding='utf-8') as f:
+                with open(os.path.join(self.config_dir, 'schedules_ready', f'{is_valid} {attempt}.txt'), 'w', encoding='utf-8') as f:
                     f.write(f"{is_valid}")
 
     def generate_schedule(self, model_name: str = "DeepSeek R1T", attempt: int = 10) -> int:
@@ -372,12 +367,7 @@ class APISender:
         """
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
-        
         try:
-            self.api_keys_used = loop.run_until_complete(self.fetch_api_keys(attempt))
-            print(f"Сгенерировано {len(self.api_keys_used)} ключей!\nЖдем 10 секунд!")
-            sleep(10)
-
             self.load_data()
             self.filtered_schedule = self.original_schedule.copy()
             self.filter_by_undesired_time()
@@ -388,22 +378,41 @@ class APISender:
 
             if not self.check_subjects_have_groups():
                 print("Ошибка: не все предметы имеют доступные группы после фильтрации")
+                with open(os.path.join(self.config_dir, 'schedules_ready', f'error.txt'), 'w', encoding='utf-8') as f:
+                    f.write(f'error')
                 return 0
+            
+            self.api_keys_used = loop.run_until_complete(self.fetch_api_keys(attempt))
+            print(f"Сгенерировано {len(self.api_keys_used)} ключей!\nЖдем 10 секунд!")
+            sleep(10)
 
             async def run_requests():
                 async with aiohttp.ClientSession() as session:
                     tasks = [self.send_single_request(session, model_name, i) for i in range(attempt)]
                     results = await asyncio.gather(*tasks, return_exceptions=False)
-                    
-                    success_count = 0
-                    for result in results:
-                        if result:
-                            success_count += 1
-                    print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready', f'Сгенерировано расписаний:{success_count}.txt'))
-                    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready', f'Сгенерировано расписаний {success_count}.txt'), 'w', encoding='utf-8') as f:
-                        f.write(f'Сгенерировано {success_count} расписаний!')
-                    return success_count
-
+                    return
             return loop.run_until_complete(run_requests())
         finally:
+            success_count = sum("True" in f for f in os.listdir(os.path.join(self.config_dir, 'schedules_ready')))
+            print(f"Успешно сгенерировано расписаний: {success_count}")
             loop.close()
+
+def main():
+    sender = APISender()
+        #                0              1               2              3              4               5              6                  7               8               9                       10   
+    #model_name = ["Kimi Dev", "Qwen3-235B-A22B", "Qwen2.5-72B", "DeepSeek V3", "DeepSeek R1", "DeepSeek R1T", "Gemini 2", "Llama 4 Scout",  "MAI DS R1", "NVIDIA: Llama 3.3", "Deepseek R1 Qwen3 8B"][6]
+    try:
+        model_name_file = os.listdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config',))
+        for file in model_name_file:
+            if "model_name" in file:
+                model_name = file[file.find(" ")+1:file.find(".")]
+                print(model_name)
+                print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
+                os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
+    finally:
+        sender.generate_schedule(model_name)
+        return 
+
+if __name__ == "__main__":
+    sleep(5)
+    main()
