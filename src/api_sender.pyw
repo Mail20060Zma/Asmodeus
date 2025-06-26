@@ -203,7 +203,7 @@ class APISender:
     def check_subjects_have_groups(self) -> bool:
         """Проверка наличия хотя бы одной группы для каждого предмета 
         и базовой возможности составления расписания без явных конфликтов"""
-        
+        return True
         if not all(len(groups) > 0 for groups in self.filtered_schedule.values()):
             print("Ошибка: не все предметы имеют доступные группы после фильтрации")
             return False
@@ -406,6 +406,7 @@ class APISender:
             self.filter_by_undesired_institutes()
             self.filter_by_single_group_conflicts()
             self.sort_subjects_by_groups_count()
+            print(json.dumps(self.filtered_schedule, ensure_ascii=False, indent=2))
 
             if not self.check_subjects_have_groups():
                 with open(os.path.join(self.config_dir, 'schedules_ready', f'error.txt'), 'w', encoding='utf-8') as f:

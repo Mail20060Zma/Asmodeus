@@ -614,6 +614,8 @@ class AI_generation:
                     ai_generation_ended_counter_text.text = f'Расписаний получилось: {self.success_count_files}'
                     ai_generation_message.change_state()
                     ai_generation_ended_message.change_state()
+                    list_ready_variant = os.listdir(os.path.join(root_path, "data", "schedules", "ready"))
+                    list_ready_variant = [os.path.join(root_path, "data", "schedules", "ready", variant) for variant in list_ready_variant]
             self.cur_time = round(time.time() - self.start_time, 1)
             ai_generation_time_text.text = f'Прошло {self.cur_time} сек.'
             ai_generation_answers_text.text = f'Получено расписаний: {self.ready_count_files}'
@@ -1017,6 +1019,9 @@ while running:
     if ai_generation_ended_back_button.command():
         ai_generation.state = False
         ai_generation_ended_message.change_state()
+        list_ready_variant = os.listdir(os.path.join(root_path, "data", "schedules", "ready"))
+        list_ready_variant = [os.path.join(root_path, "data", "schedules", "ready", variant) for variant in list_ready_variant]
+
 
     if scedule_back_button.command():
         cur_scedule_index -= 1
