@@ -1,6 +1,7 @@
 import json
 import random
 import os
+import logging
 from typing import Dict, Any, Optional, List
 import aiohttp
 import asyncio
@@ -11,6 +12,14 @@ from schedule_validator import ScheduleValidator
 class APISender:
     def __init__(self):
         self.config_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config')
+        self.log_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'api_sender.log')
+        logging.basicConfig(
+            filename=self.log_file,
+            level=logging.INFO,
+            format='%(asctime)s [%(levelname)s] %(message)s',
+            encoding='utf-8')
+        self.logger = logging.getLogger(__name__)
+        self.logger.info('APISender initialized.')
         self.models_config = self._load_json('api_model.json')
         self.api_keys = self._load_json('api_keys.json')
         self.schedule_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'schedule.json')
@@ -27,10 +36,14 @@ class APISender:
         
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                data = json.load(f)
+                self.logger.info(f'Successfully loaded JSON file: {filename}')
+                return data
         except FileNotFoundError:
+            self.logger.error(f"Config file {filename} not found in {self.config_dir}")
             raise FileNotFoundError(f"Файл конфигурации {filename} не найден в {self.config_dir}")
         except json.JSONDecodeError:
+            self.logger.error(f"JSON decode error in file {filename}")
             raise ValueError(f"Ошибка в формате JSON файла {filename}")
 
     async def fetch_api_keys(self, n: int) -> list[str]:
@@ -75,11 +88,12 @@ class APISender:
         try:
             with open(self.schedule_file, 'r', encoding='utf-8') as f:
                 self.original_schedule = json.load(f)
-            
+            self.logger.info('Successfully loaded original_schedule')
             with open(self.preferences_file, 'r', encoding='utf-8') as f:
                 self.preferences = json.load(f)
-            
+            self.logger.info('Successfully loaded preferences')
         except Exception as e:
+            self.logger.error(f"Error loading data: {e}")
             print(f"Ошибка при загрузке данных: {e}")
             return (None, None)
 
@@ -203,6 +217,7 @@ class APISender:
     def check_subjects_have_groups(self, max_attempts=100) -> bool:
         """Проверка наличия групп у предметов и возможности составить расписание"""
         if not all(len(groups) > 0 for groups in self.filtered_schedule.values()):
+            self.logger.error("Ошибка: не все предметы имеют доступные группы после фильтрации")
             print("Ошибка: не все предметы имеют доступные группы после фильтрации")
             return False
         
@@ -252,6 +267,7 @@ class APISender:
         try:
             is_valid = self.validator.validate_schedule(schedule_data)        
             if not is_valid:
+                self.logger.warning("Schedule failed validation. Not saving.")
                 return False
             for i in range(100):
                 output_file_temp = output_file + f'{i}.csv'
@@ -259,11 +275,13 @@ class APISender:
                     output_file = output_file_temp
                     with open(output_file, 'w', encoding='utf-8', newline='') as f:
                         f.write(schedule_data.strip())
+                    self.logger.info(f"Schedule saved successfully in {output_file}")
                     break
             print(f"Расписание успешно сохранено в {output_file}")
             return True
             
         except Exception as e:
+            self.logger.error(f"Ошибка при сохранении расписания: {e}")
             print(f"Ошибка при сохранении расписания: {e}")
             return False
 
@@ -369,39 +387,48 @@ class APISender:
                 "temperature": 0.22,
             }
             try:
-                print(f"Отправляем запрос к API с моделью {attempt}...")
+                self.logger.info(f"Sending API request with model {attempt}...")
                 async with asyncio.timeout(300):
                     async with session.post(url, headers=headers, json=data) as response:
                         response.raise_for_status()
                         result = await response.json()
                         if 'choices' in result and len(result['choices']) > 0:
                             schedule_data = result['choices'][0]['message']['content']
-                            print(f"Получен ответ для модели {attempt}")
+                            self.logger.info(f"Received response for model {attempt}")
                             
                             schedule_data = schedule_data[schedule_data.find('"Day'):schedule_data.rfind("```") if schedule_data.rfind("```") else None]
+                            self.logger.info(f"Schedule data extracted for model {attempt}")
                             print(schedule_data)
                             output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-                                                    'data', 'schedules', 'ready', 'schedule_variant_')
+                                                        'data', 'schedules', 'ready', 'schedule_variant_')
                             is_valid = self.save_validated_schedule(schedule_data, output_file)
                             if is_valid:
+                                self.logger.info(f"Schedule generated and saved for model {attempt}")
                                 print(f"Расписание успешно сгенерировано и сохранено для модели {attempt}")
                                 return True
                             else:
+                                self.logger.warning(f"Schedule did not pass validation for model {attempt}")
                                 print(f"Расписание не прошло валидацию для модели {attempt}")
                                 return False
                         else:
+                            self.logger.error(f"Invalid API response format for model {attempt}")
                             print(f"Неверный формат ответа от API для модели {attempt}")
                             return False
             except asyncio.TimeoutError:
+                self.logger.error(f"Timeout (300s) on model {attempt}")
                 print(f"Превышено время ожидания (300 сек) для модели {attempt}")
                 return False
             except Exception as e:
+                self.logger.error(f"Error sending request for model {attempt}: {str(e)}")
                 print(f"Ошибка при отправке сообщения для модели {attempt}: {str(e)}")
                 return False
             finally:
-                response_del = requests.delete("https://openrouter.ai/api/v1/keys/" + self.api_keys_used[attempt]['data']['hash'],
-                                                headers = {"Authorization": f"Bearer {self.api_keys_used[attempt]["p_api"]}"}) # type: ignore 
-                print(response_del.json())
+                try:
+                    response_del = requests.delete("https://openrouter.ai/api/v1/keys/" + self.api_keys_used[attempt]['data']['hash'],
+                                                    headers = {"Authorization": f"Bearer {self.api_keys_used[attempt]["p_api"]}"}) # type: ignore 
+                    self.logger.info(f"Deleted API key for attempt {attempt}: {response_del.json()}")
+                except Exception as ex:
+                    self.logger.warning(f"Error deleting API key for attempt {attempt}: {str(ex)}")
                 with open(os.path.join(self.config_dir, 'schedules_ready', f'{is_valid} {attempt}.txt'), 'w', encoding='utf-8') as f:
                     f.write(f"{is_valid}")
 
@@ -413,8 +440,10 @@ class APISender:
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
         try:
+            self.logger.info("Starting schedule generation.")
             self.load_data()
             self.filtered_schedule = self.original_schedule.copy()
+            self.logger.info("Starting series of filters and sorting.")
             self.filter_by_undesired_time()
             self.filter_by_desired_groups()
             self.filter_by_undesired_institutes()
@@ -424,9 +453,11 @@ class APISender:
             if not self.check_subjects_have_groups():
                 with open(os.path.join(self.config_dir, 'schedules_ready', f'error.txt'), 'w', encoding='utf-8') as f:
                     f.write(f'error')
+                self.logger.error("No valid groups. Exiting generation.")
                 return 0
             
             self.api_keys_used = loop.run_until_complete(self.fetch_api_keys(attempt))
+            self.logger.info(f"API keys generated: {len(self.api_keys_used)}. Waiting 10s.")
             print(f"Сгенерировано {len(self.api_keys_used)} ключей!\nЖдем 10 секунд!")
             time.sleep(10)
 
@@ -438,6 +469,7 @@ class APISender:
             return loop.run_until_complete(run_requests())
         finally:
             success_count = sum("True" in f for f in os.listdir(os.path.join(self.config_dir, 'schedules_ready')))
+            self.logger.info(f"Schedules successfully generated: {success_count}")
             print(f"Успешно сгенерировано расписаний: {success_count}")
             loop.close()
 
@@ -448,23 +480,29 @@ def main():
     promt_users = ""
     try:
         model_name_file = os.listdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config'))
+        sender.logger.info(f"Detected config files: {model_name_file}")
         print(model_name_file)
         for file in model_name_file:
             if "model_name.txt" == file:
                 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file)) as f:
                     model_name = f.read()
+                sender.logger.info(f'Read model_name: {model_name} from {file}')
                 print(model_name)
                 print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
+                sender.logger.info(f'Removed {file}')
                 print(2)
             if "promt_users.txt" == file:
                 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file)) as f:
-                    model_name = f.read()
+                    promt_users = f.read()
+                sender.logger.info(f'Read promt_users: {promt_users} from {file}')
                 print(promt_users)
                 print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
+                sender.logger.info(f'Removed {file}')
                 print(3)
     finally:    
+        sender.logger.info(f'Launching schedule generation (model: {model_name}, users: {promt_users})')
         print(model_name, promt_users)
         sender.generate_schedule(model_name, promt_users)
         return 

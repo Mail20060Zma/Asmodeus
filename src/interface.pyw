@@ -603,7 +603,6 @@ class AI_generation:
                 self.ready_count_files = len(self.files_dir_schedules_ready)
                 self.success_count_files = sum("True" in f for f in self.files_dir_schedules_ready)
                 self.check_delay = 0
-                print(self.success_count_files, '/',self.ready_count_files)
                 if "error.txt" in self.files_dir_schedules_ready:
                     generator_error_message_text2.text = 'Ваши предпочтения некорректны'
                     ai_generation_message.change_state()

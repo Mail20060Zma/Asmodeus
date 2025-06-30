@@ -1,0 +1,75 @@
+2025-06-30 22:44:55,370 [INFO] APISender initialized.
+2025-06-30 22:44:55,371 [INFO] Successfully loaded JSON file: api_model.json
+2025-06-30 22:44:55,371 [INFO] Successfully loaded JSON file: api_keys.json
+2025-06-30 22:44:55,371 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-06-30 22:44:55,377 [INFO] Read model_name: Llama 4 Scout from model_name.txt
+2025-06-30 22:44:55,377 [INFO] Removed model_name.txt
+2025-06-30 22:44:55,378 [INFO] Read promt_users:  from promt_users.txt
+2025-06-30 22:44:55,378 [INFO] Removed promt_users.txt
+2025-06-30 22:44:55,391 [INFO] Launching schedule generation (model: Llama 4 Scout, users: )
+2025-06-30 22:44:55,392 [INFO] Starting schedule generation.
+2025-06-30 22:44:55,393 [INFO] Successfully loaded original_schedule
+2025-06-30 22:44:55,393 [INFO] Successfully loaded preferences
+2025-06-30 22:44:55,393 [INFO] Starting series of filters and sorting.
+2025-06-30 22:44:56,202 [INFO] API keys generated: 10. Waiting 10s.
+2025-06-30 22:45:06,203 [INFO] Sending API request with model 0...
+2025-06-30 22:45:06,204 [INFO] Sending API request with model 1...
+2025-06-30 22:45:06,206 [INFO] Sending API request with model 2...
+2025-06-30 22:45:06,208 [INFO] Sending API request with model 3...
+2025-06-30 22:45:06,209 [INFO] Sending API request with model 4...
+2025-06-30 22:45:06,210 [INFO] Sending API request with model 5...
+2025-06-30 22:45:06,210 [INFO] Sending API request with model 6...
+2025-06-30 22:45:06,211 [INFO] Sending API request with model 7...
+2025-06-30 22:45:06,212 [INFO] Sending API request with model 8...
+2025-06-30 22:45:06,212 [INFO] Sending API request with model 9...
+2025-06-30 22:45:12,044 [INFO] Received response for model 2
+2025-06-30 22:45:12,045 [INFO] Schedule data extracted for model 2
+2025-06-30 22:45:12,046 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:12,046 [WARNING] Schedule did not pass validation for model 2
+2025-06-30 22:45:12,701 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-06-30 22:45:12,702 [INFO] Received response for model 6
+2025-06-30 22:45:12,702 [INFO] Schedule data extracted for model 6
+2025-06-30 22:45:12,703 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:12,703 [WARNING] Schedule did not pass validation for model 6
+2025-06-30 22:45:13,377 [INFO] Deleted API key for attempt 6: {'deleted': True}
+2025-06-30 22:45:13,379 [INFO] Received response for model 4
+2025-06-30 22:45:13,379 [INFO] Schedule data extracted for model 4
+2025-06-30 22:45:13,380 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:13,380 [WARNING] Schedule did not pass validation for model 4
+2025-06-30 22:45:14,302 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-06-30 22:45:14,310 [INFO] Received response for model 1
+2025-06-30 22:45:14,310 [INFO] Schedule data extracted for model 1
+2025-06-30 22:45:14,315 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:14,315 [WARNING] Schedule did not pass validation for model 1
+2025-06-30 22:45:15,116 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-06-30 22:45:15,118 [INFO] Received response for model 3
+2025-06-30 22:45:15,118 [INFO] Schedule data extracted for model 3
+2025-06-30 22:45:15,119 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:15,119 [WARNING] Schedule did not pass validation for model 3
+2025-06-30 22:45:16,172 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-06-30 22:45:16,174 [INFO] Received response for model 8
+2025-06-30 22:45:16,174 [INFO] Schedule data extracted for model 8
+2025-06-30 22:45:16,176 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:16,176 [WARNING] Schedule did not pass validation for model 8
+2025-06-30 22:45:16,835 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-06-30 22:45:16,837 [INFO] Received response for model 9
+2025-06-30 22:45:16,838 [INFO] Schedule data extracted for model 9
+2025-06-30 22:45:16,840 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:16,840 [WARNING] Schedule did not pass validation for model 9
+2025-06-30 22:45:17,722 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-06-30 22:45:29,144 [INFO] Received response for model 7
+2025-06-30 22:45:29,144 [INFO] Schedule data extracted for model 7
+2025-06-30 22:45:29,145 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:29,145 [WARNING] Schedule did not pass validation for model 7
+2025-06-30 22:45:29,809 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-06-30 22:45:29,811 [INFO] Received response for model 0
+2025-06-30 22:45:29,811 [INFO] Schedule data extracted for model 0
+2025-06-30 22:45:29,812 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:29,812 [WARNING] Schedule did not pass validation for model 0
+2025-06-30 22:45:30,474 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-06-30 22:45:30,476 [INFO] Received response for model 5
+2025-06-30 22:45:30,476 [INFO] Schedule data extracted for model 5
+2025-06-30 22:45:30,477 [WARNING] Schedule failed validation. Not saving.
+2025-06-30 22:45:30,477 [WARNING] Schedule did not pass validation for model 5
+2025-06-30 22:45:31,155 [INFO] Deleted API key for attempt 5: {'deleted': True}
+2025-06-30 22:45:31,160 [INFO] Schedules successfully generated: 0
