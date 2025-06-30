@@ -200,36 +200,52 @@ class APISender:
                         del self.filtered_schedule[subject][group]
                         break
 
-    def check_subjects_have_groups(self) -> bool:
-        """Проверка наличия хотя бы одной группы для каждого предмета 
-        и базовой возможности составления расписания без явных конфликтов"""
-        return True
+    def check_subjects_have_groups(self, max_attempts=100) -> bool:
+        """Проверка наличия групп у предметов и возможности составить расписание"""
         if not all(len(groups) > 0 for groups in self.filtered_schedule.values()):
             print("Ошибка: не все предметы имеют доступные группы после фильтрации")
             return False
         
-        all_time_slots = []
-        for subject, groups in self.filtered_schedule.items():
-            subject_slots = set()
-            for group_info in groups.values():
-                for lesson in group_info:
-                    day = lesson[0]
-                    time = lesson[1]
-                    subject_slots.add((day, time))
-            all_time_slots.append(subject_slots)
-        
-        for i, slots in enumerate(all_time_slots):
-            other_slots = set()
-            for j, other in enumerate(all_time_slots):
-                if i != j:
-                    other_slots.update(other)
+        for _ in range(max_attempts):
+            schedule = {}
+            used_time_slots = set()
+            success = True
             
-            if slots and all(slot in other_slots for slot in slots):
-                print(f"Предупреждение: все временные слоты для предмета {list(self.filtered_schedule.keys())[i]} "
-                    f"пересекаются с другими предметами")
-                return False
+            sorted_subjects = sorted(
+                self.filtered_schedule.items(),
+                key=lambda x: len(x[1])
+            )
+            
+            for subject, groups in sorted_subjects:
+                found_group = False
+                group_list = list(groups.items())
+                random.shuffle(group_list)
+                
+                for group, lessons in group_list:
+                    conflict = False
+                    for lesson in lessons:
+                        time_slot = (lesson[0], lesson[1])
+                        if time_slot in used_time_slots:
+                            conflict = True
+                            break
+                    
+                    if not conflict:
+                        schedule[subject] = {group: lessons}
+                        for lesson in lessons:
+                            used_time_slots.add((lesson[0], lesson[1]))
+                        found_group = True
+                        break
+                
+                if not found_group:
+                    success = False
+                    break
+            
+            if success:
+                return True
         
-        return True
+        return False
+        
+
 
     def save_validated_schedule(self, schedule_data: str, output_file: str) -> bool:
         """Сохраняет расписание только если оно прошло валидацию"""
@@ -254,6 +270,7 @@ class APISender:
     async def send_single_request(self, session: aiohttp.ClientSession, model_name: str, attempt, promt_users: str):
         """Асинхронная отправка одного запроса к API"""
         async with self.semaphore: 
+            is_valid = False
             api_key = self.api_keys_used[attempt]["key"] # type: ignore
             model_id = self._get_model_id(model_name)
             url = "https://openrouter.ai/api/v1/chat/completions"
@@ -351,7 +368,6 @@ class APISender:
                 ],
                 "temperature": 0.22,
             }
-            
             try:
                 print(f"Отправляем запрос к API с моделью {attempt}...")
                 async with asyncio.timeout(300):
@@ -377,11 +393,9 @@ class APISender:
                             print(f"Неверный формат ответа от API для модели {attempt}")
                             return False
             except asyncio.TimeoutError:
-                is_valid = False
                 print(f"Превышено время ожидания (300 сек) для модели {attempt}")
                 return False
             except Exception as e:
-                is_valid = False
                 print(f"Ошибка при отправке сообщения для модели {attempt}: {str(e)}")
                 return False
             finally:
@@ -406,7 +420,6 @@ class APISender:
             self.filter_by_undesired_institutes()
             self.filter_by_single_group_conflicts()
             self.sort_subjects_by_groups_count()
-            print(json.dumps(self.filtered_schedule, ensure_ascii=False, indent=2))
 
             if not self.check_subjects_have_groups():
                 with open(os.path.join(self.config_dir, 'schedules_ready', f'error.txt'), 'w', encoding='utf-8') as f:
@@ -430,27 +443,34 @@ class APISender:
 
 def main():
     sender = APISender()
-        #                0              1               2              3              4               5              6                  7               8               9                       10   
-    model_name = ["Kimi Dev", "Qwen3-235B-A22B", "Qwen2.5-72B", "DeepSeek V3", "DeepSeek R1", "DeepSeek R1T", "Gemini 2", "Llama 4 Scout",  "MAI DS R1", "NVIDIA: Llama 3.3", "Deepseek R1 Qwen3 8B"][5]
+        #                0              1               2              3              4               5              6             7              8               9                       10   
+    model_name = ["Kimi Dev", "Qwen3-235B-A22B", "Qwen2.5-72B", "DeepSeek V3", "DeepSeek R1", "DeepSeek R1T", "Gemini 2", "Llama 4 Scout",  "MAI DS R1", "NVIDIA: Llama 3.3", "Deepseek R1 Qwen3 8B"][6]
     promt_users = ""
     try:
-        model_name_file = os.listdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config',))
+        model_name_file = os.listdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config'))
+        print(model_name_file)
         for file in model_name_file:
-            if "model_name" in file:
-                model_name = file[file.find(" ")+1:file.rfind(".")]
+            if "model_name.txt" == file:
+                with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file)) as f:
+                    model_name = f.read()
                 print(model_name)
                 print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
-
-            if "promt_users" in file:
-                promt_users = file[file.find(" ")+1:file.rfind(".")]
+                print(2)
+            if "promt_users.txt" == file:
+                with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file)) as f:
+                    model_name = f.read()
                 print(promt_users)
                 print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
-    finally:
+                print(3)
+    finally:    
+        print(model_name, promt_users)
         sender.generate_schedule(model_name, promt_users)
         return 
 
 if __name__ == "__main__":
+    os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready'), exist_ok=True)
+    os.makedirs(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'ready'), exist_ok=True)
     time.sleep(5)
     main()

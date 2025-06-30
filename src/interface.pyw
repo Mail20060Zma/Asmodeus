@@ -12,6 +12,8 @@ FPS = 60
 pygame.init()
 
 root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready'), exist_ok=True)
+os.makedirs(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'ready'), exist_ok=True)
 
 SIZE = [1350, 800]
 screen = pygame.display.set_mode(SIZE)
@@ -116,7 +118,7 @@ ai_message_prompt_switch_text = Text(screen, SMALL_FONT, [10, 75], 'Доп.Пр�
 ai_message_prompt_switch = Switch(screen, [150, 75], already_on=True)
 ai_message_prompt_more_button = Button(screen, [220, 75], [160, 30], SMALL_FONT, 'Больше опций')
 ai_message_prompt_text = Text(screen, SMALL_FONT, [10, 130], 'Промпт: ')
-ai_message_prompt = Input_field(screen, [100, 130], 300, 40, font=SMALL_FONT)
+ai_message_prompt = Input_field(screen, [100, 130], 300, 40, font=SMALL_FONT, text="")
 ai_message_cancel_button = Button(screen, [10, 200], [150, 50], text='Отмена')
 ai_message_start_button = Button(screen, [180, 200], [220, 50], text='Старт', rainbow_highlight=True)
 
@@ -570,6 +572,7 @@ class AI_generation:
     def start_generation(self):
         ###МЕСТО ДЛЯ ЗАПУСКА ФАЙЛА МИШИ###
         global ai_generation_message, ai_generation_model_text, ai_generation_text, ai_message
+        self.promt_users = ai_message_prompt.text
         ai_generation_model_text.text = f'Модель генерации: {self.model_name}'
         ai_message.change_state()
         ai_generation_message.change_state()
@@ -581,16 +584,15 @@ class AI_generation:
         self.ready_count_files = len(self.files_dir_schedules_ready)
         self.success_count_files = sum("True" in f for f in self.files_dir_schedules_ready)
         print(self.model_name)
+        print(self.promt_users)
         if self.model_name == "AsmoAI":
             os.startfile("asmo_AI.pyw")
-            # МАКС ОН МОМЕНТАЛЬНО ВСЕ ДЕЛАЕТ У ТЕБЯ ПРОГРАММУ НЕ УСПЕВАЕТ ВСЕ ЗАПУСТИТЬ СДЕЛАЙ НОРМ ОКНОЧАНИЕ
         else:
-            # я не могу напремую запускать файл так как нужно передовать ему выбор модели или же делать это через стороний опять файлик  
-            # короче я это сделала ухуу
-            with open(os.path.join(root_path, "src", "config", f'model_name {self.model_name}.txt'), 'w', encoding='utf-8') as f:
+            with open(os.path.join(root_path, "src", "config", f'model_name.txt'), 'w', encoding='utf-8') as f:
                 f.write(f"{self.model_name}")
+            with open(os.path.join(root_path, "src", "config", f'promt_users.txt'), 'w', encoding='utf-8') as f:
+                f.write(f"{self.promt_users}")
             os.startfile("api_sender.pyw") 
-            # sender_model.generate_schedule(self.model_name)
 
     def generation_process(self, mouse_pos, mouse_click, mouse_long_click):
         if self.state:
