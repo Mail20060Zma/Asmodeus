@@ -790,7 +790,7 @@ class Drop_menu:
 
             for main_text_print in show_text:
                 rendered_row = self.font.render(main_text_print, 1, FONT_COLOR)
-                self.screen.blit(rendered_row, [text_x, text_y + (-28 + (15*len(show_text)))])   ###Offset
+                self.screen.blit(rendered_row, [text_x, text_y + (-30 + (15*len(show_text)))])   ###Offset
                 text_y += self.options[self.selected_index].gap_size
 
             place_text = self.options_font.render(self.options[self.selected_index].place, 1, FONT_COLOR)
