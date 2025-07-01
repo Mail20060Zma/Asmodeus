@@ -790,11 +790,14 @@ class Drop_menu:
 
             for main_text_print in show_text:
                 rendered_row = self.font.render(main_text_print, 1, FONT_COLOR)
-                self.screen.blit(rendered_row, [text_x, text_y])
+                self.screen.blit(rendered_row, [text_x, text_y + (-28 + (15*len(show_text)))])   ###Offset
                 text_y += self.options[self.selected_index].gap_size
 
             place_text = self.options_font.render(self.options[self.selected_index].place, 1, FONT_COLOR)
-            self.screen.blit(place_text, (self.pos[0]+self.size[0]-50, self.pos[1]+8))
+            self.screen.blit(place_text, (self.pos[0]+self.size[0]-self.font.size(self.options[self.selected_index].place.replace('(','').replace('(',''))[0], self.pos[1]+5))
+
+            group_text = self.options_font.render(self.options[self.selected_index].group, 1, FONT_COLOR)
+            self.screen.blit(group_text, (self.pos[0] + 10, self.pos[1]+5))
 
     def scroll_up(self):
         if self._right_to_process():
