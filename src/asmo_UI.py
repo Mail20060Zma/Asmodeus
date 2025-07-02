@@ -799,8 +799,9 @@ class Drop_menu:
             group_text = self.options_font.render(self.options[self.selected_index].group, 1, FONT_COLOR)
             self.screen.blit(group_text, (self.pos[0] + 10, self.pos[1]+5))
 
-            teacher_text = self.options_font.render(', '.join([i.split()[0] for i in self.options[self.selected_index].tutor.split(',  ')]), 1, FONT_COLOR)
-            self.screen.blit(teacher_text, (self.pos[0] + 10, self.pos[1]+self.size[1]-25))
+            if self.options[self.selected_index].tutor != None:
+                teacher_text = self.options_font.render(', '.join([i.split()[0] for i in self.options[self.selected_index].tutor.split(',  ')]), 1, FONT_COLOR)
+                self.screen.blit(teacher_text, (self.pos[0] + 10, self.pos[1]+self.size[1]-25))
 
     def scroll_up(self):
         if self._right_to_process():
