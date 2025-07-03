@@ -312,7 +312,22 @@ class Text:
 
     def return_essentials(self):
         return []
+    
 
+class Long_Text(Text):
+    def __init__(self, screen, font, pos, text, divide_symbol:str='/', offset:int = 30):
+        super().__init__(screen, font, pos, text)
+        self.divide_symbol = divide_symbol
+        self.offset = offset
+
+    def process(self):
+        divided_text = self.text.split(self.divide_symbol)
+        cur_pos = [self.pos[0], self.pos[1]]
+        for show_text in divided_text:
+            text = self.font.render(show_text, 1, FONT_COLOR)
+            self.screen.blit(text, cur_pos)
+            cur_pos[1] += self.offset
+            
 
 class Switch:
     def __init__(self, screen:pygame.display, pos:list, already_on:bool = False):
@@ -779,7 +794,7 @@ class Drop_menu:
                 show_text_height = len(show_text)*self.font.size('a')[1]//2+\
                                     (self.options[self.selected_index].gap_size)*(len(show_text)-1)
             else:
-                show_text_height = self.font.size('a')[1]
+                show_text_height = self.font.size('a')[1] - 25
             
             show_text_lenght = 0
             for text_max_lenght in show_text:

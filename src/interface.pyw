@@ -17,7 +17,7 @@ os.makedirs(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file_
 
 SIZE = [1350, 800]
 screen = pygame.display.set_mode(SIZE)
-pygame.display.set_caption('Asmodeus build 10.06.25')
+pygame.display.set_caption('Asmodeus v.0.7.0')
 clock = pygame.time.Clock()
 programIcon = pygame.image.load(os.path.join(root_path, 'assets', 'icon2.png'))
 pygame.display.set_icon(programIcon)
@@ -49,6 +49,13 @@ for ai_model_list, ai_model_full in ai_models_dict:
 ai_pull.insert(0, Drop_menu_subject('AsmoAI(no text)', 'AsmoAI', '', gap_size=20))
 
 teacher_group_new_desires = []
+
+settings = {}
+with open(r'config\config.json', 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            settings['AsmoAI_warning'] = data['AsmoAI_warning']
+            settings['TextPrompt_warning'] = data['TextPrompt_warning']
+            settings['NoPrompt_warning'] = data['NoPrompt_warning']
 
 def teacher_group_add_new_desire():
     global teacher_group_new_desires
@@ -351,6 +358,20 @@ generator_error_message = Message_window(screen, [400, 150], [generator_error_me
                                                               generator_error_message_text2, 
                                                               generator_error_message_ok_button])
 
+generator_warning_message_text1 = Text(screen, SMALL_FONT, [10, 10], 'Предупреждение:')
+generator_warning_message_text2 = Long_Text(screen, SMALL_FONT, [10, 50], '')
+generator_warning_message_ok_button = Button(screen, [410, 190], [100, 50], SMALL_FONT, 'СТАРТ!')
+generator_warning_message_back_button = Button(screen, [290, 190], [100, 50], SMALL_FONT, 'Назад')
+generator_warning_message_stop_show_text = Text(screen, EVEN_SMALLER_FONT, [10,180], 'Больше не показывать:')
+generator_warning_message_stop_show_switch = Switch(screen, [10,210])
+
+generator_warning_message = Message_window(screen, [520, 250], [generator_warning_message_text1,
+                                                              generator_warning_message_text2, 
+                                                              generator_warning_message_ok_button,
+                                                              generator_warning_message_back_button,
+                                                              generator_warning_message_stop_show_text,
+                                                              generator_warning_message_stop_show_switch])
+
 
 settings_title_text = Text(screen, MAIN_FONT, [155,10], 'НАСТРОЙКИ')
 settings_video_text = Text(screen, MAIN_FONT, [20,70], 'Заставка')
@@ -451,6 +472,23 @@ def update_json_file(file_path, new_undesired_days, new_desired_groups):
         data['desired_groups'] = new_desired_groups
         
         with open(file_path, 'w', encoding='utf-8') as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)
+            
+        return True
+    except Exception as e:
+        print(e)
+        return False
+    
+def update_config_json():
+    try:
+        with open(r'config\config.json', 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        data['AsmoAI_warning'] = settings['AsmoAI_warning']
+        data['TextPrompt_warning'] = settings['TextPrompt_warning']
+        data['NoPrompt_warning'] = settings['NoPrompt_warning']
+        
+        with open(r'config\config.json', 'w', encoding='utf-8') as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
             
         return True
@@ -570,7 +608,6 @@ class AI_generation:
         self.files_dir_schedules_ready = os.listdir(os.path.join(root_path, 'src', 'config', 'schedules_ready'))
 
     def start_generation(self):
-        ###МЕСТО ДЛЯ ЗАПУСКА ФАЙЛА МИШИ###
         global ai_generation_message, ai_generation_model_text, ai_generation_text, ai_message
         self.promt_users = ai_message_prompt.text
         ai_generation_model_text.text = f'Модель генерации: {self.model_name}'
@@ -578,8 +615,11 @@ class AI_generation:
         ai_generation_message.change_state()
         self.start_time = time.time()
         self.state = True
-        for i in self.files_dir_schedules_ready:
-            os.remove(os.path.join(root_path, 'src', 'config', 'schedules_ready', i))
+        try:
+            for i in self.files_dir_schedules_ready:
+                os.remove(os.path.join(root_path, 'src', 'config', 'schedules_ready', i))
+        except:
+            print('tried to delete previous chat files, but failed(')
         self.files_dir_schedules_ready = os.listdir(os.path.join(root_path, 'src', 'config', 'schedules_ready'))
         self.ready_count_files = len(self.files_dir_schedules_ready)
         self.success_count_files = sum("True" in f for f in self.files_dir_schedules_ready)
@@ -613,6 +653,18 @@ class AI_generation:
                         os.remove(os.path.join(root_path, 'src', 'config', 'schedules_ready', i))
                     ai_generation_ended_time_text.text = f'Времени ушло: {self.cur_time}'
                     ai_generation_ended_counter_text.text = f'Расписаний получилось: {self.success_count_files}'
+                    ai_generation_message.change_state()
+                    ai_generation_ended_message.change_state()
+                    list_ready_variant = os.listdir(os.path.join(root_path, "data", "schedules", "ready"))
+                    list_ready_variant = [os.path.join(root_path, "data", "schedules", "ready", variant) for variant in list_ready_variant]
+                if 'AsmoAI_Success.txt' in self.files_dir_schedules_ready or 'AsmoAI_Fail.txt' in self.files_dir_schedules_ready:
+                    for i in self.files_dir_schedules_ready:
+                        os.remove(os.path.join(root_path, 'src', 'config', 'schedules_ready', i))
+                    ai_generation_ended_time_text.text = f'Времени ушло: {self.cur_time}'
+                    if 'AsmoAI_Success.txt' in self.files_dir_schedules_ready:
+                        ai_generation_ended_counter_text.text = 'Расписания были успешно сгенерированы!'
+                    elif 'AsmoAI_Fail.txt' in self.files_dir_schedules_ready:
+                        ai_generation_ended_counter_text.text = f'При генерации произошла ошибка.'
                     ai_generation_message.change_state()
                     ai_generation_ended_message.change_state()
                     list_ready_variant = os.listdir(os.path.join(root_path, "data", "schedules", "ready"))
@@ -869,6 +921,7 @@ while running:
     clear_message.process(mouse_pos, is_mouse_clicked, is_long_click)
     ai_message.process(mouse_pos, is_mouse_clicked, is_long_click)
     generator_error_message.process(mouse_pos, is_mouse_clicked, is_long_click)
+    generator_warning_message.process(mouse_pos, is_mouse_clicked, is_long_click)
     ai_more_message1.process(mouse_pos, is_mouse_clicked, is_long_click)
 
     mond_ai_more_message.process(mouse_pos, is_mouse_clicked, is_long_click)
@@ -896,11 +949,16 @@ while running:
     if ai_message_start_button.command():
         answer = validate_user_input(ai_message_choice_model.return_system_name_selected(),
                                      ai_message_prompt_switch.state,
-                                     ai_message_prompt.text)
+                                     ai_message_prompt.text, 
+                                     settings)
         if answer[0] == 'error':
             generator_error_message_text2.text = answer[1]
             ai_message.change_state()
             generator_error_message.change_state()
+        elif answer[0] == 'warning':
+            generator_warning_message_text2.text = answer[1]
+            ai_message.change_state()
+            generator_warning_message.change_state()
         elif answer[0] == 'pass':
             ai_generation.model_name = ai_message_choice_model.return_list_name_selected()
             ai_generation.start_generation()
@@ -1044,6 +1102,23 @@ while running:
         frid_ai_more_message_drop_button.command() or\
         satu_ai_more_message_drop_button.command():
         update_json_file(os.path.join(root_path, 'data', 'schedules', 'database', 'Preferences.json'), {}, {})
+
+    generator_warning_message_back_button_command = generator_warning_message_back_button.command()
+    generator_warning_message_ok_button_command = generator_warning_message_ok_button.command()
+    if generator_warning_message_back_button_command or generator_warning_message_ok_button_command: 
+        if generator_warning_message_stop_show_switch.state:
+            if answer[1] == 'Вы собираетесь использовать AsmoAI./Это НЕ ИИ, это АЛГОРИТМ./Он сгенерирует 5 вариантов расписания.':
+                settings['AsmoAI_warning'] = True
+            elif answer[1] == 'Вы собираетесь использовать текстовый промпт./К сожалению, эта функция очень нестабильна/и часто приводит к сбоям в генерации./Рекомендуем использовать ручные переключатели.':
+                settings['TextPrompt_warning'] = True
+            elif answer[1] == 'Вы не использовали дополнительных настроек./Это увеличивает шансы на сбой генерации./Рекомендуем выбрать хотя бы пару параметров.':
+                settings['NoPrompt_warning'] = True
+        print(update_config_json())
+        generator_warning_message.change_state()
+        ai_message.change_state()
+        if generator_warning_message_ok_button_command:
+            ai_generation.model_name = ai_message_choice_model.return_list_name_selected()
+            ai_generation.start_generation()
 
 
     pygame.display.flip()

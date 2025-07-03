@@ -5,6 +5,12 @@ from typing import Dict, List, Set, Tuple, Optional
 from datetime import datetime
 from schedule_validator import ScheduleValidator
 
+def create_output_file(directory: str, filename: str, content: str = "") -> None:
+    filepath = os.path.join(directory, filename)
+    
+    with open(filepath, 'w', encoding='utf-8') as file:
+        file.write(content)
+
 class AsmodeusAI:
     def __init__(self):
         self.base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -221,6 +227,6 @@ class AsmodeusAI:
 ai = AsmodeusAI()
 success = ai.generate_schedules()
 if success:
-    print("Расписания успешно сгенерированы")
+    create_output_file(r'config\schedules_ready', 'AsmoAI_Success.txt')
 else:
-    print("Ошибка при генерации расписаний")
+    create_output_file(r'config\schedules_ready', 'AsmoAI_Fail.txt')
