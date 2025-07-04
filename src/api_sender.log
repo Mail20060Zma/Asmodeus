@@ -307,3 +307,51 @@
 2025-07-02 20:10:19,895 [WARNING] Schedule did not pass validation for model 3
 2025-07-02 20:10:20,547 [INFO] Deleted API key for attempt 3: {'deleted': True}
 2025-07-02 20:10:20,551 [INFO] Schedules successfully generated: 2
+2025-07-04 17:54:55,055 [INFO] APISender initialized.
+2025-07-04 17:54:55,056 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-04 17:54:55,063 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-04 17:54:55,064 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-04 17:54:55,071 [INFO] Read model_name: Gemini 2 from model_name.txt
+2025-07-04 17:54:55,071 [INFO] Removed model_name.txt
+2025-07-04 17:54:55,072 [INFO] Read promt_users:  from promt_users.txt
+2025-07-04 17:54:55,072 [INFO] Removed promt_users.txt
+2025-07-04 17:54:55,072 [INFO] Launching schedule generation (model: Gemini 2, users: )
+2025-07-04 17:54:55,073 [INFO] Starting schedule generation.
+2025-07-04 17:54:55,083 [INFO] Successfully loaded original_schedule
+2025-07-04 17:54:55,089 [INFO] Successfully loaded preferences
+2025-07-04 17:54:55,089 [INFO] Starting series of filters and sorting.
+2025-07-04 17:54:55,852 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-04 17:55:05,853 [INFO] Sending API request with model 0...
+2025-07-04 17:55:05,855 [INFO] Sending API request with model 1...
+2025-07-04 17:55:05,855 [INFO] Sending API request with model 2...
+2025-07-04 17:55:05,856 [INFO] Sending API request with model 3...
+2025-07-04 17:55:05,857 [INFO] Sending API request with model 4...
+2025-07-04 17:55:05,857 [INFO] Sending API request with model 5...
+2025-07-04 17:55:05,858 [INFO] Sending API request with model 6...
+2025-07-04 17:55:05,859 [INFO] Sending API request with model 7...
+2025-07-04 17:55:05,859 [INFO] Sending API request with model 8...
+2025-07-04 17:55:05,860 [INFO] Sending API request with model 9...
+2025-07-04 17:55:07,842 [ERROR] Error sending request for model 2: 429, message='Too Many Requests', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-04 17:55:08,612 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-07-04 17:55:08,614 [ERROR] Error sending request for model 4: 429, message='Too Many Requests', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-04 17:55:09,430 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-04 17:55:09,431 [ERROR] Error sending request for model 6: 429, message='Too Many Requests', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-04 17:55:10,226 [INFO] Deleted API key for attempt 6: {'deleted': True}
+2025-07-04 17:55:10,229 [ERROR] Error sending request for model 8: 429, message='Too Many Requests', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-04 17:55:11,094 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-07-04 17:55:11,096 [ERROR] Error sending request for model 0: 429, message='Too Many Requests', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-04 17:55:11,847 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-04 17:55:11,848 [ERROR] Error sending request for model 5: 429, message='Too Many Requests', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-04 17:55:12,607 [INFO] Deleted API key for attempt 5: {'deleted': True}
+2025-07-04 17:55:12,608 [ERROR] Error sending request for model 7: 429, message='Too Many Requests', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-04 17:55:13,310 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-04 17:55:13,311 [ERROR] Error sending request for model 9: 429, message='Too Many Requests', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-04 17:55:14,000 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-07-04 17:55:14,002 [ERROR] Error sending request for model 1: 429, message='Too Many Requests', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-04 17:55:14,702 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-07-04 17:55:43,131 [INFO] Received response for model 3
+2025-07-04 17:55:43,131 [INFO] Schedule data extracted for model 3
+2025-07-04 17:55:43,134 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_5.csv
+2025-07-04 17:55:43,134 [INFO] Schedule generated and saved for model 3
+2025-07-04 17:55:43,919 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-07-04 17:55:43,920 [INFO] Schedules successfully generated: 1

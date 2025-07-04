@@ -1,5 +1,14 @@
 {
-    "undesired_time": {},
+    "undesired_time": {
+        "Monday": [
+            "8_30",
+            "10_15",
+            "12_00",
+            "14_15",
+            "16_00",
+            "17_40"
+        ]
+    },
     "desired_groups": {},
     "undesired_institutes": []
 }

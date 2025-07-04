@@ -27,14 +27,8 @@ def play_sound(file_path):
     sound = pygame.mixer.Sound(file_path)
     sound.play()
 
-
 is_mouse_clicked = False
 is_long_click = False
-
-debug_subject_pull = [Drop_menu_subject('Физика и/основы механики', 'Физика', 'ГУК-4', 'physics', 20),
-                    Drop_menu_subject('Дополнительные/главы математики', 'ДГМ', 'Р-445', 'dgm', 20),
-                    Drop_menu_subject('Программирование/(прод. уровень)', 'Прога (прод)', 'Р-145', 'progA', 20),
-                    Drop_menu_subject('Векторный/анализ','Вект.ан.','Р-205','VecAlg',20)]
 
 MAIN_SUBJECT_PULL = csv_to_schedule_dict(os.path.join(root_path, 'data', 'schedules', 'database', 'schedule.csv'))
 
@@ -724,6 +718,17 @@ list_ready_variant = os.listdir(os.path.join(root_path, "data", "schedules", "re
 list_ready_variant = [os.path.join(root_path, "data", "schedules", "ready", variant) for variant in list_ready_variant]
 #----------------------------------------------
 cur_scedule_index = 0
+
+#region MAAAAAAAAAAAX
+def f123(Name_subject, Name_group):
+    with open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'schedule.json'), 'r', encoding='utf-8') as f:
+        json_temp = json.load(f)
+        temp_subject_and_group = []
+        for Day, Time, _, _, _ in json_temp[Name_subject][Name_group]:
+            temp_subject_and_group.append((Day,Time))
+        return temp_subject_and_group
+#f123("Физика. Часть 2. Основной уровень", "АТ-16")
+#end region
 
 running = True
 while running:
