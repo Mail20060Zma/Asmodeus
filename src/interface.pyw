@@ -720,6 +720,12 @@ list_ready_variant = [os.path.join(root_path, "data", "schedules", "ready", vari
 cur_scedule_index = 0
 
 #region MAAAAAAAAAAAX
+# Это для завершение api_sender.pyw просто вставь туда где будет кнопка досрочного завершение ОК
+#with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid")) as f:
+#    pid = int(f.read())
+#    os.system("taskkill /pid " + str(pid))
+#    os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid"))
+
 def f123(Name_subject, Name_group):
     with open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'schedule.json'), 'r', encoding='utf-8') as f:
         json_temp = json.load(f)

@@ -510,5 +510,7 @@ def main():
 if __name__ == "__main__":
     os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready'), exist_ok=True)
     os.makedirs(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'ready'), exist_ok=True)
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid")) as f:
+        f.write(str(os.getpid()))
     time.sleep(5)
     main()
