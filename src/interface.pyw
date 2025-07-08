@@ -506,88 +506,26 @@ def convert_options_to_json():
             undesired_time_dict[key] = [value]
 
 
-    if mond_ai_more_message_time_switch_8_30.state == False:
-        add_new_value('Monday', '8_30')
-    if mond_ai_more_message_time_switch_10_15.state == False:
-        add_new_value('Monday', '10_15')
-    if mond_ai_more_message_time_switch_12_00.state == False:
-        add_new_value('Monday', '12_00')
-    if mond_ai_more_message_time_switch_14_15.state == False:
-        add_new_value('Monday', '14_15')
-    if mond_ai_more_message_time_switch_16_00.state == False:
-        add_new_value('Monday', '16_00')
-    if mond_ai_more_message_time_switch_17_40.state == False:
-        add_new_value('Monday', '17_40')
-    
-    if tues_ai_more_message_time_switch_8_30.state == False:
-        add_new_value('Tuesday', '8_30')
-    if tues_ai_more_message_time_switch_10_15.state == False:
-        add_new_value('Tuesday', '10_15')
-    if tues_ai_more_message_time_switch_12_00.state == False:
-        add_new_value('Tuesday', '12_00')
-    if tues_ai_more_message_time_switch_14_15.state == False:
-        add_new_value('Tuesday', '14_15')
-    if tues_ai_more_message_time_switch_16_00.state == False:
-        add_new_value('Tuesday', '16_00')
-    if tues_ai_more_message_time_switch_17_40.state == False:
-        add_new_value('Tuesday', '17_40')
+    days_mapping = {
+    'mond': 'Monday',
+    'tues': 'Tuesday',
+    'wedn': 'Wednesday',
+    'thur': 'Thursday',
+    'frid': 'Friday',
+    'satu': 'Saturday'
+    }
 
-    if wedn_ai_more_message_time_switch_8_30.state == False:
-        add_new_value('Wednesday', '8_30')
-    if wedn_ai_more_message_time_switch_10_15.state == False:
-        add_new_value('Wednesday', '10_15')
-    if wedn_ai_more_message_time_switch_12_00.state == False:
-        add_new_value('Wednesday', '12_00')
-    if wedn_ai_more_message_time_switch_14_15.state == False:
-        add_new_value('Wednesday', '14_15')
-    if wedn_ai_more_message_time_switch_16_00.state == False:
-        add_new_value('Wednesday', '16_00')
-    if wedn_ai_more_message_time_switch_17_40.state == False:
-        add_new_value('Wednesday', '17_40')
+    time_slots = ['8_30', '10_15', '12_00', '14_15', '16_00', '17_40']
 
-    if thur_ai_more_message_time_switch_8_30.state == False:
-        add_new_value('Thursday', '8_30')
-    if thur_ai_more_message_time_switch_10_15.state == False:
-        add_new_value('Thursday', '10_15')
-    if thur_ai_more_message_time_switch_12_00.state == False:
-        add_new_value('Thursday', '12_00')
-    if thur_ai_more_message_time_switch_14_15.state == False:
-        add_new_value('Thursday', '14_15')
-    if thur_ai_more_message_time_switch_16_00.state == False:
-        add_new_value('Thursday', '16_00')
-    if thur_ai_more_message_time_switch_17_40.state == False:
-        add_new_value('Thursday', '17_40')
-
-    if frid_ai_more_message_time_switch_8_30.state == False:
-        add_new_value('Friday', '8_30')
-    if frid_ai_more_message_time_switch_10_15.state == False:
-        add_new_value('Friday', '10_15')
-    if frid_ai_more_message_time_switch_12_00.state == False:
-        add_new_value('Friday', '12_00')
-    if frid_ai_more_message_time_switch_14_15.state == False:
-        add_new_value('Friday', '14_15')
-    if frid_ai_more_message_time_switch_16_00.state == False:
-        add_new_value('Friday', '16_00')
-    if frid_ai_more_message_time_switch_17_40.state == False:
-        add_new_value('Friday', '17_40')
-
-    if satu_ai_more_message_time_switch_8_30.state == False:
-        add_new_value('Saturday', '8_30')
-    if satu_ai_more_message_time_switch_10_15.state == False:
-        add_new_value('Saturday', '10_15')
-    if satu_ai_more_message_time_switch_12_00.state == False:
-        add_new_value('Saturday', '12_00')
-    if satu_ai_more_message_time_switch_14_15.state == False:
-        add_new_value('Saturday', '14_15')
-    if satu_ai_more_message_time_switch_16_00.state == False:
-        add_new_value('Saturday', '16_00')
-    if satu_ai_more_message_time_switch_17_40.state == False:
-        add_new_value('Saturday', '17_40')
+    for day_prefix, day_name in days_mapping.items():
+        for time_slot in time_slots:
+            switch_var = globals().get(f"{day_prefix}_ai_more_message_time_switch_{time_slot}")
+            if switch_var and switch_var.state == False:
+                add_new_value(day_name, time_slot)
 
     update_answer = update_json_file(os.path.join(root_path, 'data', 'schedules', 'database', 'Preferences.json'), undesired_time_dict, desired_groups_dict)
 
     return update_answer
-
 
 
 
@@ -723,8 +661,7 @@ cur_scedule_index = 0
 # Это для завершение api_sender.pyw просто вставь туда где будет кнопка досрочного завершение ОК
 #with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid")) as f:
 #    pid = int(f.read())
-#    os.system("taskkill /pid " + str(pid))
-#    os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid"))
+#    os.system("taskkill /f /pid " + str(pid))
 
 def f123(Name_subject, Name_group):
     with open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'database', 'schedule.json'), 'r', encoding='utf-8') as f:
@@ -736,6 +673,11 @@ def f123(Name_subject, Name_group):
 #f123("Физика. Часть 2. Основной уровень", "АТ-16")
 #end region
 
+
+globals_Drop_menu =[]
+for day in ['mond','tues','wedn','thur','frid','satu']:
+    for time_in_day in range(6,0,-1):
+        globals_Drop_menu.append(globals()[f"{day}{time_in_day}"])
 running = True
 while running:
     if is_mouse_clicked:
@@ -753,94 +695,16 @@ while running:
                 is_long_click = False
         elif event.type == pygame.MOUSEWHEEL:
             if event.y == 1:
-                mond1.scroll_down()
-                mond2.scroll_down()
-                mond3.scroll_down()
-                mond4.scroll_down()
-                mond5.scroll_down()
-                mond6.scroll_down()
-
-                tues1.scroll_down()
-                tues2.scroll_down()
-                tues3.scroll_down()
-                tues4.scroll_down()
-                tues5.scroll_down()
-                tues6.scroll_down()
-
-                wedn1.scroll_down()
-                wedn2.scroll_down()
-                wedn3.scroll_down()
-                wedn4.scroll_down()
-                wedn5.scroll_down()
-                wedn6.scroll_down()
-
-                thur1.scroll_down()
-                thur2.scroll_down()
-                thur3.scroll_down()
-                thur4.scroll_down()
-                thur5.scroll_down()
-                thur6.scroll_down()
-
-                frid1.scroll_down()
-                frid2.scroll_down()
-                frid3.scroll_down()
-                frid4.scroll_down()
-                frid5.scroll_down()
-                frid6.scroll_down()
-
-                satu1.scroll_down()
-                satu2.scroll_down()
-                satu3.scroll_down()
-                satu4.scroll_down()
-                satu5.scroll_down()
-                satu6.scroll_down()
+                for i in globals_Drop_menu:
+                    i.scroll_down()
 
                 ai_message_choice_model.scroll_down()
                 ai_full_subject.scroll_down()
                 ai_full_teacher_group_subject.scroll_down()
                 
             elif event.y == -1:
-                mond1.scroll_up()
-                mond2.scroll_up()
-                mond3.scroll_up()
-                mond4.scroll_up()
-                mond5.scroll_up()
-                mond6.scroll_up()
-
-                tues1.scroll_up()
-                tues2.scroll_up()
-                tues3.scroll_up()
-                tues4.scroll_up()
-                tues5.scroll_up()
-                tues6.scroll_up()
-
-                wedn1.scroll_up()
-                wedn2.scroll_up()
-                wedn3.scroll_up()
-                wedn4.scroll_up()
-                wedn5.scroll_up()
-                wedn6.scroll_up()
-
-                thur1.scroll_up()
-                thur2.scroll_up()
-                thur3.scroll_up()
-                thur4.scroll_up()
-                thur5.scroll_up()
-                thur6.scroll_up()
-
-                frid1.scroll_up()
-                frid2.scroll_up()
-                frid3.scroll_up()
-                frid4.scroll_up()
-                frid5.scroll_up()
-                frid6.scroll_up()
-
-                satu1.scroll_up()
-                satu2.scroll_up()
-                satu3.scroll_up()
-                satu4.scroll_up()
-                satu5.scroll_up()
-                satu6.scroll_up()
+                for i in globals_Drop_menu:
+                    i.scroll_up()
 
                 ai_message_choice_model.scroll_up()
                 ai_full_subject.scroll_up()
@@ -868,52 +732,13 @@ while running:
     scedule_actual_number_text.text = str(cur_scedule_index).zfill(2)
     scedule_actual_number_text.process()
 
-    mond6.process(mouse_pos, is_mouse_clicked, is_long_click)
-    mond5.process(mouse_pos, is_mouse_clicked, is_long_click)
-    mond4.process(mouse_pos, is_mouse_clicked, is_long_click)
-    mond3.process(mouse_pos, is_mouse_clicked, is_long_click)
-    mond2.process(mouse_pos, is_mouse_clicked, is_long_click)
-    mond1.process(mouse_pos, is_mouse_clicked, is_long_click)
-
-    tues6.process(mouse_pos, is_mouse_clicked, is_long_click)
-    tues5.process(mouse_pos, is_mouse_clicked, is_long_click)
-    tues4.process(mouse_pos, is_mouse_clicked, is_long_click)
-    tues3.process(mouse_pos, is_mouse_clicked, is_long_click)
-    tues2.process(mouse_pos, is_mouse_clicked, is_long_click)
-    tues1.process(mouse_pos, is_mouse_clicked, is_long_click)
-
-    wedn6.process(mouse_pos, is_mouse_clicked, is_long_click)
-    wedn5.process(mouse_pos, is_mouse_clicked, is_long_click)
-    wedn4.process(mouse_pos, is_mouse_clicked, is_long_click)
-    wedn3.process(mouse_pos, is_mouse_clicked, is_long_click)
-    wedn2.process(mouse_pos, is_mouse_clicked, is_long_click)
-    wedn1.process(mouse_pos, is_mouse_clicked, is_long_click)
-
-    thur6.process(mouse_pos, is_mouse_clicked, is_long_click)
-    thur5.process(mouse_pos, is_mouse_clicked, is_long_click)
-    thur4.process(mouse_pos, is_mouse_clicked, is_long_click)
-    thur3.process(mouse_pos, is_mouse_clicked, is_long_click)
-    thur2.process(mouse_pos, is_mouse_clicked, is_long_click)
-    thur1.process(mouse_pos, is_mouse_clicked, is_long_click)
-
-    frid6.process(mouse_pos, is_mouse_clicked, is_long_click)
-    frid5.process(mouse_pos, is_mouse_clicked, is_long_click)
-    frid4.process(mouse_pos, is_mouse_clicked, is_long_click)
-    frid3.process(mouse_pos, is_mouse_clicked, is_long_click)
-    frid2.process(mouse_pos, is_mouse_clicked, is_long_click)
-    frid1.process(mouse_pos, is_mouse_clicked, is_long_click)
-
-    satu6.process(mouse_pos, is_mouse_clicked, is_long_click)
-    satu5.process(mouse_pos, is_mouse_clicked, is_long_click)
-    satu4.process(mouse_pos, is_mouse_clicked, is_long_click)
-    satu3.process(mouse_pos, is_mouse_clicked, is_long_click)
-    satu2.process(mouse_pos, is_mouse_clicked, is_long_click)
-    satu1.process(mouse_pos, is_mouse_clicked, is_long_click)
-
     scedule_number_text.process()
     scedule_actual_number_text.process()
     scedule_back_button.process(mouse_pos, is_mouse_clicked, is_long_click)
     scedule_next_button.process(mouse_pos, is_mouse_clicked, is_long_click)
+
+    for i in globals_Drop_menu:
+        i.process(mouse_pos, is_mouse_clicked, is_long_click)
 
     ai_full_teacher_group_add_text.text = f'Параметров добавлено: {len(teacher_group_new_desires)}'
 

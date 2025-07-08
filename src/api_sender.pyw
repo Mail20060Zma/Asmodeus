@@ -424,7 +424,7 @@ class APISender:
                 return False
             finally:
                 try:
-                    response_del = requests.delete("https://openrouter.ai/api/v1/keys/" + self.api_keys_used[attempt]['data']['hash'],
+                    response_del = requests.delete(f"https://openrouter.ai/api/v1/keys/{self.api_keys_used[attempt]['data']['hash']}",
                                                     headers = {"Authorization": f"Bearer {self.api_keys_used[attempt]["p_api"]}"}) # type: ignore 
                     self.logger.info(f"Deleted API key for attempt {attempt}: {response_del.json()}")
                 except Exception as ex:
@@ -476,7 +476,7 @@ class APISender:
 def main():
     sender = APISender()
         #                0              1               2              3              4               5              6             7              8               9                       10   
-    model_name = ["Kimi Dev", "Qwen3-235B-A22B", "Qwen2.5-72B", "DeepSeek V3", "DeepSeek R1", "DeepSeek R1T", "Gemini 2", "Llama 4 Scout",  "MAI DS R1", "NVIDIA: Llama 3.3", "Deepseek R1 Qwen3 8B"][6]
+    model_name = ["Kimi Dev", "Qwen3-235B-A22B", "Qwen2.5-72B", "DeepSeek V3", "DeepSeek R1", "DeepSeek R1T", "Gemini 2", "Llama 4 Scout",  "MAI DS R1", "NVIDIA: Llama 3.3", "Deepseek R1 Qwen3 8B"][5]
     promt_users = ""
     try:
         model_name_file = os.listdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config'))
@@ -510,7 +510,7 @@ def main():
 if __name__ == "__main__":
     os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready'), exist_ok=True)
     os.makedirs(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'ready'), exist_ok=True)
-    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid")) as f:
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid"),"w") as f:
         f.write(str(os.getpid()))
     time.sleep(5)
     main()
