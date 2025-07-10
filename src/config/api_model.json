@@ -5,6 +5,7 @@
     "DeepSeek V3": "deepseek/deepseek-chat-v3-0324:free",
     "DeepSeek R1": "deepseek/deepseek-r1-0528:free",
     "DeepSeek R1T": "tngtech/deepseek-r1t-chimera:free",
+    "DeepSeek R1T2": "tngtech/deepseek-r1t2-chimera:free",
     "Gemini 2": "google/gemini-2.0-flash-exp:free",
     "Llama 4 Scout": "meta-llama/llama-4-scout:free",
     "MAI DS R1": "microsoft/mai-ds-r1:free",

@@ -517,3 +517,773 @@
 2025-07-08 10:00:47,708 [INFO] Successfully loaded preferences
 2025-07-08 10:00:47,709 [INFO] Starting series of filters and sorting.
 2025-07-08 10:00:48,671 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:38:35,024 [INFO] APISender initialized.
+2025-07-11 00:38:35,025 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:38:35,025 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:38:35,025 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:38:35,033 [INFO] Read model_name: DeepSeek R1T from model_name.txt
+2025-07-11 00:38:35,033 [INFO] Removed model_name.txt
+2025-07-11 00:38:35,033 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:38:35,034 [INFO] Removed promt_users.txt
+2025-07-11 00:38:35,034 [INFO] Launching schedule generation (model: DeepSeek R1T, users: )
+2025-07-11 00:38:35,034 [INFO] Starting schedule generation.
+2025-07-11 00:38:35,036 [INFO] Successfully loaded original_schedule
+2025-07-11 00:38:35,042 [INFO] Successfully loaded preferences
+2025-07-11 00:38:35,042 [INFO] Starting series of filters and sorting.
+2025-07-11 00:38:36,138 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:38:46,140 [INFO] Sending API request with model 0...
+2025-07-11 00:38:46,141 [INFO] Sending API request with model 1...
+2025-07-11 00:38:46,142 [INFO] Sending API request with model 2...
+2025-07-11 00:38:46,142 [INFO] Sending API request with model 3...
+2025-07-11 00:38:46,143 [INFO] Sending API request with model 4...
+2025-07-11 00:38:46,144 [INFO] Sending API request with model 5...
+2025-07-11 00:38:46,144 [INFO] Sending API request with model 6...
+2025-07-11 00:38:46,145 [INFO] Sending API request with model 7...
+2025-07-11 00:38:46,145 [INFO] Sending API request with model 8...
+2025-07-11 00:38:46,146 [INFO] Sending API request with model 9...
+2025-07-11 00:39:15,053 [INFO] APISender initialized.
+2025-07-11 00:39:15,053 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:39:15,054 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:39:15,054 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:39:15,055 [INFO] Read model_name: DeepSeek R1T from model_name.txt
+2025-07-11 00:39:15,056 [INFO] Removed model_name.txt
+2025-07-11 00:39:15,056 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:39:15,056 [INFO] Removed promt_users.txt
+2025-07-11 00:39:15,057 [INFO] Launching schedule generation (model: DeepSeek R1T, users: )
+2025-07-11 00:39:15,057 [INFO] Starting schedule generation.
+2025-07-11 00:39:15,059 [INFO] Successfully loaded original_schedule
+2025-07-11 00:39:15,059 [INFO] Successfully loaded preferences
+2025-07-11 00:39:15,059 [INFO] Starting series of filters and sorting.
+2025-07-11 00:39:16,612 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:39:26,613 [INFO] Sending API request with model 0...
+2025-07-11 00:39:26,615 [INFO] Sending API request with model 1...
+2025-07-11 00:39:26,615 [INFO] Sending API request with model 2...
+2025-07-11 00:39:26,616 [INFO] Sending API request with model 3...
+2025-07-11 00:39:26,617 [INFO] Sending API request with model 4...
+2025-07-11 00:39:26,617 [INFO] Sending API request with model 5...
+2025-07-11 00:39:26,618 [INFO] Sending API request with model 6...
+2025-07-11 00:39:26,619 [INFO] Sending API request with model 7...
+2025-07-11 00:39:26,619 [INFO] Sending API request with model 8...
+2025-07-11 00:39:26,620 [INFO] Sending API request with model 9...
+2025-07-11 00:39:36,986 [INFO] Received response for model 4
+2025-07-11 00:39:36,988 [INFO] Schedule data extracted for model 4
+2025-07-11 00:39:36,990 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:39:36,990 [WARNING] Schedule did not pass validation for model 4
+2025-07-11 00:39:37,847 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-11 00:39:41,684 [INFO] Received response for model 5
+2025-07-11 00:39:41,684 [INFO] Schedule data extracted for model 5
+2025-07-11 00:39:41,685 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:39:41,685 [WARNING] Schedule did not pass validation for model 5
+2025-07-11 00:39:42,504 [INFO] Deleted API key for attempt 5: {'deleted': True}
+2025-07-11 00:39:42,506 [INFO] Received response for model 6
+2025-07-11 00:39:42,506 [INFO] Schedule data extracted for model 6
+2025-07-11 00:39:42,507 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:39:42,507 [WARNING] Schedule did not pass validation for model 6
+2025-07-11 00:39:43,389 [INFO] Deleted API key for attempt 6: {'deleted': True}
+2025-07-11 00:39:52,555 [INFO] Received response for model 3
+2025-07-11 00:39:52,555 [INFO] Schedule data extracted for model 3
+2025-07-11 00:39:52,558 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_7.csv
+2025-07-11 00:39:52,558 [INFO] Schedule generated and saved for model 3
+2025-07-11 00:39:53,536 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-07-11 00:40:02,037 [INFO] Received response for model 8
+2025-07-11 00:40:02,037 [INFO] Schedule data extracted for model 8
+2025-07-11 00:40:02,039 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:40:02,039 [WARNING] Schedule did not pass validation for model 8
+2025-07-11 00:40:03,048 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-07-11 00:40:13,689 [INFO] Received response for model 2
+2025-07-11 00:40:13,689 [INFO] Schedule data extracted for model 2
+2025-07-11 00:40:13,690 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:40:13,690 [WARNING] Schedule did not pass validation for model 2
+2025-07-11 00:40:14,602 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-07-11 00:40:20,993 [INFO] Received response for model 0
+2025-07-11 00:40:20,993 [INFO] Schedule data extracted for model 0
+2025-07-11 00:40:20,995 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:40:20,995 [WARNING] Schedule did not pass validation for model 0
+2025-07-11 00:40:21,825 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-11 00:40:22,367 [INFO] Received response for model 7
+2025-07-11 00:40:22,367 [INFO] Schedule data extracted for model 7
+2025-07-11 00:40:22,369 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_8.csv
+2025-07-11 00:40:22,370 [INFO] Schedule generated and saved for model 7
+2025-07-11 00:40:23,253 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-11 00:40:41,925 [INFO] Received response for model 1
+2025-07-11 00:40:41,926 [INFO] Schedule data extracted for model 1
+2025-07-11 00:40:41,929 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_9.csv
+2025-07-11 00:40:41,929 [INFO] Schedule generated and saved for model 1
+2025-07-11 00:40:42,900 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-07-11 00:40:59,217 [INFO] Received response for model 9
+2025-07-11 00:40:59,217 [INFO] Schedule data extracted for model 9
+2025-07-11 00:40:59,220 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_10.csv
+2025-07-11 00:40:59,220 [INFO] Schedule generated and saved for model 9
+2025-07-11 00:41:00,027 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-07-11 00:41:00,028 [INFO] Schedules successfully generated: 4
+2025-07-11 00:43:28,095 [INFO] APISender initialized.
+2025-07-11 00:43:28,095 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:43:28,096 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:43:28,096 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:43:28,097 [INFO] Read model_name: DeepSeek R1T from model_name.txt
+2025-07-11 00:43:28,098 [INFO] Removed model_name.txt
+2025-07-11 00:43:28,099 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:43:28,099 [INFO] Removed promt_users.txt
+2025-07-11 00:43:28,099 [INFO] Launching schedule generation (model: DeepSeek R1T, users: )
+2025-07-11 00:43:28,100 [INFO] Starting schedule generation.
+2025-07-11 00:43:28,102 [INFO] Successfully loaded original_schedule
+2025-07-11 00:43:28,103 [INFO] Successfully loaded preferences
+2025-07-11 00:43:28,103 [INFO] Starting series of filters and sorting.
+2025-07-11 00:43:29,562 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:43:32,567 [INFO] Schedules successfully generated: 0
+2025-07-11 00:43:40,097 [INFO] APISender initialized.
+2025-07-11 00:43:40,098 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:43:40,099 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:43:40,099 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'schedules_ready']
+2025-07-11 00:43:40,099 [INFO] Launching schedule generation (model: DeepSeek R1T, users: )
+2025-07-11 00:43:40,100 [INFO] Starting schedule generation.
+2025-07-11 00:43:40,102 [INFO] Successfully loaded original_schedule
+2025-07-11 00:43:40,102 [INFO] Successfully loaded preferences
+2025-07-11 00:43:40,102 [INFO] Starting series of filters and sorting.
+2025-07-11 00:43:41,010 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:43:51,011 [INFO] Sending API request with model 0...
+2025-07-11 00:43:51,012 [INFO] Sending API request with model 1...
+2025-07-11 00:43:51,012 [INFO] Sending API request with model 2...
+2025-07-11 00:43:51,013 [INFO] Sending API request with model 3...
+2025-07-11 00:43:51,014 [INFO] Sending API request with model 4...
+2025-07-11 00:43:51,015 [INFO] Sending API request with model 5...
+2025-07-11 00:43:51,015 [INFO] Sending API request with model 6...
+2025-07-11 00:43:51,016 [INFO] Sending API request with model 7...
+2025-07-11 00:43:51,016 [INFO] Sending API request with model 8...
+2025-07-11 00:43:51,017 [INFO] Sending API request with model 9...
+2025-07-11 00:44:38,288 [INFO] Received response for model 9
+2025-07-11 00:44:38,289 [INFO] Schedule data extracted for model 9
+2025-07-11 00:44:38,292 [INFO] Schedule saved successfully in c:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_11.csv
+2025-07-11 00:44:38,292 [INFO] Schedule generated and saved for model 9
+2025-07-11 00:44:39,076 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-07-11 00:44:39,848 [ERROR] Error sending request for model 4: argument of type 'NoneType' is not iterable
+2025-07-11 00:44:40,778 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-11 00:44:40,967 [INFO] Received response for model 7
+2025-07-11 00:44:40,967 [INFO] Schedule data extracted for model 7
+2025-07-11 00:44:40,969 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:44:40,969 [WARNING] Schedule did not pass validation for model 7
+2025-07-11 00:44:41,816 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-11 00:44:43,364 [INFO] Received response for model 0
+2025-07-11 00:44:43,364 [INFO] Schedule data extracted for model 0
+2025-07-11 00:44:43,365 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:44:43,365 [WARNING] Schedule did not pass validation for model 0
+2025-07-11 00:44:44,178 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-11 00:44:46,910 [INFO] Received response for model 2
+2025-07-11 00:44:46,910 [INFO] Schedule data extracted for model 2
+2025-07-11 00:44:46,913 [INFO] Schedule saved successfully in c:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_12.csv
+2025-07-11 00:44:46,913 [INFO] Schedule generated and saved for model 2
+2025-07-11 00:44:47,836 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-07-11 00:45:08,859 [INFO] Received response for model 5
+2025-07-11 00:45:08,859 [INFO] Schedule data extracted for model 5
+2025-07-11 00:45:08,863 [INFO] Schedule saved successfully in c:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_13.csv
+2025-07-11 00:45:08,863 [INFO] Schedule generated and saved for model 5
+2025-07-11 00:45:09,584 [INFO] Deleted API key for attempt 5: {'deleted': True}
+2025-07-11 00:45:13,243 [INFO] Received response for model 1
+2025-07-11 00:45:13,243 [INFO] Schedule data extracted for model 1
+2025-07-11 00:45:13,245 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:45:13,245 [WARNING] Schedule did not pass validation for model 1
+2025-07-11 00:45:14,158 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-07-11 00:45:18,936 [INFO] Received response for model 8
+2025-07-11 00:45:18,936 [INFO] Schedule data extracted for model 8
+2025-07-11 00:45:18,939 [INFO] Schedule saved successfully in c:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_14.csv
+2025-07-11 00:45:18,939 [INFO] Schedule generated and saved for model 8
+2025-07-11 00:45:19,660 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-07-11 00:45:19,662 [INFO] Received response for model 6
+2025-07-11 00:45:19,662 [INFO] Schedule data extracted for model 6
+2025-07-11 00:45:19,664 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:45:19,664 [WARNING] Schedule did not pass validation for model 6
+2025-07-11 00:45:20,557 [INFO] Deleted API key for attempt 6: {'deleted': True}
+2025-07-11 00:45:38,572 [INFO] Received response for model 3
+2025-07-11 00:45:38,572 [INFO] Schedule data extracted for model 3
+2025-07-11 00:45:38,573 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:45:38,573 [WARNING] Schedule did not pass validation for model 3
+2025-07-11 00:45:39,337 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-07-11 00:45:39,340 [INFO] Schedules successfully generated: 4
+2025-07-11 00:46:10,638 [INFO] APISender initialized.
+2025-07-11 00:46:10,638 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:46:10,638 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:46:10,639 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'schedules_ready']
+2025-07-11 00:46:10,639 [INFO] Launching schedule generation (model: DeepSeek R1T, users: )
+2025-07-11 00:46:10,640 [INFO] GET pid 35532
+2025-07-11 00:46:10,640 [INFO] Starting schedule generation.
+2025-07-11 00:46:10,641 [INFO] Successfully loaded original_schedule
+2025-07-11 00:46:10,641 [INFO] Successfully loaded preferences
+2025-07-11 00:46:10,641 [INFO] Starting series of filters and sorting.
+2025-07-11 00:46:11,347 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:46:21,348 [INFO] Sending API request with model 0...
+2025-07-11 00:46:21,349 [INFO] Sending API request with model 1...
+2025-07-11 00:46:21,349 [INFO] Sending API request with model 2...
+2025-07-11 00:46:21,350 [INFO] Sending API request with model 3...
+2025-07-11 00:46:21,350 [INFO] Sending API request with model 4...
+2025-07-11 00:46:21,351 [INFO] Sending API request with model 5...
+2025-07-11 00:46:21,352 [INFO] Sending API request with model 6...
+2025-07-11 00:46:21,352 [INFO] Sending API request with model 7...
+2025-07-11 00:46:21,353 [INFO] Sending API request with model 8...
+2025-07-11 00:46:21,353 [INFO] Sending API request with model 9...
+2025-07-11 00:46:25,328 [INFO] Schedules successfully generated: 4
+2025-07-11 00:46:25,352 [WARNING] Error deleting API key for attempt 9: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:25,353 [WARNING] Error deleting API key for attempt 8: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:25,354 [WARNING] Error deleting API key for attempt 7: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:25,355 [WARNING] Error deleting API key for attempt 6: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:25,355 [WARNING] Error deleting API key for attempt 5: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:25,356 [WARNING] Error deleting API key for attempt 4: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:25,357 [WARNING] Error deleting API key for attempt 3: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:25,358 [WARNING] Error deleting API key for attempt 2: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:25,358 [WARNING] Error deleting API key for attempt 1: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:25,359 [WARNING] Error deleting API key for attempt 0: sys.meta_path is None, Python is likely shutting down
+2025-07-11 00:46:59,005 [INFO] APISender initialized.
+2025-07-11 00:46:59,005 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:46:59,006 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:46:59,006 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:46:59,007 [INFO] Read model_name: DeepSeek R1T from model_name.txt
+2025-07-11 00:46:59,008 [INFO] Removed model_name.txt
+2025-07-11 00:46:59,008 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:46:59,008 [INFO] Removed promt_users.txt
+2025-07-11 00:46:59,008 [INFO] Launching schedule generation (model: DeepSeek R1T, users: )
+2025-07-11 00:46:59,009 [INFO] GET pid 31488
+2025-07-11 00:46:59,009 [INFO] Starting schedule generation.
+2025-07-11 00:46:59,011 [INFO] Successfully loaded original_schedule
+2025-07-11 00:46:59,012 [INFO] Successfully loaded preferences
+2025-07-11 00:46:59,012 [INFO] Starting series of filters and sorting.
+2025-07-11 00:46:59,709 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:47:50,936 [INFO] APISender initialized.
+2025-07-11 00:47:50,937 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:47:50,937 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:47:50,937 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:47:50,938 [INFO] Read model_name: DeepSeek R1T from model_name.txt
+2025-07-11 00:47:50,938 [INFO] Removed model_name.txt
+2025-07-11 00:47:50,939 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:47:50,939 [INFO] Removed promt_users.txt
+2025-07-11 00:47:50,939 [INFO] Launching schedule generation (model: DeepSeek R1T, users: )
+2025-07-11 00:47:50,940 [INFO] GET pid 9120
+2025-07-11 00:47:50,940 [INFO] Starting schedule generation.
+2025-07-11 00:47:50,941 [INFO] Successfully loaded original_schedule
+2025-07-11 00:47:50,942 [INFO] Successfully loaded preferences
+2025-07-11 00:47:50,942 [INFO] Starting series of filters and sorting.
+2025-07-11 00:47:51,695 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:48:01,697 [INFO] Sending API request with model 0...
+2025-07-11 00:48:01,698 [INFO] Sending API request with model 1...
+2025-07-11 00:48:01,699 [INFO] Sending API request with model 2...
+2025-07-11 00:48:01,700 [INFO] Sending API request with model 3...
+2025-07-11 00:48:01,701 [INFO] Sending API request with model 4...
+2025-07-11 00:48:01,701 [INFO] Sending API request with model 5...
+2025-07-11 00:48:01,702 [INFO] Sending API request with model 6...
+2025-07-11 00:48:01,703 [INFO] Sending API request with model 7...
+2025-07-11 00:48:01,703 [INFO] Sending API request with model 8...
+2025-07-11 00:48:01,704 [INFO] Sending API request with model 9...
+2025-07-11 00:48:51,292 [INFO] Received response for model 7
+2025-07-11 00:48:51,292 [INFO] Schedule data extracted for model 7
+2025-07-11 00:48:51,297 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_15.csv
+2025-07-11 00:48:51,297 [INFO] Schedule generated and saved for model 7
+2025-07-11 00:48:52,125 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-11 00:48:58,480 [INFO] Received response for model 0
+2025-07-11 00:48:58,480 [INFO] Schedule data extracted for model 0
+2025-07-11 00:48:58,486 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_16.csv
+2025-07-11 00:48:58,486 [INFO] Schedule generated and saved for model 0
+2025-07-11 00:48:59,234 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-11 00:48:59,236 [INFO] Received response for model 1
+2025-07-11 00:48:59,236 [INFO] Schedule data extracted for model 1
+2025-07-11 00:48:59,237 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:48:59,237 [WARNING] Schedule did not pass validation for model 1
+2025-07-11 00:49:00,151 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-07-11 00:49:06,135 [INFO] Received response for model 4
+2025-07-11 00:49:06,135 [INFO] Schedule data extracted for model 4
+2025-07-11 00:49:06,140 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_17.csv
+2025-07-11 00:49:06,140 [INFO] Schedule generated and saved for model 4
+2025-07-11 00:49:07,127 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-11 00:49:29,036 [INFO] APISender initialized.
+2025-07-11 00:49:29,036 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:49:29,036 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:49:29,037 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:49:29,044 [INFO] Read model_name: Kimi Dev from model_name.txt
+2025-07-11 00:49:29,045 [INFO] Removed model_name.txt
+2025-07-11 00:49:29,046 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:49:29,046 [INFO] Removed promt_users.txt
+2025-07-11 00:49:29,046 [INFO] Launching schedule generation (model: Kimi Dev, users: )
+2025-07-11 00:49:29,047 [INFO] GET pid 36608
+2025-07-11 00:49:29,047 [INFO] Starting schedule generation.
+2025-07-11 00:49:29,048 [INFO] Successfully loaded original_schedule
+2025-07-11 00:49:29,048 [INFO] Successfully loaded preferences
+2025-07-11 00:49:29,048 [INFO] Starting series of filters and sorting.
+2025-07-11 00:49:29,798 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:50:23,491 [INFO] APISender initialized.
+2025-07-11 00:50:23,492 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:50:23,493 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:50:23,493 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:50:23,494 [INFO] Read model_name: Kimi Dev from model_name.txt
+2025-07-11 00:50:23,494 [INFO] Removed model_name.txt
+2025-07-11 00:50:23,495 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:50:23,495 [INFO] Removed promt_users.txt
+2025-07-11 00:50:23,495 [INFO] Launching schedule generation (model: Kimi Dev, users: )
+2025-07-11 00:50:23,496 [INFO] GET pid 15352
+2025-07-11 00:50:23,496 [INFO] Starting schedule generation.
+2025-07-11 00:50:23,497 [INFO] Successfully loaded original_schedule
+2025-07-11 00:50:23,498 [INFO] Successfully loaded preferences
+2025-07-11 00:50:23,498 [INFO] Starting series of filters and sorting.
+2025-07-11 00:50:24,233 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:50:53,425 [INFO] APISender initialized.
+2025-07-11 00:50:53,426 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:50:53,426 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:50:53,426 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:50:53,433 [INFO] Read model_name: Qwen3-235B-A22B from model_name.txt
+2025-07-11 00:50:53,434 [INFO] Removed model_name.txt
+2025-07-11 00:50:53,435 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:50:53,435 [INFO] Removed promt_users.txt
+2025-07-11 00:50:53,435 [INFO] Launching schedule generation (model: Qwen3-235B-A22B, users: )
+2025-07-11 00:50:53,436 [INFO] GET pid 36228
+2025-07-11 00:50:53,436 [INFO] Starting schedule generation.
+2025-07-11 00:50:53,437 [INFO] Successfully loaded original_schedule
+2025-07-11 00:50:53,438 [INFO] Successfully loaded preferences
+2025-07-11 00:50:53,438 [INFO] Starting series of filters and sorting.
+2025-07-11 00:50:54,478 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:51:04,479 [INFO] Sending API request with model 0...
+2025-07-11 00:51:04,480 [INFO] Sending API request with model 1...
+2025-07-11 00:51:04,481 [INFO] Sending API request with model 2...
+2025-07-11 00:51:04,481 [INFO] Sending API request with model 3...
+2025-07-11 00:51:04,482 [INFO] Sending API request with model 4...
+2025-07-11 00:51:04,483 [INFO] Sending API request with model 5...
+2025-07-11 00:51:04,483 [INFO] Sending API request with model 6...
+2025-07-11 00:51:04,484 [INFO] Sending API request with model 7...
+2025-07-11 00:51:04,484 [INFO] Sending API request with model 8...
+2025-07-11 00:51:04,485 [INFO] Sending API request with model 9...
+2025-07-11 00:51:06,745 [INFO] APISender initialized.
+2025-07-11 00:51:06,745 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:51:06,746 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:51:06,746 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:51:06,747 [INFO] Read model_name: Kimi Dev from model_name.txt
+2025-07-11 00:51:06,748 [INFO] Removed model_name.txt
+2025-07-11 00:51:06,748 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:51:06,748 [INFO] Removed promt_users.txt
+2025-07-11 00:51:06,748 [INFO] Launching schedule generation (model: Kimi Dev, users: )
+2025-07-11 00:51:06,749 [INFO] GET pid 34588
+2025-07-11 00:51:06,749 [INFO] Starting schedule generation.
+2025-07-11 00:51:06,750 [INFO] Successfully loaded original_schedule
+2025-07-11 00:51:06,751 [INFO] Successfully loaded preferences
+2025-07-11 00:51:06,751 [INFO] Starting series of filters and sorting.
+2025-07-11 00:51:07,514 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:51:16,494 [INFO] APISender initialized.
+2025-07-11 00:51:16,495 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:51:16,495 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:51:16,495 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:51:16,497 [INFO] Read model_name: Kimi Dev from model_name.txt
+2025-07-11 00:51:16,498 [INFO] Removed model_name.txt
+2025-07-11 00:51:16,498 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:51:16,499 [INFO] Removed promt_users.txt
+2025-07-11 00:51:16,499 [INFO] Launching schedule generation (model: Kimi Dev, users: )
+2025-07-11 00:51:16,499 [INFO] GET pid 11204
+2025-07-11 00:51:16,499 [INFO] Starting schedule generation.
+2025-07-11 00:51:16,501 [INFO] Successfully loaded original_schedule
+2025-07-11 00:51:16,501 [INFO] Successfully loaded preferences
+2025-07-11 00:51:16,501 [INFO] Starting series of filters and sorting.
+2025-07-11 00:51:17,296 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:51:17,516 [INFO] Sending API request with model 0...
+2025-07-11 00:51:17,517 [INFO] Sending API request with model 1...
+2025-07-11 00:51:17,518 [INFO] Sending API request with model 2...
+2025-07-11 00:51:17,519 [INFO] Sending API request with model 3...
+2025-07-11 00:51:17,520 [INFO] Sending API request with model 4...
+2025-07-11 00:51:17,521 [INFO] Sending API request with model 5...
+2025-07-11 00:51:17,521 [INFO] Sending API request with model 6...
+2025-07-11 00:51:17,522 [INFO] Sending API request with model 7...
+2025-07-11 00:51:17,523 [INFO] Sending API request with model 8...
+2025-07-11 00:51:17,524 [INFO] Sending API request with model 9...
+2025-07-11 00:51:22,211 [INFO] Received response for model 5
+2025-07-11 00:51:22,211 [INFO] Schedule data extracted for model 5
+2025-07-11 00:51:22,212 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:51:22,213 [WARNING] Schedule did not pass validation for model 5
+2025-07-11 00:51:23,232 [INFO] Deleted API key for attempt 5: {'deleted': True}
+2025-07-11 00:51:23,234 [INFO] Received response for model 1
+2025-07-11 00:51:23,234 [INFO] Schedule data extracted for model 1
+2025-07-11 00:51:23,235 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:51:23,235 [WARNING] Schedule did not pass validation for model 1
+2025-07-11 00:51:24,132 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-07-11 00:51:24,133 [INFO] Received response for model 8
+2025-07-11 00:51:24,133 [INFO] Schedule data extracted for model 8
+2025-07-11 00:51:24,134 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:51:24,134 [WARNING] Schedule did not pass validation for model 8
+2025-07-11 00:51:24,942 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-07-11 00:51:24,944 [INFO] Received response for model 4
+2025-07-11 00:51:24,944 [INFO] Schedule data extracted for model 4
+2025-07-11 00:51:24,945 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:51:24,945 [WARNING] Schedule did not pass validation for model 4
+2025-07-11 00:51:25,675 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-11 00:51:32,483 [INFO] APISender initialized.
+2025-07-11 00:51:32,483 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:51:32,483 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:51:32,484 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:51:32,485 [INFO] Read model_name: Kimi Dev from model_name.txt
+2025-07-11 00:51:32,485 [INFO] Removed model_name.txt
+2025-07-11 00:51:32,485 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:51:32,486 [INFO] Removed promt_users.txt
+2025-07-11 00:51:32,486 [INFO] Launching schedule generation (model: Kimi Dev, users: )
+2025-07-11 00:51:32,486 [INFO] GET pid 32948
+2025-07-11 00:51:32,486 [INFO] Starting schedule generation.
+2025-07-11 00:51:32,487 [INFO] Successfully loaded original_schedule
+2025-07-11 00:51:32,488 [INFO] Successfully loaded preferences
+2025-07-11 00:51:32,488 [INFO] Starting series of filters and sorting.
+2025-07-11 00:51:33,178 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:52:29,331 [INFO] Received response for model 3
+2025-07-11 00:52:29,331 [INFO] Schedule data extracted for model 3
+2025-07-11 00:52:29,332 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:52:29,332 [WARNING] Schedule did not pass validation for model 3
+2025-07-11 00:52:30,280 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-07-11 00:52:58,744 [ERROR] Invalid API response format for model 3
+2025-07-11 00:52:59,481 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-07-11 00:52:59,482 [ERROR] Invalid API response format for model 8
+2025-07-11 00:53:00,326 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-07-11 00:53:00,327 [ERROR] Invalid API response format for model 7
+2025-07-11 00:53:01,133 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-11 00:53:01,135 [ERROR] Invalid API response format for model 4
+2025-07-11 00:53:01,951 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-11 00:53:04,552 [INFO] Received response for model 7
+2025-07-11 00:53:04,552 [INFO] Schedule data extracted for model 7
+2025-07-11 00:53:04,553 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:53:04,553 [WARNING] Schedule did not pass validation for model 7
+2025-07-11 00:53:05,315 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-11 00:53:07,234 [INFO] Received response for model 6
+2025-07-11 00:53:07,234 [INFO] Schedule data extracted for model 6
+2025-07-11 00:53:07,235 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:53:07,235 [WARNING] Schedule did not pass validation for model 6
+2025-07-11 00:53:08,006 [INFO] Deleted API key for attempt 6: {'deleted': True}
+2025-07-11 00:53:22,770 [INFO] Received response for model 2
+2025-07-11 00:53:22,770 [INFO] Schedule data extracted for model 2
+2025-07-11 00:53:22,772 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:53:22,772 [WARNING] Schedule did not pass validation for model 2
+2025-07-11 00:53:23,487 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-07-11 00:53:34,424 [INFO] APISender initialized.
+2025-07-11 00:53:34,424 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:53:34,425 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:53:34,425 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:53:34,426 [INFO] Read model_name: Qwen3-235B-A22B from model_name.txt
+2025-07-11 00:53:34,427 [INFO] Removed model_name.txt
+2025-07-11 00:53:34,427 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:53:34,427 [INFO] Removed promt_users.txt
+2025-07-11 00:53:34,427 [INFO] Launching schedule generation (model: Qwen3-235B-A22B, users: )
+2025-07-11 00:53:34,428 [INFO] GET pid 29376
+2025-07-11 00:53:34,428 [INFO] Starting schedule generation.
+2025-07-11 00:53:34,429 [INFO] Successfully loaded original_schedule
+2025-07-11 00:53:34,429 [INFO] Successfully loaded preferences
+2025-07-11 00:53:34,429 [INFO] Starting series of filters and sorting.
+2025-07-11 00:53:35,251 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:53:39,686 [INFO] Received response for model 0
+2025-07-11 00:53:39,686 [INFO] Schedule data extracted for model 0
+2025-07-11 00:53:39,687 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:53:39,687 [WARNING] Schedule did not pass validation for model 0
+2025-07-11 00:53:40,573 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-11 00:53:45,253 [INFO] Sending API request with model 0...
+2025-07-11 00:53:45,255 [INFO] Sending API request with model 1...
+2025-07-11 00:53:45,257 [INFO] Sending API request with model 2...
+2025-07-11 00:53:45,258 [INFO] Sending API request with model 3...
+2025-07-11 00:53:45,260 [INFO] Sending API request with model 4...
+2025-07-11 00:53:45,261 [INFO] Sending API request with model 5...
+2025-07-11 00:53:45,263 [INFO] Sending API request with model 6...
+2025-07-11 00:53:45,264 [INFO] Sending API request with model 7...
+2025-07-11 00:53:45,265 [INFO] Sending API request with model 8...
+2025-07-11 00:53:45,266 [INFO] Sending API request with model 9...
+2025-07-11 00:53:47,538 [INFO] Received response for model 0
+2025-07-11 00:53:47,538 [INFO] Schedule data extracted for model 0
+2025-07-11 00:53:47,540 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:53:47,540 [WARNING] Schedule did not pass validation for model 0
+2025-07-11 00:53:48,275 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-11 00:53:48,384 [INFO] Received response for model 9
+2025-07-11 00:53:48,384 [INFO] Schedule data extracted for model 9
+2025-07-11 00:53:48,386 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:53:48,386 [WARNING] Schedule did not pass validation for model 9
+2025-07-11 00:53:49,212 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-07-11 00:53:53,268 [INFO] APISender initialized.
+2025-07-11 00:53:53,269 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:53:53,269 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:53:53,269 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:53:53,270 [INFO] Read model_name: Qwen3-235B-A22B from model_name.txt
+2025-07-11 00:53:53,271 [INFO] Removed model_name.txt
+2025-07-11 00:53:53,271 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:53:53,271 [INFO] Removed promt_users.txt
+2025-07-11 00:53:53,271 [INFO] Launching schedule generation (model: Qwen3-235B-A22B, users: )
+2025-07-11 00:53:53,272 [INFO] GET pid 32368
+2025-07-11 00:53:53,272 [INFO] Starting schedule generation.
+2025-07-11 00:53:53,273 [INFO] Successfully loaded original_schedule
+2025-07-11 00:53:53,274 [INFO] Successfully loaded preferences
+2025-07-11 00:53:53,274 [INFO] Starting series of filters and sorting.
+2025-07-11 00:53:54,023 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:54:22,543 [INFO] APISender initialized.
+2025-07-11 00:54:22,544 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:54:22,544 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:54:22,544 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:54:22,545 [INFO] Read model_name: Qwen3-235B-A22B from model_name.txt
+2025-07-11 00:54:22,546 [INFO] Removed model_name.txt
+2025-07-11 00:54:22,546 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:54:22,546 [INFO] Removed promt_users.txt
+2025-07-11 00:54:22,546 [INFO] Launching schedule generation (model: Qwen3-235B-A22B, users: )
+2025-07-11 00:54:22,547 [INFO] GET pid 35552
+2025-07-11 00:54:22,547 [INFO] Starting schedule generation.
+2025-07-11 00:54:22,548 [INFO] Successfully loaded original_schedule
+2025-07-11 00:54:22,548 [INFO] Successfully loaded preferences
+2025-07-11 00:54:22,548 [INFO] Starting series of filters and sorting.
+2025-07-11 00:54:23,203 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:54:45,953 [INFO] Received response for model 3
+2025-07-11 00:54:45,953 [INFO] Schedule data extracted for model 3
+2025-07-11 00:54:45,954 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:54:45,954 [WARNING] Schedule did not pass validation for model 3
+2025-07-11 00:54:47,006 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-07-11 00:54:47,988 [INFO] Received response for model 4
+2025-07-11 00:54:47,989 [INFO] Schedule data extracted for model 4
+2025-07-11 00:54:47,990 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:54:47,990 [WARNING] Schedule did not pass validation for model 4
+2025-07-11 00:54:48,712 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-11 00:55:07,757 [INFO] Received response for model 9
+2025-07-11 00:55:07,757 [INFO] Schedule data extracted for model 9
+2025-07-11 00:55:07,758 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:55:07,759 [WARNING] Schedule did not pass validation for model 9
+2025-07-11 00:55:08,523 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-07-11 00:55:26,708 [INFO] Received response for model 0
+2025-07-11 00:55:26,708 [INFO] Schedule data extracted for model 0
+2025-07-11 00:55:26,709 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:55:26,709 [WARNING] Schedule did not pass validation for model 0
+2025-07-11 00:55:27,608 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-11 00:55:30,842 [ERROR] Error sending request for model 6: argument of type 'NoneType' is not iterable
+2025-07-11 00:55:31,691 [INFO] Deleted API key for attempt 6: {'deleted': True}
+2025-07-11 00:55:40,888 [INFO] Received response for model 6
+2025-07-11 00:55:40,888 [INFO] Schedule data extracted for model 6
+2025-07-11 00:55:40,889 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:55:40,890 [WARNING] Schedule did not pass validation for model 6
+2025-07-11 00:55:41,638 [INFO] Deleted API key for attempt 6: {'deleted': True}
+2025-07-11 00:55:43,469 [INFO] Received response for model 1
+2025-07-11 00:55:43,469 [INFO] Schedule data extracted for model 1
+2025-07-11 00:55:43,471 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:55:43,471 [WARNING] Schedule did not pass validation for model 1
+2025-07-11 00:55:44,342 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-07-11 00:55:58,595 [INFO] Received response for model 8
+2025-07-11 00:55:58,595 [INFO] Schedule data extracted for model 8
+2025-07-11 00:55:58,597 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:55:58,597 [WARNING] Schedule did not pass validation for model 8
+2025-07-11 00:55:59,337 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-07-11 00:56:04,498 [ERROR] Timeout (300s) on model 9
+2025-07-11 00:56:05,221 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-07-11 00:56:05,223 [INFO] Schedules successfully generated: 0
+2025-07-11 00:56:07,880 [INFO] Received response for model 2
+2025-07-11 00:56:07,880 [INFO] Schedule data extracted for model 2
+2025-07-11 00:56:07,881 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:56:07,881 [WARNING] Schedule did not pass validation for model 2
+2025-07-11 00:56:08,922 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-07-11 00:56:17,518 [ERROR] Timeout (300s) on model 1
+2025-07-11 00:56:18,370 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-07-11 00:56:18,372 [ERROR] Timeout (300s) on model 2
+2025-07-11 00:56:19,212 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-07-11 00:56:19,214 [ERROR] Timeout (300s) on model 5
+2025-07-11 00:56:19,912 [INFO] APISender initialized.
+2025-07-11 00:56:19,912 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:56:19,912 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:56:19,913 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:56:19,913 [INFO] Read model_name: Qwen3-235B-A22B from model_name.txt
+2025-07-11 00:56:19,914 [INFO] Removed model_name.txt
+2025-07-11 00:56:19,914 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:56:19,914 [INFO] Removed promt_users.txt
+2025-07-11 00:56:19,914 [INFO] Launching schedule generation (model: Qwen3-235B-A22B, users: )
+2025-07-11 00:56:19,915 [INFO] GET pid 36568
+2025-07-11 00:56:19,915 [INFO] Starting schedule generation.
+2025-07-11 00:56:19,916 [INFO] Successfully loaded original_schedule
+2025-07-11 00:56:19,917 [INFO] Successfully loaded preferences
+2025-07-11 00:56:19,917 [INFO] Starting series of filters and sorting.
+2025-07-11 00:56:20,098 [INFO] Deleted API key for attempt 5: {'deleted': True}
+2025-07-11 00:56:20,100 [INFO] Schedules successfully generated: 0
+2025-07-11 00:56:31,249 [INFO] APISender initialized.
+2025-07-11 00:56:31,249 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:56:31,250 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:56:31,250 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:56:31,251 [INFO] Read model_name: Kimi Dev from model_name.txt
+2025-07-11 00:56:31,252 [INFO] Removed model_name.txt
+2025-07-11 00:56:31,252 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:56:31,252 [INFO] Removed promt_users.txt
+2025-07-11 00:56:31,253 [INFO] Launching schedule generation (model: Kimi Dev, users: )
+2025-07-11 00:56:31,253 [INFO] GET pid 23860
+2025-07-11 00:56:31,253 [INFO] Starting schedule generation.
+2025-07-11 00:56:31,254 [INFO] Successfully loaded original_schedule
+2025-07-11 00:56:31,255 [INFO] Successfully loaded preferences
+2025-07-11 00:56:31,255 [INFO] Starting series of filters and sorting.
+2025-07-11 00:56:32,193 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 00:56:37,634 [INFO] Received response for model 5
+2025-07-11 00:56:37,635 [INFO] Schedule data extracted for model 5
+2025-07-11 00:56:37,636 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:56:37,636 [WARNING] Schedule did not pass validation for model 5
+2025-07-11 00:56:38,455 [INFO] Deleted API key for attempt 5: {'deleted': True}
+2025-07-11 00:56:42,195 [INFO] Sending API request with model 0...
+2025-07-11 00:56:42,196 [INFO] Sending API request with model 1...
+2025-07-11 00:56:42,197 [INFO] Sending API request with model 2...
+2025-07-11 00:56:42,199 [INFO] Sending API request with model 3...
+2025-07-11 00:56:42,199 [INFO] Sending API request with model 4...
+2025-07-11 00:56:42,200 [INFO] Sending API request with model 5...
+2025-07-11 00:56:42,202 [INFO] Sending API request with model 6...
+2025-07-11 00:56:42,203 [INFO] Sending API request with model 7...
+2025-07-11 00:56:42,204 [INFO] Sending API request with model 8...
+2025-07-11 00:56:42,205 [INFO] Sending API request with model 9...
+2025-07-11 00:56:56,219 [INFO] Received response for model 7
+2025-07-11 00:56:56,219 [INFO] Schedule data extracted for model 7
+2025-07-11 00:56:56,220 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 00:56:56,220 [WARNING] Schedule did not pass validation for model 7
+2025-07-11 00:56:57,073 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-11 00:56:57,075 [INFO] Schedules successfully generated: 0
+2025-07-11 00:57:19,448 [INFO] APISender initialized.
+2025-07-11 00:57:19,449 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 00:57:19,449 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 00:57:19,449 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 00:57:19,450 [INFO] Read model_name: Kimi Dev from model_name.txt
+2025-07-11 00:57:19,451 [INFO] Removed model_name.txt
+2025-07-11 00:57:19,451 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 00:57:19,452 [INFO] Removed promt_users.txt
+2025-07-11 00:57:19,452 [INFO] Launching schedule generation (model: Kimi Dev, users: )
+2025-07-11 00:57:19,452 [INFO] GET pid 22188
+2025-07-11 00:57:19,452 [INFO] Starting schedule generation.
+2025-07-11 00:57:19,454 [INFO] Successfully loaded original_schedule
+2025-07-11 00:57:19,454 [INFO] Successfully loaded preferences
+2025-07-11 00:57:19,454 [INFO] Starting series of filters and sorting.
+2025-07-11 00:58:36,916 [ERROR] Error sending request for model 7: argument of type 'NoneType' is not iterable
+2025-07-11 00:58:37,849 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-11 01:00:17,551 [INFO] Received response for model 9
+2025-07-11 01:00:17,551 [INFO] Schedule data extracted for model 9
+2025-07-11 01:00:17,552 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 01:00:17,552 [WARNING] Schedule did not pass validation for model 9
+2025-07-11 01:00:18,569 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-07-11 01:00:47,990 [INFO] Received response for model 3
+2025-07-11 01:00:47,990 [INFO] Schedule data extracted for model 3
+2025-07-11 01:00:47,992 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 01:00:47,992 [WARNING] Schedule did not pass validation for model 3
+2025-07-11 01:00:48,880 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-07-11 01:00:50,428 [ERROR] Error sending request for model 1: argument of type 'NoneType' is not iterable
+2025-07-11 01:00:51,272 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-07-11 01:01:09,860 [INFO] Received response for model 2
+2025-07-11 01:01:09,860 [INFO] Schedule data extracted for model 2
+2025-07-11 01:01:09,861 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 01:01:09,861 [WARNING] Schedule did not pass validation for model 2
+2025-07-11 01:01:10,609 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-07-11 01:01:36,440 [ERROR] Error sending request for model 5: argument of type 'NoneType' is not iterable
+2025-07-11 01:01:37,181 [INFO] Deleted API key for attempt 5: {'deleted': True}
+2025-07-11 01:01:37,182 [INFO] Received response for model 4
+2025-07-11 01:01:37,182 [INFO] Schedule data extracted for model 4
+2025-07-11 01:01:37,184 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 01:01:37,184 [WARNING] Schedule did not pass validation for model 4
+2025-07-11 01:01:38,198 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-11 01:01:42,197 [ERROR] Timeout (300s) on model 0
+2025-07-11 01:01:43,042 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-11 01:01:43,043 [ERROR] Timeout (300s) on model 6
+2025-07-11 01:01:43,771 [INFO] Deleted API key for attempt 6: {'deleted': True}
+2025-07-11 01:01:43,773 [ERROR] Timeout (300s) on model 8
+2025-07-11 01:01:44,622 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-07-11 01:01:44,625 [INFO] Schedules successfully generated: 0
+2025-07-11 01:02:29,874 [INFO] APISender initialized.
+2025-07-11 01:02:29,875 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 01:02:29,875 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 01:02:29,876 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 01:02:29,877 [INFO] Read model_name: Kimi Dev from model_name.txt
+2025-07-11 01:02:29,877 [INFO] Removed model_name.txt
+2025-07-11 01:02:29,877 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 01:02:29,878 [INFO] Removed promt_users.txt
+2025-07-11 01:02:29,878 [INFO] Launching schedule generation (model: Kimi Dev, users: )
+2025-07-11 01:02:29,878 [INFO] GET pid 36024
+2025-07-11 01:02:29,878 [INFO] Starting schedule generation.
+2025-07-11 01:02:29,880 [INFO] Successfully loaded original_schedule
+2025-07-11 01:02:29,880 [INFO] Successfully loaded preferences
+2025-07-11 01:02:29,880 [INFO] Starting series of filters and sorting.
+2025-07-11 01:04:51,336 [INFO] APISender initialized.
+2025-07-11 01:04:51,336 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 01:04:51,337 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 01:04:51,337 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 01:04:51,338 [INFO] Read model_name: Kimi Dev from model_name.txt
+2025-07-11 01:04:51,339 [INFO] Removed model_name.txt
+2025-07-11 01:04:51,339 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 01:04:51,339 [INFO] Removed promt_users.txt
+2025-07-11 01:04:51,339 [INFO] Launching schedule generation (model: Kimi Dev, users: )
+2025-07-11 01:04:51,340 [INFO] GET pid 35464
+2025-07-11 01:04:51,340 [INFO] Starting schedule generation.
+2025-07-11 01:04:51,341 [INFO] Successfully loaded original_schedule
+2025-07-11 01:04:51,341 [INFO] Successfully loaded preferences
+2025-07-11 01:04:51,342 [INFO] Starting series of filters and sorting.
+2025-07-11 01:04:52,038 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 01:12:48,113 [INFO] APISender initialized.
+2025-07-11 01:12:48,113 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 01:12:48,121 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 01:12:48,121 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 01:12:48,128 [INFO] Read model_name: DeepSeek R1T2 from model_name.txt
+2025-07-11 01:12:48,129 [INFO] Removed model_name.txt
+2025-07-11 01:12:48,129 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 01:12:48,129 [INFO] Removed promt_users.txt
+2025-07-11 01:12:48,129 [INFO] Launching schedule generation (model: DeepSeek R1T2, users: )
+2025-07-11 01:12:48,130 [INFO] GET pid 36600
+2025-07-11 01:12:48,130 [INFO] Starting schedule generation.
+2025-07-11 01:12:48,142 [INFO] Successfully loaded original_schedule
+2025-07-11 01:12:48,149 [INFO] Successfully loaded preferences
+2025-07-11 01:12:48,149 [INFO] Starting series of filters and sorting.
+2025-07-11 01:12:49,098 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 01:12:59,099 [INFO] Sending API request with model 0...
+2025-07-11 01:12:59,101 [INFO] Sending API request with model 1...
+2025-07-11 01:12:59,101 [INFO] Sending API request with model 2...
+2025-07-11 01:12:59,102 [INFO] Sending API request with model 3...
+2025-07-11 01:12:59,103 [INFO] Sending API request with model 4...
+2025-07-11 01:12:59,103 [INFO] Sending API request with model 5...
+2025-07-11 01:12:59,104 [INFO] Sending API request with model 6...
+2025-07-11 01:12:59,104 [INFO] Sending API request with model 7...
+2025-07-11 01:12:59,105 [INFO] Sending API request with model 8...
+2025-07-11 01:12:59,106 [INFO] Sending API request with model 9...
+2025-07-11 01:15:09,883 [INFO] APISender initialized.
+2025-07-11 01:15:09,883 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 01:15:09,884 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 01:15:09,884 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'schedules_ready']
+2025-07-11 01:15:09,884 [INFO] Launching schedule generation (model: DeepSeek R1T2, users: )
+2025-07-11 01:15:09,885 [INFO] GET pid 36688
+2025-07-11 01:15:09,885 [INFO] Starting schedule generation.
+2025-07-11 01:15:09,887 [INFO] Successfully loaded original_schedule
+2025-07-11 01:15:09,887 [INFO] Successfully loaded preferences
+2025-07-11 01:15:09,887 [INFO] Starting series of filters and sorting.
+2025-07-11 01:15:10,597 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 01:15:20,598 [INFO] Sending API request with model 0...
+2025-07-11 01:15:20,599 [INFO] Sending API request with model 1...
+2025-07-11 01:15:20,600 [INFO] Sending API request with model 2...
+2025-07-11 01:15:20,601 [INFO] Sending API request with model 3...
+2025-07-11 01:15:20,601 [INFO] Sending API request with model 4...
+2025-07-11 01:15:20,602 [INFO] Sending API request with model 5...
+2025-07-11 01:15:20,603 [INFO] Sending API request with model 6...
+2025-07-11 01:15:20,603 [INFO] Sending API request with model 7...
+2025-07-11 01:15:20,604 [INFO] Sending API request with model 8...
+2025-07-11 01:15:20,604 [INFO] Sending API request with model 9...
+2025-07-11 01:15:25,141 [ERROR] Error sending request for model 7: 503, message='Service Unavailable', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-11 01:15:25,839 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-11 01:15:25,870 [ERROR] Error sending request for model 3: 503, message='Service Unavailable', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-11 01:15:26,559 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-07-11 01:15:26,561 [ERROR] Error sending request for model 4: 503, message='Service Unavailable', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-11 01:15:27,375 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-11 01:15:27,377 [ERROR] Error sending request for model 8: 503, message='Service Unavailable', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-11 01:15:28,179 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-07-11 01:15:28,181 [ERROR] Error sending request for model 9: 503, message='Service Unavailable', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-11 01:15:28,974 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-07-11 01:15:28,975 [ERROR] Error sending request for model 2: 503, message='Service Unavailable', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-11 01:15:29,804 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-07-11 01:15:29,806 [ERROR] Error sending request for model 0: 503, message='Service Unavailable', url='https://openrouter.ai/api/v1/chat/completions'
+2025-07-11 01:15:30,600 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-11 01:15:56,639 [INFO] APISender initialized.
+2025-07-11 01:15:56,639 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 01:15:56,640 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 01:15:56,640 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 01:15:56,641 [INFO] Read model_name: DeepSeek R1T2 from model_name.txt
+2025-07-11 01:15:56,641 [INFO] Removed model_name.txt
+2025-07-11 01:15:56,642 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 01:15:56,642 [INFO] Removed promt_users.txt
+2025-07-11 01:15:56,642 [INFO] Launching schedule generation (model: DeepSeek R1T2, users: )
+2025-07-11 01:15:56,643 [INFO] GET pid 31380
+2025-07-11 01:15:56,643 [INFO] Starting schedule generation.
+2025-07-11 01:15:56,645 [INFO] Successfully loaded original_schedule
+2025-07-11 01:15:56,645 [INFO] Successfully loaded preferences
+2025-07-11 01:15:56,645 [INFO] Starting series of filters and sorting.
+2025-07-11 01:15:57,523 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 01:16:05,602 [INFO] APISender initialized.
+2025-07-11 01:16:05,602 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 01:16:05,602 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 01:16:05,603 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 01:16:05,610 [INFO] Read model_name: Qwen3-235B-A22B from model_name.txt
+2025-07-11 01:16:05,610 [INFO] Removed model_name.txt
+2025-07-11 01:16:05,611 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 01:16:05,611 [INFO] Removed promt_users.txt
+2025-07-11 01:16:05,611 [INFO] Launching schedule generation (model: Qwen3-235B-A22B, users: )
+2025-07-11 01:16:05,612 [INFO] GET pid 33780
+2025-07-11 01:16:05,612 [INFO] Starting schedule generation.
+2025-07-11 01:16:05,614 [INFO] Successfully loaded original_schedule
+2025-07-11 01:16:05,614 [INFO] Successfully loaded preferences
+2025-07-11 01:16:05,614 [INFO] Starting series of filters and sorting.
+2025-07-11 01:16:06,303 [INFO] API keys generated: 10. Waiting 10s.

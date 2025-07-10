@@ -9,6 +9,11 @@ import requests
 import time
 from schedule_validator import ScheduleValidator
 
+
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid"), "w") as f:
+    f.write(str(os.getpid()))
+    
+
 class APISender:
     def __init__(self):
         self.config_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config')
@@ -439,6 +444,7 @@ class APISender:
         """
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
+        self.logger.info(f"GET pid {os.getpid()}")
         try:
             self.logger.info("Starting schedule generation.")
             self.load_data()
@@ -487,20 +493,16 @@ def main():
                 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file)) as f:
                     model_name = f.read()
                 sender.logger.info(f'Read model_name: {model_name} from {file}')
-                print(model_name)
-                print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 sender.logger.info(f'Removed {file}')
-                print(2)
+
             if "promt_users.txt" == file:
                 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file)) as f:
                     promt_users = f.read()
                 sender.logger.info(f'Read promt_users: {promt_users} from {file}')
-                print(promt_users)
-                print(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 os.remove(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', file))
                 sender.logger.info(f'Removed {file}')
-                print(3)
+                
     finally:    
         sender.logger.info(f'Launching schedule generation (model: {model_name}, users: {promt_users})')
         print(model_name, promt_users)
@@ -510,7 +512,5 @@ def main():
 if __name__ == "__main__":
     os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready'), exist_ok=True)
     os.makedirs(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'ready'), exist_ok=True)
-    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid"),"w") as f:
-        f.write(str(os.getpid()))
-    time.sleep(5)
+    time.sleep(0.25)
     main()

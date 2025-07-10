@@ -405,6 +405,7 @@ ai_generation_answers_text = Text(screen, SMALL_FONT, [20, 100], 'Расписа
 ai_generation_tea_text1 = Text(screen, EVEN_SMALLER_FONT, [20, 170 + offset], 'Пока сходите за чайком,')
 ai_generation_tea_text2 = Text(screen, EVEN_SMALLER_FONT, [20, 190 + offset], 'генерация занимает до 5 минут.')
 ai_generation_answers_real_text = Text(screen, SMALL_FONT, [20, 130], '')
+ai_generation_cancel_button = Button(screen, [355, 290], [125, 40], text='Отмена')
 ai_generation_gif = Gif_image(screen, os.path.join(root_path, 'assets', 'loading'), [180, -20])
 ai_generation_message = Message_window(screen, [500, 350], [ai_generation_gif,
                                                             ai_generation_text,
@@ -413,7 +414,8 @@ ai_generation_message = Message_window(screen, [500, 350], [ai_generation_gif,
                                                             ai_generation_answers_real_text,
                                                             ai_generation_tea_text1,
                                                             ai_generation_tea_text2,
-                                                            ai_generation_model_text])
+                                                            ai_generation_model_text,
+                                                            ai_generation_cancel_button])
 
 ai_generation_ended_text = Text(screen, MAIN_FONT, [20,10], 'Догенерировал.')
 ai_generation_ended_time_text = Text(screen, SMALL_FONT, [20, 70], 'Времени ушло: ')
@@ -916,6 +918,18 @@ while running:
         ai_generation_ended_message.change_state()
         list_ready_variant = os.listdir(os.path.join(root_path, "data", "schedules", "ready"))
         list_ready_variant = [os.path.join(root_path, "data", "schedules", "ready", variant) for variant in list_ready_variant]
+
+    if ai_generation_cancel_button.command():
+        try:
+            time.sleep(0.1)
+            with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', "api_sender.pid")) as f:
+                pid = int(f.read())
+                os.system("taskkill /f /pid " + str(pid))
+            ai_generation.state = False
+            ai_generation_message.change_state()
+            ai_message.change_state()
+        except Exception as e:
+            print(f'Error terminating process: {e}')
 
 
     if scedule_back_button.command():
