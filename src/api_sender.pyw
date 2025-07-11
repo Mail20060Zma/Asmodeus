@@ -401,7 +401,7 @@ class APISender:
                             schedule_data = result['choices'][0]['message']['content']
                             self.logger.info(f"Received response for model {attempt}")
                             
-                            schedule_data = schedule_data[schedule_data.find('"Day'):schedule_data.rfind("```") if schedule_data.rfind("```") else None]
+                            schedule_data = schedule_data[schedule_data.find('"Day'):schedule_data.rfind("```") + 1 if schedule_data.rfind("```") else None]
                             self.logger.info(f"Schedule data extracted for model {attempt}")
                             print(schedule_data)
                             output_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
@@ -512,5 +512,5 @@ def main():
 if __name__ == "__main__":
     os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'config', 'schedules_ready'), exist_ok=True)
     os.makedirs(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'schedules', 'ready'), exist_ok=True)
-    time.sleep(0.25)
+    time.sleep(0.05)
     main()

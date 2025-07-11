@@ -1287,3 +1287,116 @@
 2025-07-11 01:16:05,614 [INFO] Successfully loaded preferences
 2025-07-11 01:16:05,614 [INFO] Starting series of filters and sorting.
 2025-07-11 01:16:06,303 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 23:42:04,314 [INFO] APISender initialized.
+2025-07-11 23:42:04,314 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 23:42:04,314 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 23:42:04,315 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 23:42:04,321 [INFO] Read model_name: DeepSeek R1T2 from model_name.txt
+2025-07-11 23:42:04,321 [INFO] Removed model_name.txt
+2025-07-11 23:42:04,322 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 23:42:04,322 [INFO] Removed promt_users.txt
+2025-07-11 23:42:04,322 [INFO] Launching schedule generation (model: DeepSeek R1T2, users: )
+2025-07-11 23:42:04,323 [INFO] GET pid 29392
+2025-07-11 23:42:04,323 [INFO] Starting schedule generation.
+2025-07-11 23:42:04,324 [INFO] Successfully loaded original_schedule
+2025-07-11 23:42:04,325 [INFO] Successfully loaded preferences
+2025-07-11 23:42:04,325 [INFO] Starting series of filters and sorting.
+2025-07-11 23:42:05,239 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 23:42:15,240 [INFO] Sending API request with model 0...
+2025-07-11 23:42:15,241 [INFO] Sending API request with model 1...
+2025-07-11 23:42:15,242 [INFO] Sending API request with model 2...
+2025-07-11 23:42:15,243 [INFO] Sending API request with model 3...
+2025-07-11 23:42:15,243 [INFO] Sending API request with model 4...
+2025-07-11 23:42:15,244 [INFO] Sending API request with model 5...
+2025-07-11 23:42:15,244 [INFO] Sending API request with model 6...
+2025-07-11 23:42:15,245 [INFO] Sending API request with model 7...
+2025-07-11 23:42:15,246 [INFO] Sending API request with model 8...
+2025-07-11 23:42:15,247 [INFO] Sending API request with model 9...
+2025-07-11 23:42:29,260 [INFO] APISender initialized.
+2025-07-11 23:42:29,261 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 23:42:29,261 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 23:42:29,261 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 23:42:29,262 [INFO] Read model_name: DeepSeek R1T2 from model_name.txt
+2025-07-11 23:42:29,263 [INFO] Removed model_name.txt
+2025-07-11 23:42:29,263 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 23:42:29,263 [INFO] Removed promt_users.txt
+2025-07-11 23:42:29,263 [INFO] Launching schedule generation (model: DeepSeek R1T2, users: )
+2025-07-11 23:42:29,264 [INFO] GET pid 17760
+2025-07-11 23:42:29,264 [INFO] Starting schedule generation.
+2025-07-11 23:42:29,265 [INFO] Successfully loaded original_schedule
+2025-07-11 23:42:29,266 [INFO] Successfully loaded preferences
+2025-07-11 23:42:29,266 [INFO] Starting series of filters and sorting.
+2025-07-11 23:42:30,083 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 23:42:41,254 [INFO] APISender initialized.
+2025-07-11 23:42:41,254 [INFO] Successfully loaded JSON file: api_model.json
+2025-07-11 23:42:41,255 [INFO] Successfully loaded JSON file: api_keys.json
+2025-07-11 23:42:41,255 [INFO] Detected config files: ['api_keys.json', 'api_model.json', 'api_sender.pid', 'config.json', 'model_name.txt', 'promt_users.txt', 'schedules_ready']
+2025-07-11 23:42:41,256 [INFO] Read model_name: DeepSeek R1T2 from model_name.txt
+2025-07-11 23:42:41,256 [INFO] Removed model_name.txt
+2025-07-11 23:42:41,257 [INFO] Read promt_users:  from promt_users.txt
+2025-07-11 23:42:41,257 [INFO] Removed promt_users.txt
+2025-07-11 23:42:41,257 [INFO] Launching schedule generation (model: DeepSeek R1T2, users: )
+2025-07-11 23:42:41,258 [INFO] GET pid 19140
+2025-07-11 23:42:41,258 [INFO] Starting schedule generation.
+2025-07-11 23:42:41,260 [INFO] Successfully loaded original_schedule
+2025-07-11 23:42:41,260 [INFO] Successfully loaded preferences
+2025-07-11 23:42:41,260 [INFO] Starting series of filters and sorting.
+2025-07-11 23:42:42,089 [INFO] API keys generated: 10. Waiting 10s.
+2025-07-11 23:42:52,090 [INFO] Sending API request with model 0...
+2025-07-11 23:42:52,091 [INFO] Sending API request with model 1...
+2025-07-11 23:42:52,092 [INFO] Sending API request with model 2...
+2025-07-11 23:42:52,093 [INFO] Sending API request with model 3...
+2025-07-11 23:42:52,094 [INFO] Sending API request with model 4...
+2025-07-11 23:42:52,095 [INFO] Sending API request with model 5...
+2025-07-11 23:42:52,095 [INFO] Sending API request with model 6...
+2025-07-11 23:42:52,096 [INFO] Sending API request with model 7...
+2025-07-11 23:42:52,096 [INFO] Sending API request with model 8...
+2025-07-11 23:42:52,097 [INFO] Sending API request with model 9...
+2025-07-11 23:43:54,807 [INFO] Received response for model 9
+2025-07-11 23:43:54,807 [INFO] Schedule data extracted for model 9
+2025-07-11 23:43:54,810 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_6.csv
+2025-07-11 23:43:54,810 [INFO] Schedule generated and saved for model 9
+2025-07-11 23:43:55,665 [INFO] Deleted API key for attempt 9: {'deleted': True}
+2025-07-11 23:44:02,029 [INFO] Received response for model 6
+2025-07-11 23:44:02,029 [INFO] Schedule data extracted for model 6
+2025-07-11 23:44:02,030 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 23:44:02,030 [WARNING] Schedule did not pass validation for model 6
+2025-07-11 23:44:02,888 [INFO] Deleted API key for attempt 6: {'deleted': True}
+2025-07-11 23:44:13,565 [ERROR] Error sending request for model 7: argument of type 'NoneType' is not iterable
+2025-07-11 23:44:14,467 [INFO] Deleted API key for attempt 7: {'deleted': True}
+2025-07-11 23:44:14,837 [INFO] Received response for model 2
+2025-07-11 23:44:14,837 [INFO] Schedule data extracted for model 2
+2025-07-11 23:44:14,839 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 23:44:14,839 [WARNING] Schedule did not pass validation for model 2
+2025-07-11 23:44:15,700 [INFO] Deleted API key for attempt 2: {'deleted': True}
+2025-07-11 23:44:19,944 [INFO] Received response for model 3
+2025-07-11 23:44:19,944 [INFO] Schedule data extracted for model 3
+2025-07-11 23:44:19,945 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 23:44:19,945 [WARNING] Schedule did not pass validation for model 3
+2025-07-11 23:44:20,904 [INFO] Deleted API key for attempt 3: {'deleted': True}
+2025-07-11 23:44:20,906 [INFO] Received response for model 5
+2025-07-11 23:44:20,906 [INFO] Schedule data extracted for model 5
+2025-07-11 23:44:20,907 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 23:44:20,907 [WARNING] Schedule did not pass validation for model 5
+2025-07-11 23:44:21,900 [INFO] Deleted API key for attempt 5: {'deleted': True}
+2025-07-11 23:44:21,902 [INFO] Received response for model 0
+2025-07-11 23:44:21,902 [INFO] Schedule data extracted for model 0
+2025-07-11 23:44:21,903 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 23:44:21,903 [WARNING] Schedule did not pass validation for model 0
+2025-07-11 23:44:22,907 [INFO] Deleted API key for attempt 0: {'deleted': True}
+2025-07-11 23:45:14,197 [INFO] Received response for model 8
+2025-07-11 23:45:14,197 [INFO] Schedule data extracted for model 8
+2025-07-11 23:45:14,200 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_7.csv
+2025-07-11 23:45:14,200 [INFO] Schedule generated and saved for model 8
+2025-07-11 23:45:15,067 [INFO] Deleted API key for attempt 8: {'deleted': True}
+2025-07-11 23:45:17,282 [INFO] Received response for model 4
+2025-07-11 23:45:17,282 [INFO] Schedule data extracted for model 4
+2025-07-11 23:45:17,285 [INFO] Schedule saved successfully in C:\Users\zma20\Documents\Python\Assmodeus\data\schedules\ready\schedule_variant_8.csv
+2025-07-11 23:45:17,285 [INFO] Schedule generated and saved for model 4
+2025-07-11 23:45:18,226 [INFO] Deleted API key for attempt 4: {'deleted': True}
+2025-07-11 23:45:27,744 [INFO] Received response for model 1
+2025-07-11 23:45:27,744 [INFO] Schedule data extracted for model 1
+2025-07-11 23:45:27,746 [WARNING] Schedule failed validation. Not saving.
+2025-07-11 23:45:27,746 [WARNING] Schedule did not pass validation for model 1
+2025-07-11 23:45:28,793 [INFO] Deleted API key for attempt 1: {'deleted': True}
+2025-07-11 23:45:28,794 [INFO] Schedules successfully generated: 3

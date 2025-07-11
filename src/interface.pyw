@@ -623,6 +623,8 @@ def reset_all_drop_menus_schedules():
                 globals()[var_name].selected_index = None
 
 def update_schedule_from_csv(csv_file_path):
+    if csv_file_path == None:
+        return
     day_prefixes = {
         'Monday': 'mond',
         'Tuesday': 'tues',
@@ -657,6 +659,8 @@ def update_schedule_from_csv(csv_file_path):
 list_ready_variant = os.listdir(os.path.join(root_path, "data", "schedules", "ready"))
 list_ready_variant = [os.path.join(root_path, "data", "schedules", "ready", variant) for variant in list_ready_variant]
 #----------------------------------------------
+if len(list_ready_variant) == 0:
+    list_ready_variant = [None]
 cur_scedule_index = 0
 
 #region MAAAAAAAAAAAX
